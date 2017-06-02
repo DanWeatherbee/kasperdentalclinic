@@ -30,6 +30,7 @@ body {
 
 body {
     margin-top: 66px;
+    background-image: url("images/lightbg2.png");
 }
 
 #content0 {
@@ -224,8 +225,6 @@ div.sharethis {
 /* --------- DOWN ARROW --------- */
 
 div.downarrow {
-    position: relative;
-    top: -190px;
     background: transparent;
     padding: 6px;
     text-align: center;
