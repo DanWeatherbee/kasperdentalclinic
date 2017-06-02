@@ -1070,7 +1070,8 @@ a.socialpi {
     background: #fff
 }
 
-.embed-container {
+
+/*.embed-container {
     text-align: center;
     padding-top: 20px;
     padding-bottom: 20px;
@@ -1105,11 +1106,11 @@ a.socialpi {
     left: 0;
     width: 100%;
     height: 100%;
-}
+}*/
 
-iframe {
+/*iframe {
     border: 0px solid #fff
-}
+}*/
 
 
 /* --------- BACK BUTTON MOBILE --------- */
