@@ -1,6 +1,6 @@
-@import url(http://fonts.googleapis.com/css?family=Raleway:300,400,700);
-@import url(http://fonts.googleapis.com/css?family=Montserrat:400);
-@import url('http://fonts.googleapis.com/css?family=Roboto:400,300,700');
+@import url(https://fonts.googleapis.com/css?family=Raleway:300,400,700);
+@import url(https://fonts.googleapis.com/css?family=Montserrat:400);
+@import url(https://fonts.googleapis.com/css?family=Roboto:400,300,700);
 h1,
 h2,
 h3,
@@ -30,7 +30,6 @@ body {
 
 body {
     margin-top: 66px;
-    background-image: url("images/lightbg2.png");
 }
 
 #content0 {
@@ -284,11 +283,12 @@ div.downarrow {
     font-weight: normal;
     text-align: center;
     min-width: 100px;
+    border: none;
 }
 
 .navbar-nav > li > a {
-    padding-bottom: 20px;
-    padding-top: 23px;
+    padding-bottom: 6px;
+    padding-top: 19px;
     color: #fff;
     text-align: center;
     min-width: 90px;
@@ -1108,6 +1108,7 @@ a.socialpi {
     height: 100%;
 }*/
 
+
 /*iframe {
     border: 0px solid #fff
 }*/
@@ -1237,7 +1238,6 @@ a.socialpi {
 
 /* --------- COLOR --------- */
 body {
-    background-image: url("images/lightbg2.png");
     background-color: #fafafa;
 }
 .contactbackground {
@@ -1286,52 +1286,20 @@ table.uline {
     background-image: -webkit-gradient(linear,
     50% 0,
     50% 100%,
-    color-stop(45%,
-    rgba(0,
-    0,
-    0,
-    0)),
-    color-stop(85%,
-    rgba(0,
-    0,
-    0,
-    0.8)));
+    color-stop(45%, rgba(0, 0, 0, 0)),
+    color-stop(85%, rgba(0, 0, 0, 0.8)));
     background-image: -moz-linear-gradient(top,
-    rgba(0,
-    0,
-    0,
-    0) 45%,
-    rgba(0,
-    0,
-    0,
-    0.8) 85%);
+    rgba(0, 0, 0, 0) 45%,
+    rgba(0, 0, 0, 0.8) 85%);
     background-image: -webkit-linear-gradient(top,
-    rgba(0,
-    0,
-    0,
-    0) 45%,
-    rgba(0,
-    0,
-    0,
-    0.8) 85%);
+    rgba(0, 0, 0, 0) 45%,
+    rgba(0, 0, 0, 0.8) 85%);
     background-image: linear-gradient(to bottom,
-    rgba(0,
-    0,
-    0,
-    0) 45%,
-    rgba(0,
-    0,
-    0,
-    0.8) 85%);
+    rgba(0, 0, 0, 0) 45%,
+    rgba(0, 0, 0, 0.8) 85%);
     background-image: -ms-linear-gradient(top,
-    rgba(0,
-    0,
-    0,
-    0) 45%,
-    rgba(0,
-    0,
-    0,
-    0.8) 85%);
+    rgba(0, 0, 0, 0) 45%,
+    rgba(0, 0, 0, 0.8) 85%);
     -ms-filter: "progid:DXImageTransform.Microsoft.gradient(GradientType=0, startColorstr=#00000000, endColorstr=#cc000000)";
 }
 .hero-overlay {
@@ -1474,13 +1442,37 @@ div.downarrow {
     text-align:center
 }
 a.arrow {
-    opacity:.4
+    position: relative;
+    bottom: 170px;
+}
+#bs-example-navbar-collapse-1 {
+    border: 5px solid;
+    opacity: .7;
+    -webkit-box-shadow: 3px 3px 5px 0px grey;
+    -moz-box-shadow: 3px 3px 5px 0px grey;
+    box-shadow: 3px 3px 5px 0px grey;
 }
 a.arrow:hover {
-    opacity:.9
+    background-color: red;
+    border-radius: 100%;
+    padding: 2% 0 2% 0;
+}
+
+#phone-num {
+    font-weight: bold;
+    padding: 0px;
+    margin: 0px;
+    text-align: center;
+    color: #00527e
+    -webkit-box-shadow: 3px 3px 5px 0px grey;
+    -moz-box-shadow: 3px 3px 5px 0px grey;
+    box-shadow: 3px 3px 5px 0px grey;
 }
 img#arrow {
-    width:45px
+    width:45px -webkit-box-shadow: 3px 10px 5px 0px grey;
+    -moz-box-shadow: 10px 10px 5px 0px grey;
+    box-shadow: 10px 10px 5px 0px grey;
+    border-radius: 100%;
 }
 div.list2 {
     background:#fafafa
