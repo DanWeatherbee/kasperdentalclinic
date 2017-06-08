@@ -17,6 +17,20 @@ h6,
     height: 700px;
 }
 
+#receptionist {
+    border-radius: 80%;
+    width: 20%;
+    height: 100px;
+    position: relative;
+    left: 55%;
+    bottom: 40px;
+    border: 1px solid;
+    border-color: gold;
+    -webkit-box-shadow: 10px 10px 5px -5px rgba(237, 234, 237, 1);
+    -moz-box-shadow: 10px 10px 5px -5px rgba(237, 234, 237, 1);
+    box-shadow: 10px 10px 5px -5px rgba(237, 234, 237, 1);
+}
+
 html,
 body {
     font-family: 'Roboto', sans-serif;
@@ -1223,6 +1237,9 @@ a.socialpi {
     p.parallaxtop-text {
         font-size: 32px;
     }
+    #receptionist {
+        display: none;
+    }
 }
 @media (max-width: 500px) {
     img.media-object {
@@ -1481,22 +1498,6 @@ div.pagenav {
 .grid2 card-title,
 .card-title {
     color: #212121;
-}
-
-/* --------- DOWN ARROW --------- */
-div.downarrow {
-    background:transparent;
-    padding:6px;
-    text-align:center
-}
-a.arrow {
-    opacity:.4
-}
-a.arrow:hover {
-    opacity:.9
-}
-img#arrow {
-    width:45px
 }
 div.list2 {
     background:#fafafa

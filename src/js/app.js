@@ -6,10 +6,10 @@ $('#header-img').click(function () {
     $('#header-img').fadeOut();
 });
 $(window).scroll(function () {
-    $('#header-img-container').fadeOut();
+    $('#con1').fadeOut();
 });
 
-$('#header-img-container').click(function () {
-    $('#header-img-container').fadeOut();
+$('#content1').click(function () {
+    $('#con1').fadeOut();
 
 });
