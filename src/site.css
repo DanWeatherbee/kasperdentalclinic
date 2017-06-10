@@ -169,6 +169,17 @@ p.parallaxtop-text {
 }
 
 
+/*-------------Nav Shadow----------*/
+
+.navbar-collapse,
+.video-container,
+.item-border-testimonials {
+    -webkit-box-shadow: -1px 26px 75px -21px rgba(255, 255, 255, 1);
+    -moz-box-shadow: -1px 26px 75px -21px rgba(255, 255, 255, 1);
+    box-shadow: -1px 26px 75px -21px rgba(255, 255, 255, 1);
+}
+
+
 /* --------- PAGE NAV--------- */
 
 div.pagenav {
