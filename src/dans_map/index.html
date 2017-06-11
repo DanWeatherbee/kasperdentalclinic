@@ -1,0 +1,315 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Dans App P5 FEND</title>
+    <meta charset="UTF-8" content="Dans app">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="theme-color" content="#db5945">
+    <meta name="msapplication-square310x310logo" content="favicon.ico">
+    <style>
+      html,
+      body {
+      font-family: Arial, sans-serif;
+      height: 100%;
+      }
+
+      #map {
+      height: 100%;
+      width: 100%;
+      }
+
+      #search-nav {
+      height: 65%;
+      width: 50%;
+      z-index: 1;
+      position: absolute;
+      top: 15%;
+      left: 5%;
+      border: thin solid black;
+      overflow-y: scroll;
+      }
+
+      .photos-img {
+      height: 100px;
+      width: 150px;
+      }
+
+      button,
+      input {
+      width: 100%;
+      opacity: .5;
+      font-size: 1em;
+      }
+
+      #toggle {
+        padding: 1.0em;
+      }
+
+      button:hover,
+      input:hover {
+      -webkit-box-shadow: 10px 10px 5px 0 rgba(0, 0, 0, 0.75);
+      -moz-box-shadow: 10px 10px 5px 0 rgba(0, 0, 0, 0.75);
+      box-shadow: 10px 10px 5px 0 rgba(0, 0, 0, 0.75);
+      opacity: .9;
+      }
+
+      input {
+      color: lawngreen;
+      background-color: black;
+      font-size: 1.5em;
+      }
+
+      .shadow {
+      -webkit-box-shadow: 10px 10px 5px 0 rgba(0, 0, 0, 0.75);
+      -moz-box-shadow: 10px 10px 5px 0 rgba(0, 0, 0, 0.75);
+      box-shadow: 10px 10px 5px 0 rgba(0, 0, 0, 0.75);
+      }
+
+    </style>
+  </head>
+  <body>
+    <!-- ========= -->
+    <!-- HTML -->
+    <!-- ========= -->
+    <!-- This is a *view* - HTML markup that defines the appearance of your UI -->
+
+    <button id="toggle" data-bind="click: hideMenu">Toggle Menu</button>
+    <div id="map"></div>
+    <section id="search-nav">
+      <hr>
+      <h2 class="shadow" data-bind="text: query"></h2>
+      <span>Search Venues</span>
+      <input id="input" type="input" data-bind="textInput: query"></input>
+      <hr>
+      <nav id="scroller">
+        <h4 data-bind="template: {name: 'marker', foreach:forSArray}"></h4>
+        <script type="text/html" id="marker">
+          <button data-bind="visible: visible, click: initApp">
+              <h4 class="shadow" data-bind="text: name"></h4>
+              <h4 data-bind="text: location.formattedAddress"></h4>
+          </button>
+        </script>
+      </nav>
+    </section>
+
+    <!-- ========= -->
+    <!-- Libraries -->
+    <!-- ========= -->
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/knockout/3.4.1/knockout-min.js"></script>
+
+    <!-- =============== -->
+    <!-- Javascript code -->
+    <!-- =============== -->
+
+    <script>
+
+      // CLASSES
+
+      MapInitPosition = function(zoom, center, mapTypeControl, disableDefaultUI) {
+          this.zoom = zoom;
+          this.center = center;
+          this.mapTypeControl = mapTypeControl;
+          this.disableDefaultUI = disableDefaultUI;
+      };
+
+      InfoContent = function(city, title, address) {
+          this.city = city;
+          this.title = title;
+          this.address = address;
+      }
+
+      // CONSTANTS
+
+      var MAP_ELEM = document.getElementById('map');
+      API = "https://api.flickr.com/services/rest/?method=flickr.photos.search&api_key=" +
+          "a81e682fb988fe9cf873b33a2932a5f5&text=beach&Vernon&accuracy=" +
+          "16&lat=50.271790&lon=-119.276505&format=json";
+      var ERROR = "!Error check internet connection.";
+      var INFO_STRING_1 = '<p><h3 class="shadow">Venue  </h3>';
+      var INFO_STRING_2 = '</p><h4>Vernon flickr Photos</h4><p>';
+      var INFO_STRING_3 = '</p><img class="photos-img" src="';
+
+      // GLOBALS
+
+      var forSArray = ko.observableArray([]);
+      var i;
+      var self;
+      var search;
+      var mkrsArray = ko.observableArray([]);
+      var flickrPhotoArray = [];
+      var bounds;
+      var marker;
+      var initMap;
+      var infowindow;
+      var setMapPosition;
+      var photoArray = ko.observableArray([]);
+      var photoDataArray = ko.observableArray([]);
+      var newPhotoData;
+      var MapInitPosition;
+      var InfoContent;
+
+      // APIS
+
+      function fourSquareSuccess() {
+          $.getJSON("https://api.foursquare.com/v2/venues/search?ll=50.257059, -119.303074&client_id=0ET4CRI3TCPXUIEWCHDPTQWVEJYERIFYVTVM55SINCALJ1F0&client_secret=SAEW3KQXWGUXHHW4PHR245IPE3ZY51LUUB0JI40FCSUBYBXD&v=20161119", function(forSdata) {
+
+            // creates an array
+              for (i = 0; forSdata.response.venues.length > i; i++) {
+                  forSdata.response.venues[i].id = i / 2;
+                  forSdata.response.venues[i].visible = ko.observable(true);
+                  forSArray.push(forSdata.response.venues[i]);
+                  i++;
+              }
+          }).fail(function() {
+              alert(ERROR);
+              console.log('for square api did not load ' + ERROR);
+              $('#search-nav').html(ERROR);
+          }).done(function() {
+
+            // second step we initialize the map and bind ko
+              ko.applyBindings(initMap());
+          });
+      }
+
+      function googleFail() {
+          $('#search-nav').html(ERROR);
+          console.log(ERROR);
+          alert(ERROR);
+      }
+// first step we call foursquare after googles API success and load flicker
+      function googleSuccess() {
+          fourSquareSuccess();
+          flickr();
+      }
+
+      function flickr() {
+          $.ajax({
+              url: API,
+              dataType: "jsonp",
+              jsonp: "jsoncallback",
+              success: function(data) {
+                  photo = data.photos.photo;
+                  createImgArray(photo);
+              },
+              error: function(data) {
+                  $('#search-nav').html(ERROR);
+                  alert(ERROR);
+                  console.log(ERROR);
+              }
+          });
+      }
+// creates an array
+      function createImgArray(photo) {
+          photo.forEach(function(i) {
+              newPhoto = 'https://farm' + i.farm +
+                  '.staticflickr.com/' + i.server + '/' +
+                  i.id + '_' + i.secret + '.jpg';
+              photoArray().push(newPhoto);
+              newPhotoData = i.title;
+              photoDataArray().push(newPhotoData);
+          });
+      }
+
+      initMap = function() {
+          createMap: {
+              center = new google.maps.LatLng(50.271790, -119.276505);
+              setMapPosition = new MapInitPosition(14, center, false, false);
+              infowindow = new google.maps.InfoWindow();
+              map = new google.maps.Map(MAP_ELEM, MapInitPosition);
+              bounds = new google.maps.LatLngBounds();
+              i = 0;
+              forSArray().forEach(function(marker) {
+                  marker = new google.maps.Marker({
+                      position: {
+                          lat: forSArray()[i].location.lat,
+                          lng: forSArray()[i].location.lng
+                      },
+                      map: map,
+                      title: forSArray()[i].name,
+                      id: forSArray()[i].id,
+                      address: forSArray()[i].location.formattedAddress,
+                      animation: google.maps.Animation.DROP
+                  });
+                  mkrsArray().push(marker);
+                  google.maps.event.addListener(mkrsArray()[i], 'click', (function(marker, i) {
+                      return function() {
+                          infowindow.setContent(INFO_STRING_1 +
+                              mkrsArray()[this.id].title + INFO_STRING_2 +
+                              photoDataArray()[this.id] + INFO_STRING_3 +
+                              photoArray()[this.id] + photo[this.id] + '">');
+                          infowindow.addListener('closeclick', function() {
+                              map.setZoom(14);
+                              marker.setAnimation(google.maps.Animation.DROP);
+                              map.fitBounds(bounds);
+                          });
+                          infowindow.open(map, mkrsArray()[i]);
+                          map.setZoom(16);
+                          map.setCenter(mkrsArray()[this.id].getPosition());
+                          marker.setAnimation(google.maps.Animation.BOUNCE);
+                      };
+                  })(mkrsArray()[i], i));
+                  bounds.extend(mkrsArray()[i].getPosition());
+                  i++;
+              });
+              map.fitBounds(bounds);
+          }
+
+          AppViewModel: {
+              this.initApp = function() {
+                // the app breaks if photo is undefined
+                  try {
+                      photo;
+                  } catch (e) {
+                      $('#search-nav').html(ERROR);
+                      alert('fliker api did not load ' + ERROR);
+                  }
+                  infowindow.setContent(INFO_STRING_1 +
+                      mkrsArray()[this.id].title + INFO_STRING_2 +
+                      photoDataArray()[this.id] + INFO_STRING_3 +
+                      photoArray()[this.id] + photo[this.id] + '">');
+                  infowindow.addListener('closeclick', function() {
+                      map.setZoom(14);
+                      map.fitBounds(bounds);
+                  });
+                  google.maps.event.addListener(map, 'click', function() {
+                      map.setZoom(14);
+                      map.fitBounds(bounds);
+                  });
+                  infowindow.open(map, mkrsArray()[this.id]);
+                  map.setCenter(mkrsArray()[this.id].getPosition());
+                  map.setZoom(16);
+                  mkrsArray()[this.id].setAnimation(google.maps.Animation.DROP);
+              };
+              this.query = ko.observable("");
+              this.markersToggle = ko.computed(function() {
+                  self = this;
+                  search = self.query().toLowerCase();
+                  return ko.utils.arrayFilter(mkrsArray(), function(marker) {
+                      if (marker.title.toLowerCase().indexOf(search) >= 0) {
+                          mkrsArray()[marker.id].setVisible(true);
+                          return forSArray()[marker.id].visible(true);
+                      } else {
+                          mkrsArray()[marker.id].setVisible(false);
+                          infowindow.close();
+                          map.setZoom(14);
+                          map.fitBounds(bounds);
+                          return forSArray()[marker.id].visible(false);
+                      }
+                  });
+              });
+              this.menu = ko.observable();
+              this.hideMenu = function() {
+                  menu = $('#search-nav');
+                  menu.fadeToggle();
+              };
+          }
+      };
+    </script>
+        <script async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBQa7sEzryM_PhL4HPU2Z7DjTGrRRcWu1Y&v=3&callback=googleSuccess" +
+        onerror="googleFail()">
+    </script>
+  </body>
+</html>
