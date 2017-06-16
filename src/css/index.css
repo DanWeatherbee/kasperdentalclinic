@@ -1,0 +1,67 @@
+    #content0a {
+        display: none;
+    }
+
+    #content0 {
+        padding: 5%;
+        display: none;
+    }
+
+    #content1 {
+        padding: 1%;
+        margin: 0;
+    }
+
+    #content2 {
+        background-image: none;
+        padding-top: 0px;
+        padding-bottom: 40px;
+        margin-top: 0px;
+    }
+
+    #phone-num {
+        color: lawngreen;
+    }
+
+    #content4 {
+        margin-top: 0px;
+        padding-top: 0px;
+        padding-bottom: 0px
+    }
+
+    .grid2 .card-desc {
+        display: none;
+    }
+
+    #parallax {
+        background: #fff url('https://c1.staticflickr.com/1/1/2228929_079c5b21ff_z.jpg') no-repeat center center;
+        -webkit-background-size: cover;
+        -moz-background-size: cover;
+        -o-background-size: cover;
+        background-size: cover;
+        background-attachment: fixed;
+        position: relative;
+        z-index: 3;
+        height: 450px;
+    }
+
+    p.lead {
+        color: black;
+    }
+
+    div.qoute-box {
+        color: #fff;
+        font-size: 44px;
+        line-height: 68px;
+        border: 0px solid #fff;
+        padding: 10px;
+        width: 80%;
+        margin: auto;
+        text-align: center;
+        /*      margin-bottom: 40px;*/
+        font-family: 'Tangerine', serif;
+        -webkit-box-shadow: 4px 7px 46px 13px rgba(255, 255, 255, 1);
+        -moz-box-shadow: 4px 7px 46px 13px rgba(255, 255, 255, 1);
+        box-shadow: 4px 7px 46px 13px rgba(255, 255, 255, 1);
+        border-radius: 10% 1% 10% 1%;
+    }

@@ -21,36 +21,7 @@
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Tangerine">
     <link rel="stylesheet" href="css/fontawesome.css">
     <link href="site.css" rel="stylesheet">
-    <!-- #EndLibraryItem -->
-    <!-- PAGE SPECIFIC CSS -->
-    <style>
-    p {
-        text-align: center;
-    }
-
-    h1,
-    p {
-        color: #08fff6;
-    }
-
-    a.footer {
-        color: black;
-    }
-
-    body {
-        /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#d8e0de+0,aebfbc+22,99afab+33,8ea6a2+50,829d98+67,4e5c5a+82,0e0e0e+100;Grey+3D */
-        background: rgb(216, 224, 222);
-        /* Old browsers */
-        background: -moz-linear-gradient(left, rgba(216, 224, 222, 1) 0%, rgba(174, 191, 188, 1) 22%, rgba(153, 175, 171, 1) 33%, rgba(142, 166, 162, 1) 50%, rgba(130, 157, 152, 1) 67%, rgba(78, 92, 90, 1) 82%, rgba(14, 14, 14, 1) 100%);
-        /* FF3.6-15 */
-        background: -webkit-linear-gradient(left, rgba(216, 224, 222, 1) 0%, rgba(174, 191, 188, 1) 22%, rgba(153, 175, 171, 1) 33%, rgba(142, 166, 162, 1) 50%, rgba(130, 157, 152, 1) 67%, rgba(78, 92, 90, 1) 82%, rgba(14, 14, 14, 1) 100%);
-        /* Chrome10-25,Safari5.1-6 */
-        background: linear-gradient(to right, rgba(216, 224, 222, 1) 0%, rgba(174, 191, 188, 1) 22%, rgba(153, 175, 171, 1) 33%, rgba(142, 166, 162, 1) 50%, rgba(130, 157, 152, 1) 67%, rgba(78, 92, 90, 1) 82%, rgba(14, 14, 14, 1) 100%);
-        /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
-        filter: progid: DXImageTransform.Microsoft.gradient( startColorstr='#d8e0de', endColorstr='#0e0e0e', GradientType=1);
-        /* IE6-9 */
-    }
-    </style>
+    <link href="css/before-after.css" rel="stylesheet">
 </head>
 <!-- #BeginLibraryItem "navvar.lbi" -->
 <!-- NAV -->
@@ -194,39 +165,7 @@
     <script src="https://cdnjs.cloudflare.com/ajax/libs/tether/1.4.0/js/tether.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.0.0-alpha.6/js/bootstrap.min.js"></script>
     <script src="js/masonry.min.js"></script>
-    <script>
-    var $container = $('#testcont');
-    // initialize Masonry after all images have loaded
-    $container.imagesLoaded(function() {
-        $container.masonry({
-            itemSelector: '.item, .item2'
-        });
-    });
-    </script>
-    <script type="text/javascript">
-    $(document).ready(function() {
-        $('#myCarousel').carousel({
-            interval: 3000
-        });
-    });
-    </script>
-    <script>
-    $(function() {
-        $('a[href*=#]:not([href=#])').click(function() {
-            if (location.pathname.replace(/^\//, '') == this.pathname.replace(/^\//, '') && location.hostname == this.hostname) {
-
-                var target = $(this.hash);
-                target = target.length ? target : $('[name=' + this.hash.slice(1) + ']');
-                if (target.length) {
-                    $('html,body').animate({
-                        scrollTop: target.offset().top
-                    }, 1000);
-                    return false;
-                }
-            }
-        });
-    });
-    </script>
+    <script src="js/arrange-imgs.js"></script>
 </body>
 
 </html>

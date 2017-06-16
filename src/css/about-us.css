@@ -1,0 +1,60 @@
+#parallax {
+    background: #fff url('https://c1.staticflickr.com/1/1/2228929_079c5b21ff_z.jpg') no-repeat center center;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    background-attachment: fixed;
+    position: relative;
+    z-index: 3;
+    height: 550px;
+}
+
+#con1 {
+    border: 2px solid;
+    border-radius: 33% 0% 33% 0%;
+    /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#f3c5bd+0,ea2803+38,ea2803+38,e86c57+50,ff6600+75,c72200+100 */
+    background: #f3c5bd;
+    /* Old browsers */
+    background: -moz-linear-gradient(-45deg, #f3c5bd 0%, #ea2803 38%, #ea2803 38%, #e86c57 50%, #ff6600 75%, #c72200 100%);
+    /* FF3.6-15 */
+    background: -webkit-linear-gradient(-45deg, #f3c5bd 0%, #ea2803 38%, #ea2803 38%, #e86c57 50%, #ff6600 75%, #c72200 100%);
+    /* Chrome10-25,Safari5.1-6 */
+    background: linear-gradient(135deg, #f3c5bd 0%, #ea2803 38%, #ea2803 38%, #e86c57 50%, #ff6600 75%, #c72200 100%);
+    /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+    filter: progid: DXImageTransform.Microsoft.gradient( startColorstr='#f3c5bd', endColorstr='#c72200', GradientType=1);
+    /* IE6-9 fallback on horizontal gradient */
+}
+
+div.qoute-box {
+    color: #fff;
+    font-size: 3.5em;
+    line-height: 68px;
+    border: 0px solid #fff;
+    padding: 10px;
+    width: 80%;
+    margin: auto;
+    text-align: center;
+    margin-bottom: 40px;
+    font-family: 'Tangerine', serif;
+    border-radius: 10% 1% 10% 1%;
+}
+
+div.qoute-box,
+#con1 {
+    -webkit-box-shadow: 4px 7px 46px 13px rgba(255, 255, 255, 1);
+    -moz-box-shadow: 4px 7px 46px 13px rgba(255, 255, 255, 1);
+    box-shadow: 4px 7px 46px 13px rgba(255, 255, 255, 1);
+}
+
+p {
+    color: aquamarine;
+}
+
+h1 {
+    color: gold;
+}
+
+a.footer {
+    color: black;
+}

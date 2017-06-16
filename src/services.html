@@ -22,100 +22,7 @@
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Tangerine">
     <link rel="stylesheet" href="css/fontawesome.css">
     <link href="site.css" rel="stylesheet">
-    <!-- #EndLibraryItem -->
-    <!-- PAGE SPECIFIC CSS -->
-    <style>
-    div.qoute-box {
-        color: #fff;
-        font-size: 48px;
-        line-height: 48px;
-        border: 0px solid #fff;
-        padding: 10px;
-        width: 80%;
-        margin: auto;
-        text-align: center;
-        margin-bottom: 40px;
-        font-family: 'Tangerine', serif;
-        -webkit-box-shadow: 4px 7px 46px 13px rgba(255, 255, 255, 1);
-        -moz-box-shadow: 4px 7px 46px 13px rgba(255, 255, 255, 1);
-        box-shadow: 4px 7px 46px 13px rgba(255, 255, 255, 1);
-        border-radius: 10% 1% 10% 1%;
-    }
-
-    #parallax {
-        background: #fff url('https://c1.staticflickr.com/1/1/2228929_079c5b21ff_z.jpg') no-repeat center center;
-        -webkit-background-size: cover;
-        -moz-background-size: cover;
-        -o-background-size: cover;
-        background-size: cover;
-        background-attachment: fixed;
-        position: relative;
-        z-index: 3;
-        height: 450px;
-    }
-
-    a.cd-faq-trigger {
-        font-weight: normal;
-        color: #fff;
-        font-size: 24px
-    }
-
-    div.panel-collapse {
-        font-size: 18px;
-        padding-top: 20px
-    }
-
-    #content0 {
-        height: 0px
-    }
-
-    #content3 {
-        padding: 0px;
-        margin: 0px
-    }
-
-    #content5 {
-        padding-top: 60px;
-        padding-bottom: 60px;
-        margin: 0px
-    }
-
-    #content4 {
-        padding-top: 60px;
-        padding-bottom: 60px;
-        margin: 0px
-    }
-
-    #content6 {
-        background-color: #fff;
-        padding-top: 60px;
-        padding-bottom: 60px;
-        margin: 0px
-    }
-
-    .p-con4 {
-        color: black;
-    }
-
-    h3 {
-        color: white;
-    }
-
-    p {
-        font-family: 'Tangerine', serif;
-        color: gold;
-        font-size: 2.5em;
-    }
-
-    p.footer {
-        font-family: serif;
-        font-size: 1.5em;
-    }
-
-    li {
-        color: skyblue;
-    }
-    </style>
+    <link href="css/services.css" rel="stylesheet">
 </head>
 <!-- #BeginLibraryItem "navvar.lbi" -->
 <!-- NAV -->
@@ -370,56 +277,8 @@
     <script src="https://cdnjs.cloudflare.com/ajax/libs/tether/1.4.0/js/tether.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.0.0-alpha.6/js/bootstrap.min.js"></script>
     <script src="js/masonry.min.js"></script>
-    <script src="js/app.js"></script>
-    <script>
-    var $container = $('#testcont');
-    // initialize Masonry after all images have loaded
-    $container.imagesLoaded(function() {
-        $container.masonry({
-            itemSelector: '.item, .item2'
-        });
-    });
-    </script>
-    <script type="text/javascript">
-    $(document).ready(function() {
-        $('#myCarousel').carousel({
-            interval: 3000
-        });
-    });
-    </script>
-    <script>
-    $(function() {
-        $('a[href*=#]:not([href=#])').click(function() {
-            if (location.pathname.replace(/^\//, '') == this.pathname.replace(/^\//, '') && location.hostname == this.hostname) {
+    <script src="js/services.js"></script>
 
-                var target = $(this.hash);
-                target = target.length ? target : $('[name=' + this.hash.slice(1) + ']');
-                if (target.length) {
-                    $('html,body').animate({
-                        scrollTop: target.offset().top
-                    }, 1000);
-                    return false;
-                }
-            }
-        });
-    });
-    $(document).ready(function() {
-        $("#content1").click(function() {
-            $("#con1").animate({
-                height: '0',
-                width: '0'
-            });
-            $("#objective-text").fadeOut();
-        });
-        $(window).scroll(function() {
-            $("#con1").animate({
-                height: '0',
-                width: '0'
-            });
-            $("#objective-text").fadeOut();
-        });
-    });
-    </script>
 </body>
 
 </html>

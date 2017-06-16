@@ -21,11 +21,6 @@
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Tangerine">
     <link rel="stylesheet" href="css/fontawesome.css">
     <link href="site.css" rel="stylesheet">
-    <!-- #EndLibraryItem -->
-    <!-- PAGE SPECIFIC CSS -->
-    <style>
-
-    </style>
 </head>
 <!-- #BeginLibraryItem "navvar.lbi" -->
 <!-- NAV -->
@@ -137,39 +132,7 @@
     <script src="https://cdnjs.cloudflare.com/ajax/libs/tether/1.4.0/js/tether.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.0.0-alpha.6/js/bootstrap.min.js"></script>
     <script src="js/masonry.min.js"></script>
-    <script>
-    var $container = $('#testcont');
-    // initialize Masonry after all images have loaded
-    $container.imagesLoaded(function() {
-        $container.masonry({
-            itemSelector: '.item, .item2'
-        });
-    });
-    </script>
-    <script type="text/javascript">
-    $(document).ready(function() {
-        $('#myCarousel').carousel({
-            interval: 3000
-        });
-    });
-    </script>
-    <script>
-    $(function() {
-        $('a[href*=#]:not([href=#])').click(function() {
-            if (location.pathname.replace(/^\//, '') == this.pathname.replace(/^\//, '') && location.hostname == this.hostname) {
-
-                var target = $(this.hash);
-                target = target.length ? target : $('[name=' + this.hash.slice(1) + ']');
-                if (target.length) {
-                    $('html,body').animate({
-                        scrollTop: target.offset().top
-                    }, 1000);
-                    return false;
-                }
-            }
-        });
-    });
-    </script>
+    <script src="js/arrange-imgs.js"></script>
 </body>
 
 </html>

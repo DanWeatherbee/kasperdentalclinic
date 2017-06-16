@@ -1,0 +1,25 @@
+.grid2 .item {
+    width: 33.33%;
+}
+
+.grid2 .item-border-testimonials {
+    border: 1px solid #fafafa;
+    margin: 16px;
+    padding: 16px;
+    border-radius: 6px;
+    background-color: #fff;
+    opacity: .9;
+}
+
+h1 {
+    color: gold;
+}
+
+.fa-p {
+    color: gold;
+    font-weight: 100;
+}
+
+.card-caption-testimonials {
+    padding: 3%;
+}

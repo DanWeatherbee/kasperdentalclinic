@@ -19,89 +19,8 @@
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Tangerine">
     <link rel="stylesheet" href="css/fontawesome.css">
     <link href="site.css" rel="stylesheet">
+    <link href="css/index.css" rel="stylesheet">
     <!-- #EndLibraryItem -->
-    <!-- PAGE SPECIFIC CSS -->
-    <style>
-    #content0 {
-        height: 5%;
-    }
-
-    #content1 {
-        padding: 0px;
-        margin: 0px;
-    }
-
-    #content2 {
-        background-image: none;
-        padding-top: 0px;
-        padding-bottom: 40px;
-        margin-top: 0px;
-    }
-
-    #phone-num {
-        color: lawngreen;
-    }
-
-    #content4 {
-        margin-top: 0px;
-        padding-top: 0px;
-        padding-bottom: 0px
-    }
-
-    .grid2 .card-desc {
-        display: none;
-    }
-
-    #parallax {
-        background: #fff url('https://c1.staticflickr.com/1/1/2228929_079c5b21ff_z.jpg') no-repeat center center;
-        -webkit-background-size: cover;
-        -moz-background-size: cover;
-        -o-background-size: cover;
-        background-size: cover;
-        background-attachment: fixed;
-        position: relative;
-        z-index: 3;
-        height: 450px;
-    }
-
-    p.lead {
-        color: black;
-    }
-
-    div.qoute-box {
-        color: #fff;
-        font-size: 44px;
-        line-height: 68px;
-        border: 0px solid #fff;
-        padding: 10px;
-        width: 80%;
-        margin: auto;
-        text-align: center;
-        /*      margin-bottom: 40px;*/
-        font-family: 'Tangerine', serif;
-        -webkit-box-shadow: 4px 7px 46px 13px rgba(255, 255, 255, 1);
-        -moz-box-shadow: 4px 7px 46px 13px rgba(255, 255, 255, 1);
-        box-shadow: 4px 7px 46px 13px rgba(255, 255, 255, 1);
-        border-radius: 10% 1% 10% 1%;
-    }
-    </style>
-    <script async="" src="https://www.google-analytics.com/analytics.js"></script>
-    <script>
-    (function(i, s, o, g, r, a, m) {
-        i['GoogleAnalyticsObject'] = r;
-        i[r] = i[r] || function() {
-            (i[r].q = i[r].q || []).push(arguments)
-        }, i[r].l = 1 * new Date();
-        a = s.createElement(o),
-            m = s.getElementsByTagName(o)[0];
-        a.async = 1;
-        a.src = g;
-        m.parentNode.insertBefore(a, m)
-    })(window, document, 'script', 'https://www.google-analytics.com/analytics.js', 'ga');
-
-    ga('create', 'UA-97831568-1', 'auto');
-    ga('send', 'pageview');
-    </script>
 </head>
 <!-- #BeginLibraryItem "navvar.lbi" -->
 <!-- NAV -->
@@ -145,7 +64,12 @@
     </div>
     <!-- #EndLibraryItem -->
     <!-- CONTENT AREA -->
-    <div class="morph-delay gradient-trans-blue" id="content0"></div>
+    <div style="text-align:center;" class="morph-delay gradient-trans-blue" id="content0a">
+        <p>Hover over image to zoom</p>
+    </div>
+    <div style="text-align:center;" class="morph-delay gradient-trans-blue" id="content0">
+        <img id="zoom_01" src='images/small/image1.png' data-zoom-image="images/large/image1.jpg" />
+    </div>
     <div id="content1">
         <div class="morph-delay container-fluid" id="con1">
             <div class="morph-delay row">
@@ -257,53 +181,9 @@
     <script src="https://cdnjs.cloudflare.com/ajax/libs/tether/1.4.0/js/tether.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.0.0-alpha.6/js/bootstrap.min.js"></script>
     <script src="js/masonry.min.js"></script>
-    <script>
-    var $container = $('#testcont');
-    // initialize Masonry after all images have loaded
-    $container.imagesLoaded(function() {
-        $container.masonry({
-            itemSelector: '.item, .item2'
-        });
-    });
-    </script>
-    <script type="text/javascript">
-    $(document).ready(function() {
-        $('#myCarousel').carousel({
-            interval: 3000
-        });
-    });
-    </script>
-    <script>
-    $(function() {
-        $('a[href*=#]:not([href=#])').click(function() {
-            if (location.pathname.replace(/^\//, '') == this.pathname.replace(/^\//, '') && location.hostname == this.hostname) {
-
-                var target = $(this.hash);
-                target = target.length ? target : $('[name=' + this.hash.slice(1) + ']');
-                if (target.length) {
-                    $('html,body').animate({
-                        scrollTop: target.offset().top
-                    }, 1000);
-                    return false;
-                }
-            }
-        });
-    });
-    $(document).ready(function() {
-        $("#header-img").click(function() {
-            $("#header-img").animate({
-                height: '0',
-                width: '0'
-            });
-        });
-    });
-    $(window).scroll(function() {
-        $("#header-img").animate({
-            height: '0',
-            width: '0'
-        });
-    });
-    </script>
+    <script src='js/jquery-1.8.3.min.js'></script>
+    <script src='js/jquery.elevatezoom.js'></script>
+    <script src='js/index.js'></script>
     <!-- #EndLibraryItem -->
 </body>
 
