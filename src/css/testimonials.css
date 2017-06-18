@@ -16,10 +16,12 @@ h1 {
 }
 
 .fa-p {
-    color: gold;
+    color: aquamarine;
     font-weight: 100;
+    text-shadow: 1px 1px 1px black;
 }
 
 .card-caption-testimonials {
     padding: 3%;
+    text-shadow: 1px 1px 1px white;
 }

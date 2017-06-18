@@ -792,8 +792,9 @@ div.listgallerybullet {
 }
 
 /* --------- FOOTER SECTION --------- */
-.footer {
-    text-shadow: 1px 1px 1px black;
+a.footer {
+    text-shadow: 1px 1px 1px white;
+    padding: 1%;
 }
 div.footer {
     margin-top: 60px;
