@@ -37,6 +37,7 @@ div.qoute-box {
     text-align: center;
     margin-bottom: 40px;
     font-family: 'Tangerine', serif;
+    text-shadow: 10px 10px 10px white;
     border-radius: 10% 1% 10% 1%;
 }
 
@@ -49,12 +50,21 @@ div.qoute-box,
 
 p {
     color: aquamarine;
+    text-shadow: 1px 1px 1px white;
 }
 
 h1 {
     color: gold;
+    text-shadow: 1px 1px 1px blue;
 }
 
 a.footer {
     color: black;
+    text-shadow: 1px 1px 1px white;
 }
+
+.p-team-name,
+.footer {
+    text-shadow: 1px 1px 1px black;
+}
+

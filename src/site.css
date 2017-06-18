@@ -9,35 +9,25 @@ h5,
 h6,
 .toplogo,
 .nav-title {
-    font-family: 'Raleway', sans-serif
+    font-family: 'Raleway', sans-serif;
+    text-shadow: 1px 1px 1px black;
 }
 
-.gradient-team {
-    /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#1e5799+20,2989d8+50,1e5799+80&0+0,0.8+15,1+19,1+81,0.8+85,0+100;Blue+Two+Sided+Transparent */
-    background: -moz-radial-gradient(center, ellipse cover, rgba(30, 87, 153, 0) 0%, rgba(30, 87, 153, 0.8) 15%, rgba(30, 87, 153, 1) 19%, rgba(30, 87, 153, 1) 20%, rgb(41, 216, 159) 50%, rgba(30, 87, 153, 1) 80%, rgba(30, 87, 153, 1) 81%, rgba(30, 87, 153, 0.8) 85%, rgba(30, 87, 153, 0) 100%);
-    /* FF3.6-15 */
-    background: -webkit-radial-gradient(center, ellipse cover, rgba(30, 87, 153, 0) 0%, rgba(30, 87, 153, 0.8) 15%, rgba(30, 87, 153, 1) 19%, rgba(30, 87, 153, 1) 20%, rgb(41, 216, 159) 50%, rgba(30, 87, 153, 1) 80%, rgba(30, 87, 153, 1) 81%, rgba(30, 87, 153, 0.8) 85%, rgba(30, 87, 153, 0) 100%);
-    /* Chrome10-25,Safari5.1-6 */
-    background: radial-gradient(ellipse at center, rgba(30, 87, 153, 0) 0%, rgba(30, 87, 153, 0.8) 15%, rgba(30, 87, 153, 1) 19%, rgba(30, 87, 153, 1) 20%, rgb(41, 216, 159) 50%, rgba(30, 87, 153, 1) 80%, rgba(30, 87, 153, 1) 81%, rgba(30, 87, 153, 0.8) 85%, rgba(30, 87, 153, 0) 100%);
-    /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
-    filter: progid: DXImageTransform.Microsoft.gradient( startColorstr='#001e5799', endColorstr='#001e5799', GradientType=1);
-    /* IE6-9 fallback on horizontal gradient */
+
 }
 
 #objective-text {
     font-family: 'Tangerine', serif;
     font-size: 1.5em;
+    text-shadow: 10px 10px 10px white;
 }
-
 #contact-iframe {
     width: 100%;
     height: 700px;
 }
-
 .morph-delay {
     transition: background-color 0.8s, color.8s, width .8s, height .8s;
 }
-
 #receptionist {
     border-radius: 80%;
     width: 20%;
@@ -51,131 +41,130 @@ h6,
     -moz-box-shadow: 10px 10px 5px -5px rgba(237, 234, 237, 1);
     box-shadow: 10px 10px 5px -5px rgba(237, 234, 237, 1);
 }
-
 .gradient-blue {
     /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#1e5799+20,2989d8+50,1e5799+80&0+0,0.8+15,1+19,1+81,0.8+85,0+100;Blue+Two+Sided+Transparent */
+
     background: -moz-linear-gradient(-45deg, rgba(30, 87, 153, 0) 0%, rgba(30, 87, 153, 0.8) 15%, rgba(30, 87, 153, 1) 19%, rgba(30, 87, 153, 1) 20%, rgba(41, 137, 216, 1) 50%, rgba(30, 87, 153, 1) 80%, rgba(30, 87, 153, 1) 81%, rgba(30, 87, 153, 0.8) 85%, rgba(30, 87, 153, 0) 100%);
     /* FF3.6-15 */
+
     background: -webkit-linear-gradient(-45deg, rgba(30, 87, 153, 0) 0%, rgba(30, 87, 153, 0.8) 15%, rgba(30, 87, 153, 1) 19%, rgba(30, 87, 153, 1) 20%, rgba(41, 137, 216, 1) 50%, rgba(30, 87, 153, 1) 80%, rgba(30, 87, 153, 1) 81%, rgba(30, 87, 153, 0.8) 85%, rgba(30, 87, 153, 0) 100%);
     /* Chrome10-25,Safari5.1-6 */
+
     background: linear-gradient(135deg, rgba(30, 87, 153, 0) 0%, rgba(30, 87, 153, 0.8) 15%, rgba(30, 87, 153, 1) 19%, rgba(30, 87, 153, 1) 20%, rgba(41, 137, 216, 1) 50%, rgba(30, 87, 153, 1) 80%, rgba(30, 87, 153, 1) 81%, rgba(30, 87, 153, 0.8) 85%, rgba(30, 87, 153, 0) 100%);
     /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+
     filter: progid: DXImageTransform.Microsoft.gradient( startColorstr='#001e5799', endColorstr='#001e5799', GradientType=1);
     /* IE6-9 fallback on horizontal gradient */
 }
-
 .gradient-red {
     /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#f0b7a1+0,8c3310+50,752201+51,bf6e4e+100;Brown+Gloss */
+
     background: #f0b7a1;
     /* Old browsers */
+
     background: -moz-linear-gradient(-45deg, #f0b7a1 0%, #8c3310 50%, #752201 51%, #bf6e4e 100%);
     /* FF3.6-15 */
+
     background: -webkit-linear-gradient(-45deg, #f0b7a1 0%, #8c3310 50%, #752201 51%, #bf6e4e 100%);
     /* Chrome10-25,Safari5.1-6 */
+
     background: linear-gradient(135deg, #f0b7a1 0%, #8c3310 50%, #752201 51%, #bf6e4e 100%);
     /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+
     filter: progid: DXImageTransform.Microsoft.gradient( startColorstr='#f0b7a1', endColorstr='#bf6e4e', GradientType=1);
     /* IE6-9 fallback on horizontal gradient */
 }
-
 .gradient-trans-blue {
     /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#1e5799+0,7db9e8+100&1+0,0+100;Blue+to+Transparent */
+
     background: -moz-linear-gradient(top, rgba(30, 87, 153, 1) 0%, rgba(125, 185, 232, 0) 100%);
     /* FF3.6-15 */
+
     background: -webkit-linear-gradient(top, rgba(30, 87, 153, 1) 0%, rgba(125, 185, 232, 0) 100%);
     /* Chrome10-25,Safari5.1-6 */
+
     background: linear-gradient(to bottom, rgba(30, 87, 153, 1) 0%, rgba(125, 185, 232, 0) 100%);
     /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+
     filter: progid: DXImageTransform.Microsoft.gradient( startColorstr='#1e5799', endColorstr='#007db9e8', GradientType=0);
     /* IE6-9 */
 }
-
 .gradient-indent-red {
     /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#f3c5bd+0,e86c57+0,ea2803+16,ff6600+75,c72200+100 */
+
     background: rgb(243, 197, 189);
     /* Old browsers */
+
     background: -moz-linear-gradient(top, rgba(243, 197, 189, 1) 0%, rgba(232, 108, 87, 1) 0%, rgba(234, 40, 3, 1) 16%, rgba(255, 102, 0, 1) 75%, rgba(199, 34, 0, 1) 100%);
     /* FF3.6-15 */
+
     background: -webkit-linear-gradient(top, rgba(243, 197, 189, 1) 0%, rgba(232, 108, 87, 1) 0%, rgba(234, 40, 3, 1) 16%, rgba(255, 102, 0, 1) 75%, rgba(199, 34, 0, 1) 100%);
     /* Chrome10-25,Safari5.1-6 */
+
     background: linear-gradient(to bottom, rgba(243, 197, 189, 1) 0%, rgba(232, 108, 87, 1) 0%, rgba(234, 40, 3, 1) 16%, rgba(255, 102, 0, 1) 75%, rgba(199, 34, 0, 1) 100%);
     /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+
     filter: progid: DXImageTransform.Microsoft.gradient( startColorstr='#f3c5bd', endColorstr='#c72200', GradientType=0);
     /* IE6-9 */
+
     color: black;
 }
-
 html,
 body {
     font-family: 'Roboto', sans-serif;
     color: indianred;
 }
-
 html,
 body {
     font-size: 16px
 }
-
 .nav-tab-shadow {
     -webkit-box-shadow: 0px 3px 54px 6px aquamarine;
     -moz-box-shadow: 0px 3px 54px 6px aquamarine;
     box-shadow: 0px 3px 54px 6px aquamarine;
 }
-
 html,
 body {
     font-weight: 400;
     -webkit-font-smoothing: antialiased;
 }
-
 body {
     margin-top: 66px;
 }
-
 #content0 {
     height: 20px
 }
-
 small {
     font-size: 70%;
     line-height: 60%;
 }
-
 img {
     max-width: 100%
 }
-
 big {
     margin-bottom: 20px;
 }
-
 li.tall {
     margin-bottom: 12px
 }
-
 p {
     margin-bottom: 20px;
 }
-
 h1 {
     margin-top: 20px;
     padding-top: 0px;
     margin-bottom: 24px;
 }
-
 h2 {
     margin-top: 0px;
     padding-top: 0px;
     margin-bottom: 20px;
 }
-
 h4 {
     margin-top: 16px
 }
 
-
 /* --------- HEADER --------- */
-
 #header-img-overlay-container,
 #credit-flicker {
     color: white;
@@ -187,14 +176,12 @@ h4 {
     font-weight: 100;
     opacity: .9;
 }
-
 #credit-flicker {
     font-size: .2em;
     font-style: Raleway;
     font-weight: 100;
     bottom: 460px;
 }
-
 .parallaxtop {
     background: #fff url('https://c1.staticflickr.com/5/4167/34573884282_50c5299dc9_k.jpg') no-repeat center center;
     -webkit-background-size: cover;
@@ -207,37 +194,36 @@ h4 {
     height: 650px;
     /* box-shadow: 0 0px 20px #1E1E20;  */
 }
-
 div.parallaxtop-border {
     margin-top: 80px;
     padding: 30px;
     border: 1px solid #fff
 }
-
 p.parallaxtop-text {
     font-size: 55px;
     color: white;
     text-align: center
 }
-
 @media (max-width: 990px) {
     p.parallaxtop-text {
         font-size: 32px;
     }
+
     #objective-text {
         font-size: .5em;
     }
 }
-
 @media (max-width: 500px) {
     p.parallaxtop-text {
         font-size: 18px;
     }
+
     div.parallaxtop-border {
         margin-top: 20px;
         padding: 20px;
         border: 0px solid #fff
     }
+
     .parallaxtop {
         height: 100px;
         background-image: none;
@@ -245,9 +231,7 @@ p.parallaxtop-text {
     }
 }
 
-
 /* --------- PAGE NAV--------- */
-
 div.pagenav {
     padding-left: 5px;
     padding-right: 5px;
@@ -256,14 +240,11 @@ div.pagenav {
     padding-bottom: 14px;
     border-bottom: 0px dashed #ccc
 }
-
 #topnav1 {
     padding-right: 2%;
 }
 
-
 /* --------- BANNER AD --------- */
-
 .bannerad {
     text-align: center;
     padding-top: 0px;
@@ -271,100 +252,80 @@ div.pagenav {
     margin-bottom: 20px;
     border-top: 0px dashed #eee
 }
-
 img.banner {}
 
-
 /* --------- RIGHT NAV --------- */
-
 a.rnav {
     padding-left: 7px;
 }
-
 a.rnav-active {
     padding-left: 7px;
 }
-
 ul.menuitem {
     list-style: none;
     padding: 0;
     margin: 0;
 }
-
 li.menuitem,
 li.menuitem-active {
     padding-left: 0em;
     text-indent: -.0em;
 }
-
 li.menuitem:before,
 li.menuitem-active:before {
     content: "• ";
     color: #ec1a23;
     font-weight: bold
 }
-
 li.menuitem,
 li.menuitem-active {
     padding-top: 5px;
     padding-bottom: 5px;
     border-bottom: 0px dotted #ccc;
 }
-
 li.menuitem-active {
     background-color: #fafafa;
     font-weight: bold;
     border-bottom: 0px dotted #ccc;
 }
-
 div.menuitem {
     padding-top: 6px;
     padding-bottom: 6px;
     border-bottom: 0px dotted #fff
 }
-
 div.menuitem-active {
     padding-top: 6px;
     padding-bottom: 6px;
     border-bottom: 0px dotted #fff;
     font-weight: bold
 }
-
 div.rnav {
     padding-top: 0px
 }
-
 h4.rnav {
     display: block padding-bottom: 5px
 }
 
-
 /* --------- SHARE THIS --------- */
-
 div.sharethis {
     padding-top: 30px;
     padding-bottom: 12px
 }
 
-
 /* --------- DOWN ARROW --------- */
-
 div.downarrow {
     background: #000;
     padding: 6px;
     text-align: center
 }
 
-
 /* --------- BRAND ON NAV BAR --------- */
-
 .brandlogo {
     padding-top: 4px;
     margin-top: 0px;
     padding-bottom: 4px;
-    height: 54px
+    height: 54px;
 }
-
 @media (max-width:991px) {
     .brandlogo {
         padding-top: 6px;
@@ -373,43 +334,35 @@ div.downarrow {
     }
 }
 
-
 /* --------- NAV BAR --------- */
-
 .caret {
     display: none
 }
-
 .nav>li>a {
     padding-left: 18px;
     padding-right: 18px;
     border-right: 0px solid #F47E8D;
 }
-
 .navbar {
     margin-bottom: 0px
 }
-
 .navbar,
 #topheader,
 .navbar-header {
     /*background-image: url("/images/nav-b3.png");*/
+
     border-bottom: 0px solid #333
 }
-
 .collapsed {
     background-color: red;
 }
-
 .collapsed:hover {
     background-color: blue;
 }
-
 .navbar-static-top {
     height: 106px;
-    margin-bottom: 0px
+    margin-bottom: 0px;
 }
-
 .navbar-brand {
     padding-bottom: 0px;
     padding-top: 0px;
@@ -418,7 +371,6 @@ div.downarrow {
     text-align: center;
     min-width: 100px;
 }
-
 .navbar-nav > li > a {
     padding-bottom: 20px;
     padding-top: 23px;
@@ -426,45 +378,39 @@ div.downarrow {
     text-align: center;
     min-width: 90px;
 }
-
 #leftCol > .nav-stacked > li > a:hover {
     background-color: #eee;
 }
-
 .navbar-container {
     height: 80px;
     margin-right: auto;
     margin-left: auto;
 }
-
 .navbar-nav > li > a.social {
     padding: 40px 10px 40px 10px;
     font-size: 130%;
     min-width: 0px;
 }
-
 .navbar-nav > li > a.social:hover {
     background-color: #999;
 }
-
 .dropdown-menu > li > a {
     background: #fff
 }
-
 .dropdown-menu > li > a:hover {
     background-color: #999
 }
 
-
 /* --------- NAVBAR & MAIN MEDIA QUERY --------- */
-
 @media (max-width:1200px) {
     .navbar {
         display: initial;
     }
+
     .navbar-static-top {
         height: 5px;
     }
+
     .navbar-nav > li > a,
     .navbar-nav > li > a.social {
         padding-bottom: 10px;
@@ -475,91 +421,94 @@ div.downarrow {
         color: #555;
         background: blue;
     }
+
     .navbar-nav > li > a:hover {
         padding-bottom: 10px;
         padding-top: 10px;
         background: #fafafa
     }
+
     .navbar-container {
         height: auto;
     }
+
     .container > .navbar-header,
     .container-fluid > .navbar-header {}
+
     .nav > li > a:hover {
         background-color: #fafafa;
     }
+
     .navbar-nav > li > a,
     .navbar-brand,
     .navbar-brand:hover {}
+
     .navbar-nav > li > a {
         color: #555;
         background-color: #eee;
     }
+
     .navbar-nav > li > a.social {
         padding: 10px 10px 10px 10px;
         font-size: 130%;
         min-width: 0px;
     }
+
     .navbar-nav > li > a.social:hover {
         background-color: #fafafa;
     }
+
     body {
         margin-top: 50px
     }
+
     .navbar-brand {
         padding-top: 0px;
     }
+
     .navbar-static-top {
         height: 50px;
     }
+
     .navbar-nav > li > a {
         min-width: 80px;
     }
+
     .nav>li>a {
         padding-left: 3px;
         padding-right: 3px
     }
 }
 
-
 /* --------- ROTATING TESTIMONIAL --------- */
-
 .testimonial-border {
     border: 1px solid #f3f3f3;
     border-radius: 10px;
     padding: 20px;
 }
-
 .testimonial-desc {
     padding-bottom: 8px
 }
 
-
 /* --------- SECSUBHEADER, SECTOP, SECBOTTOM --------- */
-
 #secsubheader {
     display: none;
     margin-bottom: 40px;
     padding: 0px
 }
-
 #sectop {
     margin-bottom: 0px;
     padding: 0px
 }
-
 #secbottom {
     padding: 0px;
     margin-top: 0px
 }
 
-
 /* --------- PG BLOCKS --------- */
-
 .well {
     margin-top: 20px
 }
-
 #content1,
 #content2,
 #content3,
@@ -574,11 +523,9 @@ div.downarrow {
     margin-top: 60px;
     margin-bottom: 60px
 }
-
 #content1 {
     margin-top: 20px;
 }
-
 div.med-title-box {
     color: #333;
     font-size: 50px;
@@ -590,14 +537,12 @@ div.med-title-box {
     text-align: center;
     margin-bottom: 0px;
 }
-
 @media (max-width: 992px) {
     div.med-title-box {
         font-size: 40px;
         line-height: 40px;
     }
 }
-
 @media (max-width: 767px) {
     div.med-title-box {
         font-size: 22px;
@@ -605,45 +550,37 @@ div.med-title-box {
         width: 90%;
     }
 }
-
 .block60 {
     width: 70%;
     margin: auto;
 }
-
 .block80 {
     width: 85%;
     margin: auto;
 }
-
 @media (max-width: 500px) {
     .block60,
     .block80 {
         width: 100%;
     }
 }
-
 .block1 {
     padding: 20px;
     border: 1px solid #f2f2f2;
     border-radius: 4px
 }
-
 .block2 {
     padding: 20px;
     border-left: 1px dotted #eee
 }
-
 .block4 {
     border: 1px solid #eee
 }
-
 @media (max-width: 992px) {
     .block2 {
         padding-right: 0px;
     }
 }
-
 div.item-detail {
     padding-right: 30px;
     border-right: 0px dashed #999;
@@ -653,13 +590,11 @@ div.item-detail {
     box-shadow: 0 0 3px rgba(0, 0, 0, 0.0);
     min-height: 400px;
 }
-
 #pageadmin {
     text-align: center;
     padding-top: 20px;
     padding-bottom: 4px
 }
-
 #pagesubadmin {
     font-size: 11px;
     color: #999;
@@ -667,101 +602,83 @@ div.item-detail {
     padding-top: 6px;
     padding-bottom: 20px
 }
-
 .imgleft {
     margin-right: 20px;
     margin-bottom: 20px;
     max-width: 50%;
     float: left
 }
-
 .imgleftsm {
     margin-right: 20px;
     margin-bottom: 20px;
     max-width: 30%;
     float: left
 }
-
 img.picborder {
     width: 100%;
     height: auto
 }
-
 .imgright {
     margin-left: 20px;
     margin-bottom: 20px;
     max-width: 50%;
     float: right
 }
-
 .imgrightsm {
     margin-left: 20px;
     margin-bottom: 20px;
     max-width: 30%;
     float: right
 }
-
 .imgcenter {
     margin-bottom: 20px;
     text-align: center;
     max-width: 100%;
 }
-
 td.listcolor1,
 td.listcolor2 {
     padding-bottom: 10px;
     border-bottom: 1px dashed #ccc;
     padding-top: 10px
 }
-
 div.well {
     padding-bottom: 20px;
     box-shadow: inset 0 0px 0px rgba(0, 0, 0, 0.0);
     border-radius: 8px;
 }
-
 .breadcrumb {
     background-color: #fafafa
 }
-
 div.blockfooter {
     margin-top: 10px;
     margin-bottom: 20px;
     text-align: left
 }
-
 .btn-group,
 .btn-group-vertical {
     margin-bottom: 10px;
 }
-
 .btn-primary {
     background-color: #448aff
 }
-
 .btn-secondary {
     background-color: #ffc
 }
-
 div.textblock {
     margin-top: 0px
 }
-
 div.none {
     background: #fff
 }
-
 div.card-list {
     padding-top: 14px;
     padding-bottom: 14px;
     border-bottom: 1px solid #eee
 }
-
 h4.card-list-title {
     margin-top: 6px;
     margin-bottom: 6px;
 }
-
 .leftpanel {
     padding: 20px;
     background: #fff;
@@ -771,37 +688,30 @@ h4.card-list-title {
     margin-bottom: 20px;
     min-height: 500px
 }
-
 div.panel-heading {
     border-color: #ec1a23;
     background-color: #ec1a23
 }
-
 td.morepics {
     vertical-align: top;
     text-align: center;
     padding: 4px;
     width: 46%
 }
-
 img.morepics {
     width: 100%;
     border: 2px solid #fff
 }
-
 .morepics {
     font-size: 12px;
     line-height: 14px;
     color: #666
 }
-
 a.cd-faq-trigger {
     font-weight: normal
 }
 
-
 /* --------- EMBED WELLS  --------- */
-
 div.embedform,
 div.embedcontact {
     padding: 20px;
@@ -809,16 +719,13 @@ div.embedcontact {
     border-radius: 6px
 }
 
-
 /* --------- CALLOUTS  AND PANEL MENU  --------- */
-
 .panel-primary>.panel-heading {
     color: #fff;
     background-color: #ec1a23;
     border-color: #ec1a23;
     text-align: center
 }
-
 .panel {
     margin-bottom: 22px;
     background-color: #fff;
@@ -826,81 +733,68 @@ div.embedcontact {
     border-radius: 0px;
     border-color: #ec1a23;
 }
-
 .panel-body {
     color: #ec1a23;
     font-weight: bold;
     text-align: center
 }
-
 #panel-body-nav {
     padding: 0px
 }
-
 .callouts {
     text-align: center;
     width: 100%;
     padding-bottom: 20px
 }
-
 @media (max-width: 992px) {
     .callouts {
         width: 40%;
     }
 }
-
 @media (max-width: 500px) {
     .callouts {
         width: 75%;
     }
 }
-
 .callouts2 {
     text-align: center;
     width: 100%;
     padding-bottom: 20px
 }
-
 @media (max-width: 992px) {
     .callouts2 {
         width: 90%;
     }
 }
-
 @media (max-width: 500px) {
     .callouts2 {
         width: 100%;
     }
 }
 
-
 /* --------- FORMS --------- */
-
 label {
     font-weight: normal;
     padding-left: 10px
 }
 
-
 /* --------- LIST GALLERY: PHOTO ALBUM --------- */
-
 div.listgallery {
     margin-top: 40px;
     border: 1px solid #ccc;
     padding: 10px
 }
-
 img.listgallery {
     max-width: 100%;
 }
-
 div.listgallerybullet {
     margin-top: 10px
 }
 
-
 /* --------- FOOTER SECTION --------- */
-
+.footer {
+    text-shadow: 1px 1px 1px black;
+}
 div.footer {
     margin-top: 60px;
     padding-top: 40px;
@@ -908,184 +802,146 @@ div.footer {
     min-height: 200px
 }
 
-
 /* --------- SITE VB MODULE - LIST FORMATS --------- */
-
 img.media-object {
     height: 75px;
     width: 75px;
     max-width: 75px
 }
-
 div.simple-list {
     padding-top: 10px;
     padding-bottom: 10px;
     border-bottom: 1px solid #eee
 }
-
 a.simple-list {}
-
 h2.simple-list {
     color: #333
 }
-
 div.simple-list-bullet {
     padding-top: 10px;
     padding-bottom: 10px;
     border-bottom: 1px solid #eee
 }
-
 a.simple-list-bullet {}
-
 h2.simple-list-bullet {
     color: #333
 }
-
 div.blog2 {
     padding-top: 5px;
     padding-bottom: 5px;
     border-bottom: 0px dashed #eee;
     text-align: center
 }
-
 a.blog2link {
     font-size: 14px;
     color: #555
 }
-
 h4.blog2 {
     padding-bottom: 0px;
     margin-bottom: 0px
 }
-
 img.blog2 {
     max-width: 100%;
     background: white;
     border-radius: 4px
 }
-
 .blog2bullet {
     display: none
 }
 
-
 /* --------- ADMIN  --------- */
-
 .btn-default {
     background: #fafafa
 }
-
 p.help-block {
     color: #999;
     font-size: 11px
 }
 
-
 /* --------- SOCIAL --------- */
-
 .sharebuttonstitle {
     display: none;
     font-size: 14px
 }
-
 a.socialfb {
     color: #4d67a3;
     padding-right: 6px
 }
-
 a.socialgo {
     color: #d74936;
     padding-right: 6px
 }
-
 a.sociallk {
     color: #0178b5;
     padding-right: 6px
 }
-
 a.socialtw {
     color: #25a7df;
     padding-right: 6px
 }
-
 a.socialpi {
     color: #d01d15;
     padding-right: 6px
 }
 
-
 /* --------- MASONRY --------- */
-
 .grid2 .item {
     padding: 0px;
     margin: 0px;
 }
-
 .grid2 .item-border {
     border: 1px solid #ccc;
     margin: 10px;
     padding: 10px;
     border-radius: 6px
 }
-
 .grid2 .item-border:hover,
 .grid2 .item-border:focus,
 .grid2 .item-border:active {
     box-shadow: 0 0 6px rgba(0, 0, 0, 0.4);
 }
-
 .grid2 .card-image {
     border-radius: 0%;
     width: 100%;
     text-align: center;
 }
-
 .grid2 .card-caption {
     padding: 10px;
 }
-
 .grid2 a.card-title {
     color: #333;
     margin-bottom: 2px;
     font-weight: normal
 }
-
 .grid2 .card-desc {
     display: none;
     text-align: justify;
 }
-
 .grid2 .card-subtitle {
     display: none
 }
-
 .grid2 .card-button {
     display: none
 }
-
 .grid2 .container img {
     display: inline-block;
     height: auto !important;
     max-width: 100%;
 }
-
 .grid2 .card-desc-testimonials {
     text-align: justify;
 }
-
 .grid2 .item-border-testimonials {
     border: 1px solid #ccc;
     margin: 10px;
     padding: 10px;
     border-radius: 6px;
 }
-
 .grid2 .item-border-testimonials:hover,
 .grid2 .item-border-testimonials:focus,
 .grid2 .item-border-testimonials:active {
     box-shadow: 0 0 6px rgba(0, 0, 0, 0.4);
 }
-
 .grid2 .card-title-testimonials {
     color: #333;
     margin-bottom: 2px;
@@ -1094,45 +950,36 @@ a.socialpi {
     font-weight: bold
 }
 
-
 /* -------- SLIDESHOW CAROUSEL --------- */
-
 .leftarrow,
 .rightarrow {
     position: absolute;
     top: 50%;
 }
-
 .carousel-control.right,
 .carousel-control.left {
     background-image: none
 }
-
 .carousel-fade .carousel-inner .item {
     opacity: 0;
     transition-property: opacity;
 }
-
 .carousel-fade .carousel-inner .active {
     opacity: 1;
 }
-
 .carousel-fade .carousel-inner .active.left,
 .carousel-fade .carousel-inner .active.right {
     left: 0;
     opacity: 0;
     z-index: 1;
 }
-
 .carousel-fade .carousel-inner .next.left,
 .carousel-fade .carousel-inner .prev.right {
     opacity: 1;
 }
-
 .carousel-fade .carousel-control {
     z-index: 2;
 }
-
 @media all and (transform-3d),
 (-webkit-transform-3d) {
     .carousel-fade .carousel-inner > .item.next,
@@ -1141,12 +988,14 @@ a.socialpi {
         -webkit-transform: translate3d(0, 0, 0);
         transform: translate3d(0, 0, 0);
     }
+
     .carousel-fade .carousel-inner > .item.prev,
     .carousel-fade .carousel-inner > .item.active.left {
         opacity: 0;
         -webkit-transform: translate3d(0, 0, 0);
         transform: translate3d(0, 0, 0);
     }
+
     .carousel-fade .carousel-inner > .item.next.left,
     .carousel-fade .carousel-inner > .item.prev.right,
     .carousel-fade .carousel-inner > .item.active {
@@ -1156,13 +1005,10 @@ a.socialpi {
     }
 }
 
-
 /* --------- EMBED IFRAME--------- */
-
 .contactbackground {
     background: #fff
 }
-
 .embed-container {
     text-align: center;
     padding-top: 20px;
@@ -1174,14 +1020,12 @@ a.socialpi {
     border-top: 1px dashed #ccc;
     border-bottom: 1px dashed #ccc;
 }
-
 @media (max-width:767px) {
     .embed-container {
         padding-left: 20px;
         padding-right: 20px;
     }
 }
-
 .video-container {
     position: relative;
     padding-bottom: 56.25%;
@@ -1189,7 +1033,6 @@ a.socialpi {
     height: 0;
     overflow: hidden;
 }
-
 .video-container iframe,
 .video-container object,
 .video-container embed {
@@ -1199,46 +1042,51 @@ a.socialpi {
     width: 100%;
     height: 100%;
 }
-
 iframe {
     border: 0px solid #fff
 }
 
-
 /* --------- BACK BUTTON MOBILE --------- */
 
-
 /* --------- SITE WIDTH & MOBILE SIZING --------- */
-
 @media(max-width:500px) {
     body,
     td {
         font-size: 15px
     }
+
     label {
         font-size: 15px
     }
+
     h1 {
         font-size: 28px
     }
+
     h2 {
         font-size: 24px
     }
+
     h3 {
         font-size: 20px
     }
+
     h4 {
         font-size: 17px
     }
+
     a.footer {
         font-size: 12px
     }
+
     #secsubheader {
         margin-bottom: 20px;
     }
+
     #sectop {
         margin-bottom: 20px;
     }
+
     #content1,
     #content2,
     #content3,
@@ -1253,6 +1101,7 @@ iframe {
         margin-top: 20px;
         margin-bottom: 0px
     }
+
     .imgright,
     .imgleft,
     .imgrightsm,
@@ -1264,14 +1113,15 @@ iframe {
         margin-right: 0px;
         margin-bottom: 20px;
     }
+
     .leftpanel {
         padding: 4px
     }
+
     div.item-detail {
         padding-right: 0px
     }
 }
-
 a.socialfb,
 a.socialtw,
 a.sociallk,
@@ -1279,7 +1129,6 @@ a.socialgo,
 a.socialpi {
     padding-right: 10px
 }
-
 
 }
 
@@ -1447,6 +1296,7 @@ table.uline {
     font-weight:bold;
     font-size:2.5em;
     font-family: Tangerine;
+    text-shadow: 1px 1px 1px white;
     background-color: black;
 }
 .nav > li > a:hover {
