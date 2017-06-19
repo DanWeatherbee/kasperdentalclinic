@@ -21,7 +21,7 @@
 
     #phone-num {
         color: lawngreen;
-        text-shadow: 4px 4px 4px #aaa;
+        text-shadow: 2px 2px 2px black;
     }
 
     #content4 {
@@ -47,10 +47,10 @@
     }
 
     p.lead {
-        color: black;
+        color: white;
         text-align: center;
         font-family: 'Tangerine', cursive;
-        text-shadow: 1px 1px 1px white;
+        text-shadow: 1px 1px 1px black;
         font-size: 3em;
     }
 
@@ -65,7 +65,7 @@
         text-align: center;
         /*      margin-bottom: 40px;*/
         font-family: 'Tangerine', cursive;
-        text-shadow: 4px 4px 4px #aaa;
+        text-shadow: 4px 4px 4px black;
         -webkit-box-shadow: 4px 7px 46px 13px rgba(255, 255, 255, 1);
         -moz-box-shadow: 4px 7px 46px 13px rgba(255, 255, 255, 1);
         box-shadow: 4px 7px 46px 13px rgba(255, 255, 255, 1);

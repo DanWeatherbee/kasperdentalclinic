@@ -1,54 +1,66 @@
+#parallax {
+    background: #fff url('images/location-wide.jpg') no-repeat center center;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    background-attachment: fixed;
+    position: relative;
+    z-index: 3;
+    height: 450px;
+}
 
-    #parallax {
-        background: #fff url('images/location-wide.jpg') no-repeat center center;
-        -webkit-background-size: cover;
-        -moz-background-size: cover;
-        -o-background-size: cover;
-        background-size: cover;
-        background-attachment: fixed;
-        position: relative;
-        z-index: 3;
-        height: 450px;
-    }
+div.footer {
+    margin: 0px;
+    padding-top: 40px text-shadow: 2px 2px 2px black;
+}
 
-    div.footer {
-        margin: 0px;
-        padding-top: 40px
-    }
+.hero-image {
+    background-image: url(images/a5.jpg);
+}
 
-    .hero-image {
-        background-image: url(images/a5.jpg);
-    }
+#content2 {
+    padding: 0px;
+    margin: 0px;
+    margin-top: 40px
+}
 
-    #content2 {
-        padding: 0px;
-        margin: 0px;
-        margin-top: 40px
-    }
+a.cd-faq-trigger {
+    font-weight: normal;
+}
 
-    a.cd-faq-trigger {
-        font-weight: normal;
-    }
+.pagehdr {
+    display: none
+}
 
-    .pagehdr {
-        display: none
-    }
+.content1 {
+    background: #fafafa padding-top: 10px;
+    padding-bottom: 20px
+}
 
-    .content1 {
-        background: #fafafa padding-top: 10px;
-        padding-bottom: 20px
-    }
+.map-bar {
+    background-color: #fafafa;
+    overflow: hidden;
+}
 
-    .map-bar {
-        background-color: #fafafa;
-        overflow: hidden;
-    }
+.banner-map-overlay {
+    background: none repeat scroll 0 0 transparent;
+    height: 350px;
+    margin-top: -350px;
+    position: relative;
+    top: 350px;
+    width: 100%;
+}
 
-    .banner-map-overlay {
-        background: none repeat scroll 0 0 transparent;
-        height: 350px;
-        margin-top: -350px;
-        position: relative;
-        top: 350px;
-        width: 100%;
-    }
+.block2 > p {
+    text-shadow: 2px 2px 2px black;
+    color: lawngreen;
+}
+
+.block2 {
+    background: none;
+}
+
+h1 {
+    color: red;
+}

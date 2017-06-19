@@ -67,7 +67,7 @@
     }
 
     .p-con4 {
-        color: black;
+        color: white;
     }
 
     h3 {
@@ -76,8 +76,8 @@
 
     p {
         font-family: 'Tangerine', serif;
-        text-shadow: 1px 1px 1px white;
-        color: blue;
+        text-shadow: 1px 1px 1px black;
+        color: white;
         font-weight: 900;
         font-size: 2.5em;
     }
@@ -88,5 +88,6 @@
     }
 
     li {
-        color: skyblue;
+        color: #00ffc4;
+        text-shadow: 1px 1px 1px black;
     }

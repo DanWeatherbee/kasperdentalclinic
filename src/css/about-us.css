@@ -14,17 +14,6 @@
 #con1 {
     border: 2px solid;
     border-radius: 33% 0% 33% 0%;
-    /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#f3c5bd+0,ea2803+38,ea2803+38,e86c57+50,ff6600+75,c72200+100 */
-    background: #f3c5bd;
-    /* Old browsers */
-    background: -moz-linear-gradient(-45deg, #f3c5bd 0%, #ea2803 38%, #ea2803 38%, #e86c57 50%, #ff6600 75%, #c72200 100%);
-    /* FF3.6-15 */
-    background: -webkit-linear-gradient(-45deg, #f3c5bd 0%, #ea2803 38%, #ea2803 38%, #e86c57 50%, #ff6600 75%, #c72200 100%);
-    /* Chrome10-25,Safari5.1-6 */
-    background: linear-gradient(135deg, #f3c5bd 0%, #ea2803 38%, #ea2803 38%, #e86c57 50%, #ff6600 75%, #c72200 100%);
-    /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
-    filter: progid: DXImageTransform.Microsoft.gradient( startColorstr='#f3c5bd', endColorstr='#c72200', GradientType=1);
-    /* IE6-9 fallback on horizontal gradient */
 }
 
 div.qoute-box {
@@ -38,12 +27,13 @@ div.qoute-box {
     text-align: center;
     margin-bottom: 40px;
     font-family: 'Tangerine', serif;
-    text-shadow: 10px 10px 10px white;
+    text-shadow: 10px 10px 10px black;
     border-radius: 10% 1% 10% 1%;
 }
 
 div.qoute-box,
-#con1 {
+#con1,
+.card-image {
     -webkit-box-shadow: 4px 7px 46px 13px rgba(255, 255, 255, 1);
     -moz-box-shadow: 4px 7px 46px 13px rgba(255, 255, 255, 1);
     box-shadow: 4px 7px 46px 13px rgba(255, 255, 255, 1);
@@ -69,3 +59,15 @@ a.footer {
     text-shadow: 1px 1px 1px black;
 }
 
+.header-text {
+    color: white;
+    text-shadow: 1px 1px 1px black;
+    color: white;
+    padding: 5%;
+}
+
+.header-h1 {
+    text-align: center;
+    font-family: "Tangerine", serif;
+    font-size: 3.5em;
+}
