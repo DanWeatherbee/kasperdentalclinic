@@ -13,6 +13,7 @@ h6,
     text-shadow: 1px 1px 1px black;
 }
 
+
 .header-kasper-1 {
     font-size: 24px;
     line-height: 26px;
@@ -1487,6 +1488,12 @@ div.footer {
     /* IE6-9 */
     color: inherit;
 }
+a.copyright {
+    font-size: .7em;
+    background-color: black;
+    color: white;
+}
+
 a.footer,
 p.footer {
     font-family: serif;
