@@ -1,0 +1,37 @@
+    label {
+        color: white;
+        text-shadow: 1px 1px 1px black;
+        font-size: 1.2em;
+    }
+
+    body {
+        /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#feffff+0,ddf1f9+35,a0d8ef+100;Blue+3D+%2318 */
+        background: darkslategrey;
+    }
+
+    p.footer {
+        color: black;
+    }
+
+    .cover-ad {
+        /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#ebf1f6+0,abd3ee+50,89c3eb+78,d5ebfb+100 */
+        background: #ebf1f6;
+        /* Old browsers */
+        background: -moz-linear-gradient(top, #ebf1f6 0%, #abd3ee 50%, #89c3eb 78%, #d5ebfb 100%);
+        /* FF3.6-15 */
+        background: -webkit-linear-gradient(top, #ebf1f6 0%, #abd3ee 50%, #89c3eb 78%, #d5ebfb 100%);
+        /* Chrome10-25,Safari5.1-6 */
+        background: linear-gradient(to bottom, #ebf1f6 0%, #abd3ee 50%, #89c3eb 78%, #d5ebfb 100%);
+        /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+        filter: progid: DXImageTransform.Microsoft.gradient( startColorstr='#ebf1f6', endColorstr='#d5ebfb', GradientType=0);
+        /* IE6-9 */
+        height: 80px;
+        width: 100%;
+        position: relative;
+        bottom: 60px;
+        z-index: 1;
+    }
+
+    #appointment {
+        background: url("appointment.jpg")no-repeat fixed center;
+    }
