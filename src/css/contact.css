@@ -52,15 +52,7 @@ a.cd-faq-trigger {
     width: 100%;
 }
 
-.block2 > p {
-    text-shadow: 2px 2px 2px black;
-    color: lawngreen;
-}
-
 .block2 {
     background: none;
 }
 
-h1 {
-    color: red;
-}

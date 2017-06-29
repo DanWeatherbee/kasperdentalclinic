@@ -60,34 +60,8 @@
     }
 
     #content6 {
-        background-color: #fff;
         padding-top: 60px;
         padding-bottom: 60px;
         margin: 0px
     }
 
-    .p-con4 {
-        color: white;
-    }
-
-    h3 {
-        color: white;
-    }
-
-    p {
-        font-family: 'Tangerine', serif;
-        text-shadow: 1px 1px 1px black;
-        color: white;
-        font-weight: 900;
-        font-size: 2.5em;
-    }
-
-    p.footer {
-        font-family: serif;
-        font-size: 1.5em;
-    }
-
-    li {
-        color: #00ffc4;
-        text-shadow: 1px 1px 1px black;
-    }

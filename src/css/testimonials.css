@@ -7,18 +7,6 @@
     margin: 16px;
     padding: 16px;
     border-radius: 6px;
-    background-color: #fff;
-    opacity: .9;
-}
-
-h1 {
-    color: gold;
-}
-
-.fa-p {
-    color: aquamarine;
-    font-weight: 100;
-    text-shadow: 1px 1px 1px black;
 }
 
 .card-caption-testimonials {
