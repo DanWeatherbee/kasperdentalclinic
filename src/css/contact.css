@@ -22,7 +22,8 @@ div.footer {
 #content2 {
     padding: 0px;
     margin: 0px;
-    margin-top: 40px
+    margin-top: 40px;
+    width: 100%;
 }
 
 a.cd-faq-trigger {
@@ -56,3 +57,6 @@ a.cd-faq-trigger {
     background: none;
 }
 
+.clinic-p {
+    padding: 5%;
+}
