@@ -21,3 +21,12 @@
     #appointment {
         background: url("appointment.jpg")no-repeat fixed center;
     }
+
+    #InsertRecordDay,
+    #InsertRecordTime,
+    #InsertRecordEmail,
+    #InsertRecordFirst_name,
+    #InsertRecordLast_Name,
+    #InsertRecordPhone {
+        background-color: white;
+    }
