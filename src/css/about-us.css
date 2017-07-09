@@ -43,3 +43,8 @@ div.qoute-box,
     font-family: "Tangerine", serif;
     font-size: 3.5em;
 }
+@media (max-width: 500px) {
+    #content4,
+    #credit-flicker  {
+        display: none;
+    }

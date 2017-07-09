@@ -15,18 +15,6 @@
         border-radius: 10% 1% 10% 1%;
     }
 
-    #parallax {
-        background: #fff url('https://c1.staticflickr.com/1/1/2228929_079c5b21ff_z.jpg') no-repeat center center;
-        -webkit-background-size: cover;
-        -moz-background-size: cover;
-        -o-background-size: cover;
-        background-size: cover;
-        background-attachment: fixed;
-        position: relative;
-        z-index: 3;
-        height: 450px;
-    }
-
     a.cd-faq-trigger {
         font-weight: normal;
         color: #fff;
@@ -53,15 +41,13 @@
         margin: 0px
     }
 
-    #content4 {
-        padding-top: 60px;
-        padding-bottom: 60px;
-        margin: 0px
-    }
-
     #content6 {
         padding-top: 60px;
         padding-bottom: 60px;
         margin: 0px
     }
-
+@media (max-width: 500px) {
+    #content3,
+    #credit-flicker  {
+        display: none;
+    }
