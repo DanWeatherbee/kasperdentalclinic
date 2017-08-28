@@ -44,7 +44,7 @@ div.qoute-box,
     font-size: 3.5em;
 }
 @media (max-width: 500px) {
-    #content4,
-    #credit-flicker  {
+    #content4 {
         display: none;
     }
+}

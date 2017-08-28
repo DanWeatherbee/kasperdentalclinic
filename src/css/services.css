@@ -1,3 +1,15 @@
+     #parallax-services {
+        background: #fff url('https://c1.staticflickr.com/1/1/2228929_079c5b21ff_z.jpg') no-repeat center center;
+        -webkit-background-size: cover;
+        -moz-background-size: cover;
+        -o-background-size: cover;
+        background-size: cover;
+        background-attachment: fixed;
+        position: relative;
+        z-index: 3;
+        height: 450px;
+    }
+
     div.qoute-box {
         color: #fff;
         font-size: 48px;
@@ -47,7 +59,7 @@
         margin: 0px
     }
 @media (max-width: 500px) {
-    #content3,
-    #credit-flicker  {
+    #content3 {
         display: none;
     }
+}
