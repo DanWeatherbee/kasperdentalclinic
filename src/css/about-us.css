@@ -1,5 +1,5 @@
-#parallax {
-    background: #fff url('https://c1.staticflickr.com/1/1/2228929_079c5b21ff_z.jpg') no-repeat center center;
+#parallax-about-us {
+    background: #fff url('cloud.jpg') no-repeat center center;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
@@ -7,44 +7,18 @@
     background-attachment: fixed;
     position: relative;
     z-index: 3;
-    height: 550px;
-    width: 100%;
+    height: 450px;
+    padding: 3%;
 }
 
 div.qoute-box {
-    color: #fff;
-    font-size: 3.5em;
-    line-height: 68px;
-    border: 0px solid #fff;
-    padding: 10px;
-    width: 80%;
-    margin: auto;
+    color: white;
+    font-size: 2em;
+    width: 100%;
     text-align: center;
-    margin-bottom: 40px;
-    font-family: 'Tangerine', serif;
-    text-shadow: 10px 10px 10px black;
-    border-radius: 10% 1% 10% 1%;
+    text-shadow: 1px 1px 2px black;
 }
 
-div.qoute-box,
-#con1,
-.card-image {
-    -webkit-box-shadow: 4px 7px 46px 13px rgba(255, 255, 255, 1);
-    -moz-box-shadow: 4px 7px 46px 13px rgba(255, 255, 255, 1);
-    box-shadow: 4px 7px 46px 13px rgba(255, 255, 255, 1);
-}
-
-.header-text {
-    padding: 5%;
-}
-
-.header-h1 {
-    text-align: center;
-    font-family: "Tangerine", serif;
-    font-size: 3.5em;
-}
-@media (max-width: 500px) {
-    #content4 {
-        display: none;
-    }
+.btn:hover {
+    color: lawngreen;
 }
