@@ -6,9 +6,9 @@
        '<span class="morph-delay icon-bar"></span>' +
        '<span class="morph-delay icon-bar"></span>' +
        '</button>' +
-       '<div class="navbar-brand" href="index.html">' +
+       '<a class="navbar-brand btn-default-outline" href="index.html">' +
        '<img class="img-responsive" style="height:35px;width:110px;" src="images/logo.png" alt="logo.png">' +
-       '</div>' +
+       '</a>' +
        '</div>' +
        '<div class="morph-delay collapse navbar-collapse navbar-right" id="bs-example-navbar-collapse-1">' +
        '<ul class="morph-delay nav navbar-nav">' +
