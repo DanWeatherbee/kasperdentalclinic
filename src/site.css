@@ -21,11 +21,23 @@ div.qoute-box {
     width: 100%;
     text-align: center;
     text-shadow: 1px 1px 2px black;
+    border-radius: 100%;
 }
+
+.shadow-profile-inset {
+    -webkit-box-shadow: inset 1px 1px 100px 15px white;
+    box-shadow: inset 1px 1px 100px 15px white;
+}
+
+.shadow-profile-outset {
+    -webkit-box-shadow: 1px 1px 100px 15px white;
+    box-shadow: 1px 1px 100px 15px white;
+}
+
 
 #main,
 #index-logo-main {
-    padding: 8%;
+    padding: 3%;
 }
 
 #bs-example-navbar-collapse-1 {
@@ -60,6 +72,6 @@ a:hover {
 }
 
 section {
-    padding-top: 5%;
+    padding-top: 1%;
     padding-bottom: 1%;
 }

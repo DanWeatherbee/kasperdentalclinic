@@ -26,11 +26,13 @@ var contentMain = '<section class="container">' +
     '</div>' +
     '</section>';
 
-var parallax = '<div class="container-fluid" id="parallax">' +
-    '<div class="morph-delay qoute-box"><br />' +
-    '<i class="morph-delay fa fa-quote-left"></i> Thank you so much for my new smile,<br />' +
-    ' I can start my new career with confidence! - <br />' +
-    'D. W. Web Developer <i class="morph-delay fa fa-quote-right"></i>' +
+var parallax = '<div class="container-fluid text-center" id="parallax">' +
+    '<div class="morph-delay qoute-box shadow-profile-inset center-block">' +
+    '<i class="morph-delay fa fa-quote-left"></i>' +
+    '<p>Thank you so much for my new smile,</p>' +
+    '<p>I can start my new career with confidence! - </p>' +
+    '<p>D. W. Web Developer </p><i class="morph-delay fa fa-quote-right">' +
+    '</i>' +
     '</div>' +
     '</div>';
 
