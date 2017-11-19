@@ -31,7 +31,7 @@
        '</ul>' +
        '</div>' +
        '</nav>' +
-       '<div style="padding-top:100px;width:100%;" class=" text-center fb-like" data-href="http://kasperdentureclinic.ca/"' +
+       '<div style="padding-top:100px;width:100%;" class="text-center fb-like" data-href="http://kasperdentureclinic.ca/"' +
        ' data-width="200" data-layout="button" data-action="like" data-size="large" data-show-faces="false" data-share="true">' +
        '</div>';
 

@@ -31,13 +31,14 @@
     #content-appointment>section>div>div {
         display: none;
     }
+
+    .footer {
+        margin-top: 15%;
+    }
     </style>
-    <script src="js/jquery-2.2.3.min.js"></script>
-    <script src="js/tether.min.js"></script>
-    <script src="js/bootstrap.min.js"></script>
-    <script src="js/mdb.min.js"></script>
-    <script src='js/helmet.js'></script>
-    <script src='js/nav.js'></script>
+    <script src="js/core/lib/jquery-2.2.3.min.js"></script>
+    <script src="js/core/scripts.js"></script>
+    <script src='js/core/appointment/appointment.js'></script>
     <section class="container" id="content-appointment">
         <section class="row text-center">
             <div class="col-lg-12 text-center">
@@ -52,16 +53,6 @@
         </section>
     </section>
     <script src='js/footer.js'></script>
-    <script>
-    (function(d, s, id) {
-        var js, fjs = d.getElementsByTagName(s)[0];
-        if (d.getElementById(id)) return;
-        js = d.createElement(s);
-        js.id = id;
-        js.src = 'https://connect.facebook.net/en_GB/sdk.js#xfbml=1&version=v2.11';
-        fjs.parentNode.insertBefore(js, fjs);
-    }(document, 'script', 'facebook-jssdk'));
-    </script>
 </body>
 
 </html>

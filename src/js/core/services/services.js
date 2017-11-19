@@ -1,4 +1,4 @@
-var contentMain = '<section class="container">' +
+var contentMain = '<section class="container text-center">' +
     '<div class="row ">' +
     '<div class=col-sm-12>' +
     '<h1>Services</h1>' +
@@ -9,7 +9,7 @@ var contentMain = '<section class="container">' +
     '<h3>Our Denture Services</h3>' +
     '<ul>' +
     '<li><span style="line-height1: 1.6em;">Consultation / Exam</span></li>' +
-    '<li><span style="line-height1: 1.6em;">Lower Suction Dentures</span></li>' +
+    '<li><span style="line-height1: 1.6em;">Suction Dentures</span></li>' +
     '<li>Complete Dentures (Full Dentures)</li>' +
     '<li>Immediate Dentures after Extractions</li>' +
     '<li>Partial Dentures (flexible, metal, and acrylic bases)</li>' +

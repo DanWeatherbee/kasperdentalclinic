@@ -56,9 +56,17 @@ a:hover {
     border-color: red;
 }
 
-#sharebuttons {
+.fb-like {
     height: 100px;
     width: 100%;
+    position: fixed;
+    top: 60px;
+    z-index: 500;
+    opacity: .7;
+}
+
+.container {
+    padding-top: 10%;
 }
 
 .bg-black {
@@ -74,4 +82,8 @@ a:hover {
 section {
     padding-top: 1%;
     padding-bottom: 1%;
+}
+
+.lead {
+        padding-bottom: 30%;
 }
