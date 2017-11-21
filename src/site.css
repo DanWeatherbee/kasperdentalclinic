@@ -11,8 +11,7 @@ body {
     background-attachment: fixed;
     position: relative;
     z-index: 3;
-    height: 450px;
-    padding: 3%;
+    padding: 1%;
 }
 
 div.qoute-box {
@@ -34,12 +33,6 @@ div.qoute-box {
     box-shadow: 1px 1px 100px 15px white;
 }
 
-
-#main,
-#index-logo-main {
-    padding: 3%;
-}
-
 #bs-example-navbar-collapse-1 {
     padding: 1% 2% 0 0;
 }
@@ -56,17 +49,14 @@ a:hover {
     border-color: red;
 }
 
-.fb-like {
-    height: 100px;
-    width: 100%;
-    position: fixed;
-    top: 60px;
-    z-index: 500;
-    opacity: .7;
-}
-
 .container {
     padding-top: 10%;
+}
+
+.fb-like {
+    background-color: #808080;
+    width: 100%;
+    padding: 1%;
 }
 
 .bg-black {
@@ -85,5 +75,5 @@ section {
 }
 
 .lead {
-        padding-bottom: 30%;
+    padding-bottom: 30%;
 }

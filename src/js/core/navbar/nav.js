@@ -30,9 +30,17 @@
        '<li class="animated flipInX" id="nav8"><a href="contact.html">Clinic</a></li>' +
        '</ul>' +
        '</div>' +
-       '</nav>' +
-       '<div style="padding-top:100px;width:100%;" class="text-center fb-like" data-href="http://kasperdentureclinic.ca/"' +
-       ' data-width="200" data-layout="button" data-action="like" data-size="large" data-show-faces="false" data-share="true">' +
-       '</div>';
+       '</nav>';
 
+   $('#root').prepend('<div id="fb-root"></div>');
    $('body').append(contentNav);
+
+
+   (function(d, s, id) {
+       var js, fjs = d.getElementsByTagName(s)[0];
+       if (d.getElementById(id)) return;
+       js = d.createElement(s);
+       js.id = id;
+       js.src = 'https://connect.facebook.net/en_US/sdk.js#xfbml=1&version=v2.11&appId=286140048548175';
+       fjs.parentNode.insertBefore(js, fjs);
+   }(document, 'script', 'facebook-jssdk'));

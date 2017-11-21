@@ -43,4 +43,4 @@
        '</div>' +
        '</div>' +
        '</section>';
-       $('body').append(contentFooter);
+   $('body').append(contentFooter);

@@ -10,9 +10,7 @@
        '</div>' +
        '</div>' +
        '</section>' +
-       '<div class="container-fluid">' +
-       '<div class="row">' +
-       '<div class="col-12" id="parallax">' +
+       '<div class="container-fluid" id="parallax">' +
        '<div class="qoute-box shadow-profile-inset">' +
        '<i class="fa fa-quote-left"></i>' +
        '<p>Everytime you smile at someone,</p>' +
@@ -20,8 +18,6 @@
        '<p>a gift to that person, a beautifull thing.</p>' +
        '<p>Mother Teresa</p>' +
        '<i class="fa fa-quote-right"></i>' +
-       '</div>' +
-       '</div>' +
        '</div>' +
        '</div>';
 

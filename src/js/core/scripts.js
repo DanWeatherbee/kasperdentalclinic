@@ -1,9 +1,7 @@
 var scriptArray = [
     "js/core/lib/tether.min.js",
     "js/core/lib/bootstrap.min.js",
-    "js/core/lib/mdb.min.js",
-    'js/core/helmet/helmet.js',
-    'js/core/navbar/nav.js'
+    "js/core/lib/mdb.min.js"
 ];
 
 var appendScripts = function(src) {
@@ -16,3 +14,4 @@ var appendScripts = function(src) {
 }
 
 scriptArray.forEach(function(script) { appendScripts(script); });
+
