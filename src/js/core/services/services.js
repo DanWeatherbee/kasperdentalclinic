@@ -7,7 +7,7 @@ var contentMain = '<section class="container text-center">' +
     '<big>Our on-site denture lab provides you with fast, high quality service!</big>' +
     '<p>&nbsp;</p>' +
     '<h3>Our Denture Services</h3>' +
-    '<ul>' +
+    '<ul style="padding-bottom:10%;">' +
     '<li><span style="line-height1: 1.6em;">Consultation / Exam</span></li>' +
     '<li><span style="line-height1: 1.6em;">Suction Dentures</span></li>' +
     '<li>Complete Dentures (Full Dentures)</li>' +
@@ -22,23 +22,24 @@ var contentMain = '<section class="container text-center">' +
     '<br /> &nbsp;' +
     '</li>' +
     '</ul>' +
+    '<a style="padding:3%;background-color:white;color:inherit;border-radius:100%;border-color:black;" ' +
+    'href="#parallax" id="scroll-down-index"><i class="fa fa-arrow-down fa-6"></i></a>' +
     '</div>' +
     '</div>' +
     '</section>';
 
 var parallax = '<div class="container-fluid text-center" id="parallax">' +
-    '<div class="morph-delay qoute-box shadow-profile-inset center-block">' +
-    '<i class="morph-delay fa fa-quote-left"></i>' +
-    '<p>Thank you so much for my new smile,</p>' +
+    '<div class="qoute-box">' +
+    '<p><i class="fa fa-quote-left"></i> Thank you so much for my new smile,</p>' +
     '<p>I can start my new career with confidence! - </p>' +
-    '<p>D. W. Web Developer </p><i class="morph-delay fa fa-quote-right">' +
+    '<p>D. W. Web Developer <i class="fa fa-quote-right"></p>' +
     '</i>' +
     '</div>' +
     '</div>';
 
 var contentPart2 = '<section class="container">' +
-    '<div class="row ">' +
-    '<div class=col-sm-12>' +
+    '<div class="row">' +
+    '<div class="col-sm-12">' +
     '<h3>' +
     'Consultation / Exam' +
     '</h3>' +
@@ -49,7 +50,7 @@ var contentPart2 = '<section class="container">' +
     ' During your visit, we&rsquo;ll discuss our approach to dentures, ' +
     'and share with you the methods available to greatly increase your satisfaction with them.' +
     ' We will provide you with a written treatment plan and we can submit to your insurance' +
-    'for pre-approval or eligibility on your behalf.' +
+    ' for pre-approval or eligibility on your behalf.' +
     '</p>' +
     '<h3>' +
     'Lower Suction Dentures' +

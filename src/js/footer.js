@@ -9,8 +9,9 @@
        '</p>' +
        '</div>' +
        '<div class="bg-black col-sm-2">' +
+       '<a href="#root" id="scroll-up-foter"><i class="fa fa-arrow-up fa-6"> Top</i></a>' +
        '<div class="text-center">' +
-       '<img class="img-responsive" src="images/logo.png" alt="">' +
+       '<img class="img-responsive" src="images/logo.png" alt="company logo">' +
        '</div>' +
        '</div>' +
        '<div class="bg-black col-sm-5">' +

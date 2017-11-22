@@ -6,18 +6,18 @@
        '<br />' +
        '<p class="lead">Our expertise is in high quality, removable dental prosthesis for all ages. ' +
        'Our aim is to restore your healthy smile in a calm, relaxed atmosphere where your needs' +
-       ' and well-being are our highest priority.</p>' +
+       ' and well-being are our highest priority.<br /><br /><br />' +
+       '<a style="padding:3%;background-color:white;color:inherit;border-radius:100%;border-color:black;" ' +
+       'href="#parallax" id="scroll-down-index"><i class="fa fa-arrow-down fa-6"></i></a></p>' +
        '</div>' +
        '</div>' +
        '</section>' +
        '<div class="container-fluid" id="parallax">' +
-       '<div class="qoute-box shadow-profile-inset">' +
-       '<i class="fa fa-quote-left"></i>' +
-       '<p>Everytime you smile at someone,</p>' +
+       '<div class="qoute-box">' +
+       '<p><i class="fa fa-quote-left"></i> Everytime you smile at someone,</p>' +
        '<p>it is an action of love,</p>' +
        '<p>a gift to that person, a beautifull thing.</p>' +
-       '<p>Mother Teresa</p>' +
-       '<i class="fa fa-quote-right"></i>' +
+       '<p>Mother Teresa <i class="fa fa-quote-right"></i></p>' +
        '</div>' +
        '</div>';
 
