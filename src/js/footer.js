@@ -1,6 +1,6 @@
-   var contentFooter = '<section class="container-fluid bg-black footer">' +
-       '<div class="bg-black row text-center">' +
-       '<div class="bg-black col-md-5">' +
+   var contentFooter = '<footer class="container-fluid bg-footer-grey footer">' +
+       '<div class="bg-footer-grey row text-center">' +
+       '<div class="bg-footer-grey col-md-5">' +
        '<p>' +
        '<b>Our Location</b>' +
        '<br> 3414 28 Ave' +
@@ -8,13 +8,13 @@
        '<br> 250-542-7423' +
        '</p>' +
        '</div>' +
-       '<div class="bg-black col-sm-2">' +
+       '<div class="bg-footer-grey col-sm-2">' +
        '<a href="#root" id="scroll-up-foter"><i class="fa fa-arrow-up fa-6"> Top</i></a>' +
        '<div class="text-center">' +
        '<img class="img-responsive" src="images/logo.png" alt="company logo">' +
        '</div>' +
        '</div>' +
-       '<div class="bg-black col-sm-5">' +
+       '<div class="bg-footer-grey col-sm-5">' +
        '<p class="text-center">' +
        '<b>Our Hours</b>' +
        '<br>' +
@@ -26,7 +26,7 @@
        '</div>' +
        '</div>' +
        '<div class="row">' +
-       '<div class="bg-black col-sm-12">' +
+       '<div class="bg-footer-grey col-sm-12">' +
        '<div class="text-center" style="padding-top:10px;padding-bottom:40px">' +
        '<a href="index.html">' +
        'Home' +
@@ -43,5 +43,5 @@
        '</div>' +
        '</div>' +
        '</div>' +
-       '</section>';
+       '</footer>';
    $('body').append(contentFooter);

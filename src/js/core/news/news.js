@@ -10,7 +10,7 @@ var contentNews = '<section class="container" id="content-news">' +
     '</div>' +
     '<div class="col-lg-6">' +
     '<h3>Offering The Latest Comfort Technology</h3>' +
-    '<p>' +
+    '<p class="animated slideInLeft">' +
     'Kasper Denture Clinic specializes in precision full and partial dentures.' +
     ' We stay up-to-date and educated on the latest technology for your comfort and health.' +
     ' We have the Sr-Ivocap System that guarantees a precision fit denture and VELscope technology' +
@@ -23,12 +23,12 @@ var contentNews = '<section class="container" id="content-news">' +
     '</div>' +
     '</section>' +
     '<section class="row">' +
-    '<div class="col-lg-6">' +
+    '<div class="col-lg-6 animated zoomInDown">' +
     '<iframe width="100%" height="315" src="images/film.png" style="frameborder:0;" allowfullscreen></iframe>' +
     '</div>' +
     '<div class="col-lg-6">' +
     '<h3>24 Hour Denture Clinic</h3>' +
-    '<p>' +
+    '<p class="animated slideInLeft">' +
     'We are here for you.' +
     ' Kasper Denture Clinic offers 24 hour turnaround service.' +
     ' Our service is fast, professional and efficient.' +
@@ -42,12 +42,12 @@ var contentNews = '<section class="container" id="content-news">' +
     '</div>' +
     '</section>' +
     '<section class="row">' +
-    '<div class="col-lg-6">' +
+    '<div class="col-lg-6 animated zoomInDown">' +
     '<iframe width="100%" height="315" src="images/film.png" style="frameborder:0;" allowfullscreen></iframe>' +
     '</div>' +
     '<div class="col-lg-6">' +
     '<h3>The Difference Is Service</h3>' +
-    '<p>' +
+    '<p class="animated slideInLeft">' +
     'While we offer competitive pricing and years of experience,' +
     ' what truly sets us apart is our dedication to excellent customer service.' +
     ' We believe in the personal touch and the skilled hand.' +

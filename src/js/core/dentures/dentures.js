@@ -2,7 +2,7 @@
        '<section class="row">' +
        '<div class="col-lg-12">' +
        '<h1>Precision Dentures</h1>' +
-       '<p>If you are having unusual problems with the fit of your dentures, we have the Sr-Ivocap System Kasper ' +
+       '<p class="animated slideInLeft">If you are having unusual problems with the fit of your dentures, we have the Sr-Ivocap System Kasper ' +
        'Denture Clinic that is highly recommended. Well-known practitioners have published authoritative' +
        ' articles and reports documenting the superlative quality of SR-Ivocap in terms ' +
        'of precise fit, occlusion, and tissue compatibility. It is a denture processing system that controls' +
@@ -28,7 +28,7 @@
        '<section class="row">' +
        '<div class="col-lg-12">' +
        '<h1>Implant Retained Dentures </h1>' +
-       '<p>This is the optimum tooth replacement that can be achieved with implants. Implants are a ' +
+       '<p class="animated slideInLeft">This is the optimum tooth replacement that can be achieved with implants. Implants are a ' +
        'root replacement system. Once implanted into your jaw, the implant and the bone' +
        ' integrate together as a cohesive unit. This is what will help retain and stabilize your denture. ' +
        'In studies, dental implants are shown to preserve bone and reduce tissue loss.' +
@@ -47,7 +47,7 @@
        '<section class="row">' +
        '<div class="col-lg-12">' +
        '<h1>Partial Dentures</h1>' +
-       '<p>A removable partial denture can replace one or all missing teeth. It is designed specifically' +
+       '<p class="animated slideInLeft">A removable partial denture can replace one or all missing teeth. It is designed specifically' +
        ' to meet the needs of the patient. Esthetics appearance and speech are restored along with ' +
        'the ability to function while eating confidently and efficiently. A partial denture may also' +
        ' help to preserve the natural tooth placement of existing teeth. They ensure proper chewing ' +
@@ -85,7 +85,7 @@
        '</a>' +
        '</span></li>' +
        '</ul>' +
-       '<br /><p>Call or <a href="appointment.html">&nbsp;Book online.&nbsp; </a></p>' +
+       '<br /><p class="animated slideInLeft">Call or <a href="appointment.html">&nbsp;Book online.&nbsp; </a></p>' +
        '</div>' +
        '</section>' +
        '<section class="row">' +

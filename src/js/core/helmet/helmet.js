@@ -9,6 +9,9 @@ var helmet = '<meta charset="utf-8">' +
     '<!-- Style -->' +
     '<link href="css/bootstrap.min.css" rel="stylesheet">' +
     '<link href="css/fontawesome.css" rel="stylesheet">' +
+    '<link href="css/fontawesome.css" rel="stylesheet">' +
+    '<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/mdbootstrap/4.4.3/css/mdb.css" />' +
     '<link href="site.css" rel="stylesheet">';
 
 $('head').append(helmet);
+new WOW().init();

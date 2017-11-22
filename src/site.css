@@ -18,33 +18,29 @@ body {
 
 div.qoute-box {
     color: white;
-    font-size: 2em;
     text-align: center;
     text-shadow: 1px 1px 2px black;
-}
-
-.shadow-profile-inset {
-    -webkit-box-shadow: inset 1px 1px 100px 15px white;
-    box-shadow: inset 1px 1px 100px 15px white;
-}
-
-.shadow-profile-outset {
-    -webkit-box-shadow: 1px 1px 100px 15px white;
-    box-shadow: 1px 1px 100px 15px white;
 }
 
 #bs-example-navbar-collapse-1 {
     padding: 1% 2% 0 0;
 }
 
-a,
-.navbar {
-    background-color: #333;
-    color: white;
+a {
+    color: #b96c6c;
+}
+
+.panel-collapse {
+    padding: 5%;
+}
+
+div.qoute-box,
+.cd-faq-trigger {
+    font-size: 2em;
 }
 
 a:hover {
-    color: lawngreen;
+    color: red;
     border: 1px solid;
     border-color: red;
 }
@@ -59,7 +55,7 @@ a:hover {
     padding: 1%;
 }
 
-.bg-black {
+.bg-footer-grey {
     background-color: #333;
     color: white;
 }

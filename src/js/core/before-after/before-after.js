@@ -5,10 +5,10 @@ var contentPhotos = '<section class="container" id="content-photos">' +
     '</div>' +
     '</section>' +
     '<section class="row">' +
-    '<div class="col-lg-6">' +
+    '<div class="col-lg-6 animated flipInX">' +
     '<img class="img-responsive" src="images/placeholder.jpg" alt="Before After pic">' +
     '</div>' +
-    '<div class="col-lg-6">' +
+    '<div class="col-lg-6 animated flipInX">' +
     '<img class="img-responsive" src="images/placeholder.jpg" alt="Before After pic">' +
     '</div>' +
     '</section>' +

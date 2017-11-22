@@ -1,4 +1,4 @@
-var contentContact = '<section class="container" id="content-contact">' +
+var contentContact = '<section class="container animated fadeIn" id="content-contact">' +
     '<section class="row">' +
     '<div class="col-lg-6">' +
     '<h1 class="clinic-p">Our Clinic</h1>' +

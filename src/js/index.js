@@ -1,4 +1,4 @@
-   var contentIndex = '<section class="container center-block" id="main">' +
+   var contentIndex = '<section class="container animated fadeIn center-block" id="main">' +
        '<div class="row text-center">' +
        '<div class="col-12 text-center">' +
        '<img class="img-responsive" id="index-logo-main" src="images/logo.png" alt="logo.png">' +

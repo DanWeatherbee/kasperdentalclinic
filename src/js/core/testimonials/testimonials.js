@@ -5,17 +5,17 @@ var contentTestimonials = '<section class="container" id="content-testimonials">
     '</div>' +
     '</section>' +
     '<section class="row">' +
-    '<div class="col-lg-6">' +
-    '<img class="img-responsive" src="images/film.png"></img>' +
+    '<div class="col-lg-6 animated flipInX">' +
+    '<img class="img-responsive wow" src="images/film.png"></img>' +
     '</div>' +
-    '<div class="col-lg-6">' +
-    '<img class="img-responsive" src="images/film.png"></img>' +
+    '<div class="col-lg-6 animated flipInX">' +
+    '<img class="img-responsive wow" src="images/film.png"></img>' +
     '</div>' +
     '</section>' +
     '<section class="row">' +
     '<div class="col-lg-6">' +
-    '<i class="morph-delay fa fa-quote-left"></i>' +
-    '<p>' +
+    '<i class="fa fa-quote-left"></i>' +
+    '<p class="animated slideInLeft">' +
     'Oley and Jason made it so very easy to get my new dentures.' +
     ' They are professional, courteous and I came away having enjoyed the experience.' +
     ' I was a part of the process and felt they met my wants and needs to' +
@@ -29,8 +29,8 @@ var contentTestimonials = '<section class="container" id="content-testimonials">
     '<div class="card-title-testimonials">D.W.</div>' +
     '</div>' +
     '<div class="col-lg-6">' +
-    '<i class="morph-delay fa fa-quote-left"></i>' +
-    '<p class="morph-delay fa-p animated tada">' +
+    '<i class="fa fa-quote-left"></i>' +
+    '<p class="animated slideInLeft">' +
     'Orci varius natoque penatibus et magnis dis parturient montes,' +
     ' nascetur ridiculus mus. Nullam efficitur fringilla tincidunt.' +
     ' Vestibulum sit amet pharetra dui, ullamcorper imperdiet risus.' +
@@ -38,8 +38,8 @@ var contentTestimonials = '<section class="container" id="content-testimonials">
     ' Interdum et malesuada fames ac ante ipsum primis in faucibus.' +
     ' Vestibulum commodo a.' +
     '</p>' +
-    '<i class="morph-delay fa fa-quote-right"></i></div>' +
-    '<div class="morph-delay card-title-testimonials">Lorem Ipsum</div>' +
+    '<i class="fa fa-quote-right"></i></div>' +
+    '<div class="card-title-testimonials">Lorem Ipsum</div>' +
     '</div>' +
     '</section>' +
     '</section>';
