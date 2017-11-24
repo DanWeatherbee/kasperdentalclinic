@@ -1,5 +1,17 @@
-body {
-    background-color: ghostwhite;
+#root {
+    background-color: black;
+    background: #fff url('images/bg.png') no-repeat center center;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    background-attachment: fixed;
+    position: relative;
+}
+
+#img-kasper-logo {
+    height: 30%;
+    width: 30%;
 }
 
 #parallax {
@@ -13,13 +25,26 @@ body {
     z-index: 3;
     padding: 20% 0 25% 0;
     height: 100%;
+}
 
+.white-shadow {
+    -webkit-box-shadow: 41px 22px 300px -12px rgba(252, 249, 252, 1);
+    -moz-box-shadow: 41px 22px 300px -12px rgba(252, 249, 252, 1);
+    box-shadow: 41px 22px 300px -12px rgba(252, 249, 252, 1);
 }
 
 div.qoute-box {
     color: white;
     text-align: center;
     text-shadow: 1px 1px 2px black;
+}
+
+.caps {
+    text-transform: uppercase;
+}
+
+.thick-text {
+    font-weight: 900;
 }
 
 #bs-example-navbar-collapse-1 {
@@ -47,12 +72,6 @@ a:hover {
 
 .container {
     padding-top: 10%;
-}
-
-.fb-like {
-    background-color: #808080;
-    width: 100%;
-    padding: 1%;
 }
 
 .bg-footer-grey {

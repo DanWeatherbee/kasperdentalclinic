@@ -1,12 +1,10 @@
-var contentJason = '<section class="container" id="jason">' +
+var contentJason = '<section class="container animated fadeIn" id="jason">' +
     '<section class="row text-center">' +
-    '<div class="col-lg-12">' +
-    '<h1>Jason Kasper - Registered Dental Technican</h1>' +
-    '<img src="images/placeholder.jpg" class="imgcenter" alt="Jason Kasper - Registered Dental Technican">' +
+    '<div class="col-lg-4">' +
+    '<img src="images/jason-pic-team.png" alt="Jason Kasper - Registered Dental Technican">' +
     '</div>' +
-    '</section>' +
-    '<section class="row">' +
-    '<div class="col-lg-12">' +
+    '<div class="col-lg-8">' +
+    '<h1>Jason Kasper - Registered Dental Technican</h1>' +
     '<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.' +
     'Nulla et libero tortor. Proin nibh ligula, venenatis vel nisl in,' +
     ' pellentesque sollicitudin purus. Integer viverra aliquet euismod.' +

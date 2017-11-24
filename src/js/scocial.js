@@ -1,3 +1,5 @@
 var contentScocial = '<!-- scocial-container-->' +
-'<div class="fb-like container-fluid text-center" data-href="http://kasperdentureclinic.ca/" data-layout="button" data-action="like" data-size="large" data-show-faces="false" data-share="true"></div>';
-$('body').append(contentScocial);
+
+    '<div class="socializer text-center" data-features="32px,circle,bdr-md,bg-none,pad" data-sites="facebook,googleplus,email,instagram,linkedin" data-meta-link="" data-meta-title=""></div>';
+
+// $('.navbar-header').append(contentScocial);

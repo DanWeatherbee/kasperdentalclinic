@@ -1,4 +1,4 @@
-var contentPhotos = '<section class="container" id="content-photos">' +
+var contentPhotos = '<section class="container animated fadeIn" id="content-photos">' +
     '<section class="row text-center">' +
     '<div class="col-lg-12">' +
     '<h1>Before &amp; After Photos</h1>' +

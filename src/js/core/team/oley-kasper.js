@@ -1,4 +1,4 @@
-var contentOley = '<section class="container" id="oley">' +
+var contentOley = '<section class="container animated fadeIn" id="oley">' +
     '<section class="row text-center">' +
     '<div class="col-lg-12">' +
     '<h1>Oley Kasper - Registered Dental Technican</h1>' +

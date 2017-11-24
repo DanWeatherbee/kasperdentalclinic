@@ -11,7 +11,7 @@
        '<div class="bg-footer-grey col-sm-2">' +
        '<a href="#root" id="scroll-up-foter"><i class="fa fa-arrow-up fa-6"> Top</i></a>' +
        '<div class="text-center">' +
-       '<img class="img-responsive" src="images/logo.png" alt="company logo">' +
+       '<img style="height:100px;width:100px;" class="img-responsive center-block" src="images/small/kasper-logo.png" alt="company logo">' +
        '</div>' +
        '</div>' +
        '<div class="bg-footer-grey col-sm-5">' +

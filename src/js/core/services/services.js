@@ -128,7 +128,7 @@ var contentPart3 =
     '<section class="container">' +
     '<div class="row">' +
     '<div class="col-lg-12">' +
-    '<h1 style="color:white">FAQ</h1>' +
+    '<h1>FAQ</h1>' +
     '<li style="display:block">' +
     '<div data-parent="#accordion" data-toggle="collapse" style="padding-top:20px;padding-bottom:0px" href="#faq1">' +
     '<div class="faq-title">' +

@@ -1,4 +1,4 @@
-var contentNews = '<section class="container" id="content-news">' +
+var contentNews = '<section class="container animated fadeIn" id="content-news">' +
     '<section class="row text-center">' +
     '<div class="col-lg-12">' +
     '<h1>News</h1>' +
