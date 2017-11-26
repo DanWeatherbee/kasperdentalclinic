@@ -27,4 +27,4 @@ var helmet = '<meta charset="utf-8">' +
     '<link href="css/fontawesome.css" rel="stylesheet">' +
     '<link href="site.css" rel="stylesheet">';
 
-$('head').append(helmet);
+$('head').prepend(helmet);

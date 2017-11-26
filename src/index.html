@@ -1,9 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
 
-<head></head>
-
-<body id="root">
+<head>
     <style>
     #main {
         padding-top: 10%;
@@ -15,7 +13,25 @@
         width: 30%;
     }
 
+    .fb_iframe_widget {
+        display: inline;
+    }
     </style>
+</head>
+
+<body id="root">
+    <!-- Load Facebook SDK for JavaScript -->
+    <div id="fb-root"></div>
+    <script>
+    (function(d, s, id) {
+        var js, fjs = d.getElementsByTagName(s)[0];
+        if (d.getElementById(id)) return;
+        js = d.createElement(s);
+        js.id = id;
+        js.src = 'https://connect.facebook.net/en_GB/sdk.js#xfbml=1&version=v2.11';
+        fjs.parentNode.insertBefore(js, fjs);
+    }(document, 'script', 'facebook-jssdk'));
+    </script>
     <script defer src='js/core/lib/jquery-2.2.3.min.js'></script>
     <script defer src='js/core/scripts.js'></script>
     <script defer src='js/index.js'></script>

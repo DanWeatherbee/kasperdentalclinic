@@ -5,8 +5,7 @@ var scriptArray = [
     "js/core/lib/mdb.min.js",
     "js/core/lib/popper.min.js",
     "js/core/helmet/helmet.js",
-    "js/core/navbar/nav.js",
-    "js/scocial.js"
+    "js/core/navbar/nav.js"
 ];
 
 var appendScripts = function(src) {

@@ -11,9 +11,15 @@
        ' and well-being are our highest priority.<br />' +
        '<div class="container-fluid text-center" id="icon-container">' +
        '<div class="col-lg-12 scocial-icon">' +
-       '<i class="fa fa-twitter-square" aria-hidden="true"></i>&nbsp;&nbsp;' +
-       '<i class="fa fa-google-plus-square" aria-hidden="true"></i>&nbsp;&nbsp;' +
-       '<i class="fa fa-facebook-square" aria-hidden="true"></i>' +
+       '<!-- scocial-container-->' +
+       '<script src="https://apis.google.com/js/platform.js" async defer></script>' +
+       '<div class="g-plus" data-action="share"></div>' +
+       '<a href="https://twitter.com/share?ref_src=twsrc%5Etfw" class="twitter-share-button" data-show-count="false">Tweet</a>' +
+       '<script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>' +
+       '<br />' +
+       '<div class="fb-share-button" data-href="http://kasperdentureclinic.ca/" data-layout="button" data-size="small" data-mobile-iframe="false">' +
+       '<a class="fb-xfbml-parse-ignore" target="_blank" ' +
+       'href="https://www.facebook.com/sharer/sharer.php?u=http%3A%2F%2Fkasperdentureclinic.ca%2F&amp;src=sdkpreparse">Share</a></div>' +
        '</div>' +
        '</div>' +
        '<br /><a style="background-color:white;color:inherit;border-radius:100%;border-color:black;" ' +
