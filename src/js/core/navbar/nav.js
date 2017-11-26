@@ -1,4 +1,4 @@
-   var contentNav = '<nav class="navbar navbar-inverse bg-footer-grey" id="topnav1" role="navigation">' +
+   var contentNav = '<nav class="navbar navbar-fixed-top" id="topnav1" role="navigation">' +
        '<div class="navbar-header">' +
        '<button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">' +
        '<span class="sr-only">Toggle navigation</span>' +
@@ -6,9 +6,7 @@
        '<span class="icon-bar"></span>' +
        '<span class="icon-bar"></span>' +
        '</button>' +
-       '<img class="img-responsive white-shadow" id="img-kasper-logo"' +
-       'src="images/small/kasper-logo.png" alt="logo.png">' +
-       '<a href="index.html">Kasper Denture Clinic LTD</a>' +
+       '<a class="navbar-brand" href="index.html"><em>Kasper Denture Clinic LTD</em></a>' +
        '</div>' +
        '<div class="collapse navbar-collapse navbar-right" id="bs-example-navbar-collapse-1">' +
        '<ul class="nav navbar-nav">' +

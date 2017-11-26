@@ -11,13 +11,11 @@
       '</div>' +
       '</section>' +
       '<section class="row">' +
-      '<div class="col-lg-6 card-body animated flipInX">' +
-      '<img class="card-img-top img-thumbnail" src="" alt="oley-pic-team.png">' +
-      '<a href="oley-kasper.html" class="btn-lg btn-success">Oley Kasper</a>' +
+      '<div class="col-lg-6 gradient team-img-container">' +
+      '<a href="oley-kasper.html"><img class="center-block" src="images/oley-pic-team.png" alt="oley-pic-team.png"></a>' +
       '</div>' +
-      '<div class="col-lg-6 card-body animated flipInX">' +
-      '<img class="card-img-top img-thumbnail" src="images/jason-pic-team.png" alt="jason-pic-team.png">' +
-      '<a href="jason-kasper.html" class="btn-lg btn-success">Jason Kasper</a>' +
+      '<div class="col-lg-6 gradient team-img-container shadow">' +
+      '<a href="jason-kasper.html"><img class="center-block" src="images/jason-pic-team.png" alt="jason-pic-team.png"></a>' +
       '</div>' +
       '</section>' +
       '</section>' +

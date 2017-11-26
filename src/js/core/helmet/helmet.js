@@ -25,7 +25,6 @@ var helmet = '<meta charset="utf-8">' +
     '<link href="css/bootstrap.min.css" rel="stylesheet">' +
     '<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/mdbootstrap/4.4.3/css/mdb.css" />' +
     '<link href="css/fontawesome.css" rel="stylesheet">' +
-    '<link rel="stylesheet" type="text/css" href="https://cdn.rawgit.com/vaakash/socializer/a4c672bf/css/socializer.min.css">' +
     '<link href="site.css" rel="stylesheet">';
 
 $('head').append(helmet);

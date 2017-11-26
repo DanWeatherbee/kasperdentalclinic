@@ -144,7 +144,7 @@ var contentPart3 =
     '<p class="animated slideInLeft">Aesthetics &ndash; the presence of teeth provide a natural facial appearance; and wearing a denture' +
     ' to replace missing teeth provides support for the lips and cheeks, preventing the &ldquo;collapsed&rdquo; ' +
     'appearance that can often occur after losing teeth.' +
-    '<br /> Speech &ndash; by replacing missing teeth ? especially the front teeth ? patients are better able ' +
+    '<br /> Speech &ndash; by replacing missing teeth? especially the front teeth? patients are better able ' +
     'to pronounce those words containing sibilants or fricatives (sounds that require teeth, i.e. &lsquo;fifty&rsquo;,' +
     ' &lsquo;stilts&rsquo;, or &lsquo;tent&rsquo;)' +
     '<br /> Self-Esteem &ndash; Patients feel better about themselves when their teeth look great. &nbsp;' +
