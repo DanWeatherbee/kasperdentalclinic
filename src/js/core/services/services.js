@@ -202,7 +202,7 @@ var contentPart3 =
     '<div class="faq-title">' +
     '<a class="cd-faq-trigger" style="text-decoration:none;cursor:pointer">' +
     '<i class="fa fa-angle-double-down"></i>' +
-    'I have a denture I donÃ¢â‚¬â„¢t like.  What can I do?' +
+    "I have a denture I don't like.  What can I do?" +
     '</a>' +
     '</div>' +
     '</div>' +
@@ -223,16 +223,29 @@ var contentPart3 =
 
 var contentPart4 = '<section class="container">' +
     '<div class="row">' +
-    '<div class="col-lg-12">' +
-    '<h2 style="text-align:center;">Smile and Stay</h2>' +
+
+
+
+     '<div class="col-lg-4">' +
+
+    '</div>' +
+
+
+     '<div class="col-lg-4">' +
+      '<h2 style="text-align:center;">Smile and Stay</h2>' +
     '<p style="text-align:center">' +
     '<big>' +
     'If you are coming from out of town to visit Kasper Denture Clinic, we have provided a ' +
-    '<a href="dans_map/index.html">Map</a> for Points of Interest, Restaurants and Cool Places.' +
+    '<a id="dans-map" href="dans_map/index.html">Map</a> for Points of Interest, Restaurants and Cool Places.' +
     '</big>' +
     '</p>' +
     '</div>' +
+
+
+     '<div class="col-lg-4">' +
+
     '</div>' +
+
     '</section>';
 
 $('body').append(
