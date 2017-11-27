@@ -45,7 +45,7 @@ var contentPart2 = '<section class="container">' +
     '</h3>' +
     '<p class="animated slideInLeft">' +
     'Call today or ' +
-    '<a href="appointment.html">book online</a>' +
+    '<a class="book-online-border" href="appointment.html">book online</a>' +
     ' to make an appointment for a consultation.' +
     ' During your visit, we&rsquo;ll discuss our approach to dentures, ' +
     'and share with you the methods available to greatly increase your satisfaction with them.' +

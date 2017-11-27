@@ -10,7 +10,7 @@ var contentContact = '<section class="container animated fadeIn" id="content-con
     ' You will feel at home here!' +
     '</p>' +
     '<p class="clinic-p">' +
-    '<a href="appointment.html"><big>&nbsp;Book an appointment&nbsp;</big></a>' +
+    '<a class="book-online-border" href="appointment.html"><big>&nbsp;Book an appointment&nbsp;</big></a>' +
     '</p>' +
     '</div>' +
     '<div class="col-lg-6">' +

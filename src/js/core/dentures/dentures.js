@@ -15,7 +15,7 @@
        'that the "end-user", the patient, observes a remarkable improvement in both fit and function. ' +
        'This satisfaction means less stress for both the practitioner and the' +
        ' patient and reduces the adjustment period for the patient to the new denture.' +
-       ' <br />Call or <a class="animated slideInLeft" href="appointment.html">' +
+       ' <br />Call or <a class="book-online-border animated slideInLeft" href="appointment.html">' +
        '&nbsp;Book online.&nbsp; </a></p>' +
        '</div>' +
        '</section>' +
@@ -34,7 +34,8 @@
        'In studies, dental implants are shown to preserve bone and reduce tissue loss.' +
        ' Eating, speech and laughter can now be performed with confidence. Patients feel better ' +
        'and gain a newfound way of life. The rate of success of implants is over 90%. ' +
-       'The procedure is less invasive than having a natural tooth pulled. <br />Call or <a class="animated slideInLeft" href="appointment.html">' +
+       'The procedure is less invasive than having a natural tooth pulled. <br />Call or ' +
+       '<a class="book-online-border animated slideInLeft" href="appointment.html">' +
        '&nbsp;Book online.&nbsp; </a></p>' +
        '</div>' +
        '</section>' +
@@ -54,7 +55,8 @@
        ' help to preserve the natural tooth placement of existing teeth. They ensure proper chewing ' +
        'and digestion by thoroughly cutting and grinding your food. A properly' +
        ' designed partial denture will assist in the support of existing teeth. A removable partial denture' +
-       ' will improve your way of life. <br />Call or <a href="appointment.html">&nbsp;Book online.&nbsp; </a></p>' +
+       ' will improve your way of life. <br />Call or <a class="book-online-border" ' +
+       'href="appointment.html">&nbsp;Book online.&nbsp; </a></p>' +
        '</div>' +
        '</section>' +
        '<section class="row">' +

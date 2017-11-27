@@ -18,7 +18,7 @@ var contentNews = '<section class="container animated fadeIn" id="content-news">
     ' A father and son business,' +
     ' we have a combined fifty years of experience that will give you your great smile back!' +
     ' Call <b>250-542-7423</b> or' +
-    '<br /><a href="appointment.html">&nbsp;book online.&nbsp;</a>' +
+    '<br /><a class="book-online-border" href="appointment.html">&nbsp;book online.&nbsp;</a>' +
     '</p>' +
     '</div>' +
     '</section>' +
@@ -37,7 +37,7 @@ var contentNews = '<section class="container animated fadeIn" id="content-news">
     ' We are here for you with great customer service to get you in and' +
     ' out with the utmost comfort and ease.' +
     ' Call <b>250-542-7423</b> or' +
-    '<br /><a href="appointment.html">&nbsp;book online.&nbsp;</a>' +
+    '<br /><a class="book-online-border" href="appointment.html">&nbsp;book online.&nbsp;</a>' +
     '</p>' +
     '</div>' +
     '</section>' +
@@ -55,7 +55,7 @@ var contentNews = '<section class="container animated fadeIn" id="content-news">
     ' and know they will be treated like family.' +
     ' You get what you pay for,  top quality work and a friendly attitude.' +
     ' Call <b>250-542-7423</b> or' +
-    '<br /><a href="appointment.html">&nbsp;book online.&nbsp;</a>' +
+    '<br /><a class="book-online-border" href="appointment.html">&nbsp;book online.&nbsp;</a>' +
     '</p>' +
     '</div>' +
     '</section>' +

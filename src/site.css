@@ -17,6 +17,19 @@ div.qoute-box {
     text-shadow: 1px 1px 2px black;
 }
 
+video {
+  width: 50% !important;
+  height: 300px !important;
+}
+
+.team-img-container:hover {
+    border: 1px solid;
+    border-color: red;
+    -webkit-box-shadow: 2px 11px 5px -5px rgba(212, 212, 212, 0.98);
+    -moz-box-shadow: 2px 11px 5px -5px rgba(212, 212, 212, 0.98);
+    box-shadow: 2px 11px 5px -5px rgba(212, 212, 212, 0.98);
+}
+
 .navbar-brand {
     background-color: white;
 }
@@ -31,21 +44,6 @@ div.qoute-box {
 
 .thick-text {
     font-weight: 900;
-}
-
-.gradient {
-    color: white;
-    /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#4c4c4c+0,595959+12,666666+25,474747+39,2c2c2c+50,000000+51,111111+60,2b2b2b+76,1c1c1c+91,131313+100;Black+Gloss+%231 */
-    background: rgb(76, 76, 76);
-    /* Old browsers */
-    background: -moz-linear-gradient(top, rgba(76, 76, 76, 1) 0%, rgba(89, 89, 89, 1) 12%, rgba(102, 102, 102, 1) 25%, rgba(71, 71, 71, 1) 39%, rgba(44, 44, 44, 1) 50%, rgba(0, 0, 0, 1) 51%, rgba(17, 17, 17, 1) 60%, rgba(43, 43, 43, 1) 76%, rgba(28, 28, 28, 1) 91%, rgba(19, 19, 19, 1) 100%);
-    /* FF3.6-15 */
-    background: -webkit-linear-gradient(top, rgba(76, 76, 76, 1) 0%, rgba(89, 89, 89, 1) 12%, rgba(102, 102, 102, 1) 25%, rgba(71, 71, 71, 1) 39%, rgba(44, 44, 44, 1) 50%, rgba(0, 0, 0, 1) 51%, rgba(17, 17, 17, 1) 60%, rgba(43, 43, 43, 1) 76%, rgba(28, 28, 28, 1) 91%, rgba(19, 19, 19, 1) 100%);
-    /* Chrome10-25,Safari5.1-6 */
-    background: linear-gradient(to bottom, rgba(76, 76, 76, 1) 0%, rgba(89, 89, 89, 1) 12%, rgba(102, 102, 102, 1) 25%, rgba(71, 71, 71, 1) 39%, rgba(44, 44, 44, 1) 50%, rgba(0, 0, 0, 1) 51%, rgba(17, 17, 17, 1) 60%, rgba(43, 43, 43, 1) 76%, rgba(28, 28, 28, 1) 91%, rgba(19, 19, 19, 1) 100%);
-    /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
-    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#4c4c4c', endColorstr='#131313', GradientType=0);
-    /* IE6-9 */
 }
 
 #bs-example-navbar-collapse-1 {
@@ -63,6 +61,7 @@ div.qoute-box,
 
 .team-img-container {
     border-radius: 100%;
+    max-width: 400px;
 }
 
 #icon-container {
@@ -102,9 +101,25 @@ section {
     padding-bottom: 1%;
 }
 
+
 #dans-map {
     border-radius: 100%;
     border: 1px dotted;
     border-color: black;
     padding: 1%;
+}
+
+.book-online-border {
+    border: 1px dotted;
+    border-color: black;
+}
+
+.team-img {
+    max-height: 300px;
+    max-width: 300px;
+}
+.bf-pics {
+    max-width: 300px;
+    max-height: 300px;
+    background-color: #333;
 }

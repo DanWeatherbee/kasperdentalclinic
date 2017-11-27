@@ -22,13 +22,14 @@
        '</a>' +
        '</span></li>' +
        '</ul>' +
-       '<br /><p class="animated slideInLeft">Call or <a href="appointment.html">&nbsp;Book online.&nbsp; </a></p>' +
+       '<br /><p class="animated slideInLeft">Call or <a class="book-online-border" href="appointment.html">&nbsp;Book online.&nbsp; </a></p>' +
        '</div>' +
        '</section>' +
        '<section class="row">' +
        '<div class="col text-center">' +
-       '<iframe width="100%" height="350" src="https://www.youtube.com/embed/ZGMYe28Dkkw" ' +
-       'style="frameborder:0;" allowfullscreen></iframe>' +
+       '<video controls="controls controlsList="nodownload" width="500" height="350" name="Suction Dentures 1" src="videos/suction1.mov"></video>' +
+       '<br />' +
+       '<video controls="controls controlsList="nodownload" width="500" height="350" name="Suction Dentures 2" src="videos/suction2.mov"></video>' +
        '</div>' +
        '</section>' +
        '</section>';

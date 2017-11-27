@@ -5,17 +5,24 @@
       '<p class="header-text">Thank you for choosing our office for your denture needs.' +
       ' We appreciate the confidence you place in our practice and will do our best to provide you with personalized ' +
       'care, products and service. We are here to make living with ' +
-      'dentures as stress free as possible. At Kasper Denture Clinic we believe that it is essential to keep up to date with ' +
+      'dentures as stress free as possible. ' +
+      'At Kasper Denture Clinic we believe that it is essential to keep up to date with ' +
       'current advances in our field. Our team consists of friendly, educated ' +
       'and knowledgeable professionals who love what they do.' +
       '</div>' +
       '</section>' +
-      '<section class="row">' +
-      '<div class="col-lg-6 gradient team-img-container">' +
-      '<a href="oley-kasper.html"><img class="center-block" src="images/oley-pic-team.png" alt="oley-pic-team.png"></a>' +
+      '<section class="row text-center">' +
+      '<div class="col-lg-2">' +
       '</div>' +
-      '<div class="col-lg-6 gradient team-img-container shadow">' +
-      '<a href="jason-kasper.html"><img class="center-block" src="images/jason-pic-team.png" alt="jason-pic-team.png"></a>' +
+      '<div class="col-lg-4 team-img-container">' +
+      '<a href="oley-kasper.html">' +
+      '<img class="img-responsive team-img center-block" src="images/oley-pic-team.png" alt="oley-pic-team.png"></a>' +
+      '</div>' +
+      '<div class="col-lg-4 team-img-container">' +
+      '<a href="jason-kasper.html">' +
+      '<img class="img-responsive team-img center-block" src="images/jason-pic-team.png" alt="jason-pic-team.png"></a>' +
+      '</div>' +
+      '<div class="col-lg-2">' +
       '</div>' +
       '</section>' +
       '</section>' +
