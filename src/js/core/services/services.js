@@ -1,20 +1,22 @@
-var contentMain = '<section class="container text-center animated fadeIn">' +
-    '<div class="row ">' +
-    '<div class=col-sm-12>' +
+var contentMain = '<section class="container animated fadeIn" id="content-main-part-1">' +
+    '<div class="row">' +
+    '<div class="col-xs-0 col-sm-1 col-md-2">' +
+    '</div>' +
+    '<div class="col-xs-12 col-sm-10 col-md-8">' +
     '<h1>Services</h1>' +
     '<big>At Kasper Denture Clinic we provide comprehensive denture care</big><br />' +
     '<big> services amidst a comfortable, pleasant environment. </big><br />' +
     '<big>Our on-site denture lab provides you with fast, high quality service!</big>' +
     '<p class="animated slideInLeft">&nbsp;</p>' +
     '<h3>Our Denture Services</h3>' +
-    '<ul style="padding-bottom:10%;">' +
+    '<ul>' +
     '<li><span style="line-height1: 1.6em;">Consultation / Exam</span></li>' +
     '<li><span style="line-height1: 1.6em;">Suction Dentures</span></li>' +
     '<li>Complete Dentures (Full Dentures)</li>' +
     '<li>Immediate Dentures after Extractions</li>' +
     '<li>Partial Dentures (flexible, metal, and acrylic bases)</li>' +
     '<li>Implant Over-dentures</li>' +
-    '<li>Denture Relines / Re-bases &ndash; same day service</li>' +
+    '<li>Denture Relines / Re-bases / Same day repair</li>' +
     '<li>Denture Repairs</li>' +
     '<li>Soft Liners</li>' +
     '<li>Name Insertions</li>' +
@@ -24,6 +26,8 @@ var contentMain = '<section class="container text-center animated fadeIn">' +
     '</ul>' +
     '<a style="padding:3%;background-color:white;color:inherit;border-radius:100%;border-color:black;" ' +
     'href="#parallax" id="scroll-down-index"><i class="fa fa-arrow-down fa-6"></i></a>' +
+    '</div>' +
+    '<div class="col-xs-0 col-sm-1 col-md-2">' +
     '</div>' +
     '</div>' +
     '</section>';
@@ -36,10 +40,11 @@ var parallax = '<div class="container-fluid text-center" id="parallax">' +
     '</i>' +
     '</div>' +
     '</div>';
-
 var contentPart2 = '<section class="container">' +
     '<div class="row">' +
-    '<div class="col-sm-12">' +
+    '<div class="col-xs-1 col-sm-2 col-md-2 col-lg-2">' +
+    '</div>' +
+    '<div class="col-xs-10 col-sm-8 col-md-8 col-lg-8">' +
     '<h3>' +
     'Consultation / Exam' +
     '</h3>' +
@@ -121,13 +126,17 @@ var contentPart2 = '<section class="container">' +
     ' make necessary arrangements to get you smiling as fast as possible again.' +
     '</p>' +
     '</div>' +
+    '<div class="col-xs-1 col-sm-2 col-md-2 col-lg-2">' +
+    '</div>' +
     '</div>' +
     '</section>';
 
 var contentPart3 =
     '<section class="container">' +
     '<div class="row">' +
-    '<div class="col-lg-12">' +
+    '<div class="col-xs-1 col-sm-2 col-md-2 col-lg-2">' +
+    '</div>' +
+    '<div class="col-xs-10 col-sm-8 col-md-8 col-lg-8">' +
     '<h1>FAQ</h1>' +
     '<li style="display:block">' +
     '<div data-parent="#accordion" data-toggle="collapse" style="padding-top:20px;padding-bottom:0px" href="#faq1">' +
@@ -141,15 +150,20 @@ var contentPart3 =
     '<div id="faq1" class="panel-collapse collapse">' +
     '<p class="animated slideInLeft">Chewing ability &ndash; this is drastically improved by replacing toothless areas with denture teeth.' +
     ' The ability to chew well contributes to overall health and nutrition, as well as improved food enjoyment.</p>' +
-    '<p class="animated slideInLeft">Aesthetics &ndash; the presence of teeth provide a natural facial appearance; and wearing a denture' +
+    '<p class="animated slideInLeft">Aesthetics &ndash; the presence of teeth provide a natural facial appearance.' +
+    ' Wearing a denture' +
     ' to replace missing teeth provides support for the lips and cheeks, preventing the &ldquo;collapsed&rdquo; ' +
     'appearance that can often occur after losing teeth.' +
-    '<br /> Speech &ndash; by replacing missing teeth? especially the front teeth? patients are better able ' +
+
+    '</p>' +
+    '<p>' +
+    'Speech &ndash; replacing missing, teeth especially the front teeth, patients are better able ' +
     'to pronounce those words containing sibilants or fricatives (sounds that require teeth, i.e. &lsquo;fifty&rsquo;,' +
-    ' &lsquo;stilts&rsquo;, or &lsquo;tent&rsquo;)' +
-    '<br /> Self-Esteem &ndash; Patients feel better about themselves when their teeth look great. &nbsp;' +
+    ' &lsquo;stilts&rsquo;, or &lsquo;tent&rsquo;).' +
+    '</p>' +
+    '<p>' +
+    ' Self-Esteem &ndash; patients feel better about themselves when their teeth look great. &nbsp;' +
     ' A full, beautiful smile can give back the confidence a person may have lost when they lost their teeth.' +
-    '<br /> &nbsp;' +
     '</p>' +
     '</div>' +
     '</li>' +
@@ -185,7 +199,7 @@ var contentPart3 =
     '<div class="faq-title">' +
     '<a class="cd-faq-trigger" style="text-decoration:none;cursor:pointer">' +
     '<i class="fa fa-angle-double-down"></i>' +
-    'What types of dentures does Kasper offer?' +
+    "What types of denture's does Kasper Denture Clinic offer?" +
     '</a>' +
     '</div>' +
     '</div>' +
@@ -218,21 +232,17 @@ var contentPart3 =
     '</div>' +
     '</li>' +
     '</div>' +
+    '<div class="col-xs-1 col-sm-2 col-md-2 col-lg-2">' +
+    '</div>' +
     '</div>' +
     '</section>';
 
-var contentPart4 = '<section class="container">' +
+var contentPart4 = '<section class="container" id="content-main-part-4">' +
     '<div class="row">' +
-
-
-
-     '<div class="col-lg-4">' +
-
+    '<div class="col-xs-2 col-sm-4">' +
     '</div>' +
-
-
-     '<div class="col-lg-4">' +
-      '<h2 style="text-align:center;">Smile and Stay</h2>' +
+    '<div class="col-xs-8 col-sm-4">' +
+    '<h2 style="text-align:center;">Smile and Stay</h2>' +
     '<p style="text-align:center">' +
     '<big>' +
     'If you are coming from out of town to visit Kasper Denture Clinic, we have provided a ' +
@@ -240,12 +250,8 @@ var contentPart4 = '<section class="container">' +
     '</big>' +
     '</p>' +
     '</div>' +
-
-
-     '<div class="col-lg-4">' +
-
+    '<div class="col-xs-2 col-sm-4">' +
     '</div>' +
-
     '</section>';
 
 $('body').append(

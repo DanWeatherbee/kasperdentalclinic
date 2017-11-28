@@ -1,12 +1,13 @@
-   var contentNav = '<nav class="navbar navbar-fixed-top" id="topnav1" role="navigation">' +
+   var contentNav = '<nav class="navbar navbar-fixed-top caps" id="topnav1" role="navigation">' +
        '<div class="navbar-header">' +
        '<button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">' +
        '<span class="sr-only">Toggle navigation</span>' +
        '<span><i class="fa fa-arrow-down fa-6 icon-bar"></i></span>' +
-
-
        '</button>' +
-       '<a class="navbar-brand" href="index.html"><em>Kasper Denture Clinic LTD</em></a>' +
+       '<a class="navbar-brand text-center" href="index.html"> ' +
+       '<div style="font-size:24px;line-height:26px;color:#666">Kasper</div> ' +
+       '<div style="font-size:12px;line-height:13px">DENTURE CLINIC LTD</div>' +
+       '</a>' +
        '</div>' +
        '<div class="collapse navbar-collapse navbar-right" id="bs-example-navbar-collapse-1">' +
        '<ul class="nav navbar-nav">' +
@@ -31,6 +32,5 @@
        '</ul>' +
        '</div>' +
        '</nav>';
-
 
    $('body').append(contentNav);

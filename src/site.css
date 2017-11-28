@@ -7,7 +7,7 @@
     background-attachment: fixed;
     position: relative;
     z-index: 3;
-    padding: 20% 0 25% 0;
+    padding: 10% 0 10% 0;
     height: 100%;
 }
 
@@ -18,13 +18,15 @@ div.qoute-box {
 }
 
 video {
-  width: 50% !important;
-  height: 300px !important;
+    width: 50% !important;
+    height: 300px !important;
+}
+
+.team-img-container > a {
+    border: 1px dotted;
 }
 
 .team-img-container:hover {
-    border: 1px solid;
-    border-color: red;
     -webkit-box-shadow: 2px 11px 5px -5px rgba(212, 212, 212, 0.98);
     -moz-box-shadow: 2px 11px 5px -5px rgba(212, 212, 212, 0.98);
     box-shadow: 2px 11px 5px -5px rgba(212, 212, 212, 0.98);
@@ -40,6 +42,7 @@ video {
 
 .caps {
     text-transform: uppercase;
+    font-weight: 900;
 }
 
 .thick-text {
@@ -54,18 +57,13 @@ video {
     padding: 5%;
 }
 
-div.qoute-box,
-.cd-faq-trigger {
-    font-size: 2em;
+div.qoute-box {
+    font-size: 1.5em;
 }
 
 .team-img-container {
     border-radius: 100%;
     max-width: 400px;
-}
-
-#icon-container {
-    font-size: 2em;
 }
 
 a:hover {
@@ -85,22 +83,10 @@ a {
     color: black;
 }
 
-
-.container {
-    padding-top: 10%;
-}
-
-
 .footer {
     padding-top: 3%;
-    padding-bottom: 8%;
+    padding-bottom: 20%;
 }
-
-section {
-    padding-top: 1%;
-    padding-bottom: 1%;
-}
-
 
 #dans-map {
     border-radius: 100%;
@@ -118,8 +104,38 @@ section {
     max-height: 300px;
     max-width: 300px;
 }
+
 .bf-pics {
     max-width: 300px;
     max-height: 300px;
     background-color: #333;
 }
+
+@media only screen and (max-width: 500px) {
+    #root {
+        margin-top: 20%;
+    }
+
+    .cd-faq-trigger {
+        font-size: 1em;
+    }
+    div.qoute-box {
+    font-size: 1em;
+}
+
+}
+@media only screen and (min-width: 501px) {
+    #root {
+        margin-top: 4%;
+
+    }
+
+    .cd-faq-trigger {
+        font-size: 1.5em;
+    }
+
+    div.qoute-box {
+    font-size: 2em;
+}
+}
+

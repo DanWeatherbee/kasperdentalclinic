@@ -1,9 +1,9 @@
 var contentJason = '<section class="container animated fadeIn" id="jason">' +
-    '<section class="row text-center">' +
-    '<div class="col-lg-4 team-img-container shadow">' +
-    '<img  class="img-responsive center-block team-img" src="images/jason-pic-team.png" alt="jason-pic-team.png">' +
+    '<div class="row text-center">' +
+    '<div class="col-xs-1 col-sm-4 col-md-3 col-lg-2">' +
     '</div>' +
-    '<div class="col-lg-8">' +
+    '<div class="col-xs-10 col-sm-6 col-md-6 col-lg-8">' +
+    '<img  class="img-responsive center-block team-img" src="images/jason-pic-team.png" alt="jason-pic-team.png">' +
     '<h1>Jason Kasper - RD.DD</h1>' +
     '<p>' +
     'Lorem ipsum dolor sit amet, consectetur adipiscing elit.' +
@@ -19,7 +19,9 @@ var contentJason = '<section class="container animated fadeIn" id="jason">' +
     ' Sed pellentesque sem.' +
     '</p>' +
     '</div>' +
-    '</section>' +
+    '<div class="col-xs-1 col-sm-4 col-md-3 col-lg-2">' +
+    '</div>' +
+    '</div>' +
     '</section>';
 
 $('body').append(contentJason);
