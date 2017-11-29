@@ -29,8 +29,9 @@
        '<div class="col-xs-2 col-sm-3 col-md-2 col-lg-3 center-block">' +
        '</div>' +
        '</div>' +
-       '</section>' +
-       '<div class="container-fluid" id="parallax">' +
+       '</section>';
+
+   var contentParallax = '<div class="container-fluid" id="parallax">' +
        '<div class="qoute-box">' +
        '<p><i class="fa fa-quote-left"></i> Everytime you smile at someone,</p>' +
        '<p>it is an action of love,</p>' +
@@ -38,5 +39,8 @@
        '<p>Mother Teresa <i class="fa fa-quote-right"></i></p>' +
        '</div>' +
        '</main>';
-// TODO semantic tags.....main...
-   $('body').append(contentIndex);
+   // TODO semantic tags.....main...
+   $('body').append(
+       contentIndex,
+       contentParallax
+   );
