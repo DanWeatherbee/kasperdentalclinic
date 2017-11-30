@@ -2,7 +2,7 @@ var contentMain = '<main class="container animated fadeIn" id="content-main-part
     '<div class="row">' +
     '<div class="col-xs-0 col-sm-1 col-md-2">' +
     '</div>' +
-    '<div class="col-xs-12 col-sm-10 col-md-8">' +
+    '<div class="col-xs-12 col-sm-10 col-md-8" id="con1-content">' +
     '<h1>Services</h1>' +
     '<big>At Kasper Denture Clinic we provide comprehensive denture care</big><br />' +
     '<big> services amidst a comfortable, pleasant environment. </big><br />' +

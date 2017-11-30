@@ -27,7 +27,7 @@
        '<video controls="controls controlsList="nodownload" width="500" height="350" name="Suction Dentures 1" src="videos/suction1.mov"></video>' +
        '<br />' +
        '<video controls="controls controlsList="nodownload" width="500" height="350" name="Suction Dentures 2" src="videos/suction2.mov"></video>' +
-       '<br /><p class="animated slideInLeft">Call or <a class="btn btn-success" href="appointment.html">Book - Online</a></p>' +
+       '<br /><p class="animated slideInLeft">Call 250-542-7423 or <a class="btn btn-success" href="appointment.html">Book - Online</a></p>' +
        '</div>' +
        '<div class="col-xs-1 col-sm-4 col-md-2">' +
        '</div>' +

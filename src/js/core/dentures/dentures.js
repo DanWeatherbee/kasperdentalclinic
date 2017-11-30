@@ -33,11 +33,6 @@
        ' This satisfaction means less stress for both the practitioner and the patient.' +
        ' The adjustment period and acclimation to the new denture are both significantly reduced.' +
        '</p>' +
-       '<p>' +
-       '<a class="btn btn-success animated slideInLeft" href="appointment.html">' +
-       ' Book - Online' +
-         '</a> or call 250-542-7423.' +
-       '</p>' +
        '<h1 class="text-center">Implant Retained Dentures </h1>' +
        '<iframe width="100%" height="350" src="https://www.youtube.com/embed/G4kcl4YvkTI" ' +
        'style="frameborder:0;" poster="images/film.png" allowfullscreen></iframe>' +
@@ -58,11 +53,6 @@
        'The procedure is less invasive than having a natural tooth pulled.' +
        '</p>' +
        '<p>' +
-       '<a class="btn btn-success animated slideInLeft" href="appointment.html">' +
-       ' Book - Online' +
-       '</a> or call 250-542-7423.' +
-       '</p>' +
-       '<p>' +
        '<h1 class="text-center">Partial Dentures</h1>' +
        '<iframe width="100%" height="350" src="https://www.youtube.com/embed/6m1H-D4MjOg" ' +
        'style="frameborder:0;" allowfullscreen></iframe>' +
@@ -73,10 +63,18 @@
        ' This provides the ability to function while eating confidently and efficiently.' +
        '</p>' +
        '<p>' +
-       '<a class="btn btn-success animated slideInLeft" href="appointment.html">' +
-        ' Book - Online' +
-       '</a> or call 250-542-7423.' +
+       'Call 250-542-7423 or ' +
+
        '</p>' +
+       '<p class="text-center">' +
+       '<a class="btn btn-success text-center animated slideInLeft" href="appointment.html">' +
+        'Book - Online' +
+       '</a>' +
+       '</p>' +
+
+
+
+
        '</div>' +
        '<div class="col-xs-1 col-sm-4 col-md-2">' +
        '</div>' +

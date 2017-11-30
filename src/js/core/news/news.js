@@ -86,18 +86,14 @@ var contentNews = '<main class="container animated fadeIn" id="content-news">' +
     ' for detection of previously undetectable oral cancer.' +
     ' A father and son business,' +
     ' we have a combined fifty years of experience that will give you your great smile back!' +
-    ' Call <b>250-542-7423</b> or' +
-    '<br /><a class="btn btn-success" href="appointment.html">&nbsp;book online&nbsp;</a>' +
     '</p>' +
     '<h3>24 Hour Denture Clinic</h3>' +
     '<p class="animated slideInLeft">' +
     ' Kasper Denture Clinic offers 24 hour turnaround service.' +
     ' Our service is fast, professional and efficient.' +
-    ' The Kasper team will back that smile and confidence quickly and conveniently.' +
+    ' The Kasper team will back bring that smile and confidence quickly and conveniently.' +
     ' We are here for you with great customer service to get you in and' +
     ' out with the utmost comfort and ease.' +
-    ' Call <b>250-542-7423</b> or' +
-    '<br /><a class="btn btn-success" href="appointment.html">&nbsp;book online&nbsp;</a>' +
     '</p>' +
     '<h3>The Difference Is Service</h3>' +
     '<p class="animated slideInLeft">' +
@@ -106,8 +102,8 @@ var contentNews = '<main class="container animated fadeIn" id="content-news">' +
     ' We believe in the personal touch and the skilled hand.' +
     ' Our customers have confidence in our technology, skill, and know they will be treated like family.' +
     ' You get what you pay for, top quality work and a friendly attitude.' +
-    ' Call <b>250-542-7423</b> or' +
-    '<br /><a class="btn btn-success" href="appointment.html">Book - Online</a>' +
+    '<br /><br />Call <b>250-542-7423</b> or' +
+    '<a class="btn btn-success" href="appointment.html">Book - Online</a>' +
     '</p>' +
     '</div>' +
     '<div class="col-xs-1 col-sm-4 col-md-2">' +
