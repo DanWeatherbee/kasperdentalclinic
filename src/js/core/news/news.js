@@ -1,4 +1,4 @@
-var contentNews = '<section class="container animated fadeIn" id="content-news">' +
+var contentNews = '<main class="container animated fadeIn" id="content-news">' +
     '<div class="row text-center">' +
     '<div class="col-xs-12">' +
     '<h1>News</h1>' +
@@ -9,23 +9,18 @@ var contentNews = '<section class="container animated fadeIn" id="content-news">
     '</div>' +
     '<div class="col-xs-10 col-sm-4 col-md-8">' +
     '<img class="img-responsive img-thumbnail center-block" id="probono-pic" src="images/probono.png" alt="images/probono.png">' +
+    '<hr />' +
     '<p class="animated slideInLeft">' +
     'Kasper Denture Clinic' +
-    '</p>' +
-    '<p class="animated slideInLeft">' +
+    '<br />' +
     '3414 28 Ave' +
-    '</p>' +
-    '<p class="animated slideInLeft">' +
+    '<br />' +
     'Vernon, BC' +
-    '</p>' +
-    '<p class="animated slideInLeft">' +
+    '<br />' +
     'V1T 1W9' +
-    '</p>' +
-    '<p class="animated slideInLeft">' +
+    '<br /><br />' +
     'Hi Jay,' +
     '</p>' +
-    '<br />' +
-    '<br />' +
     '<p class="animated slideInLeft">' +
     'I am hoping you can help me.' +
     ' My husband got very sick a few years ago and was in hospital for 23 days on IV antibiotics.' +
@@ -74,9 +69,10 @@ var contentNews = '<section class="container animated fadeIn" id="content-news">
     '<p class="animated slideInLeft">' +
     'Warm regards,' +
     '</p>' +
+    '<hr />' +
     '<p class="animated slideInLeft">' +
-    'After receiving this email Jason knew he wanted to help,' +
-    ' he contacted Terry and had him come into the office for a consultation.' +
+    'After receiving this email Jason knew he wanted to help.' +
+    ' He contacted Terry and had him come into the office for a consultation.' +
     ' Knowing the impact the situation had had on his life,' +
     ' Jason went ahead and agreed to do the case at no charge to the patient.' +
     ' A complete set of Equilibrated SEMCD suction dentures were fabricated for Terry.' +
@@ -91,7 +87,7 @@ var contentNews = '<section class="container animated fadeIn" id="content-news">
     ' A father and son business,' +
     ' we have a combined fifty years of experience that will give you your great smile back!' +
     ' Call <b>250-542-7423</b> or' +
-    '<br /><a class="book-online-border" href="appointment.html">&nbsp;book online.&nbsp;</a>' +
+    '<br /><a class="btn btn-success" href="appointment.html">&nbsp;book online&nbsp;</a>' +
     '</p>' +
     '<h3>24 Hour Denture Clinic</h3>' +
     '<p class="animated slideInLeft">' +
@@ -101,23 +97,22 @@ var contentNews = '<section class="container animated fadeIn" id="content-news">
     ' We are here for you with great customer service to get you in and' +
     ' out with the utmost comfort and ease.' +
     ' Call <b>250-542-7423</b> or' +
-    '<br /><a class="book-online-border" href="appointment.html">&nbsp;book online.&nbsp;</a>' +
+    '<br /><a class="btn btn-success" href="appointment.html">&nbsp;book online&nbsp;</a>' +
     '</p>' +
     '<h3>The Difference Is Service</h3>' +
     '<p class="animated slideInLeft">' +
     'While we offer competitive pricing and years of experience,' +
     ' what truly sets us apart is our dedication to excellent customer service.' +
     ' We believe in the personal touch and the skilled hand.' +
-    ' Our customers have confidence in our technology and skill,' +
-    ' and know they will be treated like family.' +
-    ' You get what you pay for,  top quality work and a friendly attitude.' +
+    ' Our customers have confidence in our technology, skill, and know they will be treated like family.' +
+    ' You get what you pay for, top quality work and a friendly attitude.' +
     ' Call <b>250-542-7423</b> or' +
-    '<br /><a class="book-online-border" href="appointment.html">&nbsp;book online.&nbsp;</a>' +
+    '<br /><a class="btn btn-success" href="appointment.html">Book - Online</a>' +
     '</p>' +
     '</div>' +
     '<div class="col-xs-1 col-sm-4 col-md-2">' +
     '</div>' +
     '</div>' +
-    '</section>';
+    '</main>';
 
 $('body').append(contentNews);

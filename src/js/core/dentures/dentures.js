@@ -1,9 +1,9 @@
-   var contentMain = '<section class="container animated fadeIn">' +
-       '<section class="row">' +
+   var contentMain = '<main class="container animated fadeIn">' +
+       '<div class="row">' +
        '<div class="col-xs-1 col-sm-4 col-md-2">' +
        '</div>' +
        '<div class="col-xs-10 col-sm-4 col-md-8">' +
-       '<h1>Precision Dentures</h1>' +
+       '<h1 class="text-center">Precision Dentures</h1>' +
        '<iframe width="100%" height="350" src="https://www.youtube.com/embed/5FV4lRD5uH8" ' +
        'style="frameborder:0;" allowfullscreen></iframe>' +
        '<p>' +
@@ -34,11 +34,11 @@
        ' The adjustment period and acclimation to the new denture are both significantly reduced.' +
        '</p>' +
        '<p>' +
-       ' Call 250-542-7423 or <a class="book-online-border animated slideInLeft" href="appointment.html">' +
-       ' Book Online' +
-       '</a>' +
+       '<a class="btn btn-success animated slideInLeft" href="appointment.html">' +
+       ' Book - Online' +
+         '</a> or call 250-542-7423.' +
        '</p>' +
-       '<h1>Implant Retained Dentures </h1>' +
+       '<h1 class="text-center">Implant Retained Dentures </h1>' +
        '<iframe width="100%" height="350" src="https://www.youtube.com/embed/G4kcl4YvkTI" ' +
        'style="frameborder:0;" poster="images/film.png" allowfullscreen></iframe>' +
        '<p>' +
@@ -58,12 +58,12 @@
        'The procedure is less invasive than having a natural tooth pulled.' +
        '</p>' +
        '<p>' +
-       ' Call 250-542-7423 or <a class="book-online-border animated slideInLeft" href="appointment.html">' +
-       ' Book Online' +
-       '</a>' +
+       '<a class="btn btn-success animated slideInLeft" href="appointment.html">' +
+       ' Book - Online' +
+       '</a> or call 250-542-7423.' +
        '</p>' +
        '<p>' +
-       '<h1>Partial Dentures</h1>' +
+       '<h1 class="text-center">Partial Dentures</h1>' +
        '<iframe width="100%" height="350" src="https://www.youtube.com/embed/6m1H-D4MjOg" ' +
        'style="frameborder:0;" allowfullscreen></iframe>' +
        '<p>' +
@@ -73,14 +73,14 @@
        ' This provides the ability to function while eating confidently and efficiently.' +
        '</p>' +
        '<p>' +
-       ' Call 250-542-7423 or <a class="book-online-border animated slideInLeft" href="appointment.html">' +
-       ' Book Online' +
-       '</a>' +
+       '<a class="btn btn-success animated slideInLeft" href="appointment.html">' +
+        ' Book - Online' +
+       '</a> or call 250-542-7423.' +
        '</p>' +
        '</div>' +
        '<div class="col-xs-1 col-sm-4 col-md-2">' +
        '</div>' +
        '</div>' +
-       '</section>';
+       '</main>';
 
    $('body').append(contentMain);

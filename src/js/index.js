@@ -5,7 +5,7 @@
        '<div class="col-xs-8 col-sm-6 col-md-8 col-lg-6 text-center">' +
        '<h1>Kasper</h1>' +
        '<h2>Denture Clinic LTD</h2>' +
-       '<img class="img-responsive center-block" src="images/jason-pic-team.png" id="index-jason-pic" alt="jason-pic-team.png">' +
+       '<img class="gradient img-thumbnail img-responsive center-block" src="images/jason-pic-team.png" id="index-jason-pic" alt="jason-pic-team.png">' +
        '<h3 id="phone-num">250-542-7423</h3>' +
        '<script src="https://apis.google.com/js/platform.js" async defer></script>' +
        '<div class="g-plus" data-action="share"></div>' +
@@ -29,7 +29,7 @@
        '<div class="col-xs-2 col-sm-3 col-md-2 col-lg-3 center-block">' +
        '</div>' +
        '</div>' +
-       '</section>';
+       '</main>';
 
    var contentParallax = '<div class="container-fluid" id="parallax">' +
        '<div class="qoute-box">' +
@@ -38,7 +38,7 @@
        '<p>a gift to that person, a beautiful thing.</p>' +
        '<p>Mother Teresa <i class="fa fa-quote-right"></i></p>' +
        '</div>' +
-       '</main>';
+       '</div>';
    // TODO semantic tags.....main...
    $('body').append(
        contentIndex,

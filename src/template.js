@@ -1,5 +1,5 @@
 
-    '<section class="row">' +
+    '<div class="row">' +
 
     '<div class="col-xs-1 col-sm-4 col-md-2">' +
 
