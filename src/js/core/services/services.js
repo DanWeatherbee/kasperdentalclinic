@@ -2,8 +2,8 @@ var contentMain = '<main class="container animated fadeIn" id="content-main-part
     '<div class="row">' +
     '<div class="col-xs-0 col-sm-1 col-md-2">' +
     '</div>' +
-    '<div class="col-xs-12 col-sm-10 col-md-8" id="con1-content">' +
-    '<h1>Services</h1>' +
+    '<div class="col-xs-12 col-sm-10 col-md-8" id="c-services-1-content">' +
+    '<h1 id="c-services-1-content-header">Services</h1>' +
     '<big>At Kasper Denture Clinic we provide comprehensive denture care</big><br />' +
     '<big> services amidst a comfortable, pleasant environment. </big><br />' +
     '<big>Our on-site denture lab provides you with fast, high quality service!</big>' +
@@ -33,14 +33,14 @@ var contentMain = '<main class="container animated fadeIn" id="content-main-part
     '</main>';
 
 var parallax = '<div class="container-fluid text-center" id="parallax">' +
-    '<div class="qoute-box">' +
+    '<div class="qoute-box" id="c-services-2-content">' +
     '<p class="animated slideInLeft"><i class="fa fa-quote-left"></i> Thank you so much for my new smile,</p>' +
     '<p class="animated slideInLeft">I can start my new career with confidence! - </p>' +
     '<p class="animated slideInLeft">D. W. Web Developer <i class="fa fa-quote-right"></p>' +
     '</i>' +
     '</div>' +
     '</div>';
-var contentPart2 = '<main class="container">' +
+var contentPart2 = '<main class="container" id="c-services-3-content">' +
     '<div class="row">' +
     '<div class="col-xs-1 col-sm-2 col-md-2 col-lg-2">' +
     '</div>' +
@@ -132,7 +132,7 @@ var contentPart2 = '<main class="container">' +
     '</main>';
 
 var contentPart3 =
-    '<main class="container">' +
+    '<main class="container" id="c-services-4-content">' +
     '<div class="row">' +
     '<div class="col-xs-1 col-sm-2 col-md-2 col-lg-2">' +
     '</div>' +
@@ -237,7 +237,7 @@ var contentPart3 =
     '</div>' +
     '</main>';
 
-var contentPart4 = '<main class="container" id="content-main-part-4">' +
+var contentPart4 = '<main class="container content-main-part-4" id="c-services-5-content">' +
     '<div class="row">' +
     '<div class="col-xs-2 col-sm-4">' +
     '</div>' +

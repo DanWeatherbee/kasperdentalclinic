@@ -1,5 +1,13 @@
-       var addContent = function(x) {
-        alert('Is this ok? ' + x);
-        $('#con1-content').html('');
-        $('#con1-content').append(x);
+       var addContent = function(elem, x) {
+
+           if (x === "") {
+           x = elem.text();
+
+           } else {
+           elem.html('');
+
+           elem.append(x);
+
+           }
+           return saveToDB();
        };

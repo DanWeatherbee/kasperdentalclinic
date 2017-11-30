@@ -9,6 +9,7 @@ var scriptArray = [
     "js/core/admin/controls/add.js",
     "js/core/admin/controls/get.js",
     "js/core/admin/controls/save.js",
+    "js/core/admin/controls/clear.js",
     "js/core/admin/admin.js"
 ];
 

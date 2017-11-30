@@ -5,6 +5,7 @@ var saveToDB = function() {
 
     if (saveData === "yes") {
         alert('Saved.');
+        window.print();
     } else {
 
         alert('! Not saved');

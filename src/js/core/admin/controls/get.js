@@ -1,7 +1,11 @@
-var getContent = function() {
+var getContent = function(elem) {
            var usrInput = prompt(
                'Paste content in here. '
            );
+
+           if (usrInput === null) {
+            return;
+           }
            var contentArray = '[' +
                '{' +
                '"con1": "' +
@@ -11,5 +15,7 @@ var getContent = function() {
                ']';
            console.log(contentArray);
            var obj = JSON.parse(contentArray);
-           addContent(obj[0].con1);
+           addContent(elem, obj[0].con1);
+
+           return obj;
        };
