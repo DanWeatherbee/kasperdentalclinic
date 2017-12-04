@@ -1,9 +1,23 @@
 // about-us render method
 
-$('#root').append(init.layout.main.content1[0].mainContainer);
+db.renderAboutPage = function (
+    aboutPageElements
+    ) {
+    var self = this;
+    self.aboutPageElements = aboutPageElements;
+    console.log(self.aboutPageElements.aboutPage.formatted[0].html1);
+
+};
+db.renderAboutPage(aboutPageElements);
+
+
+
+//$('#root').append(self.aboutMainContentContainer);
+$('#root').append(self.aboutPageElements.aboutPage.formatted[0].html1);
 // Content1 ============================================================
 // row
-$('#about-main-container').append(self.aboutMainContent1Row1);
+//$('#about-main-container').append(self.aboutMainContent1Row1);
+$('#about-main-container').append(self.aboutPageElements.aboutPage.formatted[1].html2);
 // cols
 $('#about-main-row1').append(self.aboutMainContent1Row1Col1);
 $('#about-main-row1').append(self.aboutMainContent1Row1Col2);
@@ -49,15 +63,4 @@ $('#about-main-row3-parallax-quote-box').append(self.aboutMainContent3Row3Parall
 // icon right
 $('#about-main-row3-parallax-quote-box').append(self.aboutMainContent3Row3ParallaxQuoteBoxFonAwesomeIconRight);
 
-console.log(self);
-var aboutPageElements = {
-    'aboutPage': [
-        'elements', [{ 'elem1': '' }, { 'elem2': '' }, { 'elem3': '' }, { 'elem4': '' }, { 'elem5': '' }, { 'elem6': '' },
-            { 'elem7': '' }, { 'elem8': '' }, { 'elem9': '' }, { 'elem10': '' }, { 'elem11': '' }, { 'elem12': '' }
-        ],
-        'html', [{ 'html1': '' }, { 'html2': '' }, { 'html3': '' }, { 'html4': '' }, { 'html5': '' }, { 'html6': '' },
-            { 'html7': '' }, { 'html8': '' }, { 'html9': '' }, { 'html10': '' }, { 'html11': '' }, { 'html12': '' }
-        ]
-    ]
-};
-console.log(aboutPageElements);
+
