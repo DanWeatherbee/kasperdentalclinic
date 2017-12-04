@@ -50,3 +50,14 @@ $('#about-main-row3-parallax-quote-box').append(self.aboutMainContent3Row3Parall
 $('#about-main-row3-parallax-quote-box').append(self.aboutMainContent3Row3ParallaxQuoteBoxFonAwesomeIconRight);
 
 console.log(self);
+var aboutPageElements = {
+    'aboutPage': [
+        'elements', [{ 'elem1': '' }, { 'elem2': '' }, { 'elem3': '' }, { 'elem4': '' }, { 'elem5': '' }, { 'elem6': '' },
+            { 'elem7': '' }, { 'elem8': '' }, { 'elem9': '' }, { 'elem10': '' }, { 'elem11': '' }, { 'elem12': '' }
+        ],
+        'html', [{ 'html1': '' }, { 'html2': '' }, { 'html3': '' }, { 'html4': '' }, { 'html5': '' }, { 'html6': '' },
+            { 'html7': '' }, { 'html8': '' }, { 'html9': '' }, { 'html10': '' }, { 'html11': '' }, { 'html12': '' }
+        ]
+    ]
+};
+console.log(aboutPageElements);
