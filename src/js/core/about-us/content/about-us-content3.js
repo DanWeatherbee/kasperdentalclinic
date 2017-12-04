@@ -8,9 +8,9 @@ row 3
  parallax container
  row
  */
-var aboutMainContent3Row3ParallaxContainer = '<section class="row container-fluid" id="about-main-row3-parallax"></section>';
+var aboutMainContent3Row3ParallaxContainer = '<section class="row" id="about-main-row3-parallax"></section>';
 // col
-var aboutMainContent3ParallaxRow3Col1 = '<article class="col-xs-12 container-fluid" id="about-main-parallax-row3-col1"></article>';
+var aboutMainContent3ParallaxRow3Col1 = '<article class="col-xs-12" id="about-main-parallax-row3-col1"></article>';
 // quote box
 var aboutMainContent3Row3ParallaxQuoteBox = '<div class="qoute-box" style="margin-top:150px;color:white;" id="about-main-row3-parallax-quote-box"></div>';
 // quote box icons

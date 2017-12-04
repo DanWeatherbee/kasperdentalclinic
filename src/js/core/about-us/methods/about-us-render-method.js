@@ -39,7 +39,7 @@ $('#about-main-row2-col3').append(self.aboutMainContent2Row2Col3ImgButton);
  */
 $('#root').append(self.aboutMainContent3Row3ParallaxContainer);
 // col
-$('#about-main-row3').append(self.aboutMainContent3ParallaxRow3Col1);
+$('#about-main-row3-parallax').append(self.aboutMainContent3ParallaxRow3Col1);
 // quote box
 $('#about-main-parallax-row3-col1').append(self.aboutMainContent3Row3ParallaxQuoteBox);
 // icon left
