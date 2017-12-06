@@ -8,15 +8,6 @@ var db = {
     "head": [
         "js/core/helmet/helmet.js",
         "js/core/navbar/nav.js"
-    ],
-    "admin": [
-
-            "js/core/admin/controls/add.js",
-            "js/core/admin/controls/get.js",
-            "js/core/admin/controls/save.js",
-            "js/core/admin/controls/clear.js",
-            "js/core/admin/admin.js"
-
     ]
 };
 
@@ -51,9 +42,6 @@ db.array = function(
         self.appendScripts(script);
     });
     self.headArray.forEach(function(script) {
-        self.appendScripts(script);
-    });
-    self.adminControlsArray.forEach(function(script) {
         self.appendScripts(script);
     });
 };
