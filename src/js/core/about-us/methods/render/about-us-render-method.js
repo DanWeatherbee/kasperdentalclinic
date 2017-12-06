@@ -27,9 +27,13 @@ db.renderAboutPage = function(
     Text
      h1 text
     */
-    $('#about-main-row1-col2-header-h1-tag').append(self.aboutPageElements.aboutPage.formatted[7]['8mR1C2H1T']);
+    $('#about-main-row1-col2-header-h1-tag').append(
+        self.aboutPageElements.aboutPage.formatted[7]['8mR1C2H1T']
+    );
     // p text
-    $('#about-main-row1-col2-p-tag').append(self.aboutPageElements.aboutPage.formatted[8]['9mR1C2PT']);
+    $('#about-main-row1-col2-p-tag').append(
+        self.aboutPageElements.aboutPage.formatted[8]['9mR1C2PT']
+    );
     // // Content2 ============================================================
     $('#about-main-container').append(self.aboutPageElements.aboutPage.formatted[9]['10mR2']);
     $('#about-main-row2').append(
@@ -65,4 +69,5 @@ db.renderAboutPage = function(
         self.aboutPageElements.aboutPage.formatted[23]['24mR3C1QR']
     );
 };
-db.renderAboutPage(aboutPageElements);
+
+
