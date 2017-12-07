@@ -8,12 +8,12 @@ CreateAboutPageClass = function(
     self.aboutContent = CreateAboutPage; // Model
     self.aboutContentStr = JSON.stringify(self.aboutContent);
     // // to localstorage
-    localStorage.setItem('aboutContent', self.aboutContentStr);
+    localStorage.setItem('dataAppDefault', self.aboutContentStr);
     // // get from localstorage
 
 
-    self.aboutContentObj = JSON.parse(localStorage.getItem('dataAboutEdited'));
+    self.aboutContentObj = JSON.parse(localStorage.getItem('dataAppEdited'));
     if (!self.aboutContentObj) {
-        self.aboutContentObj = JSON.parse(localStorage.getItem('aboutContent'));
+        self.aboutContentObj = JSON.parse(localStorage.getItem('dataAppDefault'));
     };
 };

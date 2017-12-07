@@ -1,4 +1,4 @@
-var db = {
+var dbScripts = {
     "libs": [
         "js/core/lib/tether.min.js",
         "js/core/lib/bootstrap.min.js",
@@ -11,7 +11,7 @@ var db = {
     ]
 };
 
-db.appendScripts = function(
+dbScripts.appendScripts = function(
     src,
     doc,
     docCreate
@@ -26,7 +26,7 @@ db.appendScripts = function(
     self.doc.body.append(self.docCreate);
 };
 
-db.array = function(
+dbScripts.init = function(
     libsArray,
     headArray,
     adminControlsArray
@@ -46,4 +46,4 @@ db.array = function(
     });
 };
 
-db.array();
+dbScripts.init();

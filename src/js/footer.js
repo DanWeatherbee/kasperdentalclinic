@@ -41,4 +41,3 @@
        '</div>' +
        '</div>' +
        '</footer>';
-   $('body').append(contentFooter);

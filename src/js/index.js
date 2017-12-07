@@ -39,8 +39,8 @@
        '<p>Mother Teresa <i class="fa fa-quote-right"></i></p>' +
        '</div>' +
        '</div>';
-   // TODO semantic tags.....main...
-   $('body').append(
+
+   $('#root').append(
        contentIndex,
        contentParallax
    );

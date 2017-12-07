@@ -66,4 +66,5 @@ app.renderAboutPage = function() {
         // icon right
         self.aboutContentObj.main.content3[0].row3ParallaxIconRight
     );
+
 };
