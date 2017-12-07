@@ -1,73 +1,69 @@
 // about-us render method
-db.renderAboutPage = function(
-    aboutPageElements
-) {
+var app = new CreateAboutPageClass(CreateAboutPage);
+app.renderAboutPage = function() {
     var self = this;
-    self.aboutPageElements = aboutPageElements;
-    $('#root').append(self.aboutPageElements.aboutPage.formatted[0]['1main']);
+    $('#root').append(self.aboutContentObj.main.content1[0].mainContainer);
     // Content1 ============================================================
     // row
-    $('#about-main-container').append(self.aboutPageElements.aboutPage.formatted[1]['2mR1']);
+    $('#about-main-container').append(self.aboutContentObj.main.content1[1].row1);
     // cols
     $('#about-main-row1').append(
-        self.aboutPageElements.aboutPage.formatted[2]['3mR1C1'],
-        self.aboutPageElements.aboutPage.formatted[3]['4mR1C2'],
-        self.aboutPageElements.aboutPage.formatted[4]['5mR1C3']
+        self.aboutContentObj.main.content1[2].row1Col1,
+        self.aboutContentObj.main.content1[2].row1Col2,
+        self.aboutContentObj.main.content1[2].row1Col3
     );
     /*
     Tags
      h1 - header
      */
     $('#about-main-row1-col2').append(
-        self.aboutPageElements.aboutPage.formatted[5]['6mR1C2H1'],
+        self.aboutContentObj.main.content1[3].row1Col2HeaderH1Tag,
         // p - paragraph
-        self.aboutPageElements.aboutPage.formatted[6]['7mR1C2P']
+        self.aboutContentObj.main.content1[5].row1Col2PTag
     );
     /*
     Text
      h1 text
     */
     $('#about-main-row1-col2-header-h1-tag').append(
-        self.aboutPageElements.aboutPage.formatted[7]['8mR1C2H1T']
+        self.aboutContentObj.main.content1[4].row1Col2HeaderH1TagText
     );
     // p text
     $('#about-main-row1-col2-p-tag').append(
-        self.aboutPageElements.aboutPage.formatted[8]['9mR1C2PT']
+        self.aboutContentObj.main.content1[6].row1Col2PTagText
     );
     // // Content2 ============================================================
-    $('#about-main-container').append(self.aboutPageElements.aboutPage.formatted[9]['10mR2']);
+    $('#about-main-container').append(self.aboutContentObj.main.content2[0].row2);
     $('#about-main-row2').append(
-        self.aboutPageElements.aboutPage.formatted[10]['11mR2C1'],
-        self.aboutPageElements.aboutPage.formatted[11]['12mR2C2'],
-        self.aboutPageElements.aboutPage.formatted[12]['13mR2C3'],
-        self.aboutPageElements.aboutPage.formatted[13]['14mR2C4']
+        self.aboutContentObj.main.content2[1].row2Col1,
+        self.aboutContentObj.main.content2[1].row2Col2,
+        self.aboutContentObj.main.content2[1].row2Col3,
+        self.aboutContentObj.main.content2[1].row2Col4
     );
     $('#about-main-row2-col2').append(
-        self.aboutPageElements.aboutPage.formatted[14]['15mR2C2Img'],
-        self.aboutPageElements.aboutPage.formatted[15]['16mR2C2B']
+        self.aboutContentObj.main.content2[3].row2Col2Img,
+        self.aboutContentObj.main.content2[2].row2Col2Button
     );
     $('#about-main-row2-col3').append(
-        self.aboutPageElements.aboutPage.formatted[16]['17mR2C3Img'],
-        self.aboutPageElements.aboutPage.formatted[17]['18mR2C3B']
+        self.aboutContentObj.main.content2[3].row2Col3Img,
+        self.aboutContentObj.main.content2[2].row2Col3Button
     );
     /*
      Content3 ============================================================
      parallax container
      row 3
      */
-    $('#root').append(self.aboutPageElements.aboutPage.formatted[18]['19mR3']);
+    $('#root').append(self.aboutContentObj.main.content3[1].aboutMainContent3ParallaxRow3);
     // col
-    $('#about-main-row3-parallax').append(self.aboutPageElements.aboutPage.formatted[19]['20mR3C1']);
+    $('#about-main-row3').append(self.aboutContentObj.main.content3[1].aboutMainContent3ParallaxRow3Col1);
     // quote box
-    $('#about-main-parallax-row3-col1').append(self.aboutPageElements.aboutPage.formatted[20]['21mR3C1Q']);
+    $('#about-main-parallax-row3-col1').append(self.aboutContentObj.main.content3[0].row3ParallaxQuoteBox);
     // icon left
     $('#about-main-row3-parallax-quote-box').append(
-        self.aboutPageElements.aboutPage.formatted[21]['22mR3C1QL'],
+        self.aboutContentObj.main.content3[0].row3ParallaxIconLeft,
         // text
-        self.aboutPageElements.aboutPage.formatted[22]['23mR3C1QT'],
+        self.aboutContentObj.main.content3[0].row3ParallaxQuoteBoxText,
         // icon right
-        self.aboutPageElements.aboutPage.formatted[23]['24mR3C1QR']
+        self.aboutContentObj.main.content3[0].row3ParallaxIconRight
     );
 };
-
-

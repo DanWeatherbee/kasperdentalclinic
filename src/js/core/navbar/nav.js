@@ -11,13 +11,10 @@
        '</div>' +
        '<div class="collapse navbar-collapse navbar-right" id="bs-example-navbar-collapse-1">' +
        '<ul class="nav navbar-nav">' +
-       '<li class="divider" id="admin"></li>' +
-       '<li class="fadeOutDown" id="admin"><a  id="admin-link"><i class="fa fa-pencil" aria-hidden="true"></i></a></li>' +
-       '<li class="divider" id="nav1"></li>' +
        '<li class="fadeOutDown" id="nav1"><a href="services.html">Services</a></li>' +
-       '<li class="divider" id="nav2"></li>' +
+       '<li class="divider" id="nav1"></li>' +
        '<li class="fadeOutDown" id="nav2"><a href="denture.html">Dentures </a></li>' +
-       '<li class="divider" id="nav2b"></li>' +
+       '<li class="divider" id="nav2"></li>' +
        '<li class="fadeOutDown" id="nav2b"><a href="suction-denture.html">Suction Dentures </a></li>' +
        ' <li class="divider" id="nav3"></li>' +
        '<li class="fadeOutDown" id="nav3"><a href="about-us.html">About</a></li>' +

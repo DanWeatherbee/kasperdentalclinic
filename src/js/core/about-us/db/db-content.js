@@ -3,7 +3,7 @@ Written in a Object Oriented pattern OOP
 about.js
 Data Object (database)
 */
-var layoutAboutPage = {
+var CreateAboutPage = {
     'main': {
         'content1': [{
                 'mainContainer': aboutMainContentContainer
@@ -50,7 +50,6 @@ var layoutAboutPage = {
             }
         ],
         'content3': [{
-                'row3ParallaxContainer': aboutMainContent3Row3ParallaxContainer,
                 'row3ParallaxQuoteBox': aboutMainContent3Row3ParallaxQuoteBox,
                 'row3ParallaxQuoteBoxText': aboutMainContent3Row3ParallaxQuoteBoxText,
                 'row3ParallaxIconLeft': aboutMainContent3Row3ParallaxQuoteBoxFonAwesomeIconLeft,
