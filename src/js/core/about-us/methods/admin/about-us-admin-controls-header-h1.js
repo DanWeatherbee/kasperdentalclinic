@@ -11,10 +11,8 @@ app.editAboutHeaderText = function(
     var self = this;
     // Header Controls =============================================
     self.$h1Tag = $('#about-main-row1-col2-header-h1-tag');
-    self.editH1Text = '<br /><button type="button" class="btn btn-success" id="edit-h1-btn" onclick="app.editHeaderText()">Edit</button>';
-    self.saveH1TextBtn = '<button type="button" class="btn btn-success" id="save-h1-btn" onclick="app.saveHeaderText()">' +
-        'Save' +
-        '</button>';
+    self.editH1Text = '<br /><i type="button" class="fa fa-edit" id="edit-h1-btn" onclick="app.editHeaderText()"></i>';
+    self.saveH1TextBtn = '<i type="button" class="fa fa-save" id="save-h1-btn" onclick="app.saveHeaderText()"></i>';
     self.$saveH1TextBtn = $('#save-h1-btn');
     self.textAreaH1 = '<textarea class="form-control" rows="1" number="3" maxlength="50" ' +
         'id="h1-input">' +

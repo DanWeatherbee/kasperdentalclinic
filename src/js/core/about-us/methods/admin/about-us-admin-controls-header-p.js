@@ -11,10 +11,8 @@ app.editAboutHeaderPText = function(
     var self = this;
     // Header Controls =============================================
     self.$PTag = $('#about-main-row1-col2-p-tag');
-    self.editPText = '<br /><button type="button" class="btn btn-success" id="edit-P-btn" onclick="app.editHeaderPText()">Edit</button>';
-    self.savePTextBtn = '<button type="button" class="btn btn-success" id="save-P-btn" onclick="app.saveHeaderPText()">' +
-        'Save' +
-        '</button>';
+    self.editPText = '<br /><i type="button" class="fa fa-edit" id="edit-P-btn" onclick="app.editHeaderPText()"></i>';
+    self.savePTextBtn = '<i type="button" class="fa fa-save" id="save-P-btn" onclick="app.saveHeaderPText()"></i>';
     self.$savePTextBtn = $('#save-P-btn');
     self.textAreaP = '<textarea class="form-control" rows="1" number="3" maxlength="50" ' +
         'id="P-input">' +

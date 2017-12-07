@@ -11,10 +11,8 @@ app.editAboutParallax = function(
     self.renderAboutPage(self.aboutContentObj);
     // Parallax Controls =============================================
     self.qBoxParallax = $('#about-main-row3-parallax-quote-box');
-    self.editBtnParallax = '<br /><button type="button" class="btn btn-success" id="edit-parallax-btn" onclick="app.editParallax()">Edit</button>';
-    self.saveBtnParallax = '<button type="button" class="btn btn-success" id="parallax-save-btn" onclick="app.saveParallax()">' +
-        'Save' +
-        '</button>';
+    self.editBtnParallax = '<br /><i type="button" class="fa fa-edit" id="edit-parallax-btn" onclick="app.editParallax()"></i>';
+    self.saveBtnParallax = '<i type="button" class="fa fa-save" id="parallax-save-btn" onclick="app.saveParallax()"></i>';
     self.$saveBtnParallax = $('#parallax-save-btn');
     self.textAreaParallax = '<textarea class="form-control" rows="3" maxlength="100" ' +
         'id="parallax-input">' +
