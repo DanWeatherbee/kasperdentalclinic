@@ -11,8 +11,8 @@ app.editAboutHeaderText = function(
     var self = this;
     // Header Controls =============================================
     self.$h1Tag = $('#about-main-row1-col2-header-h1-tag');
-    self.editH1Text = '<button type="button" class="btn btn-success" id="edit-h1-btn" onclick="">Edit</button>';
-    self.saveH1TextBtn = '<button type="button" class="btn btn-success" id="save-h1-btn" onclick="">' +
+    self.editH1Text = '<br /><button type="button" class="btn btn-success" id="edit-h1-btn" onclick="app.editHeaderText()">Edit</button>';
+    self.saveH1TextBtn = '<button type="button" class="btn btn-success" id="save-h1-btn" onclick="app.saveHeaderText()">' +
         'Save' +
         '</button>';
     self.$saveH1TextBtn = $('#save-h1-btn');
@@ -23,7 +23,9 @@ app.editAboutHeaderText = function(
     self.$textAreaH1 = $('#h1-input');
 
     app.editHeaderText = function() {
-        $('#edit-h1-btn').remove();
+        if ($('#edit-h1-btn')) {
+            $('#edit-h1-btn').remove();
+        };
         self.$h1Tag.append(self.textAreaH1);
         self.$h1Tag.append(self.saveH1TextBtn);
     }
@@ -37,8 +39,8 @@ app.editAboutHeaderText = function(
 
     }
     app.createHeaderText = function() {
+        $('#edit-h1-btn').remove();
         self.$h1Tag.append(self.editH1Text);
     }
     self.createHeaderText();
 };
-

@@ -11,7 +11,7 @@ app.editAboutParallax = function(
     self.renderAboutPage(self.aboutContentObj);
     // Parallax Controls =============================================
     self.qBoxParallax = $('#about-main-row3-parallax-quote-box');
-    self.editBtnParallax = '<button type="button" class="btn btn-success" id="edit-parallax-btn" onclick="app.editParallax()">Edit</button>';
+    self.editBtnParallax = '<br /><button type="button" class="btn btn-success" id="edit-parallax-btn" onclick="app.editParallax()">Edit</button>';
     self.saveBtnParallax = '<button type="button" class="btn btn-success" id="parallax-save-btn" onclick="app.saveParallax()">' +
         'Save' +
         '</button>';
@@ -23,7 +23,9 @@ app.editAboutParallax = function(
     self.$textAreaParallax = $('#parallax-input');
 
     app.editParallax = function() {
-        $('#edit-parallax-btn').remove();
+        if ($('#edit-parallax-btn')) {
+            $('#edit-parallax-btn').remove();
+        };
         self.qBoxParallax.append(self.textAreaParallax);
         self.qBoxParallax.append(self.saveBtnParallax);
     }
@@ -37,12 +39,12 @@ app.editAboutParallax = function(
 
     }
     app.createParallax = function(qBox) {
+        $('#edit-parallax-btn').remove();
         self.qBoxParallax.append(self.editBtnParallax);
+
     }
     self.createParallax();
 };
-// app.editAboutParallax();
-// app.editAboutHeaderText();
 
 // Save to Storage and pull dtat from it. ================================
 app.saveToDB = function() {
