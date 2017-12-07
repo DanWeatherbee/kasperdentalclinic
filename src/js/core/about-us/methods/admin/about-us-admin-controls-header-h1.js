@@ -16,7 +16,7 @@ app.editAboutHeaderText = function(
         'Save' +
         '</button>';
     self.$saveH1TextBtn = $('#save-h1-btn');
-    self.textAreaH1 = '<textarea class="form-control" rows="1" maxlength="20" ' +
+    self.textAreaH1 = '<textarea class="form-control" rows="1" number="3" maxlength="50" ' +
         'id="h1-input">' +
         self.aboutContentObj.main.content1[4].row1Col2HeaderH1TagText +
         '</textarea>';

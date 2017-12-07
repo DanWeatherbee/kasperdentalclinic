@@ -57,4 +57,5 @@ app.saveToDB = function() {
     localStorage.setItem('dataAppEdited', aboutContentObjStr);
     app.createParallax();
     app.createHeaderText();
+    app.createHeaderPText();
 };
