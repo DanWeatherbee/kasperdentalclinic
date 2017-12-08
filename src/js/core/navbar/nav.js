@@ -6,7 +6,7 @@
        '</button>' +
        '<a class="navbar-brand text-center" href="index.html"> ' +
        '<div style="font-size:24px;line-height:26px;color:#666">Kasper</div> ' +
-       '<div style="font-size:12px;line-height:13px">DENTURE CLINIC LTD</div>' +
+       '<div style="font-size:12px;line-height:13px">DENTURE CLINIC LTD --  admin-beta on about page.</div>' +
        '</a>' +
        '</div>' +
        '<div class="collapse navbar-collapse navbar-right" id="bs-example-navbar-collapse-1">' +

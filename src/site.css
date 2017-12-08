@@ -22,6 +22,10 @@ div.qoute-box {
     padding: 10% 0 10% 0;
 }
 
+#header-text {
+    font-weight: 900;
+}
+
 .btn {
     font-size: 1em;
 }
