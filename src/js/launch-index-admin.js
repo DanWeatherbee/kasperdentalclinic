@@ -1,5 +1,5 @@
 $('window').ready(function() {
-    // app.editIndexHeaderText();
+    app.editIndexHeaderText();
     $('#root').prepend('<i class="fa fa-edit edit-btns" id="edit-Index-page" onclick="editIndexPage()"> -- Edit Page</i>');
     $('#root').prepend('<i class="fa fa-save edit-btns" id="save-Index-page" onclick="saveIndexPage()"> -- Save Page</i>');
     $('#root').append(contentFooter);
@@ -17,21 +17,21 @@ var editIndexPage = function() {
 };
 
 var saveIndexPage = function() {
-    console.log('running')
+    console.log('running saveIndexPage')
     // Download databases. ===============================================
 
     var dbIndexEdited = localStorage.getItem('dataIndexEdited');
     var dbIndexDefault = localStorage.getItem('dataIndexDefault');
 
     // Download edited database.
-    var editedDB = new File([dbIndexEdited], "dataIndexEdited");
+    var defaultIndexDB = new File([dbIndexEdited], "dataIndexEdited");
     //saveAs(editedDB);
     // Download default database.
-    var defaultDB = new File([dbIndexDefault], "dataIndexDefault");
+    var editedIndexDB = new File([dbIndexDefault], "dataIndexDefault");
 
     // Save to downloads folder.
-    saveAs(defaultDB);
-    saveAs(editedDB);
+    saveAs(defaultIndexDB);
+    saveAs(editedIndexDB);
     $('#save-Index-page').fadeOut();
     $('#edit-Index-page').fadeIn();
     // ==================================================================

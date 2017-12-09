@@ -1,44 +1,44 @@
 // Header Text Controls =============================================
 
 app.editIndexHeaderText = function(
-    $h1Tag,
+    $indexHeaderH1Tag,
     editH1Text,
     saveH1TextBtn,
     $saveH1TextBtn,
-    $textAreaH1
+    $textAreaH1Index
 ) {
     "use strict";
     var self = this;
     // Header Controls =============================================
-    self.$h1Tag = $('#index-main-row1-col2-header-h1-tag');
-    self.editH1Text = '<i type="button" class="fa fa-edit edit-btns" id="edit-h1-btn" onclick="app.editHeaderText()"></i>';
-    self.saveH1TextBtn = '<i type="button" class="fa fa-save edit-btns" id="save-h1-btn" onclick="app.saveHeaderText()"></i>';
-    self.$saveH1TextBtn = $('#save-h1-btn');
-    self.textAreaH1 = '<textarea class="form-control" rows="1" number="3" maxlength="50" ' +
-        'id="h1-input">' +
-        self.indexContentObj.main.content1[4].row1Col2HeaderH1TagText +
+    self.$indexHeaderH1Tag = $('#index-main-row1-col2-header-h1-tag');
+    self.editH1TextBtn = '<i type="button" class="fa fa-edit edit-btns" id="edit-index-h1-btn" onclick="app.editHeaderH1Text()"></i>';
+    self.saveH1TextBtn = '<i type="button" class="fa fa-save edit-btns" id="save-index-h1-btn" onclick="app.saveHeaderH1Text()"></i>';
+    self.$saveH1TextBtn = $('#save-index-h1-btn');
+    self.textAreaIndexH1 = '<textarea class="form-control" rows="1" number="3" maxlength="50" ' +
+        'id="index-h1-input">' +
+        self.indexContentObj.main.content1[0].indexMainContent1Row1Col2HeaderH1TagText +
         '</textarea>';
-    self.$textAreaH1 = $('#h1-input');
+    self.$textAreaH1Index = $('#index-h1-input');
 
-    app.editHeaderText = function() {
+    app.editHeaderH1Text = function() {
         if ($('#edit-h1-btn')) {
             $('#edit-h1-btn').remove();
         };
-        self.$h1Tag.append(self.textAreaH1);
-        self.$h1Tag.append(self.saveH1TextBtn);
+        self.$indexHeaderH1Tag.append(self.textAreaIndexH1);
+        self.$indexHeaderH1Tag.append(self.saveH1TextBtn);
     }
-    app.saveHeaderText = function() {
-        var usrInput = $('#h1-input').val();
-        self.indexContentObj.main.content1[4].row1Col2HeaderH1TagText = usrInput;
-        self.$h1Tag.html(self.indexContentObj.main.content1[4].row1Col2HeaderH1TagText);
-        self.$saveH1TextBtn.remove();
-        self.$textAreaH1.remove();
-        app.saveToDB();
-
+    app.saveHeaderH1Text = function() {
+        alert('save is called')
+        var usrInput = $('#index-h1-input').val();
+        self.indexContentObj.main.content1[0].indexMainContent1Row1Col2HeaderH1TagText = usrInput;
+        self.$indexHeaderH1Tag.html(self.indexContentObj.main.content1[0].indexMainContent1Row1Col2HeaderH1TagText);
+        $('#save-index-h1-btn').remove();
+        self.$textAreaH1Index.remove();
+        app.saveIndexToDB();
     }
-    app.createHeaderText = function() {
+    app.createHeaderH1Text = function() {
         $('#edit-h1-btn').remove();
-        self.$h1Tag.append(self.editH1Text);
+        self.$indexHeaderH1Tag.append(self.editH1TextBtn);
     }
-    self.createHeaderText();
+    self.createHeaderH1Text();
 };

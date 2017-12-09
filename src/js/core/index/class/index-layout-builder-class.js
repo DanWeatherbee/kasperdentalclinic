@@ -14,14 +14,14 @@ CreateIndexPageClass = function(
 
     // Download databases. ===============================================
 
-    var dbindexEdited = localStorage.getItem('dataIndexEdited');
-    var dbindexDefault =  localStorage.getItem('dataIndexDefault');
+    var dbIndexEdited = localStorage.getItem('dataIndexEdited');
+    var dbIndexDefault =  localStorage.getItem('dataIndexDefault');
 
     // Download edited database.
-    var editedDB = new File([dbindexEdited], "dataIndexEdited");
+    var editedIndexDB = new File([dbIndexEdited], "dataIndexEdited");
     //saveAs(editedDB);
    // Download default database.
-    var defaultDB = new File([dbindexDefault], "dataIndexDefault");
+    var defaultIndexDB = new File([dbIndexDefault], "dataIndexDefault");
 
     // Save to downloads folder.
     // saveAs(defaultDB);

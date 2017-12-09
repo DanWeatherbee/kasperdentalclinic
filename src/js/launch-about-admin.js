@@ -18,7 +18,7 @@ var editAboutPage = function() {
 };
 
 var saveAboutPage = function() {
-    console.log('running')
+
     // Download databases. ===============================================
 
     var dbAboutEdited = localStorage.getItem('dataAppEdited');

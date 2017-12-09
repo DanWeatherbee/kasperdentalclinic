@@ -33,7 +33,7 @@ app.editAboutHeaderText = function(
         self.$h1Tag.html(self.aboutContentObj.main.content1[4].row1Col2HeaderH1TagText);
         self.$saveH1TextBtn.remove();
         self.$textAreaH1.remove();
-        app.saveToDB();
+
 
     }
     app.createHeaderText = function() {
