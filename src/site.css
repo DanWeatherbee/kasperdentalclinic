@@ -17,17 +17,34 @@ div.qoute-box {
     text-shadow: 1px 1px 2px black;
 }
 
+#index-main-row2-parallax-container {
+    background: #fff url('css/cloud.jpg') no-repeat center center;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    background-attachment: fixed;
+    position: relative;
+    z-index: 3;
+    padding: 10% 0 10% 0;
+    height: 100%;
+}
+
 
 #quotes-container {
     padding: 10% 0 10% 0;
 }
 
-#header-text {
-    font-weight: 900;
+#index-main-row1-col2-p-tag {
+    font-size: 1.5em;
 }
 
 .btn {
     font-size: 1em;
+}
+
+#certify-img {
+    width: 50%;
 }
 
 .gradient {
@@ -121,9 +138,11 @@ a {
 
 @media only screen and (max-width: 500px) {
     #root {
-        margin-top: 20%;
+        margin-top: 5%;
     }
-
+    #index-main-row1-col2-p-tag {
+        font-size: .5em;
+    }
     .cd-faq-trigger {
         font-size: 1em;
     }
@@ -138,7 +157,7 @@ a {
 
 @media only screen and (min-width: 501px) {
     #root {
-        margin-top: 4%;
+        margin-top: 5%;
     }
 
     .cd-faq-trigger {

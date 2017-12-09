@@ -24,6 +24,7 @@
        '</a>' +
        '</span></li>' +
        '</ul>' +
+       '<img class="img-responsive center-block" id="certify-img" src="images/semcd.png" alt="semcd.png">' +
        '<video controls="controls controlsList="nodownload" width="500" height="350" name="Suction Dentures 1" src="videos/suction1.mov"></video>' +
        '<br />' +
        '<video controls="controls controlsList="nodownload" width="500" height="350" name="Suction Dentures 2" src="videos/suction2.mov"></video>' +

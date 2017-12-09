@@ -22,9 +22,9 @@ var aboutMainContent1Row1Col2PTag = '<p class="header-text" id="about-main-row1-
 // text
 var aboutMainContent1Row1Col2HeaderH1TagText = 'Welcome To Our Dental Team';
 var aboutMainContent1Row1Col2PTagText = 'Thank you for choosing our office for your denture needs.' +
-    ' We appreciate the confidence you place in our practice and will do our best to provide you with personalized ' +
-    'care, products and service. We are here to make living with ' +
-    'dentures as stress free as possible. ' +
-    'At Kasper Denture Clinic we believe that it is essential to keep up to date with ' +
-    'current advances in our field. Our team consists of friendly, educated ' +
-    'and knowledgeable professionals who love what they do.';
+    ' We appreciate the confidence you place in our practice and will do our best to provide you with personalized' +
+    ' care, products and service. We are here to make living with' +
+    ' dentures as stress free as possible.' +
+    ' At Kasper Denture Clinic we believe that it is essential to keep up to date with' +
+    ' current advances in our field. Our team consists of friendly, educated' +
+    ' and knowledgeable professionals who love what they do.';

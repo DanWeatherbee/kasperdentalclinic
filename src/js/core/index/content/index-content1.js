@@ -25,9 +25,9 @@ var indexMainContent1Row1Col2PTag = '<p class="header-text" id="index-main-row1-
 var indexMainContent1Row1Col2HeaderH1TagText = 'Kasper';
 var indexMainContent1Row1Col2HeaderH2TagText = 'Denture Clinic LTD';
 var indexMainContent1Row1Col2HeaderH3TagText = '250-542-7423';
-var indexMainContent1Row1Col2PTagText = 'Let us restore your healthy smile.' +
-'Our expertise is in high quality, removable dental prosthesis for all ages.' +
-' Our aim is to restore your healthy smile in a calm,' +
+var indexMainContent1Row1Col2PTagText = '<b>Let us restore your healthy smile.</b>' +
+' Our expertise is in high quality, removable dental prosthesis for all ages.<br />' +
+' Our aim is to restore your healthy smile in a calm,<br />' +
 ' relaxed atmosphere where your needs' +
 ' and well-being are our highest priority.';
 
@@ -54,7 +54,7 @@ var shareButtons = // share buttons ============================================
 '<br /><br /><br /><br />';
 // icon down
 var indexMainContent1Row1Col2IconDown = '<a style="background-color:white;color:inherit;border-radius:100%;border-color:black;" ' +
-'href="#parallax"><i class="fa fa-arrow-down fa-6"></i></a>';
+'href="#index-main-row2-parallax-container"><i class="fa fa-arrow-down fa-6" id="index-move-to-parallax-icon"></i></a>';
 
 /*
 Content 1 ================================  old  ==========================================
@@ -123,3 +123,4 @@ row1
 
 
 '</main>';
+*/

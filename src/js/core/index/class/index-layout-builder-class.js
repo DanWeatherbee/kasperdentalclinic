@@ -1,11 +1,11 @@
 // Layout builder Class for Index
-CreateindexPageClass = function(
+CreateIndexPageClass = function(
     CreateIndexPage,
     indexContentStr,
     indexContentObj
 ) {
     var self = this;
-    self.indexContent = CreateindexPage; // Model
+    self.indexContent = CreateIndexPage; // Model
     self.indexContentStr = JSON.stringify(self.indexContent);
 
     // to localstorage

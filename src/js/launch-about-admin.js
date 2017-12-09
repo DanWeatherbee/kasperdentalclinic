@@ -2,6 +2,7 @@ $('window').ready(function() {
     app.editAboutParallax();
     app.editAboutHeaderText();
     app.editAboutHeaderPText();
+
     $('#root').prepend('<br /><i class="fa fa-edit" id="edit-about-page" onclick="editAboutPage()"> -- Edit Page</i>');
     $('#root').prepend('<br /><i class="fa fa-save" id="save-about-page" onclick="saveAboutPage()"> -- Save Page</i>');
     $('#root').append(contentFooter);

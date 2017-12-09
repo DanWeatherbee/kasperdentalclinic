@@ -3,7 +3,8 @@ var app = new CreateAboutPageClass(CreateAboutPage);
 app.renderAboutPage = function() {
     var self = this;
     $('#root').append(self.aboutContentObj.main.content1[0].mainContainer);
-    // Content1 ============================================================
+    // Content1 =============================================
+
     // row
     $('#about-main-container').append(self.aboutContentObj.main.content1[1].row1);
     // cols
@@ -42,12 +43,21 @@ app.renderAboutPage = function() {
     );
     $('#about-main-row2-col2').append(
         self.aboutContentObj.main.content2[3].row2Col2Img,
-        self.aboutContentObj.main.content2[2].row2Col2Button
+        self.aboutContentObj.main.content2[2].row2Col2Button,
+        self.aboutContentObj.main.content2[3].aboutMainContent2Row2Col2ImgPTagOley
+    );
+    $('#about-main-content2-row2-col2-img-p-tag-oley').append(
+        self.aboutContentObj.main.content2[3].aboutMainContent2Row2Col2ImgPTagOleyText
     );
     $('#about-main-row2-col3').append(
         self.aboutContentObj.main.content2[3].row2Col3Img,
-        self.aboutContentObj.main.content2[2].row2Col3Button
+        self.aboutContentObj.main.content2[2].row2Col3Button,
+        self.aboutContentObj.main.content2[3].aboutMainContent2Row2Col3ImgPTagJason
     );
+    $('#about-main-content2-row2-col2-img-p-tag-jason').append(
+        self.aboutContentObj.main.content2[3].aboutMainContent2Row2Col3ImgPTagJasonText
+    );
+
     /*
      Content3 ============================================================
      parallax container

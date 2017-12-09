@@ -28,16 +28,13 @@ dbScripts.appendScripts = function(
 
 dbScripts.init = function(
     libsArray,
-    headArray,
-    adminControlsArray
+    headArray
 ) {
     var self = this;
     self.libsArray = libsArray;
     self.headArray = headArray;
-    self.adminControlsArray = adminControlsArray;
     self.libsArray = this.libs;
     self.headArray = this.head;
-    self.adminControlsArray = this.admin;
     self.libsArray.forEach(function(script) {
         self.appendScripts(script);
     });
