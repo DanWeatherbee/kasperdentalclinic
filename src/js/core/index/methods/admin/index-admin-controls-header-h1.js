@@ -1,5 +1,7 @@
-// Header Text Controls =============================================
-
+/*
+Written in a Object Oriented pattern OOP by Dan Weatherbee
+ Header H1 Text Controls =============================================
+*/
 app.editIndexHeaderText = function(
     $indexHeaderH1Tag,
     editH1Text,
@@ -19,16 +21,14 @@ app.editIndexHeaderText = function(
         self.indexContentObj.main.content1[0].indexMainContent1Row1Col2HeaderH1TagText +
         '</textarea>';
     self.$textAreaH1Index = $('#index-h1-input');
-
     app.editHeaderH1Text = function() {
-        if ($('#edit-h1-btn')) {
-            $('#edit-h1-btn').remove();
+        if ($('#edit-index-h1-btn')) {
+            $('#edit-index-h1-btn').remove();
         };
         self.$indexHeaderH1Tag.append(self.textAreaIndexH1);
         self.$indexHeaderH1Tag.append(self.saveH1TextBtn);
     }
     app.saveHeaderH1Text = function() {
-        alert('save is called')
         var usrInput = $('#index-h1-input').val();
         self.indexContentObj.main.content1[0].indexMainContent1Row1Col2HeaderH1TagText = usrInput;
         self.$indexHeaderH1Tag.html(self.indexContentObj.main.content1[0].indexMainContent1Row1Col2HeaderH1TagText);
@@ -37,7 +37,7 @@ app.editIndexHeaderText = function(
         app.saveIndexToDB();
     }
     app.createHeaderH1Text = function() {
-        $('#edit-h1-btn').remove();
+        $('#edit-index-h1-btn').remove();
         self.$indexHeaderH1Tag.append(self.editH1TextBtn);
     }
     self.createHeaderH1Text();

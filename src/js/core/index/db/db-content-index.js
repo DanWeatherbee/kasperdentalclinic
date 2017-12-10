@@ -22,7 +22,8 @@ var CreateIndexPage = {
             'indexMainContent1Row1Col2PTagText': indexMainContent1Row1Col2PTagText,
             'indexMainContent1Row1Col2Img': indexMainContent1Row1Col2Img,
             'shareButtons': shareButtons,
-            'indexMainContent1Row1Col2IconDown': indexMainContent1Row1Col2IconDown
+            'indexMainContent1Row1Col2IconDown': indexMainContent1Row1Col2IconDown,
+            'indexMainContent1Row1Col2ImgSrc': indexMainContent1Row1Col2ImgSrc
         }],
         'content2': [{
             'indexMainContent2Row2ParallaxContainer': indexMainContent2Row2ParallaxContainer,

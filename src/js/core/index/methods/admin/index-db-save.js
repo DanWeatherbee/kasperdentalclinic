@@ -1,4 +1,9 @@
-// Save to Storage and pull dtat from it. ================================
+/*
+Written in a Object Oriented pattern OOP by Dan Weatherbee
+index-db-save
+ Save to Storage and pull data from it. ================================
+*/
+
 app.saveIndexToDB = function() {
     /*
      Browser Local Storage.
@@ -9,5 +14,6 @@ app.saveIndexToDB = function() {
     // add to localstorage.
     localStorage.setItem('dataIndexEdited', indexContentObjStr);
     app.createHeaderH1Text();
-
+    app.createHeaderH2Text();
+    app.createHeaderImgSrc();
 };

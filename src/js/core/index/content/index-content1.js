@@ -32,8 +32,13 @@ var indexMainContent1Row1Col2PTagText = '<b>Let us restore your healthy smile.</
 ' and well-being are our highest priority.';
 
 // img
+var indexMainContent1Row1Col2ImgSrc= 'images/jason-pic-team.png';
 var indexMainContent1Row1Col2Img = '<img class="gradient img-thumbnail img-responsive center-block" ' +
-'src="images/jason-pic-team.png" id="index-jason-pic" alt="jason-pic-team.png">';
+'src="'+
+indexMainContent1Row1Col2ImgSrc +
+'" id="index-jason-pic" alt="' +
+indexMainContent1Row1Col2ImgSrc +
+'">';
 var shareButtons = // share buttons ====================================================
 '<script src="https://apis.google.com/js/platform.js" async defer></script>' +
 // g - plus

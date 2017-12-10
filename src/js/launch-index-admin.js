@@ -1,5 +1,7 @@
 $('window').ready(function() {
     app.editIndexHeaderText();
+    app.editIndexHeaderH2Text();
+    app.editIndexHeaderImgJason();
     $('#root').prepend('<i class="fa fa-edit edit-btns" id="edit-Index-page" onclick="editIndexPage()"> -- Edit Page</i>');
     $('#root').prepend('<i class="fa fa-save edit-btns" id="save-Index-page" onclick="saveIndexPage()"> -- Save Page</i>');
     $('#root').append(contentFooter);
@@ -13,7 +15,6 @@ $('window').ready(function() {
 var editIndexPage = function() {
     $('.fa').fadeIn();
     $('#edit-Index-page').fadeOut();
-    alert('Hi Sharon or Jason, this edit index page is not complete. It will not allow editing yet. About page you can try it is working.');
 };
 
 var saveIndexPage = function() {

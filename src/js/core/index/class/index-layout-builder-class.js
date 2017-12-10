@@ -1,4 +1,7 @@
-// Layout builder Class for Index
+/*
+Written in a Object Oriented pattern OOP by Dan Weatherbee
+ Layout builder Class for Index
+*/
 CreateIndexPageClass = function(
     CreateIndexPage,
     indexContentStr,
@@ -22,10 +25,6 @@ CreateIndexPageClass = function(
     //saveAs(editedDB);
    // Download default database.
     var defaultIndexDB = new File([dbIndexDefault], "dataIndexDefault");
-
-    // Save to downloads folder.
-    // saveAs(defaultDB);
-    // saveAs(editedDB);
 // ==================================================================
 
 
