@@ -16,4 +16,7 @@ app.saveIndexToDB = function() {
     app.createHeaderH1Text();
     app.createHeaderH2Text();
     app.createHeaderImgSrc();
+    app.createHeaderH3Text();
+    app.createHeaderPText();
+    app.createHeaderParallaxQuotePText();
 };

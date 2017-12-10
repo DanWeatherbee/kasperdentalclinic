@@ -68,33 +68,5 @@ app.renderIndexPage = function() {
         self.indexContentObj.main.content2[0].indexMainContent2ParallaxRow2Col1PTagText,
         self.indexContentObj.main.content2[0].indexMainContent2Row2ParallaxContainerQuoteBoxIconRight
     );
-
-    // $('#index-main-row2-col2').append(
-    //     self.indexContentObj.main.content2[3].row2Col2Img,
-    //     self.indexContentObj.main.content2[2].row2Col2Button
-    // );
-    // $('#index-main-row2-col3').append(
-    //     self.indexContentObj.main.content2[3].row2Col3Img,
-    //     self.indexContentObj.main.content2[2].row2Col3Button
-    // );
-    /*
-     Content3 ============================================================
-     parallax container
-     row 3
-     */
-    // $('#root').append(self.indexContentObj.main.content3[1].indexMainContent3ParallaxRow3);
-    // // col
-    // $('#index-main-row3').append(self.indexContentObj.main.content3[1].indexMainContent3ParallaxRow3Col1);
-    // // quote box
-    // $('#index-main-parallax-row3-col1').append(self.indexContentObj.main.content3[0].row3ParallaxQuoteBox);
-    // // icon left
-    // $('#index-main-row3-parallax-quote-box').append(
-    //     self.indexContentObj.main.content3[0].row3ParallaxIconLeft,
-    //     // text
-    //     self.indexContentObj.main.content3[0].row3ParallaxQuoteBoxText,
-    //     // icon right
-    //     self.indexContentObj.main.content3[0].row3ParallaxIconRight
-    // );
-
 };
 app.renderIndexPage();

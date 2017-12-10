@@ -2,6 +2,9 @@ $('window').ready(function() {
     app.editIndexHeaderText();
     app.editIndexHeaderH2Text();
     app.editIndexHeaderImgJason();
+    app.editIndexHeaderH3Text();
+    app.editIndexHeaderPText();
+    app.editIndexParallaxQuote();
     $('#root').prepend('<i class="fa fa-edit edit-btns" id="edit-Index-page" onclick="editIndexPage()"> -- Edit Page</i>');
     $('#root').prepend('<i class="fa fa-save edit-btns" id="save-Index-page" onclick="saveIndexPage()"> -- Save Page</i>');
     $('#root').append(contentFooter);
