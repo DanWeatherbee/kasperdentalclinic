@@ -22,6 +22,15 @@ CreateServicesPage = {
             'servicesMainContent1Row1Col2HeaderH3TagText': servicesMainContent1Row1Col2HeaderH3TagText,
             'servicesMainContent1Row1Col2PTagText': servicesMainContent1Row1Col2PTagText,
             'servicesMainContent1Row1Col2IconDown': servicesMainContent1Row1Col2IconDown
+        }],
+        'content2': [{
+            'servicesMainContent2Row2ParallaxContainer': servicesMainContent2Row2ParallaxContainer,
+            'servicesMainContent2ParallaxRow2Col1': servicesMainContent2ParallaxRow2Col1,
+            'servicesMainContent2Row2ParallaxContainerQuoteBox': servicesMainContent2Row2ParallaxContainerQuoteBox,
+            'servicesMainContent2Row2ParallaxContainerQuoteBoxIconLeft': servicesMainContent2Row2ParallaxContainerQuoteBoxIconLeft,
+            'servicesMainContent2Row2ParallaxContainerQuoteBoxIconRight': servicesMainContent2Row2ParallaxContainerQuoteBoxIconRight,
+            'servicesMainContent2ParallaxRow2Col1PTag': servicesMainContent2ParallaxRow2Col1PTag,
+            'servicesMainContent2ParallaxRow2Col1PTagText': servicesMainContent2ParallaxRow2Col1PTagText
         }]
     }
 };

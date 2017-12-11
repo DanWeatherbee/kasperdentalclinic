@@ -44,5 +44,5 @@ var servicesMainContent1Row1Col2PTagText = 'At Kasper Denture Clinic we provide 
 
 // icon down
 var servicesMainContent1Row1Col2IconDown = '<a style="padding-left:13%;background-color:white;color:inherit;border-radius:100%;border-color:black;" ' +
-    'href="#parallax" id="scroll-down-services"><i class="fa fa-arrow-down fa-6"></i></a>';
+    'href="#services-main-row2-parallax-container" id="scroll-down-services"><i class="fa fa-arrow-down fa-6"></i></a>';
 

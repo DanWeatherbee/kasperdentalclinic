@@ -1,22 +1,5 @@
-#parallax {
-    background: #fff url('css/cloud.jpg') no-repeat center center;
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    -o-background-size: cover;
-    background-size: cover;
-    background-attachment: fixed;
-    position: relative;
-    z-index: 3;
-    padding: 10% 0 10% 0;
-    height: 100%;
-}
-
-div.qoute-box {
-    color: white;
-    text-align: center;
-    text-shadow: 1px 1px 2px black;
-}
-
+#parallax,
+#services-main-row2-parallax-container,
 #index-main-row2-parallax-container {
     background: #fff url('css/cloud.jpg') no-repeat center center;
     -webkit-background-size: cover;
@@ -29,6 +12,15 @@ div.qoute-box {
     padding: 10% 0 10% 0;
     height: 100%;
 }
+#services-main-row2-parallax-col1-p-tag,
+div.qoute-box {
+    color: white;
+    text-align: center;
+    text-shadow: 1px 1px 2px black;
+    font-size: 2em;
+}
+
+
 #services-main-content1-row1-col2-ul-tag {
     padding: 15% 0 0 15%;
 }

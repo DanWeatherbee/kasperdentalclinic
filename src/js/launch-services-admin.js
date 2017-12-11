@@ -7,6 +7,7 @@ $('window').ready(function() {
     app.editServicesH3();
     app.editServicesP();
     app.editServicesUl();
+    app.editServicesParallaxQuote();
     /*
     Whipe out old and do one at a time.=======================
     Step 4 configure this page- replace word services with services on everything.

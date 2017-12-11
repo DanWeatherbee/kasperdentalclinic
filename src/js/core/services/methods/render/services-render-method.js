@@ -7,7 +7,7 @@ Then move on to content 2 and repeat.
 var app = new CreateServicesPageClass(CreateServicesPage);
 app.renderServicesPage = function() {
     var self = this;
-    console.log(self.servicesContentObj.main.content1[0]);
+
     $('#root').append(self.servicesContentObj.main.content1[0].servicesMainContentContainer);
     // Content1 ==================================================
     // row
@@ -47,5 +47,22 @@ app.renderServicesPage = function() {
     $('#services-main-row1-col2-header-h3-tag').append(
         self.servicesContentObj.main.content1[0].servicesMainContent1Row1Col2HeaderH3TagText
     );
+    // Content2 ==================================================
+    console.log(self.servicesContentObj.main.content2[0]);
+    // parallax contaner row 2
+    $('#root').append(
+        self.servicesContentObj.main.content2[0].servicesMainContent2Row2ParallaxContainer
+    );
+    // parallax content
+    $('#services-main-row2-parallax-container').append(
+        self.servicesContentObj.main.content2[0].servicesMainContent2ParallaxRow2Col1PTag
+    );
+    // p tag
+    $('#services-main-row2-parallax-col1-p-tag').append(
+        self.servicesContentObj.main.content2[0].servicesMainContent2Row2ParallaxContainerQuoteBoxIconLeft,
+        self.servicesContentObj.main.content2[0].servicesMainContent2ParallaxRow2Col1PTagText,
+        self.servicesContentObj.main.content2[0].servicesMainContent2Row2ParallaxContainerQuoteBoxIconRight
+    );
+
 };
 app.renderServicesPage();
