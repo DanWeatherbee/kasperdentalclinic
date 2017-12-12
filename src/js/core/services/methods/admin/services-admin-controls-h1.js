@@ -5,6 +5,14 @@ Keep adding elements until you are done.
 
 For images you must swap out img tag+src - not just src of tag.
 services-render-method for step 9.
+Admin Control Cloning procedure-----
+Using find replace in editor;
+e.g.
+a. increment H3_8
+b. increment tag8
+c. increment Text8
+d. increment -h3-8-
+------     Test    ---------------------------
  Services H1 Text Controls =============================================
 */
 app.editServicesH1 = function(
@@ -19,7 +27,7 @@ app.editServicesH1 = function(
     // Services Controls =============================================
     self.$servicesServicesH1Tag = $('#services-main-row1-col2-header-h1-tag');
     self.editH1TextBtn = '<i type="button" class="fa fa-edit edit-btns" id="edit-services-h1-btn" onclick="app.editServicesH1Text()"></i>';
-    self.saveH1TextBtn = '<i type="button" class="fa fa-save edit-btns" id="save-services-h1-btn" onclick="app.saveServicesH1Text()"></i>';
+    self.saveH1TextBtn = '<i type="button" class="fa fa-save edit-btns-fixed" id="save-services-h1-btn" onclick="app.saveServicesH1Text()"></i>';
     self.$saveH1TextBtn = $('#save-services-h1-btn');
     self.textAreaservicesH1 = '<textarea class="form-control" rows="1" number="3" maxlength="150" ' +
         'id="services-h1-input">' +

@@ -24,4 +24,11 @@ app.saveServicesToDB = function() {
    app.createServicesPText();
    app.createServicesUlContent();
    app.createParallaxQuotePText();
+   app.createServicesH3_2Text();
+   app.createServicesH3_3Text();
+   app.createServicesH3_4Text();
+   app.createServicesH3_5Text();
+   app.createServicesH3_6Text();
+   app.createServicesH3_7Text();
+   app.createServicesH3_8Text();
 };

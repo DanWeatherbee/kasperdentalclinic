@@ -48,7 +48,6 @@ app.renderServicesPage = function() {
         self.servicesContentObj.main.content1[0].servicesMainContent1Row1Col2HeaderH3TagText
     );
     // Content2 ==================================================
-    console.log(self.servicesContentObj.main.content2[0]);
     // parallax contaner row 2
     $('#root').append(
         self.servicesContentObj.main.content2[0].servicesMainContent2Row2ParallaxContainer
@@ -63,6 +62,91 @@ app.renderServicesPage = function() {
         self.servicesContentObj.main.content2[0].servicesMainContent2ParallaxRow2Col1PTagText,
         self.servicesContentObj.main.content2[0].servicesMainContent2Row2ParallaxContainerQuoteBoxIconRight
     );
+    // Content3 ==================================================
+
+    $('#root').append(
+        self.servicesContentObj.main.content3[0].servicesContent3Container
+    );
+
+    $('#services-content3-container').append(
+        self.servicesContentObj.main.content3[0].servicesContent3row2
+    );
+    $('#services-content3-row2').append(
+        self.servicesContentObj.main.content3[0].servicesContent3row2Col1,
+        self.servicesContentObj.main.content3[0].servicesContent3row2Col2,
+        self.servicesContentObj.main.content3[0].servicesContent3row2Col3
+    );
+
+    $('#services-content3-row2-col2').append(
+        self.servicesContentObj.main.content3[0].servicesContent3row2Col2HeaderH3Tag1,
+        self.servicesContentObj.main.content3[0].servicesContent3row2Col2PTag1,
+        self.servicesContentObj.main.content3[0].servicesContent3row2Col2HeaderH3Tag2,
+        self.servicesContentObj.main.content3[0].servicesContent3row2Col2PTag2,
+        self.servicesContentObj.main.content3[0].servicesContent3row2Col2HeaderH3Tag3,
+        self.servicesContentObj.main.content3[0].servicesContent3row2Col2PTag3,
+        self.servicesContentObj.main.content3[0].servicesContent3row2Col2HeaderH3Tag4,
+        self.servicesContentObj.main.content3[0].servicesContent3row2Col2PTag4,
+        self.servicesContentObj.main.content3[0].servicesContent3row2Col2HeaderH3Tag5,
+        self.servicesContentObj.main.content3[0].servicesContent3row2Col2PTag5,
+        self.servicesContentObj.main.content3[0].servicesContent3row2Col2HeaderH3Tag6,
+        self.servicesContentObj.main.content3[0].servicesContent3row2Col2PTag6,
+        self.servicesContentObj.main.content3[0].servicesContent3row2Col2HeaderH3Tag7,
+        self.servicesContentObj.main.content3[0].servicesContent3row2Col2PTag7,
+        self.servicesContentObj.main.content3[0].servicesContent3row2Col2HeaderH3Tag8,
+        self.servicesContentObj.main.content3[0].servicesContent3row2Col2PTag8
+    );
+    $('#services-content3-row2-col2-h3-tag1').append(
+        self.servicesContentObj.main.content3[0].servicesContent3row2Col2HeaderH3TagText1
+    );
+    $('#services-content3-row2-col2-h3-tag2').append(
+        self.servicesContentObj.main.content3[0].servicesContent3row2Col2HeaderH3TagText2
+    );
+    $('#services-content3-row2-col2-h3-tag3').append(
+        self.servicesContentObj.main.content3[0].servicesContent3row2Col2HeaderH3TagText3
+    );
+    $('#services-content3-row2-col2-h3-tag4').append(
+        self.servicesContentObj.main.content3[0].servicesContent3row2Col2HeaderH3TagText4
+    );
+    $('#services-content3-row2-col2-h3-tag5').append(
+        self.servicesContentObj.main.content3[0].servicesContent3row2Col2HeaderH3TagText5
+    );
+    $('#services-content3-row2-col2-h3-tag6').append(
+        self.servicesContentObj.main.content3[0].servicesContent3row2Col2HeaderH3TagText6
+    );
+    $('#services-content3-row2-col2-h3-tag7').append(
+        self.servicesContentObj.main.content3[0].servicesContent3row2Col2HeaderH3TagText7
+    );
+    $('#services-content3-row2-col2-h3-tag8').append(
+        self.servicesContentObj.main.content3[0].servicesContent3row2Col2HeaderH3TagText8
+    );
+    // p text
+    $('#services-content3-row2-col2-p1-tag').append(
+        self.servicesContentObj.main.content3[0].servicesContent3row2Col2PTagText1
+    );
+    $('#services-content3-row2-col2-p2-tag').append(
+        self.servicesContentObj.main.content3[0].servicesContent3row2Col2PTagText2
+    );
+    $('#services-content3-row2-col2-p3-tag').append(
+        self.servicesContentObj.main.content3[0].servicesContent3row2Col2PTagText3
+    );
+    $('#services-content3-row2-col2-p4-tag').append(
+        self.servicesContentObj.main.content3[0].servicesContent3row2Col2PTagText4
+    );
+    $('#services-content3-row2-col2-p5-tag').append(
+        self.servicesContentObj.main.content3[0].servicesContent3row2Col2PTagText5
+    );
+    $('#services-content3-row2-col2-p6-tag').append(
+        self.servicesContentObj.main.content3[0].servicesContent3row2Col2PTagText6
+    );
+    $('#services-content3-row2-col2-p7-tag').append(
+        self.servicesContentObj.main.content3[0].servicesContent3row2Col2PTagText7
+    );
+    $('#services-content3-row2-col2-p8-tag').append(
+        self.servicesContentObj.main.content3[0].servicesContent3row2Col2PTagText8
+    );
+    // Content4 ==================================================
+    //console.log(self.servicesContentObj.main.content4);
+
 
 };
 app.renderServicesPage();

@@ -8,6 +8,14 @@ $('window').ready(function() {
     app.editServicesP();
     app.editServicesUl();
     app.editServicesParallaxQuote();
+    app.editServicesH3_2();
+    app.editServicesH3_3();
+    app.editServicesH3_4();
+    app.editServicesH3_5();
+    app.editServicesH3_6();
+    app.editServicesH3_7();
+    app.editServicesH3_8();
+
     /*
     Whipe out old and do one at a time.=======================
     Step 4 configure this page- replace word services with services on everything.
@@ -15,8 +23,8 @@ $('window').ready(function() {
     Go to db-content-services for step 6.
     Begin appendding buttons.
 */
-    $('#root').prepend('<i class="fa fa-edit edit-btns" id="edit-services-page" onclick="editServicesPage()"> -- Edit Page</i>');
-    $('#root').prepend('<i class="fa fa-save edit-btns" id="save-services-page" onclick="saveServicesPage()"> -- Save Page</i>');
+    $('#root').prepend('<i class="fa fa-edit edit-btns-fixed" id="edit-services-page" onclick="editServicesPage()"> -- Edit Page</i>');
+    $('#root').prepend('<i class="fa fa-save edit-btns-fixed" id="save-services-page" onclick="saveServicesPage()"> -- Save Page</i>');
 
     // add footer
     $('#root').append(contentFooter);

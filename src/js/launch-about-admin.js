@@ -3,8 +3,8 @@ $('window').ready(function() {
     app.editAboutHeaderText();
     app.editAboutHeaderPText();
 
-    $('#root').prepend('<br /><i class="fa fa-edit" id="edit-about-page" onclick="editAboutPage()"> -- Edit Page</i>');
-    $('#root').prepend('<br /><i class="fa fa-save" id="save-about-page" onclick="saveAboutPage()"> -- Save Page</i>');
+    $('#root').prepend('<br /><i class="fa fa-edit edit-btns-fixed" id="edit-about-page" onclick="editAboutPage()"> -- Edit Page</i>');
+    $('#root').prepend('<br /><i class="fa fa-save edit-btns-fixed" id="save-about-page" onclick="saveAboutPage()"> -- Save Page</i>');
     $('#root').append(contentFooter);
 
     editAboutPage();

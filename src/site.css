@@ -1,3 +1,9 @@
+
+.edit-btns-fixed {
+    position: fixed;
+    background-color: white;
+    z-index: 4;
+}
 #parallax,
 #services-main-row2-parallax-container,
 #index-main-row2-parallax-container {
@@ -98,6 +104,15 @@ video {
 
 div.qoute-box {
     font-size: 1.5em;
+}
+
+.book-online-border {
+    color: blue;
+}
+
+.book-online-border:hover {
+    color: lawngreen;
+    background-color: black;
 }
 
 a:hover {

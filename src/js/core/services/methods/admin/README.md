@@ -37,3 +37,17 @@ For images you must swap out img tag+src - not just src of tag.
 Step 9.
 When content 1 is complete and working, wire up admin to elements.
 Then move on to content 2 and repeat.
+
+Step. 10
+Creating element controls;
+
+Admin Control Cloning procedure-----
+Using find replace in editor;
+e.g.
+a. increment H3_7 to H3_7
+b. increment tag7 to tag8
+c. increment Text7 to Text7
+d. increment -h3-7- to -h3-7-
+e. increment "to tag7" to "to tag8"
+f. increment "to Text7" to "to Text8"
+------     Test    ---------------------------

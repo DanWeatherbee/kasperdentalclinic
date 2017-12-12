@@ -5,6 +5,14 @@ Keep adding elements until you are done.
 
 For images you must swap out img tag+src - not just src of tag.
 services-render-method for step 9.
+Admin Control Cloning procedure-----
+Using find replace in editor;
+e.g.
+a. increment H3_8
+b. increment tag8
+c. increment Text8
+d. increment -h3-8-
+------     Test    ---------------------------
  Services H3 Text Controls =============================================
 */
 app.editServicesH3 = function(
@@ -17,13 +25,13 @@ app.editServicesH3 = function(
     "use strict";
     var self = this;
     // Services Controls =============================================
-    self.$servicesServicesH3Tag = $('#services-main-row1-col2-header-h3-tag');
+    self.$servicesServicesH3Tag = $('#services-content3-row2-col2-h3-tag1');
     self.editH3TextBtn = '<i type="button" class="fa fa-edit edit-btns" id="edit-services-H3-btn" onclick="app.editServicesH3Text()"></i>';
     self.saveH3TextBtn = '<i type="button" class="fa fa-save edit-btns" id="save-services-H3-btn" onclick="app.saveServicesH3Text()"></i>';
     self.$saveH3TextBtn = $('#save-services-H3-btn');
     self.textAreaservicesH3 = '<textarea class="form-control" rows="1" number="3" maxlength="150" ' +
         'id="services-H3-input">' +
-        self.servicesContentObj.main.content1[0].servicesMainContent1Row1Col2HeaderH3TagText +
+        self.servicesContentObj.main.content3[0].servicesContent3row2Col2HeaderH3TagText1 +
         '</textarea>';
     self.$textAreaH3services = $('#services-H3-input');
     app.editServicesH3Text = function() {
@@ -35,8 +43,8 @@ app.editServicesH3 = function(
     }
     app.saveServicesH3Text = function() {
         var usrInput = $('#services-H3-input').val();
-        self.servicesContentObj.main.content1[0].servicesMainContent1Row1Col2HeaderH3TagText = usrInput;
-        self.$servicesServicesH3Tag.html(self.servicesContentObj.main.content1[0].servicesMainContent1Row1Col2HeaderH3TagText);
+        self.servicesContentObj.main.content3[0].servicesContent3row2Col2HeaderH3TagText1 = usrInput;
+        self.$servicesServicesH3Tag.html(self.servicesContentObj.main.content3[0].servicesContent3row2Col2HeaderH3TagText1);
         $('#save-services-H3-btn').remove();
         self.$textAreaH3services.remove();
         app.saveServicesToDB();
