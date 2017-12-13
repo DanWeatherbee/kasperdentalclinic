@@ -77,8 +77,8 @@ app.renderServicesPage = function() {
         self.servicesContentObj.main.content3[0].servicesContent3row2Col3
     );
 
-    $('#services-content3-row2-col2').append(
-        self.servicesContentObj.main.content3[0].servicesContent3row2Col2HeaderH3Tag1,
+    // TODO refactor using for loops.===================================================
+    var tagsArray = [self.servicesContentObj.main.content3[0].servicesContent3row2Col2HeaderH3Tag1,
         self.servicesContentObj.main.content3[0].servicesContent3row2Col2PTag1,
         self.servicesContentObj.main.content3[0].servicesContent3row2Col2HeaderH3Tag2,
         self.servicesContentObj.main.content3[0].servicesContent3row2Col2PTag2,
@@ -94,7 +94,13 @@ app.renderServicesPage = function() {
         self.servicesContentObj.main.content3[0].servicesContent3row2Col2PTag7,
         self.servicesContentObj.main.content3[0].servicesContent3row2Col2HeaderH3Tag8,
         self.servicesContentObj.main.content3[0].servicesContent3row2Col2PTag8
-    );
+    ];
+
+    tagsArray.forEach(function(item) {
+        console.log(item);
+        $('#services-content3-row2-col2').append(item);
+    });
+
     $('#services-content3-row2-col2-h3-tag1').append(
         self.servicesContentObj.main.content3[0].servicesContent3row2Col2HeaderH3TagText1
     );
@@ -145,7 +151,69 @@ app.renderServicesPage = function() {
         self.servicesContentObj.main.content3[0].servicesContent3row2Col2PTagText8
     );
     // Content4 ==================================================
-    //console.log(self.servicesContentObj.main.content4);
+    $('#root').append(
+        self.servicesContentObj.main.content4[0].servicesContent4Container
+    );
+    $('#services-content4-container').append(
+        self.servicesContentObj.main.content4[0].servicesContent4Row4
+    );
+    $('#services-content4-row4').append(
+        self.servicesContentObj.main.content4[0].servicesContent4Row4Col1,
+        self.servicesContentObj.main.content4[0].servicesContent4Row4Col2,
+        self.servicesContentObj.main.content4[0].servicesContent4Row4Col3
+    );
+    $('#services-content4-row4-col2').append(
+        self.servicesContentObj.main.content4[0].servicesCollapsibleContainersHeaderH1Faq1
+    );
+    $('#services-collapsible-containers-header-h1-faq-1').append(
+        self.servicesContentObj.main.content4[0].servicesCollapsibleContainersHeaderH1TextFaq1
+    );
+
+    $('#services-content4-row4-col2').append(
+        self.servicesContentObj.main.content4[0].servicesCollapsibleContainersHeaderH1Faq1,
+        self.servicesContentObj.main.content4[0].servicesCollapsibleContainersFaq1,
+        self.servicesContentObj.main.content4[0].servicesCollapsibleContainersFaq2,
+        self.servicesContentObj.main.content4[0].servicesCollapsibleContainersFaq3,
+        self.servicesContentObj.main.content4[0].servicesCollapsibleContainersFaq4
+    );
+    $('#services-collapsible-containers-header-h1-faq-1').append(
+        self.servicesContentObj.main.content4[0].servicesCollapsibleContainersHeaderH1TextFaq1
+    );
+    console.log(self.servicesContentObj.main);
+    // Collapsible container 1 ----------------------------------------------
+    $('#services-collapsible-h2-faq-1').append(
+        self.servicesContentObj.main.content4[0].servicesCollapsibleContainersH2TextFaq1
+    );
+    $('#services-collapsible-p-tag-faq-1').append(
+        self.servicesContentObj.main.content4[0].servicesCollapsibleContainersPTextFaq1
+    );
+    // Collapsible container 2 ----------------------------------------------
+    $('#services-collapsible-h2-faq-2').append(
+        self.servicesContentObj.main.content4[0].servicesCollapsibleContainersH2TextFaq2
+    );
+    $('#services-collapsible-p-tag-faq-2').append(
+        self.servicesContentObj.main.content4[0].servicesCollapsibleContainersPTextFaq2
+    );
+    // Collapsible container 3 ----------------------------------------------
+    $('#services-collapsible-h2-faq-3').append(
+        self.servicesContentObj.main.content4[0].servicesCollapsibleContainersH2TextFaq3
+    );
+    $('#services-collapsible-p-tag-faq-3').append(
+        self.servicesContentObj.main.content4[0].servicesCollapsibleContainersPTextFaq3
+    );
+    // Collapsible container 4 ----------------------------------------------
+    $('#services-collapsible-h2-faq-4').append(
+        self.servicesContentObj.main.content4[0].servicesCollapsibleContainersH2TextFaq4
+    );
+    $('#services-collapsible-p-tag-faq-4').append(
+        self.servicesContentObj.main.content4[0].servicesCollapsibleContainersPTextFaq4
+    );
+
+
+
+
+
+
 
 
 };

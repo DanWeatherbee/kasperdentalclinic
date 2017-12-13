@@ -5,7 +5,7 @@ Data Object (database)
 Step 6 configure database.
 Go to step 7 services-layout-builder-class
 */
-CreateServicesPage = {
+var CreateServicesPage = {
     'main': {
         'content1': [{
             'servicesMainContentContainer': servicesMainContentContainer,
@@ -70,6 +70,27 @@ CreateServicesPage = {
             'servicesContent3row2Col2PTagText6': servicesContent3row2Col2PTagText6,
             'servicesContent3row2Col2PTagText7': servicesContent3row2Col2PTagText7,
             'servicesContent3row2Col2PTagText8': servicesContent3row2Col2PTagText8
+        }],
+        'content4': [{
+            'servicesContent4Container': servicesContent4Container,
+            'servicesContent4Row4': servicesContent4Row4,
+            'servicesContent4Row4Col1': servicesContent4Row4Col1,
+            'servicesContent4Row4Col2': servicesContent4Row4Col2,
+            'servicesContent4Row4Col3': servicesContent4Row4Col3,
+            'servicesCollapsibleContainersHeaderH1Faq1': servicesCollapsibleContainersHeaderH1Faq1,
+            'servicesCollapsibleContainersHeaderH1TextFaq1': servicesCollapsibleContainersHeaderH1TextFaq1,
+            'servicesCollapsibleContainersFaq1': servicesCollapsibleContainersFaq1,
+            'servicesCollapsibleContainersH2TextFaq1': servicesCollapsibleContainersH2TextFaq1,
+            'servicesCollapsibleContainersPTextFaq1': servicesCollapsibleContainersPTextFaq1,
+            'servicesCollapsibleContainersFaq2': servicesCollapsibleContainersFaq2,
+            'servicesCollapsibleContainersH2TextFaq2': servicesCollapsibleContainersH2TextFaq2,
+            'servicesCollapsibleContainersPTextFaq2': servicesCollapsibleContainersPTextFaq2,
+            'servicesCollapsibleContainersFaq3': servicesCollapsibleContainersFaq3,
+            'servicesCollapsibleContainersH2TextFaq3': servicesCollapsibleContainersH2TextFaq3,
+            'servicesCollapsibleContainersPTextFaq3': servicesCollapsibleContainersPTextFaq3,
+            'servicesCollapsibleContainersFaq4': servicesCollapsibleContainersFaq4,
+            'servicesCollapsibleContainersH2TextFaq4': servicesCollapsibleContainersH2TextFaq4,
+            'servicesCollapsibleContainersPTextFaq4': servicesCollapsibleContainersPTextFaq4
         }]
     }
 };

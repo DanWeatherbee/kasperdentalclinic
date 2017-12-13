@@ -27,6 +27,9 @@ db-content-services - set up database.
 
 Step 7. 
 services-layout-builder-class
+Once done you do not need to edit this file again. 1 per page.
+e.g. 
+(page1-layout-builder-class, page2-layout-builder-class, etc.)
 
 Step 8. 
 services-admin-controls-h1
