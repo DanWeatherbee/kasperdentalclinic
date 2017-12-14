@@ -1,12 +1,4 @@
-/*
-Written in a Object Oriented pattern OOP by Dan Weatherbee
-Step 8 Final configure first element and by renaming and test.
-Keep adding elements until you are done.
 
-For images you must swap out img tag+src - not just src of tag.
-services-render-method for step 9.
- Services P Text Controls =============================================
-*/
 app.editServicesUl = function(
     $servicesServicesUlTag,
     editUlContent,
@@ -45,12 +37,6 @@ app.editServicesUl = function(
         $('#edit-services-ul-btn').remove();
         self.$servicesServicesUlTag.append(self.editUlContentBtn);
     }
-    //    Step 1 add elem create method e.g.
-    // app.createServicesPText();
-    // Step2 replace below with above after the period.
-    // e.g. createServicesPText();
-    // Step 3 edit main function above e.g. editservicesServicesText to editServicesServicesText
-    //create a launch-services-admin from a cloning from one thats made.
-    // modify at the top app. calls to your new one app.editServicesServicesText().
+
     self.createServicesUlContent();
 };

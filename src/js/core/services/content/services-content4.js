@@ -1,14 +1,6 @@
-/*
-Written in a Object Oriented pattern OOP by Dan Weatherbee
-services-content4.js
-content4 container
-Step 5  =============
-configure content on services-content-?.
-add your new scripts to your page.html -- check index.html for model of script load order.
-go to Step 6.
-db-content-services - add to database.
- Content 4 ===============================================================
-*/
+
+// Content 4 ===============================================================
+
 var servicesContent4Container = '<content4 class="container animated fadeIn" id="services-content4-container"></content4>';
 // rows
 var servicesContent4Row4 = '<section class="row" id="services-content4-row4"></section>';
@@ -16,25 +8,17 @@ var servicesContent4Row4 = '<section class="row" id="services-content4-row4"></s
 var servicesContent4Row4Col1 = '<article class="col-xs-1 col-sm-2 col-md-2 col-lg-4" id="services-content4-row4-col1"></article>';
 var servicesContent4Row4Col2 = '<article class="col-xs-10 col-sm-8 col-md-8 col-lg-4" id="services-content4-row4-col2"></article>';
 var servicesContent4Row4Col3 = '<article class="col-xs-1 col-sm-2 col-md-2 col-lg-4" id="services-content4-row4-col3"></article>';
-var servicesCollapsibleContainersHeaderH1Faq1 = '<h1 class="services-collapsible-containers-header-h1-faq-1></h1>';
-var servicesCollapsibleContainersHeaderH1TextFaq1 = 'FAQ';
-/*
-tags
-    Collapsible containers
-    Container 1 ================================================
-<div data-parent="#accordion" data-toggle="collapse" style="padding-top:20px;padding-bottom:0px" href="#faq1" aria-expanded="true">
-<div class="faq-title">
-<a class="cd-faq-trigger text-center" style="text-decoration:none;cursor:pointer"><i class="fa fa-angle-double-down"></i>What benefits do dentures provide?</a>
-</div>
-</div>
-*/
+// header h1
+var servicesCollapsibleContainersHeaderH1 = '<h1 class="text-center" id="services-collapsible-containers-header-h1"></h1>';
+// text
+var servicesCollapsibleContainersHeaderH1Text = 'FAQ';
+// Container 1 ============Collapsible Containers Begin ==================
 var servicesCollapsibleContainersFaq1 = '<section class="services-collapse-containers" id="services-collapsible-containers-faq-1"' +
     ' data-parent="#accordion" data-toggle="collapse" href="#services-collapsible-article-faq-1" aria-expanded="true">' +
     // trigger
-    '<a class="cd-faq-trigger text-center text-center" data-toggle="collapse" data-target="#services-collapsible-article-faq-1" style="text-decoration:none;cursor:pointer">' +
-    '<i class="fa fa-angle-double-down">' +
-    '</i>' +
-    '<h2 id="services-collapsible-h2-faq-1"></h2>' +
+    '<a class="cd-faq-trigger" data-toggle="collapse" ' +
+    'data-target="#services-collapsible-article-faq-1" style="text-decoration:none;cursor:pointer">' +
+    '<h2 id="services-collapsible-h2-faq-1"><i class="fa fa-angle-double-down"></i> </h2>' +
     '</a>' +
     // collapsible area
     '<article id="services-collapsible-article-faq-1" class="collapse">' +
@@ -42,7 +26,6 @@ var servicesCollapsibleContainersFaq1 = '<section class="services-collapse-conta
     '</p>' +
     '</article>' +
     '</section>';
-
 var servicesCollapsibleContainersH2TextFaq1 = 'What benefits do dentures provide?';
 var servicesCollapsibleContainersPTextFaq1 = 'Chewing ability;' +
     ' this is drastically improved by replacing toothless areas with denture teeth.' +
@@ -58,15 +41,13 @@ var servicesCollapsibleContainersPTextFaq1 = 'Chewing ability;' +
     '<br /><br />' +
     'Self-Esteem; patients feel better about themselves when their teeth look great.' +
     ' A full, beautiful smile can give back the confidence a person may have lost when they lost their teeth.';
-
 // Container 2 ================================================
 var servicesCollapsibleContainersFaq2 = '<section class="services-collapse-containers" id="services-collapsible-containers-faq-2"' +
     ' data-parent="#accordion" data-toggle="collapse" href="#services-collapsible-article-faq-2" aria-expanded="true">' +
     // trigger
-    '<a class="cd-faq-trigger text-center data-toggle="collapse" data-target="#services-collapsible-article-faq-2" style="text-decoration:none;cursor:pointer">' +
-    '<i class="fa fa-angle-double-down">' +
-    '</i>' +
-    '<h2 id="services-collapsible-h2-faq-2"></h2>' +
+    '<a class="cd-faq-trigger" data-toggle="collapse" ' +
+    'data-target="#services-collapsible-article-faq-2" style="text-decoration:none;cursor:pointer">' +
+    '<h2 id="services-collapsible-h2-faq-2"><i class="fa fa-angle-double-down"></i> </h2>' +
     '</a>' +
     // collapsible area
     '<article id="services-collapsible-article-faq-2" class="collapse">' +
@@ -74,7 +55,6 @@ var servicesCollapsibleContainersFaq2 = '<section class="services-collapse-conta
     '</p>' +
     '</article>' +
     '</section>';
-
 var servicesCollapsibleContainersH2TextFaq2 = 'What can I expect from my first denture?';
 var servicesCollapsibleContainersPTextFaq2 = 'The first time you are fitted with a denture,' +
     ' you should notice a distinct improvement on your smile.' +
@@ -98,15 +78,13 @@ var servicesCollapsibleContainersPTextFaq2 = 'The first time you are fitted with
     'It will usually take about 6-8 weeks of wear to become completely used to wearing dentures,' +
     ' so patience is key. Starting with soft foods,' +
     ' cutting food up at first helps to train your muscles to eat with your new dentures.';
-
 // Container 3 ================================================
 var servicesCollapsibleContainersFaq3 = '<section class="services-collapse-containers" id="services-collapsible-containers-faq-3"' +
     ' data-parent="#accordion" data-toggle="collapse" href="#services-collapsible-article-faq-3" aria-expanded="true">' +
     // trigger
-    '<a class="cd-faq-trigger text-center data-toggle="collapse" data-target="#services-collapsible-article-faq-3" style="text-decoration:none;cursor:pointer">' +
-    '<i class="fa fa-angle-double-down">' +
-    '</i>' +
-    '<h2 id="services-collapsible-h2-faq-3"></h2>' +
+    '<a class="cd-faq-trigger" data-toggle="collapse" ' +
+    'data-target="#services-collapsible-article-faq-3" style="text-decoration:none;cursor:pointer">' +
+    '<h2 id="services-collapsible-h2-faq-3"><i class="fa fa-angle-double-down"></i> </h2>' +
     '</a>' +
     // collapsible area
     '<article id="services-collapsible-article-faq-3" class="collapse">' +
@@ -114,20 +92,17 @@ var servicesCollapsibleContainersFaq3 = '<section class="services-collapse-conta
     '</p>' +
     '</article>' +
     '</section>';
-
 var servicesCollapsibleContainersH2TextFaq3 = 'What types of denture does Kasper Denture Clinic offer?';
 var servicesCollapsibleContainersPTextFaq3 = 'We Offer Complete and Partial Dentures<br />' +
     'Implant and Over-dentures<br />' +
     'Same Day Reline and Repairs';
-
 // Container 4 ================================================
 var servicesCollapsibleContainersFaq4 = '<section class="services-collapse-containers" id="services-collapsible-containers-faq-4"' +
     ' data-parent="#accordion" data-toggle="collapse" href="#services-collapsible-article-faq-4" aria-expanded="true">' +
     // trigger
-    '<a class="cd-faq-trigger text-center data-toggle="collapse" data-target="#services-collapsible-article-faq-4" style="text-decoration:none;cursor:pointer">' +
-    '<i class="fa fa-angle-double-down">' +
-    '</i>' +
-    '<h2 id="services-collapsible-h2-faq-4"></h2>' +
+    '<a class="cd-faq-trigger" data-toggle="collapse" ' +
+    'data-target="#services-collapsible-article-faq-4" style="text-decoration:none;cursor:pointer">' +
+    '<h2 id="services-collapsible-h2-faq-4"><i class="fa fa-angle-double-down"></i> </h2>' +
     '</a>' +
     // collapsible area
     '<article id="services-collapsible-article-faq-4" class="collapse">' +
@@ -135,7 +110,6 @@ var servicesCollapsibleContainersFaq4 = '<section class="services-collapse-conta
     '</p>' +
     '</article>' +
     '</section>';
-
 var servicesCollapsibleContainersH2TextFaq4 = 'I have a denture I do not like.  What can I do?';
 var servicesCollapsibleContainersPTextFaq4 = 'The human mouth is a living set of tissues' +
     ' that are subject to constant change over time.' +

@@ -33,8 +33,7 @@ div.qoute-box {
 }
 
 .services-collapse-containers>a>h2:hover {
-    background-color: black;
-    color: lawngreen;
+    color: blue;
 }
 
 #services-main-row2-parallax-container {

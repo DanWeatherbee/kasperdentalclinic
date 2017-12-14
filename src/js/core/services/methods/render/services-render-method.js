@@ -1,9 +1,4 @@
-/*
-Written in a Object Oriented pattern OOP by Dan Weatherbee
-services Step 9.
-When content 1 is complete and working, wire up admin to elements.
-Then move on to content 2 and repeat.
-*/
+
 var app = new CreateServicesPageClass(CreateServicesPage);
 app.renderServicesPage = function() {
     var self = this;
@@ -126,28 +121,28 @@ app.renderServicesPage = function() {
         self.servicesContentObj.main.content3[0].servicesContent3row2Col2HeaderH3TagText8
     );
     // p text
-    $('#services-content3-row2-col2-p1-tag').append(
+    $('#services-content3-row2-col2-tag-p-1').append(
         self.servicesContentObj.main.content3[0].servicesContent3row2Col2PTagText1
     );
-    $('#services-content3-row2-col2-p2-tag').append(
+    $('#services-content3-row2-col2-tag-p-2').append(
         self.servicesContentObj.main.content3[0].servicesContent3row2Col2PTagText2
     );
-    $('#services-content3-row2-col2-p3-tag').append(
+    $('#services-content3-row2-col2-tag-p-3').append(
         self.servicesContentObj.main.content3[0].servicesContent3row2Col2PTagText3
     );
-    $('#services-content3-row2-col2-p4-tag').append(
+    $('#services-content3-row2-col2-tag-p-4').append(
         self.servicesContentObj.main.content3[0].servicesContent3row2Col2PTagText4
     );
-    $('#services-content3-row2-col2-p5-tag').append(
+    $('#services-content3-row2-col2-tag-p-5').append(
         self.servicesContentObj.main.content3[0].servicesContent3row2Col2PTagText5
     );
-    $('#services-content3-row2-col2-p6-tag').append(
+    $('#services-content3-row2-col2-tag-p-6').append(
         self.servicesContentObj.main.content3[0].servicesContent3row2Col2PTagText6
     );
-    $('#services-content3-row2-col2-p7-tag').append(
+    $('#services-content3-row2-col2-tag-p-7').append(
         self.servicesContentObj.main.content3[0].servicesContent3row2Col2PTagText7
     );
-    $('#services-content3-row2-col2-p8-tag').append(
+    $('#services-content3-row2-col2-tag-p-8').append(
         self.servicesContentObj.main.content3[0].servicesContent3row2Col2PTagText8
     );
     // Content4 ==================================================
@@ -162,24 +157,18 @@ app.renderServicesPage = function() {
         self.servicesContentObj.main.content4[0].servicesContent4Row4Col2,
         self.servicesContentObj.main.content4[0].servicesContent4Row4Col3
     );
+console.log(self.servicesContentObj.main.content4[0].servicesCollapsibleContainersHeaderH1Text);
     $('#services-content4-row4-col2').append(
-        self.servicesContentObj.main.content4[0].servicesCollapsibleContainersHeaderH1Faq1
-    );
-    $('#services-collapsible-containers-header-h1-faq-1').append(
-        self.servicesContentObj.main.content4[0].servicesCollapsibleContainersHeaderH1TextFaq1
-    );
-
-    $('#services-content4-row4-col2').append(
-        self.servicesContentObj.main.content4[0].servicesCollapsibleContainersHeaderH1Faq1,
+        self.servicesContentObj.main.content4[0].servicesCollapsibleContainersHeaderH1,
         self.servicesContentObj.main.content4[0].servicesCollapsibleContainersFaq1,
         self.servicesContentObj.main.content4[0].servicesCollapsibleContainersFaq2,
         self.servicesContentObj.main.content4[0].servicesCollapsibleContainersFaq3,
         self.servicesContentObj.main.content4[0].servicesCollapsibleContainersFaq4
     );
-    $('#services-collapsible-containers-header-h1-faq-1').append(
-        self.servicesContentObj.main.content4[0].servicesCollapsibleContainersHeaderH1TextFaq1
+    $('#services-collapsible-containers-header-h1').append(
+        self.servicesContentObj.main.content4[0].servicesCollapsibleContainersHeaderH1Text
     );
-    console.log(self.servicesContentObj.main);
+
     // Collapsible container 1 ----------------------------------------------
     $('#services-collapsible-h2-faq-1').append(
         self.servicesContentObj.main.content4[0].servicesCollapsibleContainersH2TextFaq1

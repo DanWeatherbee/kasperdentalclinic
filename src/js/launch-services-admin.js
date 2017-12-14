@@ -1,8 +1,4 @@
 $('window').ready(function() {
-    /*
-    from step 3
-    for every conrol you make you must then call it here to initiate.
-        */
     app.editServicesH1();
     app.editServicesH3();
     app.editServicesP();
@@ -15,14 +11,14 @@ $('window').ready(function() {
     app.editServicesH3_6();
     app.editServicesH3_7();
     app.editServicesH3_8();
-
-    /*
-    Whipe out old and do one at a time.=======================
-    Step 4 configure this page- replace word services with services on everything.
-    Step 5 add your new scripts to your page.html -- check services.html for model of script load order.
-    Go to db-content-services for step 6.
-    Begin appendding buttons.
-*/
+    app.editServicesP1();
+    app.editServicesP2();
+    app.editServicesP3();
+    app.editServicesP4();
+    app.editServicesP5();
+    app.editServicesP6();
+    app.editServicesP7();
+    app.editServicesP8();
     $('#root').prepend('<i class="fa fa-edit edit-btns-fixed" id="edit-services-page" onclick="editServicesPage()"> -- Edit Page</i>');
     $('#root').prepend('<i class="fa fa-save edit-btns-fixed" id="save-services-page" onclick="saveServicesPage()"> -- Save Page</i>');
 

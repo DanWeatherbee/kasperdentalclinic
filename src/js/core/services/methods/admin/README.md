@@ -1,56 +1,71 @@
-Document admin controls cloning procedure.
+  
+        Document admin controls cloning procedure.
 
-Step 1. index-db-save configure database.
-add elem create method e.g.
-app.createServicesH1Text();
+- Step 1.
 
-Step 2. services-admin-controls-h1 steps 1 - 3 are listed here.
-replace below with above after the period.
-e.g. createServicesH1Text();
+    page-db-save configure database.
+    add elem create method e.g.
+    app.createPageH1Text();
 
-Step 3. 
-edit main function above e.g. editIndexHeaderText to editServicesHeaderText
-create a launch-services-admin from a cloning from one thats made.
-modify at the top. app.methods to your new one app.editServicesHeaderText().
+- Step 2.
 
-Step 4.
-launch-services-admin
-configure this page- replace word index with services on everything.
+    Clone page-admin-controls-h1-1.js
+    replace below with above after the period.
+    e.g. createPageH1Text();
 
-Step 5
-configure content on services-content1.
-add your new scripts to your page.html -- check index.html for model of script load order.
-Begin appending buttons.
+- Step 3. 
 
-Step 6.
-db-content-services - set up database.
+    Edit main function above e.g. editPageHeaderText to editPageHeaderText
+    create a launch-page-admin from a cloning from one thats made.
+    modify at the top. app.methods to your new one app.editPageHeaderText().
 
-Step 7. 
-services-layout-builder-class
-Once done you do not need to edit this file again. 1 per page.
-e.g. 
-(page1-layout-builder-class, page2-layout-builder-class, etc.)
+- Step 4.
 
-Step 8. 
-services-admin-controls-h1
-Final step configure first element and by renaming and test.
-Keep adding elements until you are done.
-For images you must swap out img tag+src - not just src of tag.
+    launch-page-admin
+    Configure this page- replace word page with Page on everything.
 
-Step 9.
-When content 1 is complete and working, wire up admin to elements.
-Then move on to content 2 and repeat.
+- Step 5
 
-Step. 10
+    Configure content on page-content1.
+    Add your new scripts to your page.html -- check page.html for model of script load order.
+    Begin appending buttons.
+
+- Step 6.
+
+    db-content-Page - set up database.
+
+- Step 7. 
+
+    Page-layout-builder-class
+    Once done you do not need to edit this file again. 1 per page.
+    e.g. 
+    (page1-layout-builder-class, page2-layout-builder-class, etc.)
+
+- Step 8. 
+
+    Page-admin-controls-h1
+    Final step configure first element and by renaming and test.
+    Keep adding elements until you are done.
+    For images you must swap out img tag+src - not just src of tag.
+
+- Step 9.
+
+    Repeat this step for each element to edit.
+    When content 1 is complete and working, wire up admin to elements.
+    Then move on to content 2 and repeat.
+
 Creating element controls;
 
-Admin Control Cloning procedure-----
-Using find replace in editor;
-e.g.
-a. increment H3_7 to H3_7
-b. increment tag7 to tag8
-c. increment Text7 to Text7
-d. increment -h3-7- to -h3-7-
-e. increment "to tag7" to "to tag8"
-f. increment "to Text7" to "to Text8"
-------     Test    ---------------------------
+    Using find replace in editor.
+    e.g.
+
+    a. increment H3_8
+    b. increment tag8
+    c. increment Text8
+    d. update launch-page-admin, page-db-save, page.html
+ 
+- Step 10. 
+
+Test page.
+
+

@@ -1,13 +1,6 @@
-
 /*
-Written in a Object Oriented pattern OOP by Dan Weatherbee
-services.js
-main container
-Step 5 configure content =============
-
- Content 2 ===================================================================
- row 2
- */
+ Content 2 ============================= new ======================================
+*/
 var servicesMainContent2Row2ParallaxContainer = '<section class="row container-fluid" id="services-main-row2-parallax-container"></secton>';
 var servicesMainContent2ParallaxRow2Col1 = '<article class="col-xs-12" id="services-main-row2-parallax-col1"></article>';
 var servicesMainContent2Row2ParallaxContainerQuoteBox = '<div class="qoute-box text-center" id="services-main-row2-parallax-container-quote-box"></div>';

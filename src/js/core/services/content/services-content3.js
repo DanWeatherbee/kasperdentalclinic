@@ -1,14 +1,8 @@
 /*
-Written in a Object Oriented pattern OOP by Dan Weatherbee
-services.js
-content3 container
-Step 5 configure content =============
-*/
-var servicesContent3Container = '<content3 class="container animated fadeIn" id="services-content3-container"></content3>';
-/*
  Content 3 ============================= new ======================================
 rows
 */
+var servicesContent3Container = '<content3 class="container animated fadeIn" id="services-content3-container"></content3>';
 var servicesContent3row2 = '<section class="row" id="services-content3-row2"></section>';
 // cols
 var servicesContent3row2Col1 = '<article class="col-xs-1 col-sm-2 col-md-2 col-lg-4" id="services-content3-row2-col1"></article>';
@@ -27,14 +21,14 @@ var servicesContent3row2Col2HeaderH3Tag6 = '<h3 id="services-content3-row2-col2-
 var servicesContent3row2Col2HeaderH3Tag7 = '<h3 id="services-content3-row2-col2-h3-tag7"></h3>';
 var servicesContent3row2Col2HeaderH3Tag8 = '<h3 id="services-content3-row2-col2-h3-tag8"></h3>';
 // p
-var servicesContent3row2Col2PTag1 = '<p class="animated slideInLeft" id="services-content3-row2-col2-p1-tag"></p>';
-var servicesContent3row2Col2PTag2 = '<p class="animated slideInLeft" id="services-content3-row2-col2-p2-tag"></p>';
-var servicesContent3row2Col2PTag3 = '<p class="animated slideInLeft" id="services-content3-row2-col2-p3-tag"></p>';
-var servicesContent3row2Col2PTag4 = '<p class="animated slideInLeft" id="services-content3-row2-col2-p4-tag"></p>';
-var servicesContent3row2Col2PTag5 = '<p class="animated slideInLeft" id="services-content3-row2-col2-p5-tag"></p>';
-var servicesContent3row2Col2PTag6 = '<p class="animated slideInLeft" id="services-content3-row2-col2-p6-tag"></p>';
-var servicesContent3row2Col2PTag7 = '<p class="animated slideInLeft" id="services-content3-row2-col2-p7-tag"></p>';
-var servicesContent3row2Col2PTag8 = '<p class="animated slideInLeft" id="services-content3-row2-col2-p8-tag"></p>';
+var servicesContent3row2Col2PTag1 = '<p class="animated slideInLeft" id="services-content3-row2-col2-tag-p-1"></p>';
+var servicesContent3row2Col2PTag2 = '<p class="animated slideInLeft" id="services-content3-row2-col2-tag-p-2"></p>';
+var servicesContent3row2Col2PTag3 = '<p class="animated slideInLeft" id="services-content3-row2-col2-tag-p-3"></p>';
+var servicesContent3row2Col2PTag4 = '<p class="animated slideInLeft" id="services-content3-row2-col2-tag-p-4"></p>';
+var servicesContent3row2Col2PTag5 = '<p class="animated slideInLeft" id="services-content3-row2-col2-tag-p-5"></p>';
+var servicesContent3row2Col2PTag6 = '<p class="animated slideInLeft" id="services-content3-row2-col2-tag-p-6"></p>';
+var servicesContent3row2Col2PTag7 = '<p class="animated slideInLeft" id="services-content3-row2-col2-tag-p-7"></p>';
+var servicesContent3row2Col2PTag8 = '<p class="animated slideInLeft" id="services-content3-row2-col2-tag-p-8"></p>';
 /*
 text
 h3

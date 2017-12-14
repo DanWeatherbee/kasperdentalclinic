@@ -13,22 +13,37 @@ app.saveServicesToDB = function() {
     var servicesContentObjStr = JSON.stringify(app.servicesContentObj);
     // add to localstorage.
     localStorage.setItem('dataServicesEdited', servicesContentObjStr);
-/*
-    Step 1 replace page name in here (index to services) and
-     add elem create method e.g. go to services-admin-controls-h1
+    /*
+        Step 1 replace page name in here (index to services) and
+         add elem create method e.g. go to services-admin-controls-h1
 
-     add the create function of every new element here to call the edit button.
-     */
-   app.createServicesH1Text();
-   app.createServicesH3Text();
-   app.createServicesPText();
-   app.createServicesUlContent();
-   app.createParallaxQuotePText();
-   app.createServicesH3_2Text();
-   app.createServicesH3_3Text();
-   app.createServicesH3_4Text();
-   app.createServicesH3_5Text();
-   app.createServicesH3_6Text();
-   app.createServicesH3_7Text();
-   app.createServicesH3_8Text();
+         add the create function of every new element here to call the edit button.
+         */
+    app.createServicesH1Text();
+    app.createServicesH3Text();
+    app.createServicesPText();
+    app.createServicesUlContent();
+    app.createParallaxQuotePText();
+    app.createServicesH3_2Text();
+    app.createServicesH3_3Text();
+    app.createServicesH3_4Text();
+    app.createServicesH3_5Text();
+    app.createServicesH3_6Text();
+    app.createServicesH3_7Text();
+    app.createServicesH3_8Text();
+    app.createServicesP1Text();
+    app.createServicesP2Text();
+    app.createServicesP3Text();
+    app.createServicesP4Text();
+    app.createServicesP5Text();
+    app.createServicesP6Text();
+    app.createServicesP7Text();
+    app.createServicesP8Text();
+
+
+
+
+
+
+
 };

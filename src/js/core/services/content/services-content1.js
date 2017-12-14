@@ -1,15 +1,8 @@
-
-/*
-Written in a Object Oriented pattern OOP by Dan Weatherbee
-services.js
-main container
-Step 5 configure content =============
-*/
-var servicesMainContentContainer = '<main class="container animated fadeIn" id="services-main-container"></main>';
 /*
  Content 1 ============================= new ======================================
-rows
 */
+var servicesMainContentContainer = '<main class="container animated fadeIn" id="services-main-container"></main>';
+// row 1
 var servicesMainContent1Row1 = '<section class="row" id="services-main-row1"></section>';
 // cols
 var servicesMainContent1Row1Col1 = '<article class="col-xs-0 col-sm-1 col-md-3" id="services-main-row1-col1"></article>';

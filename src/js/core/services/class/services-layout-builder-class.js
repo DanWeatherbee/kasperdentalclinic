@@ -1,10 +1,4 @@
-/*
-Written in a Object Oriented pattern OOP by Dan Weatherbee
- Layout builder Class for services
- Step 7 rename word like before e.g. services to services.
- Once done you do not need to edit this file again.
- go to Step 8. e.g. services-admin-controls-first-control
-*/
+
 CreateServicesPageClass = function(
     CreateServicesPage,
     servicesContentStr,
