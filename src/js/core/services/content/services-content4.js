@@ -3,7 +3,7 @@
 
 var servicesContent4Container = '<content4 class="container animated fadeIn" id="services-content4-container"></content4>';
 // rows
-var servicesContent4Row4 = '<section class="row" id="services-content4-row4"></section>';
+var servicesContent4Row4 = '<section id="services-content4-row4"></section>';
 // cols
 var servicesContent4Row4Col1 = '<article class="col-xs-1 col-sm-2 col-md-2 col-lg-4" id="services-content4-row4-col1"></article>';
 var servicesContent4Row4Col2 = '<article class="col-xs-10 col-sm-8 col-md-8 col-lg-4" id="services-content4-row4-col2"></article>';
@@ -16,7 +16,7 @@ var servicesCollapsibleContainersHeaderH1Text = 'FAQ';
 var servicesCollapsibleContainersFaq1 = '<section class="services-collapse-containers" id="services-collapsible-containers-faq-1"' +
     ' data-parent="#accordion" data-toggle="collapse" href="#services-collapsible-article-faq-1" aria-expanded="true">' +
     // trigger
-    '<a class="cd-faq-trigger" data-toggle="collapse" ' +
+    '<a class="cd-faq-trigger" id="cd-faq-trigger-1"data-toggle="collapse" ' +
     'data-target="#services-collapsible-article-faq-1" style="text-decoration:none;cursor:pointer">' +
     '<h2 id="services-collapsible-h2-faq-1"><i class="fa fa-angle-double-down"></i> </h2>' +
     '</a>' +
@@ -45,7 +45,7 @@ var servicesCollapsibleContainersPTextFaq1 = 'Chewing ability;' +
 var servicesCollapsibleContainersFaq2 = '<section class="services-collapse-containers" id="services-collapsible-containers-faq-2"' +
     ' data-parent="#accordion" data-toggle="collapse" href="#services-collapsible-article-faq-2" aria-expanded="true">' +
     // trigger
-    '<a class="cd-faq-trigger" data-toggle="collapse" ' +
+    '<a class="cd-faq-trigger" id="cd-faq-trigger-2"data-toggle="collapse" ' +
     'data-target="#services-collapsible-article-faq-2" style="text-decoration:none;cursor:pointer">' +
     '<h2 id="services-collapsible-h2-faq-2"><i class="fa fa-angle-double-down"></i> </h2>' +
     '</a>' +
@@ -82,7 +82,7 @@ var servicesCollapsibleContainersPTextFaq2 = 'The first time you are fitted with
 var servicesCollapsibleContainersFaq3 = '<section class="services-collapse-containers" id="services-collapsible-containers-faq-3"' +
     ' data-parent="#accordion" data-toggle="collapse" href="#services-collapsible-article-faq-3" aria-expanded="true">' +
     // trigger
-    '<a class="cd-faq-trigger" data-toggle="collapse" ' +
+    '<a class="cd-faq-trigger" id="cd-faq-trigger-3"data-toggle="collapse" ' +
     'data-target="#services-collapsible-article-faq-3" style="text-decoration:none;cursor:pointer">' +
     '<h2 id="services-collapsible-h2-faq-3"><i class="fa fa-angle-double-down"></i> </h2>' +
     '</a>' +
@@ -100,7 +100,7 @@ var servicesCollapsibleContainersPTextFaq3 = 'We Offer Complete and Partial Dent
 var servicesCollapsibleContainersFaq4 = '<section class="services-collapse-containers" id="services-collapsible-containers-faq-4"' +
     ' data-parent="#accordion" data-toggle="collapse" href="#services-collapsible-article-faq-4" aria-expanded="true">' +
     // trigger
-    '<a class="cd-faq-trigger" data-toggle="collapse" ' +
+    '<a class="cd-faq-trigger" id="cd-faq-trigger-4"data-toggle="collapse" ' +
     'data-target="#services-collapsible-article-faq-4" style="text-decoration:none;cursor:pointer">' +
     '<h2 id="services-collapsible-h2-faq-4"><i class="fa fa-angle-double-down"></i> </h2>' +
     '</a>' +
@@ -121,3 +121,10 @@ var servicesCollapsibleContainersPTextFaq4 = 'The human mouth is a living set of
     ' Generally it is recommended that a denture be relined at least every 2 years and' +
     ' replaced approximately every 5 years.' +
     ' Come on in and we can discuss your options!';
+var servicesMapPTag = '<p id="services-map-p-tag"></p>';
+var servicesMapH2Tag = '<br /><h2 class="text-center" id="services-map-h2-tag"></h2><br />';
+var servicesMapPText = 'If you are coming from out of town to visit Kasper Denture Clinic, we have provided a ' +
+'<a class="btn btn-success" href="dans_map/index.html">Map</a>' +
+' for Points of Interest, Restaurants and Cool Places.';
+var servicesMapH2Text = 'Smile and Stay';
+

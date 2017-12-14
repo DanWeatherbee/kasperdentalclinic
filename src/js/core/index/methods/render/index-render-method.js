@@ -68,5 +68,6 @@ app.renderIndexPage = function() {
         self.indexContentObj.main.content2[0].indexMainContent2ParallaxRow2Col1PTagText,
         self.indexContentObj.main.content2[0].indexMainContent2Row2ParallaxContainerQuoteBoxIconRight
     );
+    $('#root').append(contentFooter);
 };
 app.renderIndexPage();

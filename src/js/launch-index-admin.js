@@ -7,8 +7,6 @@ $('window').ready(function() {
     app.editIndexParallaxQuote();
     $('#root').prepend('<i class="fa fa-edit edit-btns-fixed" id="edit-Index-page" onclick="editIndexPage()"> -- Edit Page</i>');
     $('#root').prepend('<i class="fa fa-save edit-btns-fixed" id="save-Index-page" onclick="saveIndexPage()"> -- Save Page</i>');
-    $('#root').append(contentFooter);
-
     editIndexPage();
     $('.edit-btns').hide();
     $('#index-move-to-parallax-icon').show();

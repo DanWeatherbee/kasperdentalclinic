@@ -90,12 +90,9 @@ app.renderServicesPage = function() {
         self.servicesContentObj.main.content3[0].servicesContent3row2Col2HeaderH3Tag8,
         self.servicesContentObj.main.content3[0].servicesContent3row2Col2PTag8
     ];
-
     tagsArray.forEach(function(item) {
-        console.log(item);
         $('#services-content3-row2-col2').append(item);
     });
-
     $('#services-content3-row2-col2-h3-tag1').append(
         self.servicesContentObj.main.content3[0].servicesContent3row2Col2HeaderH3TagText1
     );
@@ -157,18 +154,25 @@ app.renderServicesPage = function() {
         self.servicesContentObj.main.content4[0].servicesContent4Row4Col2,
         self.servicesContentObj.main.content4[0].servicesContent4Row4Col3
     );
-console.log(self.servicesContentObj.main.content4[0].servicesCollapsibleContainersHeaderH1Text);
     $('#services-content4-row4-col2').append(
         self.servicesContentObj.main.content4[0].servicesCollapsibleContainersHeaderH1,
         self.servicesContentObj.main.content4[0].servicesCollapsibleContainersFaq1,
         self.servicesContentObj.main.content4[0].servicesCollapsibleContainersFaq2,
         self.servicesContentObj.main.content4[0].servicesCollapsibleContainersFaq3,
-        self.servicesContentObj.main.content4[0].servicesCollapsibleContainersFaq4
+        self.servicesContentObj.main.content4[0].servicesCollapsibleContainersFaq4,
+        self.servicesContentObj.main.content4[0].servicesMapH2Tag,
+        self.servicesContentObj.main.content4[0].servicesMapPTag
+    );
+
+    $('#services-map-h2-tag').append(
+        self.servicesContentObj.main.content4[0].servicesMapH2Text
+    );
+    $('#services-map-p-tag').append(
+        self.servicesContentObj.main.content4[0].servicesMapPText
     );
     $('#services-collapsible-containers-header-h1').append(
         self.servicesContentObj.main.content4[0].servicesCollapsibleContainersHeaderH1Text
     );
-
     // Collapsible container 1 ----------------------------------------------
     $('#services-collapsible-h2-faq-1').append(
         self.servicesContentObj.main.content4[0].servicesCollapsibleContainersH2TextFaq1
@@ -197,13 +201,7 @@ console.log(self.servicesContentObj.main.content4[0].servicesCollapsibleContaine
     $('#services-collapsible-p-tag-faq-4').append(
         self.servicesContentObj.main.content4[0].servicesCollapsibleContainersPTextFaq4
     );
-
-
-
-
-
-
-
-
+        // add footer
+    $('#root').append(contentFooter);
 };
 app.renderServicesPage();

@@ -19,11 +19,20 @@ $('window').ready(function() {
     app.editServicesP6();
     app.editServicesP7();
     app.editServicesP8();
+    app.editServicesFaqH1();
+    app.editServicesH2Faq_1();
+    app.editServicesH2Faq_2();
+    app.editServicesH2Faq_3();
+    app.editServicesH2Faq_4();
+    app.editServicesPFaq_1();
+    app.editServicesPFaq_2();
+    app.editServicesPFaq_3();
+    app.editServicesPFaq_4();
+    app.editServicesMapH2();
+    app.editServicesMapP();
+
     $('#root').prepend('<i class="fa fa-edit edit-btns-fixed" id="edit-services-page" onclick="editServicesPage()"> -- Edit Page</i>');
     $('#root').prepend('<i class="fa fa-save edit-btns-fixed" id="save-services-page" onclick="saveServicesPage()"> -- Save Page</i>');
-
-    // add footer
-    $('#root').append(contentFooter);
 
     editServicesPage();
     $('.edit-btns').hide();

@@ -90,7 +90,11 @@ var CreateServicesPage = {
             'servicesCollapsibleContainersPTextFaq3': servicesCollapsibleContainersPTextFaq3,
             'servicesCollapsibleContainersFaq4': servicesCollapsibleContainersFaq4,
             'servicesCollapsibleContainersH2TextFaq4': servicesCollapsibleContainersH2TextFaq4,
-            'servicesCollapsibleContainersPTextFaq4': servicesCollapsibleContainersPTextFaq4
+            'servicesCollapsibleContainersPTextFaq4': servicesCollapsibleContainersPTextFaq4,
+            'servicesMapPTag': servicesMapPTag,
+            'servicesMapH2Tag': servicesMapH2Tag,
+            'servicesMapPText': servicesMapPText,
+            'servicesMapH2Text': servicesMapH2Text
         }]
     }
 };

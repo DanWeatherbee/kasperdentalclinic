@@ -39,6 +39,7 @@ div.qoute-box {
 #services-main-row2-parallax-container {
     margin-top: 5%;
 }
+
 #services-main-content1-row1-col2-ul-tag {
     padding: 15% 0 0 15%;
 }
@@ -147,6 +148,11 @@ a {
 .footer {
     padding-top: 3%;
     padding-bottom: 20%;
+    border-top: 1px solid;
+}
+
+#services-map-p-tag {
+    margin-bottom: 15%;
 }
 
 .team-img {

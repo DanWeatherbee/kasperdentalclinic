@@ -39,11 +39,15 @@ app.saveServicesToDB = function() {
     app.createServicesP6Text();
     app.createServicesP7Text();
     app.createServicesP8Text();
-
-
-
-
-
-
-
+    app.createServicesFaqH1Text();
+    app.createServicesH2Faq_1Text();
+    app.createServicesH2Faq_2Text();
+    app.createServicesH2Faq_3Text();
+    app.createServicesH2Faq_4Text();
+    app.createServicesPFaq_1Text();
+    app.createServicesPFaq_2Text();
+    app.createServicesPFaq_3Text();
+    app.createServicesPFaq_4Text();
+    app.createServicesMapH2Text();
+    app.createServicesMapPText();
 };

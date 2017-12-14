@@ -3,7 +3,7 @@
 rows
 */
 var servicesContent3Container = '<content3 class="container animated fadeIn" id="services-content3-container"></content3>';
-var servicesContent3row2 = '<section class="row" id="services-content3-row2"></section>';
+var servicesContent3row2 = '<section id="services-content3-row2"></section>';
 // cols
 var servicesContent3row2Col1 = '<article class="col-xs-1 col-sm-2 col-md-2 col-lg-4" id="services-content3-row2-col1"></article>';
 var servicesContent3row2Col2 = '<article class="col-xs-10 col-sm-8 col-md-8 col-lg-4" id="services-content3-row2-col2"></article>';
