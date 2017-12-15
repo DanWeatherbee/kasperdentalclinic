@@ -13,7 +13,7 @@ app.editServicesP1 = function(
     self.editP1TextBtn = '<i type="button" class="fa fa-edit edit-btns" id="edit-services-p-1-btn" onclick="app.editServicesP1Text()"></i>';
     self.saveP1TextBtn = '<i type="button" class="fa fa-save edit-btns" id="save-services-p-1-btn" onclick="app.saveServicesP1Text()"></i>';
     self.$saveP1TextBtn = $('#save-services-p-1-btn');
-    self.textAreaServicesP1 = '<textarea class="form-control" rows="1" number="3" maxlength="150" ' +
+    self.textAreaServicesP1 = '<textarea class="form-control" rows="1" number="3" maxlength="1000" ' +
         'id="services-p-1-input">' +
         self.servicesContentObj.main.content3[0].servicesContent3row2Col2PTagText1 +
         '</textarea>';

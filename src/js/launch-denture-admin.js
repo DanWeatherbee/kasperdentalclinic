@@ -7,8 +7,8 @@ $('window').ready(function() {
     app.editDentureP2();
     app.editDentureP3();
     app.editDentureIframe1();
-
-
+    app.editDentureIframe2();
+    app.editDentureIframe3();
 
 
 

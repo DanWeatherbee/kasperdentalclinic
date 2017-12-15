@@ -1,18 +1,4 @@
-/*
-Written in a Object Oriented pattern OOP by Dan Weatherbee
 
-================================================|
-----------------Admin Control Cloning procedure----->
-Using find replace in editor;
-e.g.
-a. increment H3_8
-b. increment tag8
-c. increment Text8
-d. update launch-page-admin, page-db-save, page.html
------------------------- Test    --------------------------->
-================================================|
- Services P Text Controls ===========================================
-*/
 app.editServicesP8 = function(
     $servicesP8Tag,
     editP8Text,
@@ -27,7 +13,7 @@ app.editServicesP8 = function(
     self.editP8TextBtn = '<i type="button" class="fa fa-edit edit-btns" id="edit-services-p-8-btn" onclick="app.editServicesP8Text()"></i>';
     self.saveP8TextBtn = '<i type="button" class="fa fa-save edit-btns" id="save-services-p-8-btn" onclick="app.saveServicesP8Text()"></i>';
     self.$saveP8TextBtn = $('#save-services-p-8-btn');
-    self.textAreaServicesP8 = '<textarea class="form-control" rows="1" number="3" maxlength="150" ' +
+    self.textAreaServicesP8 = '<textarea class="form-control" rows="1" number="3" maxlength="1000" ' +
         'id="services-p-8-input">' +
         self.servicesContentObj.main.content3[0].servicesContent3row2Col2PTagText8 +
         '</textarea>';

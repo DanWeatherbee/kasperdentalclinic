@@ -14,7 +14,7 @@ app.editAboutHeaderPText = function(
     self.editPText = '<br /><i type="button" class="fa fa-edit" id="edit-P-btn" onclick="app.editHeaderPText()"></i>';
     self.savePTextBtn = '<i type="button" class="fa fa-save" id="save-P-btn" onclick="app.saveHeaderPText()"></i>';
     self.$savePTextBtn = $('#save-P-btn');
-    self.textAreaP = '<textarea class="form-control" rows="1" number="3" maxlength="50" ' +
+    self.textAreaP = '<textarea class="form-control" rows="1" number="3" maxlength="1000" ' +
         'id="P-input">' +
         self.aboutContentObj.main.content1[6].row1Col2PTagText +
         '</textarea>';

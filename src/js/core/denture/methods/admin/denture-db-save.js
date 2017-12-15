@@ -19,8 +19,8 @@ app.saveDentureToDB = function() {
     app.createDentureP2Text();
     app.createDentureP3Text();
     app.createDentureIframe1Text();
-
-
+    app.createDentureIframe2Text();
+    app.createDentureIframe3Text();
 
 
 };
