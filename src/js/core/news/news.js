@@ -112,3 +112,4 @@ var contentNews = '<main class="container animated fadeIn" id="content-news">' +
     '</main>';
 
 $('body').append(contentNews);
+$('#root').append(contentFooter);

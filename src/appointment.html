@@ -23,8 +23,9 @@
 </head>
 
 <body id="root">
-    <script defer src='js/core/lib/jquery-2.2.3.min.js'></script>
-    <script defer src='js/core/scripts.js'></script>
+    <script src='js/core/lib/jquery-2.2.3.min.js'></script>
+    <script src='js/core/scripts.js'></script>
+    <script src='js/footer.js'></script>
     <section class="container" id="content-appointment">
         <section class="row text-center">
             <div class="col-lg-3 text-center">
@@ -42,7 +43,10 @@
             </div>
         </section>
     </section>
-    <script defer src='js/footer.js'></script>
+    <script>
+        $('#root').append(contentFooter);
+    </script>
+
 </body>
 
 </html>

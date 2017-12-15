@@ -31,3 +31,4 @@ var contentPhotos = '<main class="container animated fadeIn" id="content-photos"
     '</main>';
 
 $('body').append(contentPhotos);
+$('#root').append(contentFooter);

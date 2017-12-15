@@ -45,3 +45,4 @@ var contentContact = '<main class="container animated fadeIn" id="content-contac
     '</main>';
 
 $('body').append(contentContact);
+$('#root').append(contentFooter);

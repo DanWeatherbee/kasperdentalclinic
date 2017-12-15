@@ -12,3 +12,4 @@ var contentJason = '<main class="container animated fadeIn" id="jason">' +
     '</main>';
 
 $('body').append(contentJason);
+$('#root').append(contentFooter);

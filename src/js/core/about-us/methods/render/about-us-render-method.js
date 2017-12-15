@@ -78,3 +78,4 @@ app.renderAboutPage = function() {
     );
     $('#root').append(contentFooter);
 };
+app.renderAboutPage();

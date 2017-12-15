@@ -13,3 +13,4 @@ var contentOley = '<main class="container animated fadeIn" id="oley">' +
     '</main>';
 
 $('body').append(contentOley);
+$('#root').append(contentFooter);

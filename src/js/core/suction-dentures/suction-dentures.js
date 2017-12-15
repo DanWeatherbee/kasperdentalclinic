@@ -36,3 +36,4 @@
        '</main>';
 
    $('body').append(contentMainSuction);
+   $('#root').append(contentFooter);

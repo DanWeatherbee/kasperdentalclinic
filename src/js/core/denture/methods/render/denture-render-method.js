@@ -1,0 +1,50 @@
+/*
+denture.js
+*/
+var app = new CreateDenturePageClass(CreateDenturePage);
+app.renderDenturePage = function() {
+    var self = this;
+    console.log(self.dentureContentObj);
+    $('#root').append(self.dentureContentObj.main.content1[0].dentureMainContentContainer);
+    // Content1 ==================================================
+    $('#denture-main-container').append(
+        self.dentureContentObj.main.content1[0].dentureMainContent1Col1,
+        self.dentureContentObj.main.content1[0].dentureMainContent1Col2,
+        self.dentureContentObj.main.content1[0].dentureMainContent1Col3
+    );
+    $('#denture-main-col2').append(
+        self.dentureContentObj.main.content1[0].dentureMainContent1Col2HeaderH1Tag,
+        self.dentureContentObj.main.content1[0].dentureMainContent1Col2H2_1Tag,
+        self.dentureContentObj.main.content1[0].dentureMainContent1Col2Frame1,
+        self.dentureContentObj.main.content1[0].dentureMainContent1Col2P1Tag,
+        self.dentureContentObj.main.content1[0].dentureMainContent1Col2H2_2Tag,
+        self.dentureContentObj.main.content1[0].dentureMainContent1Col2Frame2,
+        self.dentureContentObj.main.content1[0].dentureMainContent1Col2P2Tag,
+        self.dentureContentObj.main.content1[0].dentureMainContent1Col2H2_3Tag,
+        self.dentureContentObj.main.content1[0].dentureMainContent1Col2Frame3,
+        self.dentureContentObj.main.content1[0].dentureMainContent1Col2P3Tag
+    );
+    $('#denture-main-col2-h1-tag-1').append(
+        self.dentureContentObj.main.content1[0].dentureMainContent1Col2HeaderH1TagText
+    );
+    $('#denture-main-col2-h2-tag-1').append(
+        self.dentureContentObj.main.content1[0].dentureMainContent1Col2H2_1TagText
+    );
+    $('#denture-main-col2-p-tag-1').append(
+        self.dentureContentObj.main.content1[0].dentureMainContent1Col2P1TagText
+    );
+    $('#denture-main-col2-h2-tag-2').append(
+        self.dentureContentObj.main.content1[0].dentureMainContent1Col2H2_2TagText
+    );
+    $('#denture-main-col2-p-tag-2').append(
+        self.dentureContentObj.main.content1[0].dentureMainContent1Col2P2TagText
+    );
+    $('#denture-main-col2-h2-tag-3').append(
+        self.dentureContentObj.main.content1[0].dentureMainContent1Col2H2_3TagText
+    );
+    $('#denture-main-col2-p-tag-3').append(
+        self.dentureContentObj.main.content1[0].dentureMainContent1Col2P3TagText
+    );
+    $('#root').append(contentFooter);
+};
+app.renderDenturePage();

@@ -30,3 +30,4 @@ var contentTestimonials = '<main class="container animated fadeIn" id="content-t
     '</main>';
 
 $('body').append(contentTestimonials);
+$('#root').append(contentFooter);

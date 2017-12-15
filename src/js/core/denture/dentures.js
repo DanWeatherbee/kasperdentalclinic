@@ -68,7 +68,7 @@
        '</p>' +
        '<p class="text-center">' +
        '<a class="btn btn-success text-center animated slideInLeft" href="appointment.html">' +
-        'Book - Online' +
+       'Book - Online' +
        '</a>' +
        '</p>' +
 
@@ -82,3 +82,4 @@
        '</main>';
 
    $('body').append(contentMain);
+   $('#root').append(contentFooter);
