@@ -9,23 +9,16 @@ $('window').ready(function() {
     app.editDentureIframe1();
     app.editDentureIframe2();
     app.editDentureIframe3();
-
-
-
     $('#root').prepend('<i class="fa fa-edit edit-btns-fixed" id="edit-denture-page" onclick="editDenturePage()"> -- Edit Page</i>');
     $('#root').prepend('<i class="fa fa-save edit-btns-fixed" id="save-denture-page" onclick="saveDenturePage()"> -- Save Page</i>');
-
     editDenturePage();
     $('.edit-btns').hide();
     $('#edit-denture-page').fadeIn();
 });
-
 var editDenturePage = function() {
     $('.fa').fadeIn();
     $('#edit-denture-page').fadeOut();
-
 };
-
 var saveDenturePage = function() {
     // Download databases. ===============================================
 

@@ -2,7 +2,6 @@
 denture-db-save
  Save to Storage and pull data from it. ================================
 */
-
 app.saveDentureToDB = function() {
     /*
      Browser Local Storage.
@@ -21,6 +20,4 @@ app.saveDentureToDB = function() {
     app.createDentureIframe1Text();
     app.createDentureIframe2Text();
     app.createDentureIframe3Text();
-
-
 };

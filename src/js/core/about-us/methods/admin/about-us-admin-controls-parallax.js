@@ -8,7 +8,6 @@ app.editAboutParallax = function(
 ) {
     "use strict";
     var self = this;
-    self.renderAboutPage(self.aboutContentObj);
     // Parallax Controls =============================================
     self.qBoxParallax = $('#about-main-row3-parallax-quote-box');
     self.editBtnParallax = '<br /><i type="button" class="fa fa-edit" id="edit-parallax-btn" onclick="app.editParallax()"></i>';
