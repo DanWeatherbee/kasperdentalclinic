@@ -16,7 +16,7 @@ app.editIndexHeaderH3Text = function(
     self.editH3TextBtn = '<i type="button" class="fa fa-edit edit-btns" id="edit-index-h3-btn" onclick="app.editHeaderH3Text()"></i>';
     self.saveH3TextBtn = '<i type="button" class="fa fa-save edit-btns" id="save-index-h3-btn" onclick="app.saveHeaderH3Text()"></i>';
     self.$saveH3TextBtn = $('#save-index-h3-btn');
-    self.textAreaIndexH3 = '<textarea class="form-control" rows="1" number="3" maxlength="150" ' +
+    self.textAreaIndexH3 = '<textarea class="form-control textarea-style" rows="1" number="3" maxlength="150" ' +
         'id="index-h3-input">' +
         self.indexContentObj.main.content1[0].indexMainContent1Row1Col2HeaderH3TagText +
         '</textarea>';

@@ -11,7 +11,7 @@ app.editDentureIframe2 = function(
     //  Controls === When the edit button won't appear check id below.==============
     self.editDentureIframe2TextBtn = '<i type="button" class="fa fa-film edit-btns" id="edit-denture-iframe-2-btn" onclick="app.editDentureIframe2Text()"> -Swap YTube videos. </i>';
     self.saveDentureIframe2TextBtn = '<i type="button" class="fa fa-save edit-btns" id="save-denture-iframe-2-btn" onclick="app.saveDentureIframe2Text()"></i>';
-    self.textAreaDentureIframe2 = '<textarea class="form-control" rows="1" number="3" maxlength="1000" ' +
+    self.textAreaDentureIframe2 = '<textarea class="form-control textarea-style" rows="1" number="3" maxlength="1000" ' +
         'id="denture-iframe-2-input">' +
         self.dentureContentObj.main.content1[0].dentureMainContent1Col2Frame2 +
         '</textarea>';

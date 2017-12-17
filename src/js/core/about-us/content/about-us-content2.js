@@ -21,9 +21,4 @@ var aboutMainContent2Row2Col3Img = '<img class="gradient img-thumbnail img-respo
 // buttons
 var aboutMainContent2Row2Col2ImgButton = '<a class="btn btn-success" href="oley-kasper.html">Oley Kasper</a>';
 var aboutMainContent2Row2Col3ImgButton = '<a class="btn btn-success" href="jason-kasper.html">Jason Kasper</a>';
-// tags
-var aboutMainContent2Row2Col2ImgPTagOley = '<p id="about-main-content2-row2-col2-img-p-tag-oley"></p>';
-var aboutMainContent2Row2Col3ImgPTagJason = '<p id="about-main-content2-row2-col2-img-p-tag-jason"></p>';
-// text
-var aboutMainContent2Row2Col2ImgPTagOleyText = 'Oley Kasper content';
-var aboutMainContent2Row2Col3ImgPTagJasonText = 'Jason Kasper content';
+

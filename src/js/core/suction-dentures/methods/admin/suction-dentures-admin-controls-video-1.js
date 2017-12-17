@@ -8,12 +8,13 @@ app.editSuctionDenturesVideo1 = function(
     "use strict";
     var self = this;
     // Header Img Controls =============================================
-    self.editSuctionDenturesVideo1SrcBtn = '<i type="button" class="fa fa-film edit-btns" id="edit-suction-dentures-video1-src-btn" ' +
+    self.editSuctionDenturesVideo1SrcBtn = '<br /><i type="button" class="fa fa-film edit-btns" id="edit-suction-dentures-video1-src-btn" ' +
         'onclick="app.editSuctionDenturesVideo1Src1()">' +
-        ' -copy new video address, click Film icon then paste local file address into the input area.</i>';
+        ' video 1 -copy new video address, click Film icon then paste local file address' +
+        ' e.g. images/your-new-img.png  into the input area. Note the img must be uploaded to the server.</i>';
     self.saveSuctionDenturesVideo1SrcBtn = '<i type="button" class="fa fa-save edit-btns" id="save-suction-dentures-video1-src-btn" ' +
         'onclick="app.saveSuctionDenturesVideo1Src1()"></i>';
-    self.textAreaSuctionDenturesVideo1Src = '<textarea class="form-control" rows="1" number="3" maxlength="150" ' +
+    self.textAreaSuctionDenturesVideo1Src = '<textarea class="form-control textarea-style" rows="1" number="3" maxlength="150" ' +
         'id="suction-dentures-video1-src-input">' +
         self.suctionDenturesContentObj.main.content1[0].suctionDenturesMainContent1Col2Video1Src1 +
         '</textarea>';
@@ -41,6 +42,7 @@ app.editSuctionDenturesVideo1 = function(
         $('#save-suction-dentures-video1-src-btn').remove();
         $('#suction-dentures-video1-src-input').remove();
         app.saveSuctionDenturesToDB();
+        location.reload();
     }
     app.createSuctionDenturesVideo1Src1 = function() {
         $('#edit-suction-dentures-video1-src-btn').remove();

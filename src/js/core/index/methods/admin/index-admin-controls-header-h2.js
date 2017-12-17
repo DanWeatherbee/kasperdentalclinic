@@ -16,7 +16,7 @@ app.editIndexHeaderH2Text = function(
     self.editH2TextBtn = '<i type="button" class="fa fa-edit edit-btns" id="edit-index-h2-btn" onclick="app.editHeaderH2Text()"></i>';
     self.saveH2TextBtn = '<i type="button" class="fa fa-save edit-btns" id="save-index-h2-btn" onclick="app.saveHeaderH2Text()"></i>';
     self.$saveH2TextBtn = $('#save-index-h2-btn');
-    self.textAreaIndexH2 = '<textarea class="form-control" rows="1" number="3" maxlength="150" ' +
+    self.textAreaIndexH2 = '<textarea class="form-control textarea-style" rows="1" number="3" maxlength="150" ' +
         'id="index-h2-input">' +
         self.indexContentObj.main.content1[0].indexMainContent1Row1Col2HeaderH2TagText +
         '</textarea>';

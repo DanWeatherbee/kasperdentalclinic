@@ -15,7 +15,7 @@ app.editHeaderDentureH1 = function(
     self.editDentureH1TextBtn = '<i type="button" class="fa fa-edit edit-btns" id="edit-denture-h1-btn" onclick="app.editHeaderDentureH1Text()"></i>';
     self.saveDentureH1TextBtn = '<i type="button" class="fa fa-save edit-btns" id="save-denture-h1-btn" onclick="app.saveHeaderDentureH1Text()"></i>';
     self.$saveDentureH1TextBtn = $('#save-denture-h1-btn');
-    self.textAreaDentureH1 = '<textarea class="form-control" rows="1" number="3" maxlength="150" ' +
+    self.textAreaDentureH1 = '<textarea class="form-control textarea-style" rows="1" number="3" maxlength="150" ' +
         'id="denture-h1-input">' +
         self.dentureContentObj.main.content1[0].dentureMainContent1Col2HeaderH1TagText +
         '</textarea>';

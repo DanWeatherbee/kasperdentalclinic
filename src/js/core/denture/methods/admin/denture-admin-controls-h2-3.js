@@ -15,7 +15,7 @@ app.editDentureH2_3 = function(
     self.editDentureH2_3TextBtn = '<i type="button" class="fa fa-edit edit-btns" id="edit-denture-h2-3-btn" onclick="app.editDentureH2_3Text()"></i>';
     self.saveDentureH2_3TextBtn = '<i type="button" class="fa fa-save edit-btns" id="save-denture-h2-3-btn" onclick="app.saveDentureH2_3Text()"></i>';
     self.$saveDentureH2_3TextBtn = $('#save-denture-h2-3-btn');
-    self.textAreaDentureH2_3 = '<textarea class="form-control" rows="1" number="3" maxlength="150" ' +
+    self.textAreaDentureH2_3 = '<textarea class="form-control textarea-style" rows="1" number="3" maxlength="150" ' +
         'id="denture-h2-3-input">' +
         self.dentureContentObj.main.content1[0].dentureMainContent1Col2H2_3TagText +
         '</textarea>';

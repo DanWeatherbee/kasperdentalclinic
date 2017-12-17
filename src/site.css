@@ -4,6 +4,17 @@
     z-index: 4;
 }
 
+.edit-btns {
+    color: red;
+    font-size: 1em;
+}
+
+.textarea-style {
+    background-color: white;
+    color: black;
+    font-size: 1em;
+}
+
 #parallax,
 #services-main-row2-parallax-container,
 #index-main-row2-parallax-container {
@@ -60,7 +71,7 @@ div.qoute-box {
     font-size: 1em;
 }
 
-#certify-img {
+#suction-dentures-img1 {
     width: 50%;
 }
 

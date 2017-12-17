@@ -14,4 +14,7 @@ app.saveSuctionDenturesToDB = function() {
    app.createHeaderSuctionDenturesH1Text();
    app.createSuctionDenturesImg1Src();
    app.createSuctionDenturesVideo1Src1();
+   app.createSuctionDenturesVideo2Src2();
+   app.createSuctionDenturesUlContent();
+   app.createSuctionDenturesP1Text();
 };

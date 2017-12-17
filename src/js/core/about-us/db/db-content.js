@@ -46,11 +46,7 @@ var CreateAboutPage = {
             },
             {
                 'row2Col2Img': aboutMainContent2Row2Col2Img,
-                'row2Col3Img': aboutMainContent2Row2Col3Img,
-                'aboutMainContent2Row2Col2ImgPTagOley': aboutMainContent2Row2Col2ImgPTagOley,
-                'aboutMainContent2Row2Col3ImgPTagJason': aboutMainContent2Row2Col3ImgPTagJason,
-                'aboutMainContent2Row2Col2ImgPTagOleyText': aboutMainContent2Row2Col2ImgPTagOleyText,
-                'aboutMainContent2Row2Col3ImgPTagJasonText': aboutMainContent2Row2Col3ImgPTagJasonText
+                'row2Col3Img': aboutMainContent2Row2Col3Img
             }
         ],
         'content3': [{

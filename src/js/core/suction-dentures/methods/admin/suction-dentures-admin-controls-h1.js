@@ -8,9 +8,11 @@ app.editHeaderSuctionDenturesH1 = function(
 ) {
     "use strict";
     var self = this;
-    self.editSuctionDenturesH1TextBtn = '<i type="button" class="fa fa-edit edit-btns" id="edit-suction-dentures-h1-btn" onclick="app.editHeaderSuctionDenturesH1Text()"></i>';
-    self.saveSuctionDenturesH1TextBtn = '<i type="button" class="fa fa-save edit-btns" id="save-suction-dentures-h1-btn" onclick="app.saveHeaderSuctionDenturesH1Text()"></i>';
-    self.textAreaSuctionDenturesH1 = '<textarea class="form-control" rows="1" number="3" maxlength="150" ' +
+    self.editSuctionDenturesH1TextBtn = '<i type="button" class="fa fa-edit edit-btns" id="edit-suction-dentures-h1-btn"' +
+        ' onclick="app.editHeaderSuctionDenturesH1Text()"></i>';
+    self.saveSuctionDenturesH1TextBtn = '<i type="button" class="fa fa-save edit-btns" id="save-suction-dentures-h1-btn"' +
+        ' onclick="app.saveHeaderSuctionDenturesH1Text()"></i>';
+    self.textAreaSuctionDenturesH1 = '<textarea class="form-control textarea-style" rows="1" number="3" maxlength="150" ' +
         'id="suction-dentures-h1-input">' +
         self.suctionDenturesContentObj.main.content1[0].suctionDenturesMainContent1Col2HeaderH1TagText +
         '</textarea>';
@@ -29,7 +31,9 @@ app.editHeaderSuctionDenturesH1 = function(
     app.saveHeaderSuctionDenturesH1Text = function() {
         var usrInput = $('#suction-dentures-h1-input').val();
         self.suctionDenturesContentObj.main.content1[0].suctionDenturesMainContent1Col2HeaderH1TagText = usrInput;
-        $('#suction-dentures-main-col2-h1-tag-1').html(self.suctionDenturesContentObj.main.content1[0].suctionDenturesMainContent1Col2HeaderH1TagText);
+        $('#suction-dentures-main-col2-h1-tag-1').html(
+            self.suctionDenturesContentObj.main.content1[0].suctionDenturesMainContent1Col2HeaderH1TagText
+        );
         $('#save-suction-dentures-h1-btn').remove();
         $('#suction-dentures-h1-input').remove();
         app.saveSuctionDenturesToDB();

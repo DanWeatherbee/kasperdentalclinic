@@ -16,7 +16,7 @@ app.editIndexHeaderPText = function(
     self.editPTextBtn = '<i type="button" class="fa fa-edit edit-btns" id="edit-index-p-btn" onclick="app.editHeaderPText()"></i>';
     self.savePTextBtn = '<i type="button" class="fa fa-save edit-btns" id="save-index-p-btn" onclick="app.saveHeaderPText()"></i>';
     self.$savePTextBtn = $('#save-index-p-btn');
-    self.textAreaPIndex = '<textarea class="form-control" rows="1" number="3" maxlength="150" ' +
+    self.textAreaPIndex = '<textarea class="form-control textarea-style" rows="1" number="3" maxlength="150" ' +
         'id="index-p-input">' +
         self.indexContentObj.main.content1[0].indexMainContent1Row1Col2PTagText +
         '</textarea>';

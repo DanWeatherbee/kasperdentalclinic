@@ -2,6 +2,9 @@ $('window').ready(function() {
     app.editHeaderSuctionDenturesH1();
     app.editSuctionDenturesImg1Certified();
     app.editSuctionDenturesVideo1();
+    app.editSuctionDenturesVideo2();
+    app.editSuctionDenturesUl();
+    app.editSuctionDenturesP1();
     $('#root').prepend('<i class="fa fa-edit edit-btns-fixed" id="edit-suction-dentures-page" onclick="editSuctionDenturesPage()"> -- Edit Page</i>');
     $('#root').prepend('<i class="fa fa-save edit-btns-fixed" id="save-suction-dentures-page" onclick="saveSuctionDenturesPage()"> -- Save Page</i>');
     editSuctionDenturesPage();

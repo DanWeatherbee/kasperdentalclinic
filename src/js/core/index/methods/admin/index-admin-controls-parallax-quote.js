@@ -16,7 +16,7 @@ app.editIndexParallaxQuote = function(
     self.editParallaxQuotePTagTextBtn = '<i type="button" class="fa fa-edit edit-btns" id="edit-index-parallax-quote-p-text-btn" onclick="app.editHeaderParallaxQuotePText()"></i>';
     self.saveParallaxQuotePTagTextBtn = '<i type="button" class="fa fa-save edit-btns" id="save-index-parallax-quote-p-text-btn" onclick="app.saveHeaderParallaxQuotePText()"></i>';
     self.$saveParallaxQuotePTagTextBtn = $('#save-index-p-btn');
-    self.textAreaParallaxQuoteIndex = '<textarea class="form-control" rows="1" number="3" maxlength="150" ' +
+    self.textAreaParallaxQuoteIndex = '<textarea class="form-control textarea-style" rows="1" number="3" maxlength="150" ' +
         'id="index-p-input">' +
         self.indexContentObj.main.content2[0].indexMainContent2ParallaxRow2Col1PTagText +
         '</textarea>';

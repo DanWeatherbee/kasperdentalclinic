@@ -42,7 +42,7 @@ var suctionDenturesMainContent1Col2PTag1Text = 'Call 250-542-7423 or ' +
 var suctionDenturesMainContent1Col2Img1Src = 'images/semcd.png';
 var suctionDenturesMainContent1Col2Img1SrcAlt = suctionDenturesMainContent1Col2Img1Src;
 var suctionDenturesMainContent1Col2Img1 = '<br />' +
-    '<img class="img-responsive center-block" id="certify-img" src="' +
+    '<img class="img-responsive center-block" id="suction-dentures-img1" src="' +
     suctionDenturesMainContent1Col2Img1Src +
     '" alt="' +
     suctionDenturesMainContent1Col2Img1SrcAlt +
