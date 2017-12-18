@@ -15,7 +15,9 @@
     font-size: 1em;
 }
 
+#about-main-parallax-container,
 #parallax,
+#about-main-parallax-container,
 #services-main-row2-parallax-container,
 #index-main-row2-parallax-container {
     background: #fff url('css/cloud.jpg') no-repeat center center;
@@ -28,6 +30,18 @@
     z-index: 3;
     padding: 10% 0 10% 0;
     height: 100%;
+}
+
+#suction-dentures-img1 {
+    max-width: 50%;
+}
+
+#about-main-parallax-container {
+    padding: 1% 0 10% 0;
+}
+
+#about-main-container {
+    margin-bottom: 8%;
 }
 
 #services-main-row2-parallax-col1-p-tag,
@@ -68,12 +82,9 @@ div.qoute-box {
 }
 
 .btn {
-    font-size: 1em;
+    font-size: .7em;
 }
 
-#suction-dentures-img1 {
-    width: 50%;
-}
 
 .gradient {
     /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#4c4c4c+0,595959+12,666666+25,474747+39,2c2c2c+50,000000+51,111111+60,2b2b2b+76,1c1c1c+91,131313+100;Black+Gloss+%231 */
@@ -157,6 +168,7 @@ a {
 }
 
 .footer {
+    margin-top: 3%;
     padding-top: 3%;
     padding-bottom: 20%;
     border-top: 1px solid;
@@ -169,7 +181,6 @@ a {
 .team-img {
     margin-top: 10%;
     max-height: 300px;
-    max-width: 300px;
 }
 
 .bf-pics {

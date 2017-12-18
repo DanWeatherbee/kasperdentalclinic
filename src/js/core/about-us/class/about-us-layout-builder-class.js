@@ -9,29 +9,27 @@ CreateAboutPageClass = function(
     self.aboutContentStr = JSON.stringify(self.aboutContent);
 
     // to localstorage
-    localStorage.setItem('dataAppDefault', self.aboutContentStr);
+    localStorage.setItem('dataAboutDefault', self.aboutContentStr);
 
 
     // Download databases. ===============================================
 
-    var dbAboutEdited = localStorage.getItem('dataAppEdited');
-    var dbAboutDefault =  localStorage.getItem('dataAppDefault');
+    var dbAboutEdited = localStorage.getItem('dataAboutEdited');
+    var dbAboutDefault =  localStorage.getItem('dataAboutDefault');
 
     // Download edited database.
-    var editedDB = new File([dbAboutEdited], "dataAppEdited");
-    //saveAs(editedDB);
+    var editedAboutDB = new File([dbAboutEdited], "dataAboutEdited");
+
    // Download default database.
-    var defaultDB = new File([dbAboutDefault], "dataAppDefault");
+    var defaultAboutDB = new File([dbAboutDefault], "dataAboutDefault");
 
     // Save to downloads folder.
-    // saveAs(defaultDB);
-    // saveAs(editedDB);
 // ==================================================================
 
 
     // // get from localstorage to load site.
-    self.aboutContentObj = JSON.parse(localStorage.getItem('dataAppEdited'));
+    self.aboutContentObj = JSON.parse(localStorage.getItem('dataAboutEdited'));
     if (!self.aboutContentObj) {
-        self.aboutContentObj = JSON.parse(localStorage.getItem('dataAppDefault'));
+        self.aboutContentObj = JSON.parse(localStorage.getItem('dataAboutDefault'));
     };
 };

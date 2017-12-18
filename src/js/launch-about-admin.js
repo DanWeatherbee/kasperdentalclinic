@@ -1,10 +1,13 @@
 $('window').ready(function() {
-    app.editAboutParallax();
-    app.editAboutHeaderText();
-    app.editAboutHeaderPText();
-
-    $('#root').prepend('<br /><i class="fa fa-edit edit-btns-fixed" id="edit-about-page" onclick="editAboutPage()"> -- Edit Page</i>');
-    $('#root').prepend('<br /><i class="fa fa-save edit-btns-fixed" id="save-about-page" onclick="saveAboutPage()"> -- Save Page</i>');
+    // app.editSomething(); goes here.
+    app.editAboutH1();
+    app.editAboutP1();
+    app.editAboutImg1();
+    app.editAboutImg2();
+    //app.editAboutImgBtn1Ctrl();
+    //app.editAboutImgBtn2Ctrl();
+    $('#root').prepend('<i class="fa fa-edit edit-btns-fixed" id="edit-about-page" onclick="editAboutPage()"> -- Edit Page</i>');
+    $('#root').prepend('<i class="fa fa-save edit-btns-fixed" id="save-about-page" onclick="saveAboutPage()"> -- Save Page</i>');
     editAboutPage();
     $('.fa').hide();
     $('#edit-about-page').fadeIn();
@@ -19,19 +22,19 @@ var saveAboutPage = function() {
 
     // Download databases. ===============================================
 
-    var dbAboutEdited = localStorage.getItem('dataAppEdited');
-    var dbAboutDefault = localStorage.getItem('dataAppDefault');
+    var dbAboutEdited = localStorage.getItem('dataAboutEdited');
+    var dbAboutDefault = localStorage.getItem('dataAboutDefault');
 
     // Download edited database.
-    var editedDB = new File([dbAboutEdited], "dataAppEdited");
-    //saveAs(editedDB);
+    var editedAboutDB = new File([dbAboutEdited], "dataAboutEdited");
+
     // Download default database.
-    var defaultDB = new File([dbAboutDefault], "dataAppDefault");
+    var defaultAboutDB = new File([dbAboutDefault], "dataAboutDefault");
 
     // Save to downloads folder.
-    saveAs(defaultDB);
-    saveAs(editedDB);
-        $('#save-about-page').fadeOut();
-        $('#edit-about-page').fadeIn();
+    saveAs(defaultAboutDB);
+    saveAs(editedAboutDB);
+    $('#save-about-page').fadeOut();
+    $('#edit-about-page').fadeIn();
     // ==================================================================
 };

@@ -14,7 +14,7 @@ var suctionDenturesMainContent1Col3 = '<article class="col-xs-0 col-sm-1 col-md-
 var suctionDenturesMainContent1Col2HeaderH1Tag = '<h1 class="text-center" id="suction-dentures-main-col2-h1-tag-1"></h1>';
 var suctionDenturesMainContent1Col2PTag1 = '<br /><br />' +
     '<p  class="text-center"id="suction-dentures-main-content1-col2-p-tag-1"></p>' +
-    '<br /><br />';
+    '<br />';
 var suctionDenturesMainContent1Col2UlContainer = '<ul id="suction-dentures-main-content1-col2-ul-container" class="text-left"></ul>';
 // text
 var suctionDenturesMainContent1Col2HeaderH1TagText = 'Suction Dentures';

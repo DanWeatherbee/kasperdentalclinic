@@ -9,7 +9,7 @@
        '</p>' +
        '</div>' +
        '<div class="col-sm-2">' +
-       '<a href="#root" id="scroll-up-foter"><i class="fa fa-arrow-up fa-6"> Top</i></a>' +
+       '<a href="#root" id="scroll-up-footer"><i class="fa fa-arrow-up fa-6"> Top</i></a>' +
        '</div>' +
        '<div class="col-sm-5">' +
        '<p class="text-center">' +
