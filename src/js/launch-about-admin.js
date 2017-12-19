@@ -4,8 +4,9 @@ $('window').ready(function() {
     app.editAboutP1();
     app.editAboutImg1();
     app.editAboutImg2();
-    //app.editAboutImgBtn1Ctrl();
-    //app.editAboutImgBtn2Ctrl();
+    app.editAboutBtn1();
+    app.editAboutBtn2();
+    app.editAboutParallaxQuote();
     $('#root').prepend('<i class="fa fa-edit edit-btns-fixed" id="edit-about-page" onclick="editAboutPage()"> -- Edit Page</i>');
     $('#root').prepend('<i class="fa fa-save edit-btns-fixed" id="save-about-page" onclick="saveAboutPage()"> -- Save Page</i>');
     editAboutPage();

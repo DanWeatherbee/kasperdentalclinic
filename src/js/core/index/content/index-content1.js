@@ -19,7 +19,7 @@ var indexMainContent1Row1Col3 = '<article class="col-xs-2 col-sm-3 col-md-2 col-
 var indexMainContent1Row1Col2HeaderH1Tag = '<h1 id="index-main-row1-col2-header-h1-tag"></h1>';
 var indexMainContent1Row1Col2HeaderH2Tag = '<h2 id="index-main-row1-col2-header-h2-tag"></h2>';
 var indexMainContent1Row1Col2HeaderH3Tag = '<h3 id="index-main-row1-col2-header-h3-tag"></h3>';
-var indexMainContent1Row1Col2PTag = '<p class="header-text" id="index-main-row1-col2-p-tag"></p>';
+var indexMainContent1Row1Col2PTag = '<p class="header-text animated rollIn" id="index-main-row1-col2-p-tag"></p>';
 
 // text
 var indexMainContent1Row1Col2HeaderH1TagText = 'Kasper';

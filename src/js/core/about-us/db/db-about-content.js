@@ -1,5 +1,4 @@
 /*
-Written in a Object Oriented pattern OOP
 about.js
 Data Object (database)
 */
@@ -26,7 +25,8 @@ var CreateAboutPage = {
             'aboutMainContent1ParallaxQuoteBox': aboutMainContent1ParallaxQuoteBox,
             'aboutMainContent1ParallaxQuoteBoxFonAwesomeIconLeft': aboutMainContent1ParallaxQuoteBoxFonAwesomeIconLeft,
             'aboutMainContent1ParallaxQuoteBoxFonAwesomeIconRight': aboutMainContent1ParallaxQuoteBoxFonAwesomeIconRight,
-            'aboutMainContent1ParallaxQuoteBoxText': aboutMainContent1ParallaxQuoteBoxText
+            'aboutMainContent1ParallaxQuoteBoxPTag': aboutMainContent1ParallaxQuoteBoxPTag,
+            'aboutMainContent1ParallaxQuoteBoxPTagText': aboutMainContent1ParallaxQuoteBoxPTagText
         }]
     }
 };

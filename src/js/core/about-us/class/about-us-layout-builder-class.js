@@ -11,7 +11,6 @@ CreateAboutPageClass = function(
     // to localstorage
     localStorage.setItem('dataAboutDefault', self.aboutContentStr);
 
-
     // Download databases. ===============================================
 
     var dbAboutEdited = localStorage.getItem('dataAboutEdited');
@@ -25,7 +24,6 @@ CreateAboutPageClass = function(
 
     // Save to downloads folder.
 // ==================================================================
-
 
     // // get from localstorage to load site.
     self.aboutContentObj = JSON.parse(localStorage.getItem('dataAboutEdited'));

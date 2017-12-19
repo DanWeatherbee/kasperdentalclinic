@@ -13,7 +13,7 @@ app.editServicesH2Faq_1 = function(
     self.editH2Faq_1TextBtn = '<i type="button" class="fa fa-edit edit-btns" id="edit-services-h2-faq-1-btn" onclick="app.editServicesH2Faq_1Text()"></i>';
     self.saveH2Faq_1TextBtn = '<i type="button" class="fa fa-save edit-btns" id="save-services-h2-faq-1-btn" onclick="app.saveServicesH2Faq_1Text()"></i>';
     self.$saveH2Faq_1TextBtn = $('#save-services-h2-faq-1-btn');
-    self.textAreaservicesH2Faq_1 = '<textarea class="form-control" rows="1" number="3" maxlength="150" ' +
+    self.textAreaservicesH2Faq_1 = '<textarea class="form-control" rows="1" number="3" maxlength="1000" ' +
         'id="services-h2-faq-1-input">' +
         self.servicesContentObj.main.content4[0].servicesCollapsibleContainersH2TextFaq1 +
         '</textarea>';

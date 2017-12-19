@@ -13,7 +13,7 @@ app.editServicesMapH2 = function(
     self.editMapH2TextBtn = '<i type="button" class="fa fa-edit edit-btns" id="edit-services-map-h2-btn" onclick="app.editServicesMapH2Text()"></i>';
     self.saveMapH2TextBtn = '<i type="button" class="fa fa-save edit-btns" id="save-services-map-h2-btn" onclick="app.saveServicesMapH2Text()"></i>';
     self.$saveMapH2TextBtn = $('#save-services-map-h2-btn');
-    self.textAreaservicesMapH2 = '<textarea class="form-control" rows="1" number="3" maxlength="150" ' +
+    self.textAreaservicesMapH2 = '<textarea class="form-control" rows="1" number="3" maxlength="1000" ' +
         'id="services-map-h2-input">' +
         self.servicesContentObj.main.content4[0].servicesMapH2Text +
         '</textarea>';

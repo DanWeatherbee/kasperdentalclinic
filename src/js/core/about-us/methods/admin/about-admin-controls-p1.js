@@ -12,7 +12,7 @@ app.editAboutP1 = function(
         ' onclick="app.editAboutPText1()"></i>';
     self.saveAboutPText1Btn = '<i type="button" class="fa fa-save edit-btns" id="save-about-p1-btn"' +
         ' onclick="app.saveAboutPText1()"></i>';
-    self.textAreaAboutP1 = '<textarea class="form-control textarea-style" rows="1" number="3" maxlength="150" ' +
+    self.textAreaAboutP1 = '<textarea class="form-control textarea-style" rows="1" number="3" maxlength="1000" ' +
         'id="about-p1-input">' +
         self.aboutContentObj.main.content1[0].aboutMainContent1Col2PTagText1 +
         '</textarea>';

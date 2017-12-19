@@ -10,12 +10,11 @@ var aboutMainContentContainer = '<main class="container animated fadeIn" id="abo
 var aboutMainContent1Col1 = '<article class="col-xs-0 col-sm-1 col-md-3" id="about-main-content1-col1"></article>';
 var aboutMainContent1Col2 = '<article class="col-xs-12 col-sm-10 col-md-6" id="about-main-content1-col2"></article>';
 var aboutMainContent1Col3 = '<article class="col-xs-0 col-sm-1 col-md-3" id="about-main-content1-col3"></article>';
-
 var aboutMainContent1ImgCol1 = '<article class="col-xs-6 text-center" id="about-main-content1-img-col1"></article>';
 var aboutMainContent1ImgCol2 = '<article class="col-xs-6 text-center" id="about-main-content1-img-col2"></article>';
 // tags
 var aboutMainContent1Col2HeaderH1Tag = '<h1 id="about-main-content1-col2-header-h1-tag" class="text-center"></h1>';
-var aboutMainContent1Col2PTag1 = '<p class="header-text" id="about-main-content1-col2-p-tag1"></p>';
+var aboutMainContent1Col2PTag1 = '<p class="header-text animated slideInLeft" id="about-main-content1-col2-p-tag1"></p>';
 // text
 var aboutMainContent1Col2HeaderH1TagText = 'Welcome To Our Dental Team';
 var aboutMainContent1Col2PTagText1 = 'Thank you for choosing our office for your about needs.' +
@@ -31,10 +30,9 @@ imgs
 */
 var aboutMainContent1Col2ImgSrc1 = 'images/oley-pic-team.png';
 var aboutMainContent1Col2ImgSrc2 = 'images/jason-pic-team.png';
-
 // img 1
 var aboutMainContent1Col2Img1 = '<img id="about-main-content1-col2-img1" ' +
-'class="gradient img-thumbnail img-responsive team-img center-block" ' +
+'class="animated flipInY gradient img-thumbnail img-responsive team-img center-block" ' +
 'src="' +
 aboutMainContent1Col2ImgSrc1 +
 '" alt="' +
@@ -42,7 +40,7 @@ aboutMainContent1Col2ImgSrc1 +
 '"><br />';
 // img 2
 var aboutMainContent1Col2Img2 = '<img id="about-main-content1-col2-img2" ' +
-'class="gradient img-thumbnail img-responsive team-img center-block" ' +
+'class="animated flipInY gradient img-thumbnail img-responsive team-img center-block" ' +
 'src="' +
 aboutMainContent1Col2ImgSrc2 +
 '" alt="' +
@@ -59,8 +57,10 @@ var aboutMainContent1ParallaxQuoteBox = '<div class="qoute-box" style="margin-to
 // quote box icons
 var aboutMainContent1ParallaxQuoteBoxFonAwesomeIconLeft = '<i class="fa fa-quote-left" id="about-main-parallax-quote-box-icon-left"></i>';
 var aboutMainContent1ParallaxQuoteBoxFonAwesomeIconRight = '<i class="fa fa-quote-right" id="about-main-parallax-quote-box-icon-right"></i>';
+// p tag
+var aboutMainContent1ParallaxQuoteBoxPTag = '<p class="animated slideInLeft" id="about-main-content1-parallax-quote-box-p-tag"></p>';
 // quote box text
-var aboutMainContent1ParallaxQuoteBoxText = 'We will never know all the good a simple smile can do. Nanno';
+var aboutMainContent1ParallaxQuoteBoxPTagText = 'We will never know all the good a simple smile can do. Nanno';
 
 
 

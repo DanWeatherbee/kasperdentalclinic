@@ -12,7 +12,7 @@ app.editAboutH1 = function(
         ' onclick="app.editAboutH1Text()"></i>';
     self.saveAboutH1TextBtn = '<i type="button" class="fa fa-save edit-btns" id="save-about-h1-btn"' +
         ' onclick="app.saveAboutH1Text()"></i>';
-    self.textAreaAboutH1 = '<textarea class="form-control textarea-style" rows="1" number="3" maxlength="150" ' +
+    self.textAreaAboutH1 = '<textarea class="form-control textarea-style" rows="1" number="3" maxlength="1000" ' +
         'id="about-h1-input">' +
         self.aboutContentObj.main.content1[0].aboutMainContent1Col2HeaderH1TagText +
         '</textarea>';

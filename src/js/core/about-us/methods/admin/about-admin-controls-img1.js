@@ -14,7 +14,7 @@ app.editAboutImg1 = function(
         ' local file address into the input area.</i>';
     self.saveAboutImgSrcBtn1 = '<i type="button" class="fa fa-save edit-btns" id="save-about-img-src-btn1" ' +
         'onclick="app.saveAboutImgSrc1()"></i>';
-    self.textAreaAboutImgSrc1 = '<textarea class="form-control textarea-style" rows="1" number="3" maxlength="150" ' +
+    self.textAreaAboutImgSrc1 = '<textarea class="form-control textarea-style" rows="1" number="3" maxlength="1000" ' +
         'id="about-img1-src-input">' +
         self.aboutContentObj.main.content1[0].aboutMainContent1Col2ImgSrc1 +
         '</textarea>';

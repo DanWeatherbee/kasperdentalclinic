@@ -1,5 +1,5 @@
 /*
-denture-db-save
+about-db-save
  Save to Storage and pull data from it. ================================
 */
 app.saveAboutToDB = function() {
@@ -15,6 +15,7 @@ app.saveAboutToDB = function() {
     app.createAboutPText1();
     app.createAboutImgSrc1();
     app.createAboutImgSrc2();
-    //app.createAboutImgBtn1();
-    //app.createAboutImgBtn2();
+    app.createAboutCtrlBtn1();
+    app.createAboutCtrlBtn2();
+    app.createParallaxQuotePText();
 };

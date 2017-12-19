@@ -19,9 +19,9 @@ var dentureMainContent1Col2H2_2Tag = '<h2 id="denture-main-col2-h2-tag-2"></h2>'
 var dentureMainContent1Col2H2_3Tag = '<h2 id="denture-main-col2-h2-tag-3"></h2>';
 
 // p
-var dentureMainContent1Col2P1Tag = '<p id="denture-main-col2-p-tag-1"></p>';
-var dentureMainContent1Col2P2Tag = '<p id="denture-main-col2-p-tag-2"></p>';
-var dentureMainContent1Col2P3Tag = '<p id="denture-main-col2-p-tag-3"></p>';
+var dentureMainContent1Col2P1Tag = '<p class="animated slideInLeft" id="denture-main-col2-p-tag-1"></p>';
+var dentureMainContent1Col2P2Tag = '<pclass="animated slideInLeft" id="denture-main-col2-p-tag-2"></p>';
+var dentureMainContent1Col2P3Tag = '<pclass="animated slideInLeft" id="denture-main-col2-p-tag-3"></p>';
 
 // text
 var dentureMainContent1Col2HeaderH1TagText = 'Dentures';

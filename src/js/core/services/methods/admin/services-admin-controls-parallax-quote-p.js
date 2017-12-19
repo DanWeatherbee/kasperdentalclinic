@@ -1,7 +1,5 @@
-/*
-Written in a Object Oriented pattern OOP by Dan Weatherbee
- Header Parallax Quote Controls =============================================
-*/
+// Parallax Quote Controls =============================================
+
 app.editServicesParallaxQuote = function(
     $servicesParallaxQuotePTag,
     editServicesParallaxQuotePTagText,
@@ -16,7 +14,7 @@ app.editServicesParallaxQuote = function(
     self.editServicesParallaxQuotePTagTextBtn = '<i type="button" class="fa fa-edit edit-btns" id="edit-services-parallax-quote-p-text-btn" onclick="app.editParallaxQuotePText()"></i>';
     self.saveServicesParallaxQuotePTagTextBtn = '<i type="button" class="fa fa-save edit-btns" id="save-services-parallax-quote-p-text-btn" onclick="app.saveParallaxQuotePText()"></i>';
     self.$saveServicesParallaxQuotePTagTextBtn = $('#save-Services-p-btn');
-    self.textAreaParallaxQuoteServices = '<textarea class="form-control" rows="1" number="3" maxlength="1000" ' +
+    self.textAreaParallaxQuoteServices = '<textarea class="form-control textarea-style" rows="1" number="3" maxlength="1000" ' +
         'id="services-p-input">' +
         self.servicesContentObj.main.content2[0].servicesMainContent2ParallaxRow2Col1PTagText +
         '</textarea>';

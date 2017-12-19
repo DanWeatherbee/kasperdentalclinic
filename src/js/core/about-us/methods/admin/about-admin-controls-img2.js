@@ -13,7 +13,7 @@ app.editAboutImg2 = function(
         ' img 2 </i>';
     self.saveAboutImgSrcBtn2 = '<i type="button" class="fa fa-save edit-btns" id="save-about-img-src-btn2" ' +
         'onclick="app.saveAboutImgSrc2()"></i>';
-    self.textAreaAboutImgSrc2 = '<textarea class="form-control textarea-style" rows="1" number="3" maxlength="150" ' +
+    self.textAreaAboutImgSrc2 = '<textarea class="form-control textarea-style" rows="1" number="3" maxlength="1000" ' +
         'id="about-img2-src-input">' +
         self.aboutContentObj.main.content1[0].aboutMainContent1Col2ImgSrc2 +
         '</textarea>';
