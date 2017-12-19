@@ -12,7 +12,8 @@ $('window').ready(function() {
     editAboutPage();
     $('.fa').hide();
     $('#edit-about-page').fadeIn();
-
+    $('#about-main-parallax-quote-box-icon-left').fadeIn();
+    $('#about-main-parallax-quote-box-icon-right').fadeIn();
 });
 var editAboutPage = function() {
     $('.fa').fadeIn();

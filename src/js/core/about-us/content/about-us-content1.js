@@ -60,7 +60,7 @@ var aboutMainContent1ParallaxQuoteBoxFonAwesomeIconRight = '<i class="fa fa-quot
 // p tag
 var aboutMainContent1ParallaxQuoteBoxPTag = '<p class="animated slideInLeft" id="about-main-content1-parallax-quote-box-p-tag"></p>';
 // quote box text
-var aboutMainContent1ParallaxQuoteBoxPTagText = 'We will never know all the good a simple smile can do. Nanno';
+var aboutMainContent1ParallaxQuoteBoxPTagText = ' We will never know all the good a simple smile can do. Nanno ';
 
 
 

@@ -39,12 +39,12 @@ app.renderAboutPage = function() {
         self.aboutContentObj.main.content1[0].aboutMainContent1Col2HeaderH1TagText
     );
     $('#about-main-content1-col2-p-tag1').append(
-        self.aboutContentObj.main.content1[0].aboutMainContent1ParallaxQuoteBoxFonAwesomeIconLeft,
-        self.aboutContentObj.main.content1[0].aboutMainContent1Col2PTagText1,
-        self.aboutContentObj.main.content1[0].aboutMainContent1ParallaxQuoteBoxFonAwesomeIconRight
+        self.aboutContentObj.main.content1[0].aboutMainContent1Col2PTagText1
     );
     $('#about-main-content1-parallax-quote-box-p-tag').append(
-        self.aboutContentObj.main.content1[0].aboutMainContent1ParallaxQuoteBoxPTagText
+        self.aboutContentObj.main.content1[0].aboutMainContent1ParallaxQuoteBoxFonAwesomeIconLeft,
+        self.aboutContentObj.main.content1[0].aboutMainContent1ParallaxQuoteBoxPTagText,
+        self.aboutContentObj.main.content1[0].aboutMainContent1ParallaxQuoteBoxFonAwesomeIconRight
     );
 };
 app.renderAboutPage();
