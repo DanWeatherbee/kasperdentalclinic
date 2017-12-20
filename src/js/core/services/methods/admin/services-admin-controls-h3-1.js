@@ -13,7 +13,7 @@ app.editServicesH3 = function(
     self.editH3TextBtn = '<i type="button" class="fa fa-edit edit-btns" id="edit-services-H3-btn" onclick="app.editServicesH3Text()"></i>';
     self.saveH3TextBtn = '<i type="button" class="fa fa-save edit-btns" id="save-services-H3-btn" onclick="app.saveServicesH3Text()"></i>';
     self.$saveH3TextBtn = $('#save-services-H3-btn');
-    self.textAreaservicesH3 = '<textarea class="form-control" rows="1" number="3" maxlength="1000" ' +
+    self.textAreaservicesH3 = '<textarea class="form-control textarea-style" rows="1" number="3" maxlength="1000" ' +
         'id="services-H3-input">' +
         self.servicesContentObj.main.content3[0].servicesContent3row2Col2HeaderH3TagText1 +
         '</textarea>';

@@ -36,3 +36,5 @@ app.editAboutParallaxQuote = function(
     }
     self.createParallaxQuotePText();
 };
+
+// TODO $('#about-main-parallax-container').css('background', 'url('css/cloud.jpg') no-repeat center center');

@@ -11,7 +11,7 @@ app.editServicesPFaq_3 = function(
     self.editPFaq_3TextBtn = '<i type="button" class="fa fa-edit edit-btns" id="edit-services-p-faq-3-btn" onclick="app.editServicesPFaq_3Text()"></i>';
     self.savePFaq_3TextBtn = '<i type="button" class="fa fa-save edit-btns" id="save-services-p-faq-3-btn" onclick="app.saveServicesPFaq_3Text()"></i>';
     self.$savePFaq_3TextBtn = $('#save-services-p-faq-3-btn');
-    self.textAreaservicesPFaq_3 = '<textarea class="form-control" rows="1" number="3" maxlength="1000" ' +
+    self.textAreaservicesPFaq_3 = '<textarea class="form-control textarea-style" rows="1" number="3" maxlength="1000" ' +
         'id="services-p-faq-3-input">' +
         self.servicesContentObj.main.content4[0].servicesCollapsibleContainersPTextFaq3 +
         '</textarea>';

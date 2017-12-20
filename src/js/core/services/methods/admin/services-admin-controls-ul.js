@@ -13,7 +13,7 @@ app.editServicesUl = function(
     self.editUlContentBtn = '<i type="button" class="fa fa-edit edit-btns" id="edit-services-ul-btn" onclick="app.editServicesUlContent()"></i>';
     self.saveUlContent = '<i type="button" class="fa fa-save edit-btns" id="save-services-ul-btn" onclick="app.saveServicesUlContent()"></i>';
     self.$saveUlContent = $('#save-services-ul-btn');
-    self.textAreaservicesUl = '<textarea class="form-control" rows="1" number="3" maxlength="1000" ' +
+    self.textAreaservicesUl = '<textarea class="form-control textarea-style" rows="1" number="3" maxlength="1000" ' +
         'id="services-ul-input">' +
         self.servicesContentObj.main.content1[0].servicesMainContent1Row1Col2UlTagContent +
         '</textarea>';

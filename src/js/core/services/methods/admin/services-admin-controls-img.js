@@ -16,7 +16,7 @@ app.editIndexHeaderImgJason = function(
         ' local file address into the input area.</i>';
     self.saveHeaderImgSrcBtn = '<i type="button" class="fa fa-save edit-btns" id="save-header-img-src-btn" ' +
         'onclick="app.saveHeaderImgSrc()"></i>';
-    self.textAreaIndexImgSrc = '<textarea class="form-control" rows="1" number="3" maxlength="1000" ' +
+    self.textAreaIndexImgSrc = '<textarea class="form-control textarea-style" rows="1" number="3" maxlength="1000" ' +
         'id="index-img-src-input">' +
         self.indexContentObj.main.content1[0].indexMainContent1Row1Col2ImgSrc +
         '</textarea>';
