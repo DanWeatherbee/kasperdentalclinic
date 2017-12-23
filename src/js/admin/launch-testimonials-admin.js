@@ -1,46 +1,39 @@
 $('window').ready(function() {
     // app.editSomething(); goes here.
-    app.editBeforeHeaderH1();
-    app.editBeforeImg1();
-    app.editBeforeImg2();
-    app.editBeforeImg3();
-    app.editBeforeImg4();
-    app.editBeforeImg5();
-    app.editBeforeImg6();
-
-
-
-
-    $('#root').prepend('<i class="fa fa-edit edit-btns-fixed" id="edit-before-page" onclick="editBeforePage()"> -- Edit Page</i>');
-    $('#root').prepend('<i class="fa fa-save edit-btns-fixed" id="save-before-page" onclick="saveBeforePage()"> -- Save Page</i>');
-    editBeforePage();
+    app.editTestimonialsHeaderH1();
+    app.editTestimonialsP1();
+    app.editTestimonialsP2();
+    app.editTestimonialsP3();
+    app.editTestimonialsP4();
+    $('#root').prepend('<i class="fa fa-edit edit-btns-fixed" id="edit-testimonials-page" onclick="editTestimonialsPage()"> -- Edit Page</i>');
+    $('#root').prepend('<i class="fa fa-save edit-btns-fixed" id="save-testimonials-page" onclick="saveTestimonialsPage()"> -- Save Page</i>');
+    editTestimonialsPage();
     $('.fa').hide();
-    $('#edit-before-page').fadeIn();
-    $('#before-main-parallax-quote-box-icon-left').fadeIn();
-    $('#before-main-parallax-quote-box-icon-right').fadeIn();
+    $('#edit-testimonials-page').fadeIn();
+    $('.fa-quote-left').fadeIn();
+    $('.fa-quote-right').fadeIn();
 });
-var editBeforePage = function() {
+var editTestimonialsPage = function() {
     $('.fa').fadeIn();
-    $('#edit-before-page').fadeOut();
+    $('#edit-testimonials-page').fadeOut();
 };
-
-var saveBeforePage = function() {
+var saveTestimonialsPage = function() {
 
     // Download databases. ===============================================
 
-    var dbBeforeEdited = localStorage.getItem('dataBeforeEdited');
-    var dbBeforeDefault = localStorage.getItem('dataBeforeDefault');
+    var dbTestimonialsEdited = localStorage.getItem('dataTestimonialsEdited');
+    var dbTestimonialsDefault = localStorage.getItem('dataTestimonialsDefault');
 
     // Download edited database.
-    var editedBeforeDB = new File([dbBeforeEdited], "dataBeforeEdited");
+    var editedTestimonialsDB = new File([dbTestimonialsEdited], "dataTestimonialsEdited");
 
     // Download default database.
-    var defaultBeforeDB = new File([dbBeforeDefault], "dataBeforeDefault");
+    var defaultTestimonialsDB = new File([dbTestimonialsDefault], "dataTestimonialsDefault");
 
     // Save to downloads folder.
-    saveAs(defaultBeforeDB);
-    saveAs(editedBeforeDB);
-    $('#save-before-page').fadeOut();
-    $('#edit-before-page').fadeIn();
+    saveAs(defaultTestimonialsDB);
+    saveAs(editedTestimonialsDB);
+    $('#save-testimonials-page').fadeOut();
+    $('#edit-testimonials-page').fadeIn();
     // ==================================================================
 };

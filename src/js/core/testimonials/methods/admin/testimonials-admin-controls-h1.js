@@ -1,45 +1,45 @@
 /*
- Before Header H1 Text Controls =============================================
+ testimonials Header H1 Text Controls =============================================
 */
-app.editBeforeHeaderH1 = function(
-    editBeforeH1Text,
-    saveBeforeH1TextBtn,
-    textAreaBeforeH1
+app.editTestimonialsHeaderH1 = function(
+    editTestimonialsH1Text,
+    saveTestimonialsH1TextBtn,
+    textAreaTestimonialsH1
 ) {
     "use strict";
     var self = this;
-    self.editBeforeH1TextBtn = '<i type="button" class="fa fa-edit edit-btns" id="edit-before-h1-btn"' +
-        ' onclick="app.editBeforeH1Text()"></i>';
-    self.saveBeforeH1TextBtn = '<i type="button" class="fa fa-save edit-btns" id="save-before-h1-btn"' +
-        ' onclick="app.saveBeforeH1Text()"></i>';
-    self.textAreaBeforeH1 = '<textarea class="form-control textarea-style" rows="1" number="3" maxlength="1000" ' +
-        'id="before-h1-input">' +
-        self.beforeContentObj.main.content1[0].beforeMainContent1HeaderH1TagText +
+    self.editTestimonialsH1TextBtn = '<i type="button" class="fa fa-edit edit-btns" id="edit-testimonials-h1-btn"' +
+        ' onclick="app.editTestimonialsH1Text()"></i>';
+    self.saveTestimonialsH1TextBtn = '<i type="button" class="fa fa-save edit-btns" id="save-testimonials-h1-btn"' +
+        ' onclick="app.saveTestimonialsH1Text()"></i>';
+    self.textAreaTestimonialsH1 = '<textarea class="form-control textarea-style" rows="1" number="3" maxlength="1000" ' +
+        'id="testimonials-h1-input">' +
+        self.testimonialsContentObj.main.content1[0].testimonialsHeaderH1TagText +
         '</textarea>';
 
-    app.editBeforeH1Text = function() {
-        if ($('#edit-before-h1-btn')) {
-            $('#edit-before-h1-btn').remove();
+    app.editTestimonialsH1Text = function() {
+        if ($('#edit-testimonials-h1-btn')) {
+            $('#edit-testimonials-h1-btn').remove();
         };
 
-        $('#before-main-content1-header-h1-tag').append(
-            self.textAreaBeforeH1,
-            self.saveBeforeH1TextBtn
+        $('#testimonials-header-h1-tag').append(
+            self.textAreaTestimonialsH1,
+            self.saveTestimonialsH1TextBtn
         );
     }
-    app.saveBeforeH1Text = function() {
-        var usrInput = $('#before-h1-input').val();
-        self.beforeContentObj.main.content1[0].beforeMainContent1HeaderH1TagText = usrInput;
-        $('#before-main-content1-header-h1-tag').html(
-            self.beforeContentObj.main.content1[0].beforeMainContent1HeaderH1TagText
+    app.saveTestimonialsH1Text = function() {
+        var usrInput = $('#testimonials-h1-input').val();
+        self.testimonialsContentObj.main.content1[0].testimonialsHeaderH1TagText = usrInput;
+        $('#testimonials-header-h1-tag').html(
+            self.testimonialsContentObj.main.content1[0].testimonialsHeaderH1TagText
         );
-        $('#save-before-h1-btn').remove();
-        $('#before-h1-input').remove();
-        app.saveBeforeToDB();
+        $('#save-testimonials-h1-btn').remove();
+        $('#testimonials-h1-input').remove();
+        app.saveTestimonialsToDB();
     }
-    app.createBeforeH1Text = function() {
-        $('#edit-before-h1-btn').remove();
-        $('#before-main-content1-header-h1-tag').append(self.editBeforeH1TextBtn);
+    app.createTestimonialsH1Text = function() {
+        $('#edit-testimonials-h1-btn').remove();
+        $('#testimonials-header-h1-tag').append(self.editTestimonialsH1TextBtn);
     }
-    self.createBeforeH1Text();
+    self.createTestimonialsH1Text();
 };

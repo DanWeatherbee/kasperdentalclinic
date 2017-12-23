@@ -1,4 +1,5 @@
 .edit-btns-fixed {
+    left: 10%;
     position: fixed;
     background-color: white;
     z-index: 4;
