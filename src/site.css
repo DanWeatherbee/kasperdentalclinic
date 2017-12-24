@@ -1,8 +1,11 @@
 .edit-btns-fixed {
     left: 10%;
     position: fixed;
-    background-color: white;
-    z-index: 4;
+    background-color: black;
+    color: white;
+    font-size: 2em;
+    z-index: 10000;
+    padding: 1%;
 }
 
 .edit-btns {
@@ -11,10 +14,18 @@
     text-shadow: 0 0 0 white;
 }
 
+#news-p-tag1 {
+    font-weight: 400;
+    background-color: #fbfbfb;
+    padding: 2%;
+    border: 1px dotted;
+}
+
 #testimonials-p-tag2,
 #testimonials-p-tag4 {
     font-weight: 400;
 }
+
 .textarea-style {
     background-color: white;
     color: black;
@@ -50,11 +61,7 @@
     box-shadow: 10px 11px 9px -5px rgba(38, 10, 250, 1);
 }
 
-#about-main-parallax-container,
-#parallax,
-#about-main-parallax-container,
-#services-main-row2-parallax-container,
-#index-main-row2-parallax-container {
+.parallax {
     background: #fff url('css/cloud.jpg') no-repeat center center;
     -webkit-background-size: cover;
     -moz-background-size: cover;
@@ -65,6 +72,14 @@
     z-index: 3;
     padding: 10% 0 10% 0;
     height: 100%;
+}
+
+#services-main-row2-parallax-col1-p-tag,
+div.qoute-box {
+    color: white;
+    text-align: center;
+    text-shadow: 1px 1px 2px black;
+    font-size: 2em;
 }
 
 #suction-dentures-img1 {
@@ -79,14 +94,6 @@
 
 #about-main-container {
     margin-bottom: 8%;
-}
-
-#services-main-row2-parallax-col1-p-tag,
-div.qoute-box {
-    color: white;
-    text-align: center;
-    text-shadow: 1px 1px 2px black;
-    font-size: 2em;
 }
 
 .services-collapse-containers>a>h2 {

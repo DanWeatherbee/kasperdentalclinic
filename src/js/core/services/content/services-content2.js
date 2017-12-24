@@ -1,7 +1,7 @@
 /*
  Content 2 ============================= new ======================================
 */
-var servicesMainContent2Row2ParallaxContainer = '<section class="container-fluid" id="services-main-row2-parallax-container"></secton>';
+var servicesMainContent2Row2ParallaxContainer = '<section class="container-fluid parallax" id="services-main-row2-parallax-container"></secton>';
 var servicesMainContent2ParallaxRow2Col1 = '<article class="col-xs-12" id="services-main-row2-parallax-col1"></article>';
 var servicesMainContent2Row2ParallaxContainerQuoteBox = '<div class="qoute-box text-center" id="services-main-row2-parallax-container-quote-box"></div>';
 var servicesMainContent2Row2ParallaxContainerQuoteBoxIconLeft = '<i class="fa fa-quote-left" id="services-parallax-icon-left"></i>';

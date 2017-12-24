@@ -51,7 +51,7 @@ var aboutMainContent1Col2ImgButton1 = '<a class="btn btn-success" href="oley-kas
 var aboutMainContent1Col2ImgButton2 = '<a class="btn btn-success" href="jason-kasper.html">Jason Kasper</a>';
 // Content 3 ===================================================================
 // col
-var aboutMainContent1ParallaxContainer = '<article class="col-xs-12 container" id="about-main-parallax-container"></article>';
+var aboutMainContent1ParallaxContainer = '<article class="col-xs-12 container parallax" id="about-main-parallax-container"></article>';
 // quote box
 var aboutMainContent1ParallaxQuoteBox = '<div class="qoute-box" style="margin-top:150px;color:white;" id="about-main-parallax-quote-box"></div>';
 // quote box icons

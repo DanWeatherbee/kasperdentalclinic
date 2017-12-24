@@ -6,7 +6,7 @@ main container
  row 2
  cols
  */
-var indexMainContent2Row2ParallaxContainer = '<section class="container-fluid" id="index-main-row2-parallax-container"></secton>';
+var indexMainContent2Row2ParallaxContainer = '<section class="container-fluid parallax" id="index-main-row2-parallax-container"></secton>';
 var indexMainContent2ParallaxRow2Col1 = '<article class="col-xs-12" id="index-main-row2-parallax-col1"></article>';
 var indexMainContent2Row2ParallaxContainerQuoteBox = '<div class="qoute-box text-center" id="index-main-row2-parallax-container-quote-box"></div>';
 var indexMainContent2Row2ParallaxContainerQuoteBoxIconLeft = '<i class="fa fa-quote-left"></i>';
