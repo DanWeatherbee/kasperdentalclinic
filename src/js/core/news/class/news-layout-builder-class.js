@@ -1,8 +1,8 @@
 // Layout builder Class
 CreateNewsPageClass = function(
     CreateNewsPage,
-    NewsContentStr,
-    NewsContentObj
+    newsContentStr,
+    newsContentObj
 ) {
     var self = this;
     self.newsContent = CreateNewsPage; // Model
