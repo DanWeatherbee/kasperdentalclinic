@@ -3,6 +3,7 @@ Written in a Object Oriented pattern OOP by Dan Weatherbee
 index
 Data Object (database)
 */
+
 var CreateIndexPage = {
     'main': {
         'content1': [{

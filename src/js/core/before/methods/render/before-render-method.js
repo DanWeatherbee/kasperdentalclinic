@@ -23,6 +23,48 @@ app.renderBeforePage = function() {
     $('#before-main-content1-header-h1-tag').append(
         self.beforeContentObj.main.content1[0].beforeMainContent1HeaderH1TagText
     );
-};
-app.renderBeforePage();
 $('#root').append(contentFooter);
+};
+
+app.renderBeforePageJson = function(db) {
+    var self = this;
+    self.db = 'dataBeforeEdited.json';
+    fetch(self.db)
+        .then(
+            function(response) {
+                if (response.status !== 200) {
+                    console.log('Looks like there was a problem. Status Code: ' +
+                        response.status);
+                    alert('There is no db fille to load. Create one and download it. Add .json to the end and place it in the src folder.');
+                    return;
+                }
+
+                // Examine the text in the response
+                response.json().then(function(data) {
+                    self.beforeContentObj = data;
+                    self.renderBeforePage();
+                    $('#edit-before-page').remove();
+                    $('#save-before-page').remove();
+                    $('footer').remove();
+                    $('#root').append(contentFooter);
+                });
+            }
+        )
+        .catch(function(err) {
+            console.log('Fetch Error :-S', err);
+        });
+};
+
+var launchAdmin = function() {
+
+    var answer = prompt("Do you wish to load admin? If you do not choose yes it will use the edited database.", "yes");
+
+    if (answer === 'yes') {
+        app.renderBeforePage();
+    } else {
+        app.renderBeforePageJson();
+    };
+    $('#launch-admin').remove();
+}
+launchAdmin();
+

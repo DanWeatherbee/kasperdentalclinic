@@ -37,6 +37,47 @@ app.renderTestimonialsPage = function() {
     $('#testimonials-p-tag4').append(
         self.testimonialsContentObj.main.content1[0].testimonialsPTagText4
     );
+    $('#root').append(contentFooter);
 };
-app.renderTestimonialsPage();
-$('#root').append(contentFooter);
+
+app.renderTestimonialsPageJson = function(db) {
+    var self = this;
+    self.db = 'dataTestimonialsEdited.json';
+    fetch(self.db)
+        .then(
+            function(response) {
+                if (response.status !== 200) {
+                    console.log('Looks like there was a problem. Status Code: ' +
+                        response.status);
+                    alert('There is no db fille to load. Create one and download it. Add .json to the end and place it in the src folder.');
+                    return;
+                }
+
+                // Examine the text in the response
+                response.json().then(function(data) {
+                    self.testimonialsContentObj = data;
+                    self.renderTestimonialsPage();
+                    $('#edit-testimonials-page').remove();
+                    $('#save-testimonials-page').remove();
+                    $('footer').remove();
+                    $('#root').append(contentFooter);
+                });
+            }
+        )
+        .catch(function(err) {
+            console.log('Fetch Error :-S', err);
+        });
+};
+
+var launchAdmin = function() {
+
+    var answer = prompt("Do you wish to load admin? If you do not choose yes it will use the edited database.", "yes");
+
+    if (answer === 'yes') {
+        app.renderTestimonialsPage();
+    } else {
+        app.renderTestimonialsPageJson();
+    };
+    $('#launch-admin').remove();
+}
+launchAdmin();

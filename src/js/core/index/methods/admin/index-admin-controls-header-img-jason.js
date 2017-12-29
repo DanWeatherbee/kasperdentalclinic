@@ -44,6 +44,7 @@ app.editIndexHeaderImgJason = function(
         $('#save-header-img-src-btn').remove();
         $('#index-img-src-input').remove();
         app.saveIndexToDB();
+        location.reload();
     }
     app.createHeaderImgSrc = function() {
         $('#edit-header-img-src-btn').remove();

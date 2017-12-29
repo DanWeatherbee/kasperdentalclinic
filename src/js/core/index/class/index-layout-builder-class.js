@@ -34,3 +34,4 @@ CreateIndexPageClass = function(
         self.indexContentObj = JSON.parse(localStorage.getItem('dataIndexDefault'));
     };
 };
+
