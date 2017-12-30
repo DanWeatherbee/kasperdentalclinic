@@ -65,5 +65,31 @@ var launchAdmin = function() {
         app.renderOleyPageJson();
     };
     $('#launch-admin').remove();
-}
+};
+
+/*
+                                                                              ADMIN LUANCHER
+                                                                         ++++++++++++++++++
+                                                +++++++++++++++++++++++++++++++++++++++++
+ +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+       IMPORTANT!  YOU CAN NOT DO BOTH - ONE MUST BE COMMENTED OUT WITH 2 FORWARD SLASHES
+                                    NOTHING BREAKS BUT YOU WILL RENDER THE PAGE TWICE :)
+
+       Launch Options;
+
+| ======================|           launch page virtual with admin.
+*/
 launchAdmin();
+/*
+ |======================|           launch page from database.
+*/
+ // app.renderOleyPageJson();
+/*
+ +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+                                                +++++++++++++++++++++++++++++++++++++++++
+                                                                         ++++++++++++++++++
+                                                                                   CREATED
+                                                                         BY DAN WEATHERBEE
+                                                                                   DEC    2017
+*/
