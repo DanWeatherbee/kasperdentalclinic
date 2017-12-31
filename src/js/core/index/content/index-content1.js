@@ -24,7 +24,7 @@ var indexMainContent1Row1Col2PTag = '<p class="header-text animated rollIn" id="
 // text
 var indexMainContent1Row1Col2HeaderH1TagText = 'Kasper';
 var indexMainContent1Row1Col2HeaderH2TagText = 'Denture Clinic LTD';
-var indexMainContent1Row1Col2HeaderH3TagText = '250-542-7423';
+var indexMainContent1Row1Col2HeaderH3TagText = '<i class="fa fa-phone"></i> 250-542-7423';
 var indexMainContent1Row1Col2PTagText = '<b>Let us restore your healthy smile.</b>' +
 ' Our expertise is in high quality, removable dental prosthesis.<br />' +
 ' Our aim is to restore your healthy smile in a calm,<br />' +

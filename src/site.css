@@ -32,6 +32,10 @@
     font-size: 1em;
 }
 
+.fa-phone {
+    font-size: .7em;
+}
+
 .content-photos {
     /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#b8e1fc+0,a9d2f3+10,90bae4+25,90bcea+37,90bff0+50,6ba8e5+51,a2daf5+83,bdf3fd+100&1+1,0.13+23,0.13+79,1+100 */
     background: -moz-linear-gradient(left, rgba(184, 225, 252, 1) 0%, rgba(183, 224, 251, 1) 1%, rgba(169, 210, 243, 0.64) 10%, rgba(147, 189, 230, 0.13) 23%, rgba(144, 186, 228, 0.13) 25%, rgba(144, 188, 234, 0.13) 37%, rgba(144, 191, 240, 0.13) 50%, rgba(107, 168, 229, 0.13) 51%, rgba(155, 212, 243, 0.13) 79%, rgba(162, 218, 245, 0.3) 83%, rgba(189, 243, 253, 1) 100%);

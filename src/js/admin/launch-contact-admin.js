@@ -1,6 +1,11 @@
 $('window').ready(function() {
     // app.editSomething(); goes here.
-
+    app.editContactHeaderH1();
+    app.editContactP_1();
+    app.editContactP_2();
+    app.editContactP_3();
+    app.editContactBtn1();
+    app.editContactIframe1();
     $('#root').prepend('<i class="fa fa-edit edit-btns-fixed" id="edit-contact-page" onclick="editContactPage()"> -- Edit Page</i>');
     $('#root').prepend('<i class="fa fa-save edit-btns-fixed" id="save-contact-page" onclick="saveContactPage()"> -- Save Page</i>');
     editContactPage();

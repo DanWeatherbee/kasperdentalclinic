@@ -1,47 +1,47 @@
 /*
- Jason P_1 Text Controls =============================================
+ Contact P_1 Text Controls =============================================
  New Naming convention so we can clone the control,
   simply by incrementing the number on the end of every variable all at once.
 */
-app.editJasonP_1 = function(
-    editJasonPText1,
-    saveJasonPBtn1,
-    textAreaJasonP_1
+app.editContactP_1 = function(
+    editContactPText1,
+    saveContactPBtn1,
+    textAreaContactP_1
 ) {
     "use strict";
     var self = this;
-    self.editJasonPBtn1 = '<i type="button" class="fa fa-edit edit-btns" id="edit-jason-p-btn-1"' +
-        ' onclick="app.editJasonPText1()"></i>';
-    self.saveJasonPBtn1 = '<i type="button" class="fa fa-save edit-btns" id="save-jason-p-btn-1"' +
-        ' onclick="app.saveJasonPText1()"></i>';
-    self.textAreaJasonP_1 = '<textarea class="form-control textarea-style" rows="1" number="3" maxlength="1000" ' +
-        'id="jason-input-p-1">' +
-        self.jasonContentObj.main.content[0].jasonPText1 +
+    self.editContactPBtn1 = '<i type="button" class="fa fa-edit edit-btns" id="edit-contact-p-btn-1"' +
+        ' onclick="app.editContactPText1()"></i>';
+    self.saveContactPBtn1 = '<i type="button" class="fa fa-save edit-btns" id="save-contact-p-btn-1"' +
+        ' onclick="app.saveContactPText1()"></i>';
+    self.textAreaContactP_1 = '<textarea class="form-control textarea-style" rows="1" number="3" maxlength="1000" ' +
+        'id="contact-input-p-1">' +
+        self.contactContentObj.main.content[0].contactPText1 +
         '</textarea>';
 
-    app.editJasonPText1 = function() {
-        if ($('#edit-jason-p-btn-1')) {
-            $('#edit-jason-p-btn-1').remove();
+    app.editContactPText1 = function() {
+        if ($('#edit-contact-p-btn-1')) {
+            $('#edit-contact-p-btn-1').remove();
         };
 
-        $('#jason-p-tag1').append(
-            self.textAreaJasonP_1,
-            self.saveJasonPBtn1
+        $('#contact-p-tag1').append(
+            self.textAreaContactP_1,
+            self.saveContactPBtn1
         );
     }
-    app.saveJasonPText1 = function() {
-        var usrInput = $('#jason-input-p-1').val();
-        self.jasonContentObj.main.content[0].jasonPText1 = usrInput;
-        $('#jason-p-tag1').html(
-            self.jasonContentObj.main.content[0].jasonPText1
+    app.saveContactPText1 = function() {
+        var usrInput = $('#contact-input-p-1').val();
+        self.contactContentObj.main.content[0].contactPText1 = usrInput;
+        $('#contact-p-tag1').html(
+            self.contactContentObj.main.content[0].contactPText1
         );
-        $('#save-jason-p-btn-1').remove();
-        $('#jason-input-p-1').remove();
-        app.saveJasonToDB();
+        $('#save-contact-p-btn-1').remove();
+        $('#contact-input-p-1').remove();
+        app.saveContactToDB();
     }
-    app.createJasonPText1 = function() {
-        $('#edit-jason-p-btn-1').remove();
-        $('#jason-p-tag1').append(self.editJasonPBtn1);
+    app.createContactPText1 = function() {
+        $('#edit-contact-p-btn-1').remove();
+        $('#contact-p-tag1').append(self.editContactPBtn1);
     }
-    self.createJasonPText1();
+    self.createContactPText1();
 };

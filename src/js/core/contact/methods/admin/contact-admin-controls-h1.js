@@ -1,45 +1,45 @@
 /*
- Jason Header H1 Text Controls =============================================
+ Contact Header H1 Text Controls =============================================
 */
-app.editJasonHeaderH1 = function(
-    editJasonHeaderH1Text,
-    saveJasonHeaderH1TextBtn,
-    textAreaJasonHeaderH1
+app.editContactHeaderH1 = function(
+    editContactHeaderH1Text,
+    saveContactHeaderH1TextBtn,
+    textAreaContactHeaderH1
 ) {
     "use strict";
     var self = this;
-    self.editJasonHeaderH1TextBtn = '<br /><i type="button" class="fa fa-edit edit-btns" id="edit-jason-header-h1-btn"' +
-        ' onclick="app.editJasonHeaderH1Text()"></i>';
-    self.saveJasonHeaderH1TextBtn = '<i type="button" class="fa fa-save edit-btns" id="save-jason-header-h1-btn"' +
-        ' onclick="app.saveJasonHeaderH1Text()"></i>';
-    self.textAreaJasonHeaderH1 = '<textarea class="form-control textarea-style" rows="1" number="3" maxlength="1000" ' +
-        'id="jason-header-h1-input">' +
-        self.jasonContentObj.main.content[0].jasonHeaderH1TagText +
+    self.editContactHeaderH1TextBtn = '<i type="button" class="fa fa-edit edit-btns" id="edit-contact-header-h1-btn"' +
+        ' onclick="app.editContactHeaderH1Text()"></i>';
+    self.saveContactHeaderH1TextBtn = '<i type="button" class="fa fa-save edit-btns" id="save-contact-header-h1-btn"' +
+        ' onclick="app.saveContactHeaderH1Text()"></i>';
+    self.textAreaContactHeaderH1 = '<textarea class="form-control textarea-style" rows="1" number="3" maxlength="1000" ' +
+        'id="contact-header-h1-input">' +
+        self.contactContentObj.main.content[0].contactHeaderH1TagText +
         '</textarea>';
 
-    app.editJasonHeaderH1Text = function() {
-        if ($('#edit-jason-header-h1-btn')) {
-            $('#edit-jason-header-h1-btn').remove();
+    app.editContactHeaderH1Text = function() {
+        if ($('#edit-contact-header-h1-btn')) {
+            $('#edit-contact-header-h1-btn').remove();
         };
 
-        $('#jason-header-h1-tag').append(
-            self.textAreaJasonHeaderH1,
-            self.saveJasonHeaderH1TextBtn
+        $('#contact-header-h1-tag').append(
+            self.textAreaContactHeaderH1,
+            self.saveContactHeaderH1TextBtn
         );
     }
-    app.saveJasonHeaderH1Text = function() {
-        var usrInput = $('#jason-header-h1-input').val();
-        self.jasonContentObj.main.content[0].jasonHeaderH1TagText = usrInput;
-        $('#jason-header-h1-tag').html(
-            self.jasonContentObj.main.content[0].jasonHeaderH1TagText
+    app.saveContactHeaderH1Text = function() {
+        var usrInput = $('#contact-header-h1-input').val();
+        self.contactContentObj.main.content[0].contactHeaderH1TagText = usrInput;
+        $('#contact-header-h1-tag').html(
+            self.contactContentObj.main.content[0].contactHeaderH1TagText
         );
-        $('#save-jason-header-h1-btn').remove();
-        $('#jason-header-h1-input').remove();
-        app.saveJasonToDB();
+        $('#save-contact-header-h1-btn').remove();
+        $('#contact-header-h1-input').remove();
+        app.saveContactToDB();
     }
-    app.createJasonHeaderH1Text = function() {
-        $('#edit-jason-header-h1-btn').remove();
-        $('#jason-header-h1-tag').append(self.editJasonHeaderH1TextBtn);
+    app.createContactHeaderH1Text = function() {
+        $('#edit-contact-header-h1-btn').remove();
+        $('#contact-header-h1-tag').append(self.editContactHeaderH1TextBtn);
     }
-    self.createJasonHeaderH1Text();
+    self.createContactHeaderH1Text();
 };
