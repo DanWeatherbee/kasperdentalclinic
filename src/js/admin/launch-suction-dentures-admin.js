@@ -22,10 +22,10 @@ var saveSuctionDenturesPage = function() {
     var dbSuctionDenturesDefault = localStorage.getItem('dataSuctionDenturesDefault');
 
     // Download edited database.
-    var editedSuctionDenturesDB = new File([dbSuctionDenturesEdited], "dataSuctionDenturesEdited");
+    var editedSuctionDenturesDB = new File([dbSuctionDenturesEdited], "dataSuctionDenturesEdited.json");
 
     // Download default database.
-    var defaultSuctionDenturesDB = new File([dbSuctionDenturesDefault], "dataSuctionDenturesDefault");
+    var defaultSuctionDenturesDB = new File([dbSuctionDenturesDefault], "dataSuctionDenturesDefault.json");
 
     // Save to downloads folder.
     saveAs(editedSuctionDenturesDB);

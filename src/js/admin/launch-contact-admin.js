@@ -25,10 +25,10 @@ var saveContactPage = function() {
     var dbContactDefault = localStorage.getItem('dataContactDefault');
 
     // Download edited database.
-    var editedContactDB = new File([dbContactEdited], "dataContactEdited");
+    var editedContactDB = new File([dbContactEdited], "dataContactEdited.json");
 
     // Download default database.
-    var defaultContactDB = new File([dbContactDefault], "dataContactDefault");
+    var defaultContactDB = new File([dbContactDefault], "dataContactDefault.json");
 
     // Save to downloads folder.
     saveAs(defaultContactDB);

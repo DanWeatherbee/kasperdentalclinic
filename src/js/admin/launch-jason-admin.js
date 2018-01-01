@@ -23,10 +23,10 @@ var saveJasonPage = function() {
     var dbJasonDefault = localStorage.getItem('dataJasonDefault');
 
     // Download edited database.
-    var editedJasonDB = new File([dbJasonEdited], "dataJasonEdited");
+    var editedJasonDB = new File([dbJasonEdited], "dataJasonEdited.json");
 
     // Download default database.
-    var defaultJasonDB = new File([dbJasonDefault], "dataJasonDefault");
+    var defaultJasonDB = new File([dbJasonDefault], "dataJasonDefault.json");
 
     // Save to downloads folder.
     saveAs(defaultJasonDB);

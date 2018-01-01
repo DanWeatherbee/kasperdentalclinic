@@ -25,10 +25,10 @@ var saveTestimonialsPage = function() {
     var dbTestimonialsDefault = localStorage.getItem('dataTestimonialsDefault');
 
     // Download edited database.
-    var editedTestimonialsDB = new File([dbTestimonialsEdited], "dataTestimonialsEdited");
+    var editedTestimonialsDB = new File([dbTestimonialsEdited], "dataTestimonialsEdited.json");
 
     // Download default database.
-    var defaultTestimonialsDB = new File([dbTestimonialsDefault], "dataTestimonialsDefault");
+    var defaultTestimonialsDB = new File([dbTestimonialsDefault], "dataTestimonialsDefault.json");
 
     // Save to downloads folder.
     saveAs(defaultTestimonialsDB);

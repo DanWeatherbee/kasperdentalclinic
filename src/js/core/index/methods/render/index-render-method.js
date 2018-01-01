@@ -71,14 +71,15 @@ app.renderIndexPage = function() {
 
 app.renderIndexPageJson = function(db) {
     var self = this;
-    self.db = 'dataIndexEdited.json';
+    // This is where we decide wether to load edited or default databases.
+    self.db = 'dataIndexDefault.json';
     fetch(self.db)
         .then(
             function(response) {
                 if (response.status !== 200) {
                     console.log('Looks like there was a problem. Status Code: ' +
                         response.status);
-                    alert('There is no db fille to load. Create one and download it. Add .json to the end and place it in the src folder.');
+                    alert('There is no db fille to load. Create one and download it. Place it in the src folder.');
                     return;
                 }
 
@@ -125,7 +126,7 @@ launchAdmin();
 /*
  |======================|           launch page from database.
 */
- // app.renderIndexPageJson();
+// app.renderIndexPageJson();
 /*
  +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
                                                 +++++++++++++++++++++++++++++++++++++++++
@@ -134,7 +135,3 @@ launchAdmin();
                                                                          BY DAN WEATHERBEE
                                                                                    DEC    2017
 */
-
-
-
-

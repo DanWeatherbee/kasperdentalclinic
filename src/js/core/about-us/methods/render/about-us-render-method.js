@@ -51,14 +51,14 @@ app.renderAboutPage = function() {
 
 app.renderAboutPageJson = function(db) {
     var self = this;
-    self.db = 'dataAboutEdited.json';
+    self.db = 'dataAboutDefault.json';
     fetch(self.db)
         .then(
             function(response) {
                 if (response.status !== 200) {
                     console.log('Looks like there was a problem. Status Code: ' +
                         response.status);
-                    alert('There is no db fille to load. Create one and download it. Add .json to the end and place it in the src folder.');
+                    alert('There is no db fille to load. Create one and download it. Place it in the src folder.');
                     return;
                 }
 
@@ -80,7 +80,7 @@ app.renderAboutPageJson = function(db) {
 
 var launchAdmin = function() {
 
-    var answer = prompt("Do you wish to load admin? If you do not choose yes it will use the edited database.", "yes");
+    var answer = prompt("Do you wish to load admin?", "yes");
 
     if (answer === 'yes') {
         app.renderAboutPage();

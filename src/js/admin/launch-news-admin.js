@@ -30,10 +30,10 @@ var saveNewsPage = function() {
     var dbNewsDefault = localStorage.getItem('dataNewsDefault');
 
     // Download edited database.
-    var editedNewsDB = new File([dbNewsEdited], "dataNewsEdited");
+    var editedNewsDB = new File([dbNewsEdited], "dataNewsEdited.json");
 
     // Download default database.
-    var defaultNewsDB = new File([dbNewsDefault], "dataNewsDefault");
+    var defaultNewsDB = new File([dbNewsDefault], "dataNewsDefault.json");
 
     // Save to downloads folder.
     saveAs(defaultNewsDB);

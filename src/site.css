@@ -1,5 +1,6 @@
-.edit-btns-fixed {
+.edit-btns-default-fixed {
     left: 10%;
+    top: 40%;
     position: fixed;
     background-color: black;
     color: white;
@@ -7,6 +8,30 @@
     z-index: 10000;
     padding: 1%;
 }
+
+.edit-btns-edit-fixed {
+    left: 10%;
+    top: 20%;
+    position: fixed;
+    background-color: black;
+    color: white;
+    font-size: 2em;
+    z-index: 10000;
+    padding: 1%;
+}
+
+.edit-btns-save-fixed {
+    left: 10%;
+    top: 30%;
+    position: fixed;
+    background-color: black;
+    color: white;
+    font-size: 2em;
+    z-index: 10000;
+    padding: 1%;
+}
+
+
 
 .edit-btns {
     color: red;

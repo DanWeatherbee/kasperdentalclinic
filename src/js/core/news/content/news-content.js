@@ -85,7 +85,7 @@ var newsPTagText1 = 'Kasper Denture Clinic' +
     ' I very much appreciate you taking the time to read this and' +
     ' would be most grateful for any suggestions,' +
     ' direction or help you are able to offer.' +
-    'Warm regards. <i class="fa fa-quote-right"></i>' +
+    ' Warm regards. <i class="fa fa-quote-right"></i>' +
 '<br /><br />' +
 '<hr>' +
     'After receiving this email Jason knew he wanted to help.' +

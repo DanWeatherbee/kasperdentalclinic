@@ -23,10 +23,10 @@ var saveOleyPage = function() {
     var dbOleyDefault = localStorage.getItem('dataOleyDefault');
 
     // Download edited database.
-    var editedOleyDB = new File([dbOleyEdited], "dataOleyEdited");
+    var editedOleyDB = new File([dbOleyEdited], "dataOleyEdited.json");
 
     // Download default database.
-    var defaultOleyDB = new File([dbOleyDefault], "dataOleyDefault");
+    var defaultOleyDB = new File([dbOleyDefault], "dataOleyDefault.json");
 
     // Save to downloads folder.
     saveAs(defaultOleyDB);

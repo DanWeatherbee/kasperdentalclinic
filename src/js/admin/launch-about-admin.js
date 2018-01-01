@@ -7,8 +7,9 @@ $('window').ready(function() {
     app.editAboutBtn1();
     app.editAboutBtn2();
     app.editAboutParallaxQuote();
-    $('#root').prepend('<i class="fa fa-edit edit-btns-fixed" id="edit-about-page" onclick="editAboutPage()"> -- Edit Page</i>');
-    $('#root').prepend('<i class="fa fa-save edit-btns-fixed" id="save-about-page" onclick="saveAboutPage()"> -- Save Page</i>');
+    $('#root').prepend('<i class="fa fa-edit edit-btns-edit-fixed" id="edit-about-page" onclick="editAboutPage()"> -- Edit Page</i>');
+    $('#root').prepend('<i class="fa fa-save edit-btns-save-fixed" id="save-about-page" onclick="saveAboutPage()"> -- Save Page</i>');
+        $('#root').prepend('<i class="fa fa-refresh edit-btns-default-fixed" id="default-about-page" onclick="clearAboutPage()"> -- Default</i>');
     editAboutPage();
     $('.fa').hide();
     $('#edit-about-page').fadeIn();
@@ -17,7 +18,8 @@ $('window').ready(function() {
 });
 var editAboutPage = function() {
     $('.fa').fadeIn();
-    $('#edit-about-page').fadeOut();
+    $('#edit-about-page').hide();
+    $('#default-about-page').hide();
 };
 
 var saveAboutPage = function() {
@@ -28,15 +30,22 @@ var saveAboutPage = function() {
     var dbAboutDefault = localStorage.getItem('dataAboutDefault');
 
     // Download edited database.
-    var editedAboutDB = new File([dbAboutEdited], "dataAboutEdited");
+    var editedAboutDB = new File([dbAboutEdited], "dataAboutEdited.json");
 
     // Download default database.
-    var defaultAboutDB = new File([dbAboutDefault], "dataAboutDefault");
+    var defaultAboutDB = new File([dbAboutDefault], "dataAboutDefault.json");
 
     // Save to downloads folder.
     saveAs(defaultAboutDB);
     saveAs(editedAboutDB);
-    $('#save-about-page').fadeOut();
+    $('#save-about-page').hide();
     $('#edit-about-page').fadeIn();
-    // ==================================================================
+    $('#default-about-page').fadeIn();
 };
+
+// Reset to default.
+var clearAboutPage = function() {
+    localStorage.clear();
+    location.reload();
+};
+ // ==================================================================

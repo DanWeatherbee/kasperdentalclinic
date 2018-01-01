@@ -52,10 +52,10 @@ var saveServicesPage = function() {
     var dbServicesDefault = localStorage.getItem('dataServicesDefault');
 
     // Download edited database.
-    var defaultServicesDB = new File([dbServicesEdited], "dataServicesEdited");
+    var defaultServicesDB = new File([dbServicesEdited], "dataServicesEdited.json");
 
     // Download default database.
-    var editedServicesDB = new File([dbServicesDefault], "dataServicesDefault");
+    var editedServicesDB = new File([dbServicesDefault], "dataServicesDefault.json");
 
     // Save to downloads folder.
     saveAs(defaultServicesDB);

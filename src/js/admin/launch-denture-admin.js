@@ -26,10 +26,10 @@ var saveDenturePage = function() {
     var dbDentureDefault = localStorage.getItem('dataDentureDefault');
 
     // Download edited database.
-    var defaultDentureDB = new File([dbDentureEdited], "dataDentureEdited");
+    var defaultDentureDB = new File([dbDentureEdited], "dataDentureEdited.json");
 
     // Download default database.
-    var editedDentureDB = new File([dbDentureDefault], "dataDentureDefault");
+    var editedDentureDB = new File([dbDentureDefault], "dataDentureDefault.json");
 
     // Save to downloads folder.
     saveAs(defaultDentureDB);

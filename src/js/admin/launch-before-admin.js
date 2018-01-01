@@ -7,10 +7,6 @@ $('window').ready(function() {
     app.editBeforeImg4();
     app.editBeforeImg5();
     app.editBeforeImg6();
-
-
-
-
     $('#root').prepend('<i class="fa fa-edit edit-btns-fixed" id="edit-before-page" onclick="editBeforePage()"> -- Edit Page</i>');
     $('#root').prepend('<i class="fa fa-save edit-btns-fixed" id="save-before-page" onclick="saveBeforePage()"> -- Save Page</i>');
     editBeforePage();
@@ -32,10 +28,10 @@ var saveBeforePage = function() {
     var dbBeforeDefault = localStorage.getItem('dataBeforeDefault');
 
     // Download edited database.
-    var editedBeforeDB = new File([dbBeforeEdited], "dataBeforeEdited");
+    var editedBeforeDB = new File([dbBeforeEdited], "dataBeforeEdited.json");
 
     // Download default database.
-    var defaultBeforeDB = new File([dbBeforeDefault], "dataBeforeDefault");
+    var defaultBeforeDB = new File([dbBeforeDefault], "dataBeforeDefault.json");
 
     // Save to downloads folder.
     saveAs(defaultBeforeDB);
