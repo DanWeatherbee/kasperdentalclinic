@@ -7,8 +7,9 @@ $('window').ready(function() {
     app.editBeforeImg4();
     app.editBeforeImg5();
     app.editBeforeImg6();
-    $('#root').prepend('<i class="fa fa-edit edit-btns-fixed" id="edit-before-page" onclick="editBeforePage()"> -- Edit Page</i>');
-    $('#root').prepend('<i class="fa fa-save edit-btns-fixed" id="save-before-page" onclick="saveBeforePage()"> -- Save Page</i>');
+    $('#root').prepend('<i class="fa fa-edit edit-btns-edit-fixed" id="edit-before-page" onclick="editBeforePage()"> -- Edit Page</i>');
+    $('#root').prepend('<i class="fa fa-save edit-btns-save-fixed" id="save-before-page" onclick="saveBeforePage()"> -- Save Page</i>');
+    $('#root').prepend('<i class="fa fa-refresh edit-btns-default-fixed" id="default-before-page" onclick="clearBeforePage()"> -- Default</i>');
     editBeforePage();
     $('.fa').hide();
     $('#edit-before-page').fadeIn();
@@ -17,7 +18,8 @@ $('window').ready(function() {
 });
 var editBeforePage = function() {
     $('.fa').fadeIn();
-    $('#edit-before-page').fadeOut();
+    $('#edit-before-page').hide();
+    $('#default-before-page').hide();
 };
 
 var saveBeforePage = function() {
@@ -36,7 +38,17 @@ var saveBeforePage = function() {
     // Save to downloads folder.
     saveAs(defaultBeforeDB);
     saveAs(editedBeforeDB);
-    $('#save-before-page').fadeOut();
+    $('#save-before-page').hide();
     $('#edit-before-page').fadeIn();
-    // ==================================================================
+    $('#default-before-page').fadeIn();
+
 };
+
+
+// Reset to default.
+var clearBeforePage = function() {
+    localStorage.clear();
+    location.reload();
+};
+
+// ==================================================================

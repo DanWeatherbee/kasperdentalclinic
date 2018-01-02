@@ -5,15 +5,17 @@ $('window').ready(function() {
     app.editSuctionDenturesVideo2();
     app.editSuctionDenturesUl();
     app.editSuctionDenturesP1();
-    $('#root').prepend('<i class="fa fa-edit edit-btns-fixed" id="edit-suction-dentures-page" onclick="editSuctionDenturesPage()"> -- Edit Page</i>');
-    $('#root').prepend('<i class="fa fa-save edit-btns-fixed" id="save-suction-dentures-page" onclick="saveSuctionDenturesPage()"> -- Save Page</i>');
+    $('#root').prepend('<i class="fa fa-edit edit-btns-edit-fixed" id="edit-suction-dentures-page" onclick="editSuctionDenturesPage()"> -- Edit Page</i>');
+    $('#root').prepend('<i class="fa fa-save edit-btns-save-fixed" id="save-suction-dentures-page" onclick="saveSuctionDenturesPage()"> -- Save Page</i>');
+    $('#root').prepend('<i class="fa fa-refresh edit-btns-default-fixed" id="default-suction-page" onclick="clearSuctionPage()"> -- Default</i>');
     editSuctionDenturesPage();
-    $('.edit-btns').hide();
+    $('.fa').hide();
     $('#edit-suction-dentures-page').fadeIn();
 });
 var editSuctionDenturesPage = function() {
     $('.fa').fadeIn();
-    $('#edit-suction-dentures-page').fadeOut();
+    $('#edit-suction-dentures-page').hide();
+    $('#default-suction-page').hide();
 };
 var saveSuctionDenturesPage = function() {
     // Download databases. ===============================================
@@ -30,7 +32,16 @@ var saveSuctionDenturesPage = function() {
     // Save to downloads folder.
     saveAs(editedSuctionDenturesDB);
     saveAs(defaultSuctionDenturesDB);
-    $('#save-suction-dentures-page').fadeOut();
+    $('#save-suction-dentures-page').hide();
     $('#edit-suction-dentures-page').fadeIn();
-    // ==================================================================
+    $('#default-suction-page').fadeIn();
+
 };
+
+// Reset to default.
+var clearSuctionPage = function() {
+    localStorage.clear();
+    location.reload();
+};
+
+// ==================================================================

@@ -4,8 +4,9 @@ $('window').ready(function() {
     app.editOleyHeaderH1();
     app.editOleyP_1();
 
-    $('#root').prepend('<i class="fa fa-edit edit-btns-fixed" id="edit-oley-page" onclick="editOleyPage()"> -- Edit Page</i>');
-    $('#root').prepend('<i class="fa fa-save edit-btns-fixed" id="save-oley-page" onclick="saveOleyPage()"> -- Save Page</i>');
+    $('#root').prepend('<i class="fa fa-edit edit-btns-edit-fixed" id="edit-oley-page" onclick="editOleyPage()"> -- Edit Page</i>');
+    $('#root').prepend('<i class="fa fa-save edit-btns-save-fixed" id="save-oley-page" onclick="saveOleyPage()"> -- Save Page</i>');
+    $('#root').prepend('<i class="fa fa-refresh edit-btns-default-fixed" id="default-oley-page" onclick="clearOleyPage()"> -- Default</i>');
     editOleyPage();
     $('.fa').hide();
     $('#edit-oley-page').fadeIn();
@@ -13,7 +14,8 @@ $('window').ready(function() {
 });
 var editOleyPage = function() {
     $('.fa').fadeIn();
-    $('#edit-oley-page').fadeOut();
+    $('#edit-oley-page').hide();
+    $('#default-oley-page').hide();
 };
 var saveOleyPage = function() {
 
@@ -31,7 +33,16 @@ var saveOleyPage = function() {
     // Save to downloads folder.
     saveAs(defaultOleyDB);
     saveAs(editedOleyDB);
-    $('#save-oley-page').fadeOut();
+    $('#save-oley-page').hide();
     $('#edit-oley-page').fadeIn();
-    // ==================================================================
+    $('#default-oley-page').fadeIn();
+
 };
+
+// Reset to default.
+var clearOleyPage = function() {
+    localStorage.clear();
+    location.reload();
+};
+
+// ==================================================================

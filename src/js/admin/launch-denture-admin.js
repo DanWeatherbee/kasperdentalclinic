@@ -9,16 +9,20 @@ $('window').ready(function() {
     app.editDentureIframe1();
     app.editDentureIframe2();
     app.editDentureIframe3();
-    $('#root').prepend('<i class="fa fa-edit edit-btns-fixed" id="edit-denture-page" onclick="editDenturePage()"> -- Edit Page</i>');
-    $('#root').prepend('<i class="fa fa-save edit-btns-fixed" id="save-denture-page" onclick="saveDenturePage()"> -- Save Page</i>');
+    $('#root').prepend('<i class="fa fa-edit edit-btns-edit-fixed" id="edit-denture-page" onclick="editDenturePage()"> -- Edit Page</i>');
+    $('#root').prepend('<i class="fa fa-save edit-btns-save-fixed" id="save-denture-page" onclick="saveDenturePage()"> -- Save Page</i>');
+    $('#root').prepend('<i class="fa fa-refresh edit-btns-default-fixed" id="default-denture-page" onclick="clearDenturePage()"> -- Default</i>');
     editDenturePage();
-    $('.edit-btns').hide();
+    $('.fa').hide();
     $('#edit-denture-page').fadeIn();
 });
+
 var editDenturePage = function() {
     $('.fa').fadeIn();
-    $('#edit-denture-page').fadeOut();
+    $('#edit-denture-page').hide();
+    $('#default-denture-page').hide();
 };
+
 var saveDenturePage = function() {
     // Download databases. ===============================================
 
@@ -34,7 +38,16 @@ var saveDenturePage = function() {
     // Save to downloads folder.
     saveAs(defaultDentureDB);
     saveAs(editedDentureDB);
-    $('#save-denture-page').fadeOut();
+    $('#save-denture-page').hide();
     $('#edit-denture-page').fadeIn();
-    // ==================================================================
+    $('#default-denture-page').fadeIn();
+
 };
+
+// Reset to default.
+var clearDenturePage = function() {
+    localStorage.clear();
+    location.reload();
+};
+
+// ==================================================================

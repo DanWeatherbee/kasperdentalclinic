@@ -31,18 +31,19 @@ $('window').ready(function() {
     app.editServicesMapH2();
     app.editServicesMapP();
 
-    $('#root').prepend('<i class="fa fa-edit edit-btns-fixed" id="edit-services-page" onclick="editServicesPage()"> -- Edit Page</i>');
-    $('#root').prepend('<i class="fa fa-save edit-btns-fixed" id="save-services-page" onclick="saveServicesPage()"> -- Save Page</i>');
-
+    $('#root').prepend('<i class="fa fa-edit edit-btns-edit-fixed" id="edit-services-page" onclick="editServicesPage()"> -- Edit Page</i>');
+    $('#root').prepend('<i class="fa fa-save edit-btns-save-fixed" id="save-services-page" onclick="saveServicesPage()"> -- Save Page</i>');
+    $('#root').prepend('<i class="fa fa-refresh edit-btns-default-fixed" id="default-services-page" onclick="clearServicesPage()"> -- Default</i>');
     editServicesPage();
-    $('.edit-btns').hide();
+    $('.fa').hide();
     $('#services-move-to-parallax-icon').show();
     $('#edit-services-page').fadeIn();
 });
 
 var editServicesPage = function() {
     $('.fa').fadeIn();
-    $('#edit-services-page').fadeOut();
+    $('#edit-services-page').hide();
+    $('#default-services-page').hide();
 };
 
 var saveServicesPage = function() {
@@ -60,7 +61,16 @@ var saveServicesPage = function() {
     // Save to downloads folder.
     saveAs(defaultServicesDB);
     saveAs(editedServicesDB);
-    $('#save-services-page').fadeOut();
+    $('#save-services-page').hide();
     $('#edit-services-page').fadeIn();
-    // ==================================================================
+    $('#default-services-page').fadeIn();
+
 };
+
+// Reset to default.
+var clearServicesPage = function() {
+    localStorage.clear();
+    location.reload();
+};
+
+// ==================================================================

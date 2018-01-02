@@ -10,8 +10,9 @@ $('window').ready(function() {
     app.editNewsP_4();
     app.editNewsP_5();
     app.editNewsImg1();
-    $('#root').prepend('<i class="fa fa-edit edit-btns-fixed" id="edit-news-page" onclick="editNewsPage()"> -- Edit Page</i>');
-    $('#root').prepend('<i class="fa fa-save edit-btns-fixed" id="save-news-page" onclick="saveNewsPage()"> -- Save Page</i>');
+    $('#root').prepend('<i class="fa fa-edit edit-btns-edit-fixed" id="edit-news-page" onclick="editNewsPage()"> -- Edit Page</i>');
+    $('#root').prepend('<i class="fa fa-save edit-btns-save-fixed" id="save-news-page" onclick="saveNewsPage()"> -- Save Page</i>');
+    $('#root').prepend('<i class="fa fa-refresh edit-btns-default-fixed" id="default-news-page" onclick="clearNewsPage()"> -- Default</i>');
     editNewsPage();
     $('.fa').hide();
     $('#edit-news-page').fadeIn();
@@ -20,7 +21,8 @@ $('window').ready(function() {
 });
 var editNewsPage = function() {
     $('.fa').fadeIn();
-    $('#edit-news-page').fadeOut();
+    $('#edit-news-page').hide();
+    $('#default-news-page').hide();
 };
 var saveNewsPage = function() {
 
@@ -38,7 +40,16 @@ var saveNewsPage = function() {
     // Save to downloads folder.
     saveAs(defaultNewsDB);
     saveAs(editedNewsDB);
-    $('#save-news-page').fadeOut();
+    $('#save-news-page').hide();
     $('#edit-news-page').fadeIn();
-    // ==================================================================
+    $('#default-news-page').fadeIn();
+
 };
+
+// Reset to default.
+var clearNewsPage = function() {
+    localStorage.clear();
+    location.reload();
+};
+
+// ==================================================================

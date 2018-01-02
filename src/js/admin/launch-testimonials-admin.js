@@ -5,8 +5,9 @@ $('window').ready(function() {
     app.editTestimonialsP2();
     app.editTestimonialsP3();
     app.editTestimonialsP4();
-    $('#root').prepend('<i class="fa fa-edit edit-btns-fixed" id="edit-testimonials-page" onclick="editTestimonialsPage()"> -- Edit Page</i>');
-    $('#root').prepend('<i class="fa fa-save edit-btns-fixed" id="save-testimonials-page" onclick="saveTestimonialsPage()"> -- Save Page</i>');
+    $('#root').prepend('<i class="fa fa-edit edit-btns-edit-fixed" id="edit-testimonials-page" onclick="editTestimonialsPage()"> -- Edit Page</i>');
+    $('#root').prepend('<i class="fa fa-save edit-btns-save-fixed" id="save-testimonials-page" onclick="saveTestimonialsPage()"> -- Save Page</i>');
+    $('#root').prepend('<i class="fa fa-refresh edit-btns-default-fixed" id="default-testimonials-page" onclick="clearTestimonialsPage()"> -- Default</i>');
     editTestimonialsPage();
     $('.fa').hide();
     $('#edit-testimonials-page').fadeIn();
@@ -15,7 +16,8 @@ $('window').ready(function() {
 });
 var editTestimonialsPage = function() {
     $('.fa').fadeIn();
-    $('#edit-testimonials-page').fadeOut();
+    $('#edit-testimonials-page').hide();
+    $('#default-testimonials-page').hide();
 };
 var saveTestimonialsPage = function() {
 
@@ -33,7 +35,16 @@ var saveTestimonialsPage = function() {
     // Save to downloads folder.
     saveAs(defaultTestimonialsDB);
     saveAs(editedTestimonialsDB);
-    $('#save-testimonials-page').fadeOut();
+    $('#save-testimonials-page').hide();
     $('#edit-testimonials-page').fadeIn();
-    // ==================================================================
+    $('#default-testimonials-page').fadeIn();
+
 };
+
+// Reset to default.
+var clearTestimonialPage = function() {
+    localStorage.clear();
+    location.reload();
+};
+
+// ==================================================================

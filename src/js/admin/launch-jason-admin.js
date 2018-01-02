@@ -4,8 +4,9 @@ $('window').ready(function() {
     app.editJasonHeaderH1();
     app.editJasonP_1();
 
-    $('#root').prepend('<i class="fa fa-edit edit-btns-fixed" id="edit-jason-page" onclick="editJasonPage()"> -- Edit Page</i>');
-    $('#root').prepend('<i class="fa fa-save edit-btns-fixed" id="save-jason-page" onclick="saveJasonPage()"> -- Save Page</i>');
+    $('#root').prepend('<i class="fa fa-edit edit-btns-edit-fixed" id="edit-jason-page" onclick="editJasonPage()"> -- Edit Page</i>');
+    $('#root').prepend('<i class="fa fa-save edit-btns-save-fixed" id="save-jason-page" onclick="saveJasonPage()"> -- Save Page</i>');
+    $('#root').prepend('<i class="fa fa-refresh edit-btns-default-fixed" id="default-jason-page" onclick="clearJasonPage()"> -- Default</i>');
     editJasonPage();
     $('.fa').hide();
     $('#edit-jason-page').fadeIn();
@@ -13,7 +14,8 @@ $('window').ready(function() {
 });
 var editJasonPage = function() {
     $('.fa').fadeIn();
-    $('#edit-jason-page').fadeOut();
+    $('#edit-jason-page').hide();
+    $('#default-jason-page').hide();
 };
 var saveJasonPage = function() {
 
@@ -31,7 +33,16 @@ var saveJasonPage = function() {
     // Save to downloads folder.
     saveAs(defaultJasonDB);
     saveAs(editedJasonDB);
-    $('#save-jason-page').fadeOut();
+    $('#save-jason-page').hide();
     $('#edit-jason-page').fadeIn();
-    // ==================================================================
+    $('#default-jason-page').fadeIn();
+
 };
+
+// Reset to default.
+var clearJasonPage = function() {
+    localStorage.clear();
+    location.reload();
+};
+
+// ==================================================================
