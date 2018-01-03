@@ -1,28 +1,21 @@
+/*Admin buttons*/
+
 .edit-btns-default-fixed {
-    left: 10%;
     top: 40%;
-    position: fixed;
-    background-color: black;
-    color: white;
-    font-size: 2em;
-    z-index: 10000;
-    padding: 1%;
 }
 
 .edit-btns-edit-fixed {
-    left: 10%;
     top: 20%;
-    position: fixed;
-    background-color: black;
-    color: white;
-    font-size: 2em;
-    z-index: 10000;
-    padding: 1%;
 }
 
 .edit-btns-save-fixed {
-    left: 10%;
     top: 30%;
+}
+
+.edit-btns-save-fixed,
+.edit-btns-edit-fixed,
+.edit-btns-default-fixed {
+    left: 10%;
     position: fixed;
     background-color: black;
     color: white;
@@ -30,25 +23,11 @@
     z-index: 10000;
     padding: 1%;
 }
-
-
 
 .edit-btns {
     color: red;
     font-size: 1em;
     text-shadow: 0 0 0 white;
-}
-
-#news-p-tag1 {
-    font-weight: 400;
-    background-color: #fbfbfb;
-    padding: 2%;
-    border: 1px dotted;
-}
-
-#testimonials-p-tag2,
-#testimonials-p-tag4 {
-    font-weight: 400;
 }
 
 .textarea-style {
@@ -57,9 +36,53 @@
     font-size: 1em;
 }
 
+/*Icons*/
+
 .fa-phone {
     font-size: .7em;
 }
+
+/*Parallax*/
+
+.parallax {
+    background: #fff url('css/cloud.jpg') no-repeat center center;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    background-attachment: fixed;
+    position: relative;
+    z-index: 3;
+    padding: 10% 0 10% 0;
+    height: 100%;
+}
+
+#services-main-row2-parallax-col1-p-tag,
+div.qoute-box {
+    color: white;
+    text-align: center;
+    text-shadow: 1px 1px 2px black;
+    font-size: 2em;
+}
+
+/*News page*/
+
+#news-p-tag1 {
+    font-weight: 400;
+    background-color: #fbfbfb;
+    padding: 2%;
+    border: 1px dotted;
+}
+
+/*Testimonial page*/
+
+#testimonials-p-tag2,
+#testimonials-p-tag4 {
+    font-weight: 400;
+}
+
+/*Before page*/
+
 
 .content-photos {
     /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#b8e1fc+0,a9d2f3+10,90bae4+25,90bcea+37,90bff0+50,6ba8e5+51,a2daf5+83,bdf3fd+100&1+1,0.13+23,0.13+79,1+100 */
@@ -90,30 +113,19 @@
     box-shadow: 10px 11px 9px -5px rgba(38, 10, 250, 1);
 }
 
-.parallax {
-    background: #fff url('css/cloud.jpg') no-repeat center center;
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    -o-background-size: cover;
-    background-size: cover;
-    background-attachment: fixed;
-    position: relative;
-    z-index: 3;
-    padding: 10% 0 10% 0;
-    height: 100%;
+.bf-pics {
+    max-width: 300px;
+    max-height: 300px;
+    background-color: #333;
 }
 
-#services-main-row2-parallax-col1-p-tag,
-div.qoute-box {
-    color: white;
-    text-align: center;
-    text-shadow: 1px 1px 2px black;
-    font-size: 2em;
-}
+/*Suction Denture page*/
 
 #suction-dentures-img1 {
     max-width: 50%;
 }
+
+/*About page*/
 
 #about-main-parallax-container {
     padding: 1% 0 10% 0;
@@ -124,6 +136,13 @@ div.qoute-box {
 #about-main-container {
     margin-bottom: 8%;
 }
+
+.team-img {
+    margin-top: 10%;
+    max-height: 300px;
+}
+
+/*Services*/
 
 .services-collapse-containers>a>h2 {
     font-size: 1em;
@@ -150,14 +169,23 @@ div.qoute-box {
     padding: 10% 0 10% 0;
 }
 
+#services-map-p-tag {
+    margin-bottom: 15%;
+}
+
+/*Index page*/
+
 #index-main-row1-col2-p-tag {
     font-size: 1.5em;
 }
+
+/*Button Class*/
 
 .btn {
     font-size: .7em;
 }
 
+/*Gradients*/
 
 .gradient {
     /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#4c4c4c+0,595959+12,666666+25,474747+39,2c2c2c+50,000000+51,111111+60,2b2b2b+76,1c1c1c+91,131313+100;Black+Gloss+%231 */
@@ -173,17 +201,41 @@ div.qoute-box {
     /* IE6-9 */
 }
 
+/*Video HTML5 container*/
+
 video {
     width: 50% !important;
     height: 300px !important;
     margin: 5% 0 5% 0;
 }
 
+/*Hover effects*/
+
 .team-img-container:hover {
     -webkit-box-shadow: 2px 11px 5px -5px rgba(212, 212, 212, 0.98);
     -moz-box-shadow: 2px 11px 5px -5px rgba(212, 212, 212, 0.98);
     box-shadow: 2px 11px 5px -5px rgba(212, 212, 212, 0.98);
 }
+
+a:hover {
+    color: black;
+    -webkit-box-shadow: 2px 11px 5px -5px rgba(212, 212, 212, 0.98);
+    -moz-box-shadow: 2px 11px 5px -5px rgba(212, 212, 212, 0.98);
+    box-shadow: 2px 11px 5px -5px rgba(212, 212, 212, 0.98);
+}
+
+.book-online-border:hover {
+    color: lawngreen;
+    background-color: black;
+}
+
+.shadow {
+    -webkit-box-shadow: 2px 11px 5px -5px rgba(212, 212, 212, 0.98);
+    -moz-box-shadow: 2px 11px 5px -5px rgba(212, 212, 212, 0.98);
+    box-shadow: 2px 11px 5px -5px rgba(212, 212, 212, 0.98);
+}
+
+/*Navagation bar*/
 
 .navbar-brand {
     background-color: white;
@@ -210,35 +262,23 @@ video {
     padding: 5%;
 }
 
+/*Quote Boxes*/
+
 div.qoute-box {
     font-size: 1.5em;
 }
+
+/*Links*/
 
 .book-online-border {
     color: blue;
 }
 
-.book-online-border:hover {
-    color: lawngreen;
-    background-color: black;
-}
-
-a:hover {
-    color: black;
-    -webkit-box-shadow: 2px 11px 5px -5px rgba(212, 212, 212, 0.98);
-    -moz-box-shadow: 2px 11px 5px -5px rgba(212, 212, 212, 0.98);
-    box-shadow: 2px 11px 5px -5px rgba(212, 212, 212, 0.98);
-}
-
-.shadow {
-    -webkit-box-shadow: 2px 11px 5px -5px rgba(212, 212, 212, 0.98);
-    -moz-box-shadow: 2px 11px 5px -5px rgba(212, 212, 212, 0.98);
-    box-shadow: 2px 11px 5px -5px rgba(212, 212, 212, 0.98);
-}
-
 a {
     color: black;
 }
+
+/*Footer*/
 
 .footer {
     margin-top: 3%;
@@ -247,20 +287,8 @@ a {
     border-top: 1px solid;
 }
 
-#services-map-p-tag {
-    margin-bottom: 15%;
-}
 
-.team-img {
-    margin-top: 10%;
-    max-height: 300px;
-}
-
-.bf-pics {
-    max-width: 300px;
-    max-height: 300px;
-    background-color: #333;
-}
+/*Iphones*/
 
 @media only screen and (max-width: 500px) {
     #root {
@@ -280,6 +308,9 @@ a {
         width: 75px;
     }
 }
+
+
+/*Ipads/laptops*/
 
 @media only screen and (min-width: 501px) {
     #root {

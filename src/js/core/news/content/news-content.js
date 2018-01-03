@@ -22,7 +22,7 @@ var newsH3Tag1 = '<br /><h3 id="news-h3-tag1"></h3>';
 var newsH3Tag2 = '<br /><h3 id="news-h3-tag2"></h3>';
 var newsH3Tag3 = '<br /><h3 id="news-h3-tag3"></h3>';
 // p
-var newsPTag1 = '<p class="animated slideInLeft" id="news-p-tag1"></p>';
+var newsPTag1 = '<br /><br /><br /><p class="animated slideInLeft" id="news-p-tag1"></p>';
 var newsPTag2 = '<p class="animated slideInLeft" id="news-p-tag2"></p>';
 var newsPTag3 = '<p class="animated slideInLeft" id="news-p-tag3"></p>';
 var newsPTag4 = '<p class="animated slideInLeft" id="news-p-tag4"></p>';

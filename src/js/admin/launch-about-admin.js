@@ -9,7 +9,7 @@ $('window').ready(function() {
     app.editAboutParallaxQuote();
     $('#root').prepend('<i class="fa fa-edit edit-btns-edit-fixed" id="edit-about-page" onclick="editAboutPage()"> -- Edit Page</i>');
     $('#root').prepend('<i class="fa fa-save edit-btns-save-fixed" id="save-about-page" onclick="saveAboutPage()"> -- Save Page</i>');
-        $('#root').prepend('<i class="fa fa-refresh edit-btns-default-fixed" id="default-about-page" onclick="clearAboutPage()"> -- Default</i>');
+    $('#root').prepend('<i class="fa fa-refresh edit-btns-default-fixed" id="default-about-page" onclick="clearAboutPage()"> -- Default</i>');
     editAboutPage();
     $('.fa').hide();
     $('#edit-about-page').fadeIn();
@@ -19,7 +19,6 @@ $('window').ready(function() {
 var editAboutPage = function() {
     $('.fa').fadeIn();
     $('#edit-about-page').hide();
-    $('#default-about-page').hide();
 };
 
 var saveAboutPage = function() {
@@ -40,7 +39,6 @@ var saveAboutPage = function() {
     saveAs(editedAboutDB);
     $('#save-about-page').hide();
     $('#edit-about-page').fadeIn();
-    $('#default-about-page').fadeIn();
 };
 
 // Reset to default.
@@ -48,4 +46,4 @@ var clearAboutPage = function() {
     localStorage.clear();
     location.reload();
 };
- // ==================================================================
+// ==================================================================

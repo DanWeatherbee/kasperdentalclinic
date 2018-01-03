@@ -17,7 +17,6 @@ $('window').ready(function() {
 var editIndexPage = function() {
     $('.fa').fadeIn();
     $('#edit-Index-page').hide();
-    $('#default-Index-page').hide();
 };
 
 var saveIndexPage = function() {
@@ -38,8 +37,6 @@ var saveIndexPage = function() {
     saveAs(editedIndexDB);
     $('#save-Index-page').hide();
     $('#edit-Index-page').fadeIn();
-    $('#default-Index-page').fadeIn();
-
 };
 
 // Reset to default.

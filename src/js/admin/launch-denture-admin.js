@@ -20,7 +20,6 @@ $('window').ready(function() {
 var editDenturePage = function() {
     $('.fa').fadeIn();
     $('#edit-denture-page').hide();
-    $('#default-denture-page').hide();
 };
 
 var saveDenturePage = function() {
@@ -40,8 +39,6 @@ var saveDenturePage = function() {
     saveAs(editedDentureDB);
     $('#save-denture-page').hide();
     $('#edit-denture-page').fadeIn();
-    $('#default-denture-page').fadeIn();
-
 };
 
 // Reset to default.

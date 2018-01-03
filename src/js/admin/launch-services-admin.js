@@ -30,7 +30,6 @@ $('window').ready(function() {
     app.editServicesPFaq_4();
     app.editServicesMapH2();
     app.editServicesMapP();
-
     $('#root').prepend('<i class="fa fa-edit edit-btns-edit-fixed" id="edit-services-page" onclick="editServicesPage()"> -- Edit Page</i>');
     $('#root').prepend('<i class="fa fa-save edit-btns-save-fixed" id="save-services-page" onclick="saveServicesPage()"> -- Save Page</i>');
     $('#root').prepend('<i class="fa fa-refresh edit-btns-default-fixed" id="default-services-page" onclick="clearServicesPage()"> -- Default</i>');
@@ -43,7 +42,6 @@ $('window').ready(function() {
 var editServicesPage = function() {
     $('.fa').fadeIn();
     $('#edit-services-page').hide();
-    $('#default-services-page').hide();
 };
 
 var saveServicesPage = function() {
@@ -63,8 +61,6 @@ var saveServicesPage = function() {
     saveAs(editedServicesDB);
     $('#save-services-page').hide();
     $('#edit-services-page').fadeIn();
-    $('#default-services-page').fadeIn();
-
 };
 
 // Reset to default.

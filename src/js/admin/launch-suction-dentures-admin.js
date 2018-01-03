@@ -15,7 +15,6 @@ $('window').ready(function() {
 var editSuctionDenturesPage = function() {
     $('.fa').fadeIn();
     $('#edit-suction-dentures-page').hide();
-    $('#default-suction-page').hide();
 };
 var saveSuctionDenturesPage = function() {
     // Download databases. ===============================================
@@ -34,8 +33,6 @@ var saveSuctionDenturesPage = function() {
     saveAs(defaultSuctionDenturesDB);
     $('#save-suction-dentures-page').hide();
     $('#edit-suction-dentures-page').fadeIn();
-    $('#default-suction-page').fadeIn();
-
 };
 
 // Reset to default.

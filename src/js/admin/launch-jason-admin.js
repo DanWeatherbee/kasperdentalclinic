@@ -15,7 +15,6 @@ $('window').ready(function() {
 var editJasonPage = function() {
     $('.fa').fadeIn();
     $('#edit-jason-page').hide();
-    $('#default-jason-page').hide();
 };
 var saveJasonPage = function() {
 
@@ -35,8 +34,6 @@ var saveJasonPage = function() {
     saveAs(editedJasonDB);
     $('#save-jason-page').hide();
     $('#edit-jason-page').fadeIn();
-    $('#default-jason-page').fadeIn();
-
 };
 
 // Reset to default.

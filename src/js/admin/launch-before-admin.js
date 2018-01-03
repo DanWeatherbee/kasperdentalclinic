@@ -19,7 +19,6 @@ $('window').ready(function() {
 var editBeforePage = function() {
     $('.fa').fadeIn();
     $('#edit-before-page').hide();
-    $('#default-before-page').hide();
 };
 
 var saveBeforePage = function() {
@@ -40,7 +39,6 @@ var saveBeforePage = function() {
     saveAs(editedBeforeDB);
     $('#save-before-page').hide();
     $('#edit-before-page').fadeIn();
-    $('#default-before-page').fadeIn();
 
 };
 

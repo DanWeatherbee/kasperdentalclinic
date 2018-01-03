@@ -94,11 +94,11 @@ var launchAdmin = function() {
 
 | ======================|           launch page virtual with admin.
 */
-launchAdmin();
+ launchAdmin();
 /*
  |======================|           launch page from database.
 */
- // app.renderTestimonialsPageJson();
+ //app.renderTestimonialsPageJson();
 /*
  +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
                                                 +++++++++++++++++++++++++++++++++++++++++

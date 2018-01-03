@@ -16,7 +16,6 @@ $('window').ready(function() {
 var editContactPage = function() {
     $('.fa').fadeIn();
     $('#edit-contact-page').hide();
-    $('#default-contact-page').hide();
 };
 var saveContactPage = function() {
 
@@ -36,7 +35,6 @@ var saveContactPage = function() {
     saveAs(editedContactDB);
     $('#save-contact-page').hide();
     $('#edit-contact-page').fadeIn();
-    $('#default-contact-page').fadeIn();
 
 };
 

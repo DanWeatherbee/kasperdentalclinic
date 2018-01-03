@@ -17,7 +17,6 @@ $('window').ready(function() {
 var editTestimonialsPage = function() {
     $('.fa').fadeIn();
     $('#edit-testimonials-page').hide();
-    $('#default-testimonials-page').hide();
 };
 var saveTestimonialsPage = function() {
 
@@ -37,8 +36,6 @@ var saveTestimonialsPage = function() {
     saveAs(editedTestimonialsDB);
     $('#save-testimonials-page').hide();
     $('#edit-testimonials-page').fadeIn();
-    $('#default-testimonials-page').fadeIn();
-
 };
 
 // Reset to default.

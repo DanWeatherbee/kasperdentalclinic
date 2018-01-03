@@ -22,7 +22,6 @@ $('window').ready(function() {
 var editNewsPage = function() {
     $('.fa').fadeIn();
     $('#edit-news-page').hide();
-    $('#default-news-page').hide();
 };
 var saveNewsPage = function() {
 
@@ -42,8 +41,6 @@ var saveNewsPage = function() {
     saveAs(editedNewsDB);
     $('#save-news-page').hide();
     $('#edit-news-page').fadeIn();
-    $('#default-news-page').fadeIn();
-
 };
 
 // Reset to default.

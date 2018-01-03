@@ -3,7 +3,6 @@ $('window').ready(function() {
     app.editOleyImg1();
     app.editOleyHeaderH1();
     app.editOleyP_1();
-
     $('#root').prepend('<i class="fa fa-edit edit-btns-edit-fixed" id="edit-oley-page" onclick="editOleyPage()"> -- Edit Page</i>');
     $('#root').prepend('<i class="fa fa-save edit-btns-save-fixed" id="save-oley-page" onclick="saveOleyPage()"> -- Save Page</i>');
     $('#root').prepend('<i class="fa fa-refresh edit-btns-default-fixed" id="default-oley-page" onclick="clearOleyPage()"> -- Default</i>');
@@ -15,7 +14,6 @@ $('window').ready(function() {
 var editOleyPage = function() {
     $('.fa').fadeIn();
     $('#edit-oley-page').hide();
-    $('#default-oley-page').hide();
 };
 var saveOleyPage = function() {
 
@@ -35,8 +33,6 @@ var saveOleyPage = function() {
     saveAs(editedOleyDB);
     $('#save-oley-page').hide();
     $('#edit-oley-page').fadeIn();
-    $('#default-oley-page').fadeIn();
-
 };
 
 // Reset to default.
