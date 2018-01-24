@@ -45,8 +45,7 @@ var servicesContent3row2Col2HeaderH3TagText8 = 'Denture Repairs';
 p
 text
 */
-var servicesContent3row2Col2PTagText1 = 'Call today or ' +
-    '<a class="book-online-border" href="appointment.html">book online</a>' +
+var servicesContent3row2Col2PTagText1 = 'Call today' +
     ' to make an appointment for a consultation.' +
     ' During your visit, we will discuss our approach to dentures' +
     ' and share with you the methods available to greatly increase your satisfaction with them.' +

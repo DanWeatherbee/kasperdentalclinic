@@ -57,6 +57,10 @@
     height: 100%;
 }
 
+footer {
+    background: #fff url('css/lightbg2.png');
+}
+
 #services-main-row2-parallax-col1-p-tag,
 div.qoute-box {
     color: white;
@@ -247,7 +251,7 @@ a:hover {
 
 .caps {
     text-transform: uppercase;
-    font-weight: 900;
+    font-weight: 400;
 }
 
 .thick-text {

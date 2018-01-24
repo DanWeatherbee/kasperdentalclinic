@@ -68,10 +68,7 @@ var dentureMainContent1Col2P3TagText = 'A removable partial denture can replace 
     ' Aesthetics appearance and speech are restored.' +
     '<br /><br />' +
     'This provides the ability to function while eating confidently and efficiently.' +
-    ' Call 250-542-7423 or ' +
-    '<a class="btn btn-success text-center animated slideInLeft" id="denture-book-link" href="appointment.html">' +
-    'Book - Online' +
-    '</a>' +
+    ' Call 250-542-7423' +
     '<br /><br /><br /><br />';
 
 // iframe

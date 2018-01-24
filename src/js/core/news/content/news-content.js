@@ -110,8 +110,8 @@ var newsPTagText4 = 'While we offer competitive pricing and years of experience,
     ' We believe in the personal touch and the skilled hand.' +
     ' Our customers have confidence in our technology, skill, and know they will be treated like family.' +
     ' You get what you pay for, top quality work and a friendly attitude.';
-var newsPTagText5 = '<br /><br />Call <b>250-542-7423</b> or' +
-    '<a class="btn btn-success" href="appointment.html">Book - Online</a>';
+var newsPTagText5 = '<br /><br />Call <b>250-542-7423</b>';
+    // '<a class="btn btn-success" href="appointment.html">Book - Online</a>';
 
 
 

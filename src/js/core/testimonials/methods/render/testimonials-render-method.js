@@ -82,27 +82,33 @@ var launchAdmin = function() {
 };
 
 /*
-                                                                              ADMIN LUANCHER
+                                                                              ADMIN ON
                                                                          ++++++++++++++++++
                                                 +++++++++++++++++++++++++++++++++++++++++
  +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
-
-       IMPORTANT!  YOU CAN NOT DO BOTH - ONE MUST BE COMMENTED OUT WITH 2 FORWARD SLASHES
-                                    NOTHING BREAKS BUT YOU WILL RENDER THE PAGE TWICE :)
-
-       Launch Options;
-
 | ======================|           launch page virtual with admin.
 */
- launchAdmin();
-/*
- |======================|           launch page from database.
-*/
- //app.renderTestimonialsPageJson();
+//launchAdmin();
 /*
  +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
                                                 +++++++++++++++++++++++++++++++++++++++++
                                                                          ++++++++++++++++++
+*/
+
+/*
+                                                                              ADMIN OFF
+                                                                         ++++++++++++++++++
+                                                +++++++++++++++++++++++++++++++++++++++++
+ +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+ |======================|           launch page from database.
+*/
+app.renderTestimonialsPageJson();
+/*
+ +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+                                                +++++++++++++++++++++++++++++++++++++++++
+                                                                         ++++++++++++++++++
+
+
                                                                                    CREATED
                                                                          BY DAN WEATHERBEE
                                                                                    DEC    2017

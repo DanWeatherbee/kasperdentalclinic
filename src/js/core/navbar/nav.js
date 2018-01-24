@@ -24,8 +24,8 @@
        '<li class="fadeOutDown" id="nav5"><a href="testimonials.html">Testimonials</a></li>' +
        '<li class="divider" id="nav6"></li>' +
        '<li class="fadeOutDown" id="nav6"><a href="news.html">News</a></li>' +
-       '<li class="divider" id="nav7"></li>' +
-       '<li class="fadeOutDown" id="nav7"><a href="appointment.html">Appointment</a></li>' +
+       // '<li class="divider" id="nav7"></li>' +
+       // '<li class="fadeOutDown" id="nav7"><a href="appointment.html">Appointment</a></li>' +
        '<li class="divider" id="nav8"></li>' +
        '<li class="fadeOutDown" id="nav8"><a href="contact.html">Clinic</a></li>' +
        '</ul>' +

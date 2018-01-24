@@ -36,8 +36,8 @@ var suctionDenturesMainContent1Col2UlContent = '<li><span>' +
     '<em>&nbsp;Ivocap Injection System.&nbsp;</em>' +
     '</a>' +
     '</span></li>';
-var suctionDenturesMainContent1Col2PTag1Text = 'Call 250-542-7423 or ' +
-    '<a class="btn btn-success" href="appointment.html">Book - Online</a>';
+var suctionDenturesMainContent1Col2PTag1Text = 'Call 250-542-7423';
+    // '<a class="btn btn-success" href="appointment.html">Book - Online</a>';
 // imgs
 var suctionDenturesMainContent1Col2Img1Src = 'images/semcd.png';
 var suctionDenturesMainContent1Col2Img1SrcAlt = suctionDenturesMainContent1Col2Img1Src;
